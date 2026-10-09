@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Performance Optimization"
+  "short_description": "Optimizes application performance across frontend, backend, "
+  "default_prompt": "Use $performance-optimization to help with this task."

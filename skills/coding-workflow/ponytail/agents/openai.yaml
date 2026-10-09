@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Ponytail"
+  "short_description": "Lazy senior dev mode: the smallest change that fully solves "
+  "default_prompt": "Use $ponytail to help with this task."

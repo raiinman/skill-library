@@ -492,5 +492,1478 @@
     "adaptations": [
       "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
     ]
+  },
+  {
+    "repo": null,
+    "selector": "1f3d9-citylife",
+    "category": "personal-workflow",
+    "name": "1f3d9-citylife",
+    "listing": null,
+    "path": "skills/personal-workflow/1f3d9-citylife",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "840d39f7d8ab8c9bd76dcd8e348e6100dccd43a4ad57b6ca541062b79bdfd3b8"
+  },
+  {
+    "repo": null,
+    "selector": "business-plan-engine",
+    "category": "business-planning",
+    "name": "business-plan-engine",
+    "listing": null,
+    "path": "skills/business-planning/business-plan-engine",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "a53263d589b6fd1bb96e6401bd7f02bfc6aa6bc2b73e56cfa0698331459972c4"
+  },
+  {
+    "repo": null,
+    "selector": "explain-yourself",
+    "category": "personal-workflow",
+    "name": "explain-yourself",
+    "listing": null,
+    "path": "skills/personal-workflow/explain-yourself",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "7e8a998787a5ff638cade6ba5f3b9d891797d9da74a963255311c330b604f968"
+  },
+  {
+    "repo": null,
+    "selector": "frontend-motion-wizard",
+    "category": "3d-and-web",
+    "name": "frontend-motion-wizard",
+    "listing": null,
+    "path": "skills/3d-and-web/frontend-motion-wizard",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "5b0e97cd81a09318cac1e1a3aee7d44f874100acd2730e5addc12cc17bf55e8c"
+  },
+  {
+    "repo": null,
+    "selector": "grill-me",
+    "category": "personal-workflow",
+    "name": "grill-me",
+    "listing": null,
+    "path": "skills/personal-workflow/grill-me",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "78be34f19db494ab812ad83c826444582af727467edd6cbc653fb9734e05df5a"
+  },
+  {
+    "repo": null,
+    "selector": "grilling",
+    "category": "personal-workflow",
+    "name": "grilling",
+    "listing": null,
+    "path": "skills/personal-workflow/grilling",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "aa8bc5a1a4d8803fc5cbfb5c79edba67ab2b60bcd7ab33e530b61e6147501211"
+  },
+  {
+    "repo": null,
+    "selector": "handoff",
+    "category": "personal-workflow",
+    "name": "handoff",
+    "listing": null,
+    "path": "skills/personal-workflow/handoff",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "7c62de979fdc7ac32fb5ddb2146156c917f80ee070d30fadc9d40343c4b6ed25"
+  },
+  {
+    "repo": "raiinman/high-end-visual-design",
+    "selector": "high-end-visual-design",
+    "category": "3d-and-web",
+    "name": "high-end-visual-design",
+    "listing": "https://github.com/raiinman/high-end-visual-design",
+    "path": "skills/3d-and-web/high-end-visual-design",
+    "upstream_path": "skills/high-end-visual-design/SKILL.md",
+    "commit": "1d4fe19bdefe64133369482b9efde76dd53bb05d",
+    "source_url": "https://github.com/raiinman/high-end-visual-design/blob/1d4fe19bdefe64133369482b9efde76dd53bb05d/skills/high-end-visual-design/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "2d11cdcefc8bf319429ee17d94d69a390802e2acf7163662d1eacbcf5be3ff79"
+  },
+  {
+    "repo": "raiinman/ponytail",
+    "selector": "ponytail",
+    "category": "coding-workflow",
+    "name": "ponytail",
+    "listing": "https://github.com/raiinman/ponytail",
+    "path": "skills/coding-workflow/ponytail",
+    "upstream_path": "SKILL.md",
+    "commit": "ee2a1621ef1c6dad261807a57c9134c61271f098",
+    "source_url": "https://github.com/raiinman/ponytail/blob/ee2a1621ef1c6dad261807a57c9134c61271f098/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "777e0a54335aae6b0e016420a3172881e0ba05542c5516c375aa3bc276fc14bf"
+  },
+  {
+    "repo": "raiinman/ponytail",
+    "selector": "ponytail-full",
+    "category": "coding-workflow",
+    "name": "ponytail-full",
+    "listing": "https://github.com/raiinman/ponytail",
+    "path": "skills/coding-workflow/ponytail-full",
+    "upstream_path": "ponytail-full/SKILL.md",
+    "commit": "ee2a1621ef1c6dad261807a57c9134c61271f098",
+    "source_url": "https://github.com/raiinman/ponytail/blob/ee2a1621ef1c6dad261807a57c9134c61271f098/ponytail-full/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Removed former standalone repository layout fallback; sibling Ponytail entrypoint remains valid in library and Codex"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "bcb941c2494e4bac70f07adf2ce5f8f7afbf4c6420ac3321c6178c70db9ea1dc"
+  },
+  {
+    "repo": "raiinman/ponytail",
+    "selector": "ponytail-lite",
+    "category": "coding-workflow",
+    "name": "ponytail-lite",
+    "listing": "https://github.com/raiinman/ponytail",
+    "path": "skills/coding-workflow/ponytail-lite",
+    "upstream_path": "ponytail-lite/SKILL.md",
+    "commit": "ee2a1621ef1c6dad261807a57c9134c61271f098",
+    "source_url": "https://github.com/raiinman/ponytail/blob/ee2a1621ef1c6dad261807a57c9134c61271f098/ponytail-lite/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Removed former standalone repository layout fallback; sibling Ponytail entrypoint remains valid in library and Codex"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "d0e0c0c2be2d85f8a9b96a7e07a002ccab8c2faed11e1a3ad534caf3f8e1db70"
+  },
+  {
+    "repo": "raiinman/ponytail",
+    "selector": "ponytail-no-questions-asked",
+    "category": "coding-workflow",
+    "name": "ponytail-no-questions-asked",
+    "listing": "https://github.com/raiinman/ponytail",
+    "path": "skills/coding-workflow/ponytail-no-questions-asked",
+    "upstream_path": "ponytail-no-questions-asked/SKILL.md",
+    "commit": "ee2a1621ef1c6dad261807a57c9134c61271f098",
+    "source_url": "https://github.com/raiinman/ponytail/blob/ee2a1621ef1c6dad261807a57c9134c61271f098/ponytail-no-questions-asked/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Removed former standalone repository layout fallback; sibling Ponytail entrypoint remains valid in library and Codex"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "1771c1cfce3d447792d7a7509eb288da9bca9f1a83f709bbfcc73b493cada9c2"
+  },
+  {
+    "repo": "raiinman/ponytail",
+    "selector": "ponytail-ultra",
+    "category": "coding-workflow",
+    "name": "ponytail-ultra",
+    "listing": "https://github.com/raiinman/ponytail",
+    "path": "skills/coding-workflow/ponytail-ultra",
+    "upstream_path": "ponytail-ultra/SKILL.md",
+    "commit": "ee2a1621ef1c6dad261807a57c9134c61271f098",
+    "source_url": "https://github.com/raiinman/ponytail/blob/ee2a1621ef1c6dad261807a57c9134c61271f098/ponytail-ultra/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Removed former standalone repository layout fallback; sibling Ponytail entrypoint remains valid in library and Codex"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "025c718eafbf020ab507206a728f1c3059cbd4062912503999e7a887125b0847"
+  },
+  {
+    "repo": "raiinman/reverse-skill",
+    "selector": "reverse-skill-router",
+    "category": "reverse-engineering",
+    "name": "reverse-skill-router",
+    "listing": "https://github.com/raiinman/reverse-skill",
+    "path": "skills/reverse-engineering/reverse-skill-router",
+    "upstream_path": "plugins/reverse-skill/skills/reverse-skill-router/SKILL.md",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "source_url": "https://github.com/raiinman/reverse-skill/blob/cab634bd855fc287f6e420c1f36fd1a6b9245960/plugins/reverse-skill/skills/reverse-skill-router/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "b798cac13d9ead65f7bf512037c09fc991ba16e0c7920d01ed9f1273b94811bc"
+  },
+  {
+    "repo": null,
+    "selector": "teach",
+    "category": "personal-workflow",
+    "name": "teach",
+    "listing": null,
+    "path": "skills/personal-workflow/teach",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "a32df9dcdfc0c4fdc1c98e1ed3940c5f56b84c1aa90ff60346f32b8b53915b43"
+  },
+  {
+    "repo": null,
+    "selector": "to-questionnaire",
+    "category": "personal-workflow",
+    "name": "to-questionnaire",
+    "listing": null,
+    "path": "skills/personal-workflow/to-questionnaire",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b"
+  },
+  {
+    "repo": "raiinman/UEFN-TOOLBELT",
+    "selector": "uefn-toolbelt",
+    "category": "unreal-engine",
+    "name": "uefn-toolbelt",
+    "listing": "https://github.com/raiinman/UEFN-TOOLBELT",
+    "path": "skills/unreal-engine/uefn-toolbelt",
+    "upstream_path": null,
+    "commit": "2a22aefce53db281b1f613429aee8441801e7e27",
+    "source_url": null,
+    "license": "NOASSERTION",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "4bb802f0fbb642b50bcb1b585027784ff9f63bf282293ad36b0e2e629fff7436"
+  },
+  {
+    "repo": null,
+    "selector": "wait-what",
+    "category": "personal-workflow",
+    "name": "wait-what",
+    "listing": null,
+    "path": "skills/personal-workflow/wait-what",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "d961bb37defd975c539427edb8f450cdbccdcdd552e213c1ece46676a7970905"
+  },
+  {
+    "repo": null,
+    "selector": "writing-for-agents",
+    "category": "coding-workflow",
+    "name": "writing-for-agents",
+    "listing": null,
+    "path": "skills/coding-workflow/writing-for-agents",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "551adca942227b44192edba88acd4e8db911f0121ce58ad16944ccf6a896a74a"
+  },
+  {
+    "repo": null,
+    "selector": "amazon-bedrock",
+    "category": "cloud-and-aws",
+    "name": "amazon-bedrock",
+    "listing": null,
+    "path": "skills/cloud-and-aws/amazon-bedrock",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "da741bfcc66c934a6ac6da737c8709663092b2f3ec03ab76f470b3a171f374fc"
+  },
+  {
+    "repo": null,
+    "selector": "aws-ai-ml",
+    "category": "cloud-and-aws",
+    "name": "aws-ai-ml",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-ai-ml",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "b6d85d2b579c3e3a99fbcfc442d4469df131a596459bd29aeb0764fcd3ef5bab"
+  },
+  {
+    "repo": null,
+    "selector": "aws-auth",
+    "category": "cloud-and-aws",
+    "name": "aws-auth",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-auth",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "cca66d07fb569e80054fc118926df5c5f35812bcadc17afe0868e61916f944d4"
+  },
+  {
+    "repo": null,
+    "selector": "aws-billing-and-cost-management",
+    "category": "cloud-and-aws",
+    "name": "aws-billing-and-cost-management",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-billing-and-cost-management",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "e890f6456a0cf9364daa603ba1f22de5c0533ae0a3c8f9533a2c5ddeae689138"
+  },
+  {
+    "repo": null,
+    "selector": "aws-blocks",
+    "category": "cloud-and-aws",
+    "name": "aws-blocks",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-blocks",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "e945a00c460122b3a455b9631fc380290572a4e6431056a0252a16cbca752560"
+  },
+  {
+    "repo": null,
+    "selector": "aws-cdk",
+    "category": "cloud-and-aws",
+    "name": "aws-cdk",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-cdk",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "fd86ef5fa07a9b970f272592aad5245f7184cfa671e9dabbd1b01647dcc6fdfb"
+  },
+  {
+    "repo": null,
+    "selector": "aws-cloudformation",
+    "category": "cloud-and-aws",
+    "name": "aws-cloudformation",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-cloudformation",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "1847fced105f96f0f90372e5d72a1477e103ad7934d827920cb4e3cf73ab2825"
+  },
+  {
+    "repo": null,
+    "selector": "aws-compute",
+    "category": "cloud-and-aws",
+    "name": "aws-compute",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-compute",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "5ee82be910eb00ac2523341cc115ce94d6820dc168666c95bd8a7d0a740ae698"
+  },
+  {
+    "repo": null,
+    "selector": "aws-containers",
+    "category": "cloud-and-aws",
+    "name": "aws-containers",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-containers",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "1ef5845602c8e9a529aed6b7c26f3094d1e7f7f18bd0c06d2666e7dd1e3c62fe"
+  },
+  {
+    "repo": null,
+    "selector": "aws-database",
+    "category": "cloud-and-aws",
+    "name": "aws-database",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-database",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "a9c041646eedb3f926137c3ef2a9697bdadef1feed389efb4c678c4bf98a2b15"
+  },
+  {
+    "repo": null,
+    "selector": "aws-deployment",
+    "category": "cloud-and-aws",
+    "name": "aws-deployment",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-deployment",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "cfd73118807f9ba8f0872804055cf9e75c6b746c18fd0816e2f8a5abc6bef0f4"
+  },
+  {
+    "repo": null,
+    "selector": "aws-iam",
+    "category": "cloud-and-aws",
+    "name": "aws-iam",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-iam",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "e1731e386d2fc3e949b45f18bef49714b5f88d1518ac43eabee1296fff11addb"
+  },
+  {
+    "repo": null,
+    "selector": "aws-messaging-and-streaming",
+    "category": "cloud-and-aws",
+    "name": "aws-messaging-and-streaming",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-messaging-and-streaming",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "d2b49eeadd3bfcbd147ace84ff0fe26ac64aae8fe9d66069da7c59da67d99149"
+  },
+  {
+    "repo": null,
+    "selector": "aws-networking",
+    "category": "cloud-and-aws",
+    "name": "aws-networking",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-networking",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "0828aa5e6878487086139f3aae6f0375b4b40e27b4bb0412f56f5c8411c586cb"
+  },
+  {
+    "repo": null,
+    "selector": "aws-observability",
+    "category": "cloud-and-aws",
+    "name": "aws-observability",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-observability",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "99b4abac4a398bac7fd7f62746f7c605370bc37163cdb42ce386505d38ab733c"
+  },
+  {
+    "repo": null,
+    "selector": "aws-sdk-js-v3-usage",
+    "category": "cloud-and-aws",
+    "name": "aws-sdk-js-v3-usage",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-sdk-js-v3-usage",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "b2c9841b84fac721661bdc6be2ba642019baa0d4515d4146a5b74ac93f09d829"
+  },
+  {
+    "repo": null,
+    "selector": "aws-sdk-python-usage",
+    "category": "cloud-and-aws",
+    "name": "aws-sdk-python-usage",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-sdk-python-usage",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "1002a37cbb8f5cc8706e11aa029dce87ef59d9cf5a695e6790279414995361c4"
+  },
+  {
+    "repo": null,
+    "selector": "aws-sdk-swift-usage",
+    "category": "cloud-and-aws",
+    "name": "aws-sdk-swift-usage",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-sdk-swift-usage",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "b7af64d563601510b6847aae8edb5f54b9b0c8e1fd23770860d98bce1c5c6f27"
+  },
+  {
+    "repo": null,
+    "selector": "aws-security",
+    "category": "cloud-and-aws",
+    "name": "aws-security",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-security",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "9e382a80c35d657e4126b8552d0088d2c842095d2be964ff07fd272a8efd9111"
+  },
+  {
+    "repo": null,
+    "selector": "aws-serverless",
+    "category": "cloud-and-aws",
+    "name": "aws-serverless",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-serverless",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "785a73f64f7cbc12567aaa813cbf49c82c99713724b1b8b7fbd2c55fdff3ded1"
+  },
+  {
+    "repo": null,
+    "selector": "aws-storage",
+    "category": "cloud-and-aws",
+    "name": "aws-storage",
+    "listing": null,
+    "path": "skills/cloud-and-aws/aws-storage",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "05a6b828af07b020b3e22ae1c95eb2f06ecd9d314a4fe2a8aaa7e34883a261d1"
+  },
+  {
+    "repo": null,
+    "selector": "context7-mcp",
+    "category": "coding-workflow",
+    "name": "context7-mcp",
+    "listing": null,
+    "path": "skills/coding-workflow/context7-mcp",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "29ef59d342876991f1a07297959748b57647063b1f7c7db4761fd36137655ade"
+  },
+  {
+    "repo": null,
+    "selector": "impeccable",
+    "category": "design-and-art",
+    "name": "impeccable",
+    "listing": null,
+    "path": "skills/design-and-art/impeccable",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "37680abf9a8e446619fcd33862718f483d197bf2652f966adca8dc54d2909b9d"
+  },
+  {
+    "repo": null,
+    "selector": "krita-iterate",
+    "category": "design-and-art",
+    "name": "krita-iterate",
+    "listing": null,
+    "path": "skills/design-and-art/krita-iterate",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "702703a39c20c4aa1d635bcbe13c467db9ed23e1e6d8c4f2cb3b9b1992a7dc12"
+  },
+  {
+    "repo": "raiinman/krita-layer-rebuild",
+    "selector": "krita-layer-rebuild",
+    "category": "design-and-art",
+    "name": "krita-layer-rebuild",
+    "listing": "https://github.com/raiinman/krita-layer-rebuild",
+    "path": "skills/design-and-art/krita-layer-rebuild",
+    "upstream_path": "skills/krita-layer-rebuild/SKILL.md",
+    "commit": "d7a9221360dc5400a60710dfcc44743fd149dd8e",
+    "source_url": "https://github.com/raiinman/krita-layer-rebuild/blob/d7a9221360dc5400a60710dfcc44743fd149dd8e/skills/krita-layer-rebuild/SKILL.md",
+    "license": "MIT",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "dececf7ba4db74ce03db0a0e9fcd75f84a055163c12cedd1916a48705e76250e"
+  },
+  {
+    "repo": null,
+    "selector": "launch-with-aws",
+    "category": "cloud-and-aws",
+    "name": "launch-with-aws",
+    "listing": null,
+    "path": "skills/cloud-and-aws/launch-with-aws",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "4ea143c8d29a58661f4170ae62ef6d315571e0a4f020ee9125be32b9f649b868"
+  },
+  {
+    "repo": null,
+    "selector": "signing-in-to-aws",
+    "category": "cloud-and-aws",
+    "name": "signing-in-to-aws",
+    "listing": null,
+    "path": "skills/cloud-and-aws/signing-in-to-aws",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": null,
+    "license": "No license identified in existing installed package",
+    "license_files": [],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-local-snapshot",
+    "original_skill_sha256": "9fecdf124113b2f6e8e4729c7722578783d05c3d5677d380d6950e96ea7d6100"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "api-and-interface-design",
+    "category": "coding-workflow",
+    "name": "api-and-interface-design",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/api-and-interface-design",
+    "upstream_path": "skills/api-and-interface-design/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/api-and-interface-design/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "cc5e2166c484b2c297e8253f56e7525e5031f81d66101ca4e760ef378ea6bad0"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "browser-testing-with-devtools",
+    "category": "coding-workflow",
+    "name": "browser-testing-with-devtools",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/browser-testing-with-devtools",
+    "upstream_path": "skills/browser-testing-with-devtools/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/browser-testing-with-devtools/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "dd0b27c91e29c58183470e89ad80ff1856ad5ace4c064699faca1a5c3bb07991"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "build",
+    "category": "coding-workflow",
+    "name": "build",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/build",
+    "upstream_path": null,
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": null,
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Local build adapter was untracked in the installed plugin checkout; parent commit recorded only as context"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "a3adf2a04ad97d37aa374b5aebd36e6ef8dac3fd80aa8752981ebeb4baab57b2"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "ci-cd-and-automation",
+    "category": "coding-workflow",
+    "name": "ci-cd-and-automation",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/ci-cd-and-automation",
+    "upstream_path": "skills/ci-cd-and-automation/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/ci-cd-and-automation/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "ffbebaf310ff46e099da84ee089f6dfcb04ebe3e5a0e2d6719d814acfb811f91"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "code-review-and-quality",
+    "category": "coding-workflow",
+    "name": "code-review-and-quality",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/code-review-and-quality",
+    "upstream_path": "skills/code-review-and-quality/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/code-review-and-quality/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Shared engineering reference files bundled locally and links made portable"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "7d8007d3faca854d967b75e47bf42a6dc9fbea0a761c2adeb77344225d1b9647"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "code-simplification",
+    "category": "coding-workflow",
+    "name": "code-simplification",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/code-simplification",
+    "upstream_path": "skills/code-simplification/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/code-simplification/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "c637bddb5c5ba9a0ea3b88833ebae29fad58cf76c112a3bf87493eeddee9a313"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "constraint-driven-development",
+    "category": "coding-workflow",
+    "name": "constraint-driven-development",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/constraint-driven-development",
+    "upstream_path": "skills/constraint-driven-development/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/constraint-driven-development/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "06479d4305f286d23cfb99f5dc85695896785269664e1f6a8d800e3b71e70c10"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "context-engineering",
+    "category": "coding-workflow",
+    "name": "context-engineering",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/context-engineering",
+    "upstream_path": "skills/context-engineering/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/context-engineering/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "c5ab4f5616fb531f0816f8f13d94cc211f48b7562fbf50b439e07e42a52f773e"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "debugging-and-error-recovery",
+    "category": "coding-workflow",
+    "name": "debugging-and-error-recovery",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/debugging-and-error-recovery",
+    "upstream_path": "skills/debugging-and-error-recovery/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/debugging-and-error-recovery/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "04b82d2f5aa8eac90cc4a9b7de5213f141eb1c494ecb04103e2874f3c2525069"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "deprecation-and-migration",
+    "category": "coding-workflow",
+    "name": "deprecation-and-migration",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/deprecation-and-migration",
+    "upstream_path": "skills/deprecation-and-migration/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/deprecation-and-migration/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "d2255a5e312c93e18553c92997a6a795e2e8a725b18c520b1f8e2e86c93833cc"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "documentation-and-adrs",
+    "category": "coding-workflow",
+    "name": "documentation-and-adrs",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/documentation-and-adrs",
+    "upstream_path": "skills/documentation-and-adrs/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/documentation-and-adrs/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "00cfbc625adf6ad21b3203e6845267bbd599dc2d4314d7b0a8c35820371352a3"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "doubt-driven-development",
+    "category": "coding-workflow",
+    "name": "doubt-driven-development",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/doubt-driven-development",
+    "upstream_path": "skills/doubt-driven-development/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/doubt-driven-development/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Shared engineering reference files bundled locally and links made portable"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "b5167c90dd1f8fdbe001e4b1623df3e07e910de001103dbf2584ce1ae460a2f7"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "frontend-ui-engineering",
+    "category": "coding-workflow",
+    "name": "frontend-ui-engineering",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/frontend-ui-engineering",
+    "upstream_path": "skills/frontend-ui-engineering/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/frontend-ui-engineering/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Shared engineering reference files bundled locally and links made portable"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "859729e5221c730d60ba7dee80454bcff255a9d832d185a6dc8414d5f973bbbe"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "git-workflow-and-versioning",
+    "category": "coding-workflow",
+    "name": "git-workflow-and-versioning",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/git-workflow-and-versioning",
+    "upstream_path": "skills/git-workflow-and-versioning/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/git-workflow-and-versioning/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "790c05c0e90a5b6e5f52a629281a6c0a6d90a1c2d07b2d650b73a18a5746d359"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "idea-refine",
+    "category": "coding-workflow",
+    "name": "idea-refine",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/idea-refine",
+    "upstream_path": "skills/idea-refine/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/idea-refine/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "dd2b0dc5aacdb1adf8d518993cfe3be761dd3bd4e5c36105d25ee364d600ab60"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "incremental-implementation",
+    "category": "coding-workflow",
+    "name": "incremental-implementation",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/incremental-implementation",
+    "upstream_path": "skills/incremental-implementation/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/incremental-implementation/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Shared engineering reference files bundled locally and links made portable"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "3a005893eeb3f25266e9eed7c2cf9dd3bbbc9b84e3fad03122d3c79e77973b15"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "interview-me",
+    "category": "coding-workflow",
+    "name": "interview-me",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/interview-me",
+    "upstream_path": "skills/interview-me/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/interview-me/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "b4704a9247a37fea4fe597d7821a2abc53ad48968c90be71ab9d42217376656e"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "observability-and-instrumentation",
+    "category": "coding-workflow",
+    "name": "observability-and-instrumentation",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/observability-and-instrumentation",
+    "upstream_path": "skills/observability-and-instrumentation/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/observability-and-instrumentation/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Shared engineering reference files bundled locally and links made portable"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "7d62a81fdaeaa7f7426671265e0510da6f5ba2cb7815e88fc05105acbd6ed843"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "performance-optimization",
+    "category": "coding-workflow",
+    "name": "performance-optimization",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/performance-optimization",
+    "upstream_path": "skills/performance-optimization/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/performance-optimization/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Shared engineering reference files bundled locally and links made portable"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "665a83a7218d6aebd02ca329a7b2422cf28f7c55cb56f870c05e12047770245c"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "planning-and-task-breakdown",
+    "category": "coding-workflow",
+    "name": "planning-and-task-breakdown",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/planning-and-task-breakdown",
+    "upstream_path": "skills/planning-and-task-breakdown/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/planning-and-task-breakdown/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Shared engineering reference files bundled locally and links made portable"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "43af25a406c8a4c65ef37e9fcf0bb88894747ab7e3354e76b604153e94127a79"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "security-and-hardening",
+    "category": "coding-workflow",
+    "name": "security-and-hardening",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/security-and-hardening",
+    "upstream_path": "skills/security-and-hardening/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/security-and-hardening/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Shared engineering reference files bundled locally and links made portable"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "b4e5130f4aff55fdfeb82e818aff4205fcf16b631052dab12d3851b1a351228e"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "shipping-and-launch",
+    "category": "coding-workflow",
+    "name": "shipping-and-launch",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/shipping-and-launch",
+    "upstream_path": "skills/shipping-and-launch/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/shipping-and-launch/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Shared engineering reference files bundled locally and links made portable"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "61e1c7b48b15938f7527ec6de5bd453f0fa280b083a8dbb30c8c065abce2b4cd"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "source-driven-development",
+    "category": "coding-workflow",
+    "name": "source-driven-development",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/source-driven-development",
+    "upstream_path": "skills/source-driven-development/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/source-driven-development/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "0b71bf403044d215b2249be8b24c2903cbdb36caa31d85d6cfdeeda75ac39cbb"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "spec-driven-development",
+    "category": "coding-workflow",
+    "name": "spec-driven-development",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/spec-driven-development",
+    "upstream_path": "skills/spec-driven-development/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/spec-driven-development/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "113d074419a34d7156d314410d1291924752babdec082b69754b9d4af72e1d58"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "test-driven-development",
+    "category": "coding-workflow",
+    "name": "test-driven-development",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/test-driven-development",
+    "upstream_path": "skills/test-driven-development/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/test-driven-development/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Shared engineering reference files bundled locally and links made portable"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "50bfb9aae438be742ed8edb5a4b7fc4b870819e002df06c53c1e6a7a5b2e6d03"
+  },
+  {
+    "repo": "raiinman/agent-skills",
+    "selector": "using-agent-skills",
+    "category": "coding-workflow",
+    "name": "using-agent-skills",
+    "listing": "https://github.com/raiinman/agent-skills",
+    "path": "skills/coding-workflow/using-agent-skills",
+    "upstream_path": "skills/using-agent-skills/SKILL.md",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "source_url": "https://github.com/raiinman/agent-skills/blob/09644278517cb57a9447cbeaddb3395b6fcf4a56/skills/using-agent-skills/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte",
+      "Shared engineering reference files bundled locally and links made portable"
+    ],
+    "origin_kind": "installed-plugin-snapshot",
+    "original_skill_sha256": "ad30a877eaa86496fae42b5df4e78996acf41dfa041d397e6817b819a45fc3f1"
+  },
+  {
+    "repo": "raiinman/reverse-engineering-tools",
+    "selector": "reverse-engineering-tools",
+    "category": "reverse-engineering",
+    "name": "reverse-engineering-tools",
+    "listing": "https://github.com/raiinman/reverse-engineering-tools",
+    "path": "skills/reverse-engineering/reverse-engineering-tools",
+    "upstream_path": "SKILL.md",
+    "commit": "e8fc87abbf46ef4a1086f389c3de1063c4a6f762",
+    "source_url": "https://github.com/raiinman/reverse-engineering-tools/blob/e8fc87abbf46ef4a1086f389c3de1063c4a6f762/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Backup of existing skill; installed copy left intact",
+      "Codex-compatible frontmatter; original SKILL.md preserved byte-for-byte"
+    ],
+    "origin_kind": "github",
+    "original_skill_sha256": "fdd090c7d429b72b69a922e93c63951483cd687a2b55efc3eb0ee6e1e374b507"
   }
 ]

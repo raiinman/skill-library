@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Frontend Motion Wizard"
+  "short_description": "Add responsive UI motion, spring animations, and micro-inter"
+  "default_prompt": "Use $frontend-motion-wizard to help with this task."

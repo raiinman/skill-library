@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explain Yourself"
+  short_description: "Show what you did and explain it in plain language"
+  default_prompt: "Use $explain-yourself to show what you actually did, explain each meaningful change in plain language, and provide the evidence and observed results."

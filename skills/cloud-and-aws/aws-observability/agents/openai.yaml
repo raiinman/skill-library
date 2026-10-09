@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Observability"
+  "short_description": "Builds, configures, debugs, and optimizes AWS observability "
+  "default_prompt": "Use $aws-observability to help with this task."

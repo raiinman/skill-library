@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Messaging And Streaming"
+  "short_description": "Guides general use of AWS messaging and streaming services. "
+  "default_prompt": "Use $aws-messaging-and-streaming to help with this task."

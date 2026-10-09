@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Aws Storage"
+  "short_description": "Selects, investigates, and compares AWS object, file, and\
+    \ bl"
+  "default_prompt": "Use $aws-storage to help with this task."

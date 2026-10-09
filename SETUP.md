@@ -1,6 +1,14 @@
 # Runtime setup
 
-All 27 skills include their source files and local supporting resources. Most are instruction-only and require no extra install. Choose project libraries and engine versions when using a skill; this collection does not install a game engine, Next.js app, or graphics framework globally.
+The first 27 imported skills include their source files and local supporting resources. Their runtime setup is recorded below. Most skills are instruction-only and require no extra install. Choose project libraries and engine versions when using a skill; this collection does not install a game engine, Next.js app, or graphics framework globally.
+
+## Existing-skill collection
+
+An additional 73 existing skills were collected from your personal skill folders, installed engineering plugin, and standalone GitHub sources. Installed copies were preserved. Original entrypoints are saved byte-for-byte and identified by SHA256 in `sources.json`; Codex-compatible library copies retain local customizations and supporting files.
+
+The complete engineering plugin layout is retained under `collections/agent-skills` for plugin commands and shared infrastructure. The reverse-skill layout is under `collections/reverse-skill`; three reference documents flagged by Windows Defender are replaced by pinned source pointers and listed in `MISSING-REFERENCES.md`.
+
+Some existing skills refer to machine-specific MCP services, local checkouts, cloud accounts, or tools. Collecting them does not configure those services on another computer. Consult each package's original instructions and `SOURCE.md` when restoring it. The existing Codex system skills and vendor plugin caches remain managed by their providers.
 
 | Skill | Runtime prerequisite | Status on the installation machine |
 | --- | --- | --- |

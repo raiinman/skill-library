@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Deployment"
+  "short_description": "Configures CI/CD pipelines using AWS CodePipeline, CodeBuild"
+  "default_prompt": "Use $aws-deployment to help with this task."

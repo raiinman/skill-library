@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Deprecation And Migration"
+  "short_description": "Manages deprecation and migration. Use when removing old sys"
+  "default_prompt": "Use $deprecation-and-migration to help with this task."

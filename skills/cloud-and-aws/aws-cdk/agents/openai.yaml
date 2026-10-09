@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Cdk"
+  "short_description": "Authors, deploys, and troubleshoots AWS infrastructure using"
+  "default_prompt": "Use $aws-cdk to help with this task."

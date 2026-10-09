@@ -1,0 +1,34 @@
+---
+description: Implement tasks incrementally — build, test, verify, commit. Add "auto" to run the authorized plan.
+---
+
+Invoke the raiinman-agent-skills:incremental-implementation skill. Apply test-driven-development when changing executable behavior; use relevant content or configuration checks for static edits.
+
+For UI rendering or interaction tasks, invoke frontend-ui-engineering; use browser-testing-with-devtools when the required browser capability is available. For changes crossing authentication, authorization, or untrusted-input boundaries, invoke security-and-hardening. Load these workflows when their branch applies, rather than relying on a passive reference or loading the whole catalog.
+
+## Modes
+
+- `/build` — implement the next pending task, then stop because this command requests one task.
+- `/build auto` — execute the authorized plan in dependency order, continuing between verified tasks.
+
+`$ARGUMENTS` selects the mode. Treat `auto` or `all` as whole-plan mode; empty or other arguments select the next task. Neither mode bypasses verification or expands authorization.
+
+## Per-task loop
+
+1. Read the task's acceptance criteria and existing decisions.
+2. Inspect relevant code and repository verification commands.
+3. For new or fixed behavior, write a meaningful failing test (RED), then implement the minimum change to pass it (GREEN). For static edits, make the scoped change and validate the affected content or configuration.
+4. Run relevant regression checks and repository-required checks. Build, typecheck, or run browser verification when the changed behavior calls for them. Broaden checks for shared paths, failures, or unresolved concerns.
+5. After verification, mark the task complete, then stage only this task's files and completion-status update. Commit them together with a descriptive message; never absorb unrelated work with blind `git add -A`.
+6. After the commit, proceed to the next authorized task in whole-plan mode; stop in single-task mode.
+
+## Whole-plan execution (`/build auto`)
+
+1. Inspect the requirements and actual repository state. Reuse an accepted spec at `SPEC.md`, `docs/SPEC.md`, `spec/`, or the project's designated specification location. A README is context, not evidence of spec approval. Substantial or ambiguous work without settled requirements needs the spec-driven-development workflow; a small, clear task needs no artificial spec.
+2. Preserve unrelated local changes. Use `git status --porcelain` to identify them and stage only task-owned files. Ask if overlapping work prevents a safe scoped change or commit; do not demand a clean working tree merely because unrelated changes exist.
+3. For substantial work, reuse `tasks/plan.md` or invoke planning-and-task-breakdown if needed. Preserve incomplete plans for other work. Small, clear work can execute directly.
+4. Carry forward prior scope and authorization. If implementation is already authorized and requirements are settled, proceed without another approval question. If a consequential decision is unresolved or review was reserved, present the concrete plan and wait before dependent work. Commit new planning artifacts separately from implementation.
+5. Execute each authorized task in dependency order using the per-task loop. Commit each verified task individually.
+6. Resolve test or build failures through debugging-and-error-recovery. Ask when a consequential decision remains unresolved, a failure cannot be resolved within scope, or an action exceeds authorization. Assess auth, payment, migration, deletion, secret, and deployment effects against existing authorization; a sensitive file name alone does not create a new gate. Use doubt-driven-development when warranted, with paid cross-model comparisons only when explicitly requested.
+7. After an answer resolves a blocker, resume the next pending task within the same authorized run. Do not require the user to re-invoke the command.
+8. Summarize completed tasks, verification, commits, and any remaining decisions or unverified behavior.

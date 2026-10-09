@@ -1,68 +1,45 @@
 # Skill Library
 
-Private collection of 27 requested skills, organized by category and packaged for Codex. Original instructions, pinned source commits, supporting files, and upstream licenses travel with each package.
+Your home for skills. 100 skill packages are organized by purpose, including the first 27 imports and your existing GitHub, local, and engineering-plugin skills.
 
-## 3D And Web
+## Find what you need
 
-- [`$img2threejs`](skills/3d-and-web/img2threejs/SKILL.md) — [source](skills/3d-and-web/img2threejs/SOURCE.md)
-- [`$image-to-code`](skills/3d-and-web/image-to-code/SKILL.md) — [source](skills/3d-and-web/image-to-code/SOURCE.md)
-- [`$next-best-practices`](skills/3d-and-web/next-best-practices/SKILL.md) — [source](skills/3d-and-web/next-best-practices/SOURCE.md)
-- [`$threejs-postprocessing`](skills/3d-and-web/threejs-postprocessing/SKILL.md) — [source](skills/3d-and-web/threejs-postprocessing/SOURCE.md)
+| Folder | Skills |
+| --- | ---: |
+| [3D And Web](skills/3d-and-web/) | 6 |
+| [Business Planning](skills/business-planning/) | 1 |
+| [Cloud And Aws](skills/cloud-and-aws/) | 23 |
+| [Coding Workflow](skills/coding-workflow/) | 33 |
+| [Design And Art](skills/design-and-art/) | 3 |
+| [Engineering](skills/engineering/) | 1 |
+| [Finance](skills/finance/) | 2 |
+| [Game Design](skills/game-design/) | 5 |
+| [Game Development](skills/game-development/) | 4 |
+| [Personal Workflow](skills/personal-workflow/) | 8 |
+| [Planning](skills/planning/) | 1 |
+| [Programming](skills/programming/) | 1 |
+| [Reverse Engineering](skills/reverse-engineering/) | 2 |
+| [Review And Resilience](skills/review-and-resilience/) | 2 |
+| [Sports](skills/sports/) | 1 |
+| [Unreal Engine](skills/unreal-engine/) | 7 |
 
-## Engineering
+[Browse all skills by name](CATALOG.md) · [Find your GitHub projects](REPOSITORIES.md) · [Runtime setup](SETUP.md)
 
-- [`$civil-engineer`](skills/engineering/civil-engineer/SKILL.md) — [source](skills/engineering/civil-engineer/SOURCE.md)
+## Tool bundles
 
-## Finance
+- [agent-skills](collections/agent-skills/) — 26 skill files, with original routing, plugin files, and shared resources.
+- [reverse-skill](collections/reverse-skill/) — 89 skill files, with original routing, plugin files, and shared resources.
 
-- [`$okx-cex-portfolio`](skills/finance/okx-cex-portfolio/SKILL.md) — [source](skills/finance/okx-cex-portfolio/SOURCE.md)
-- [`$okx-dex-market`](skills/finance/okx-dex-market/SKILL.md) — [source](skills/finance/okx-dex-market/SOURCE.md)
+These collections preserve layouts required by their tools. Individual skills under `skills/` are the convenient Codex packages; the collection entries overlap with some of those packages.
 
-## Game Design
+[Three reverse-skill references](collections/reverse-skill/MISSING-REFERENCES.md) flagged by Windows Defender are retained as source links.
 
-- [`$pixel-art-sprites`](skills/game-design/pixel-art-sprites/SKILL.md) — [source](skills/game-design/pixel-art-sprites/SOURCE.md)
-- [`$game-design-core`](skills/game-design/game-design-core/SKILL.md) — [source](skills/game-design/game-design-core/SOURCE.md)
-- [`$game-designer`](skills/game-design/game-designer/SKILL.md) — [source](skills/game-design/game-designer/SOURCE.md)
-- [`$game-design-document`](skills/game-design/game-design-document/SKILL.md) — [source](skills/game-design/game-design-document/SOURCE.md)
-- [`$level-designer`](skills/game-design/level-designer/SKILL.md) — [source](skills/game-design/level-designer/SOURCE.md)
+## Install or restore
 
-## Game Development
+The category folders organize GitHub browsing. A Codex skill still lives at `$CODEX_HOME/skills/<name>` (normally `~/.codex/skills/<name>`), with all files inside its package. Use the skill-installer with this repository and the paths in `sources.json`; it refuses to overwrite existing skills. Local snapshots were added to this library without changing your installed copies.
 
-- [`$game-development`](skills/game-development/game-development/SKILL.md) — [source](skills/game-development/game-development/SOURCE.md)
-- [`$game-architecture`](skills/game-development/game-architecture/SKILL.md) — [source](skills/game-development/game-architecture/SOURCE.md)
-- [`$map-systems`](skills/game-development/map-systems/SKILL.md) — [source](skills/game-development/map-systems/SOURCE.md)
-- [`$day-one-patch`](skills/game-development/day-one-patch/SKILL.md) — [source](skills/game-development/day-one-patch/SOURCE.md)
+## Sources and updates
 
-## Planning
+Each package has a `SOURCE.md` and a preserved original entrypoint. GitHub sources carry pinned commits; local snapshots carry original SHA256 hashes. The repository has no blanket license: each upstream package retains its own license or lack of one. Keep original repositories for active development and upstream updates; this library is your organized collection. Codex system skills and vendor plugin caches are managed by their providers; the personal engineering plugin is included here.
 
-- [`$managing-timelines`](skills/planning/managing-timelines/SKILL.md) — [source](skills/planning/managing-timelines/SOURCE.md)
-
-## Programming
-
-- [`$lua`](skills/programming/lua/SKILL.md) — [source](skills/programming/lua/SOURCE.md)
-
-## Review And Resilience
-
-- [`$adversarial-review`](skills/review-and-resilience/adversarial-review/SKILL.md) — [source](skills/review-and-resilience/adversarial-review/SOURCE.md)
-- [`$chaos-engineer`](skills/review-and-resilience/chaos-engineer/SKILL.md) — [source](skills/review-and-resilience/chaos-engineer/SOURCE.md)
-
-## Sports
-
-- [`$sports-betting-analyzer`](skills/sports/sports-betting-analyzer/SKILL.md) — [source](skills/sports/sports-betting-analyzer/SOURCE.md)
-
-## Unreal Engine
-
-- [`$unreal-multiplayer-architect`](skills/unreal-engine/unreal-multiplayer-architect/SKILL.md) — [source](skills/unreal-engine/unreal-multiplayer-architect/SOURCE.md)
-- [`$unreal-engine-cpp-pro`](skills/unreal-engine/unreal-engine-cpp-pro/SKILL.md) — [source](skills/unreal-engine/unreal-engine-cpp-pro/SOURCE.md)
-- [`$unreal-technical-artist`](skills/unreal-engine/unreal-technical-artist/SKILL.md) — [source](skills/unreal-engine/unreal-technical-artist/SOURCE.md)
-- [`$unreal-systems-engineer`](skills/unreal-engine/unreal-systems-engineer/SKILL.md) — [source](skills/unreal-engine/unreal-systems-engineer/SOURCE.md)
-- [`$unreal-world-builder`](skills/unreal-engine/unreal-world-builder/SKILL.md) — [source](skills/unreal-engine/unreal-world-builder/SOURCE.md)
-- [`$unreal-engine`](skills/unreal-engine/unreal-engine/SKILL.md) — [source](skills/unreal-engine/unreal-engine/SOURCE.md)
-
-## Install in Codex
-
-Each category folder is for GitHub browsing. Install the individual package folders into `$CODEX_HOME/skills/<name>` (normally `~/.codex/skills/<name>`), retaining every file inside them. Use Codex's skill-installer with this repository and the paths in `sources.json`; it refuses to overwrite existing skills. The `agents/openai.yaml` files supply readable picker names.
-
-See [SETUP.md](SETUP.md) for runtime prerequisites and import limitations. This repository has no blanket license: each upstream package retains its own license or lack of one.
-
-`next-best-practices` and `managing-timelines` use archived versions because their exact requested skills were removed upstream. Agent profiles were packaged as skills; Claude-specific workflows include Codex compatibility notes.
+`next-best-practices` and `managing-timelines` use archived upstream versions. See [SETUP.md](SETUP.md) for runtime requirements and import limitations.

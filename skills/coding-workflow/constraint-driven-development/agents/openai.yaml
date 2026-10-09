@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Constraint Driven Development"
+  "short_description": "Establishes a project's quality bar as a written contract\
+    \ an"
+  "default_prompt": "Use $constraint-driven-development to help with this task."

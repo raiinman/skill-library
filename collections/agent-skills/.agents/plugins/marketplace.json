@@ -1,0 +1,22 @@
+{
+  "name": "raiinman-agent-skills",
+  "interface": {
+    "displayName": "Raiinman Agent Skills"
+  },
+  "plugins": [
+    {
+      "name": "raiinman-agent-skills",
+      "version": "0.6.13",
+      "description": "Personal Codex-first fork of Addy Osmani's engineering workflows, with persistent authorization and task-proportional verification.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Aws Security"
+  "short_description": "Covers AWS security services and workflows — Security Hub\
+    \ V2"
+  "default_prompt": "Use $aws-security to help with this task."

@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Reverse Skill Router"
+  "short_description": "Use the reverse-skill repository from Codex for authorized\
+    \ r"
+  "default_prompt": "Use $reverse-skill-router to help with this task."

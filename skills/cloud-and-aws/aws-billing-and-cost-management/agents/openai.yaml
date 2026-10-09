@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Aws Billing And Cost Management"
+  "short_description": "Analyze AWS costs, find savings, manage budgets, evaluate\
+    \ Sa"
+  "default_prompt": "Use $aws-billing-and-cost-management to help with this task."

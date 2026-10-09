@@ -1,0 +1,136 @@
+# Skill Evals
+
+How this repo measures whether its skills actually work: that they **trigger** when they should, **stay distinct** from each other, and **change agent behavior** the way each skill promises.
+
+## Prior art (and what we adopted)
+
+There is no single settled community standard for evaluating `SKILL.md` skills, but two approaches lead:
+
+- **Anthropic's skill-creator v2** defines a per-skill `evals.json` (prompt + `expectations[]`, graded from the transcript) plus trigger-accuracy testing of descriptions against sample prompts. We adopt its [`evals.json` schema](https://github.com/anthropics/skills/tree/main/skills/skill-creator) for our behavioral tier and add one optional `kind` field to select the artifact being graded.
+- **Superpowers** (obra) tests skills with bash + `claude -p` + prompt fixtures and grader scripts. Our behavioral runner follows that headless execution pattern for Claude Code and Codex, with the grading rubric drawn from `expectations[]`.
+
+What neither provides is a **deterministic, CI-safe** check for a multi-skill *catalog* — does each skill's description carry the vocabulary users actually say, and do two skills' descriptions collide? That's Tier 2 below, and it's this repo's addition.
+
+## The three tiers
+
+| Tier | What it checks | Runs | Cost |
+|---|---|---|---|
+| 1. Structural | Frontmatter, naming, required sections, command parity | CI (`validate-skills.js`, `validate-commands.js`) | Free |
+| 2. Trigger & routing | Positive prompts rank their skill top-k; negative prompts don't; no two descriptions near-collide | CI (`run-evals.js`) | Free |
+| 3. Behavioral | An agent following the skill satisfies its `expectations[]` | On demand (`run-evals.js --behavioral`) | Tokens |
+
+Tier 2 is a **lexical approximation** of routing (stemmed TF-IDF over descriptions). It cannot judge semantics — that's Tier 3's job — but it catches the two failure modes that dominate real trigger bugs: a description missing the vocabulary users say (false negative), and an over-broad description that outranks the right skill (false positive). A Tier-2 failure usually means *fix the description*, not the eval.
+
+## Running
+
+```bash
+# Tier 2 — deterministic, runs in CI
+node scripts/run-evals.js
+node scripts/run-evals.js --min-rank1 95  # enforce the current routing floor
+
+# Tier 3 — preview is free; live executor and grader calls spend tokens
+node scripts/run-evals.js --behavioral test-driven-development --dry-run  # prints the plan only
+node scripts/run-evals.js --behavioral test-driven-development --backend codex --dry-run
+
+# Claude remains the default backend. Set exact model IDs before a requested live comparison.
+node scripts/run-evals.js --behavioral test-driven-development \
+  --executor-model "$EVAL_EXECUTOR_MODEL" --grader-model "$EVAL_GRADER_MODEL"
+
+# Codex uses the selected backend for both execution and grading.
+node scripts/run-evals.js --behavioral test-driven-development --backend codex \
+  --executor-model "$EVAL_EXECUTOR_MODEL" --grader-model "$EVAL_GRADER_MODEL"
+```
+
+Tier 3 supports Claude Code (the default) and Codex (`--backend codex`), with two behavioral artifact kinds. `execution` is the default: each eval runs in a throwaway git repository, archived project inputs from `files[]` are materialized and committed as the baseline, and the grader judges the full JSONL execution trace, including tool calls. `dialogue` is reserved for skills whose deliverable is the conversation itself; it may omit fixtures, or supply context files that are materialized in the same way. The grader judges conversational turns without requiring file edits or commands. Claiming `dialogue` is a human-reviewed exemption, not an escape hatch for execution skills.
+
+Both backends snapshot the whole package: all skills, their supporting files, shared references, personas, command adapters, and runtime helpers remain together, outside the fixture's git history. Claude loads it with `--plugin-dir`. Codex receives `$<skill-name>` and the exact archived `SKILL.md` path over stdin; the instruction asks it to read that file and follow its supporting references. Codex's loading mode is recorded as `explicit-path`: this does not install the plugin or measure native plugin discovery. Both modes measure explicitly selected skill behavior. Natural host routing and plugin-versus-baseline effects remain separate evaluations.
+
+Claude's executor uses `acceptEdits` with an explicit available/pre-approved tool list, including `Skill` and `Agent`. Its grader runs in a separate empty workspace with `--safe-mode`, no built-in tools, and MCP tools denied. These flags follow the [Claude Code CLI reference](https://code.claude.com/docs/en/cli-reference); use a CLI version supporting them.
+
+Codex uses `exec --json --ephemeral --ignore-user-config` and `approval_policy="never"`. The executor uses `workspace-write`, enables multi-agent work, and explicitly grants write access to the throwaway repository's `.git` directory so skills can commit. Its grader uses a separate workspace with `read-only`, a JSON output schema, and shell, multi-agent, browser, computer, and code-mode features disabled; web search is disabled too. Plugins, apps, hooks, memories, and goals are disabled for both calls. The flags were checked against Codex CLI 0.151.0 and the [official CLI reference](https://developers.openai.com/codex/cli/reference). This is a restricted grader configuration, not proof that every possible tool is unavailable.
+
+Trace contents are marked as untrusted evidence and passed over stdin. Both backends carry timeouts and disable session persistence. Authentication, managed policy, and any host-level instructions still depend on the installed environment. Dependencies such as external MCP services are not provisioned by the runner.
+
+Fixture Git setup uses a minimal OS environment, empty global/system configuration, no Git templates, and local settings that disable hooks, signing, background maintenance, and automatic line-ending conversion. Inherited `GIT_*` overrides are removed from executor/grader environments while ordinary CLI authentication variables remain available. The executor's Git commands use that empty configuration and the repository's persistent local policy. Before input snapshots or CLI calls, fixture validation rejects `.git` metadata and symbolic links, including directory links/junctions in every existing ancestor beneath the fixture root when a case selects an ordinary leaf. Live entry also checks the package-relative `evals` and `evals/fixtures` directories against the trusted package root; a caller-supplied materialization fixture root itself must be an ordinary directory. OS ancestors above those trust anchors, such as macOS `/var`, are allowed. These checks refuse static linked paths; they do not promise protection against a hostile process concurrently replacing ancestors. All fixture files, including files ignored by their own `.gitignore`, enter the baseline; declared `.eval/working-tree.patch` files are applied afterward and `.eval` setup directories are removed before execution. This isolates inherited Git settings, not the model's deliberate edits to the throwaway repository or its access to provider/host configuration.
+
+On Windows, live runs require a native `claude.exe` or `codex.exe` on `PATH`. The launcher prefers a native executable even if an npm `.cmd` shim appears earlier on `PATH`. Batch-only installs fail with an installation/PATH diagnostic before calling a provider. This runner does not launch `.cmd`/`.bat` shims through `cmd.exe`; install the provider's native CLI distribution and add its executable directory to `PATH`. Calls pass argument arrays directly and prompts over stdin, without a shell. The local CLI launcher tests cover literal metacharacters and a harmless batch shim; they do not establish compatibility with every third-party wrapper.
+
+Live runs require both `--executor-model` and `--grader-model`; the runner passes an explicit model selection to each call. Prefer exact IDs to aliases that may change. Requested IDs, observed executor/grader model identities, backend/loading mode, CLI and Node versions, platform, repository commit/dirty state, and input content hashes are recorded. Codex events may omit the resolved model identity. When a response does not report an observed model, that field stays null or empty rather than being guessed from the requested ID.
+
+### Retained evidence
+
+Every live invocation creates a unique timestamped directory under `evals/results/`, including when an eval fails. It contains:
+
+- `run.json` and per-eval `*.run.json`: configuration, input fingerprints, completion status, and failure details.
+- `package/`, `fixtures/`, and `case.json`: the plugin and case inputs used in the run, including fixture setup patches.
+- `*.executor-prompt.txt` and `*.trace.jsonl`: the exact executor prompt and complete returned trace; a failed subprocess's partial stdout/stderr is saved separately.
+- `*.grader-response.json` (Claude) or `*.grader-response.jsonl` (Codex): raw grader output, including any response/model metadata.
+- `*.grading.json`: validated expectation results in skill-creator's grading shape; malformed grading is retained as raw evidence and fails the run.
+- `*.initial-workspace/` and `*.final-workspace/`, plus their JSON manifests: actual executor-visible files after setup patches and final files before cleanup, including results from a failed executor. Git metadata is excluded. Manifests record file hashes, modes, symlink targets, and omissions. Each archive has a 64 MiB file-byte limit; descriptor reads are bounded by remaining capacity. Oversized files, files that change during inspection/read, unverified leaf identities, links, and special files are recorded but not copied, and `complete` is false. On Unix, no-follow opens reject symlink leaves; Windows lacks that flag in Node, so inspected/opened/current ordinary-file identity is checked before reading, then checked again afterward. Symlink target content is not archived. These checks cover byte bounds and leaf identity, not a hostile process concurrently replacing directory ancestors. Per-eval metadata records the baseline/final Git commits and archive fingerprints. Final commit identity is read from bounded, ordinary Git metadata files and remains null if unavailable; the collector never runs Git against executor-modified configuration (even `git status` could execute a configured filter or filesystem monitor).
+
+Executor error or incomplete results are never graded as successful execution. Earlier run directories are not cleared or overwritten. Temporary executor/grader workspaces are removed after each eval; the retained evidence remains gitignored and local. Artifact-retention or cleanup failures mark the run failed, and the grading file's run metadata is updated accordingly. Compare configuration, actual initial-workspace manifests, and fingerprints before attributing score differences to a skill edit. Archived inputs improve auditability; incomplete archives, stochastic models, and changes in provider or managed policy still prevent a promise of identical reruns.
+
+Discipline skills also include pressure cases for time pressure, sunk cost, and authority pressure. Local regression tests use fake CLI responses to verify both backend adapters, package loading, model flags, evidence retention, and failure handling without invoking a provider. They do not establish live model behavior, Codex sandbox enforcement, or Gemini runtime compatibility. A paid run still requires an explicit request.
+
+## Plugin evals (Claude Code)
+
+`claude plugin eval` (Claude Code 2.1.269 or later) loads the whole plugin, every skill at once, runs the cases under `evals/plugin/`, and scores each case with and without the plugin. It complements Tier 2 rather than replacing it: Tier 2 checks that a description carries the vocabulary users say; this checks that Claude Code's own router picks the skill on a natural prompt, and what the skill adds to the reply (the `Δ` column).
+
+```bash
+claude plugin eval . --no-publish                                          # every case, both arms, 3 runs each
+claude plugin eval . --case code-review-fires --runs 1 --ablation none     # one cheap iteration on one case
+```
+
+A case is a directory holding `prompt.md` (frontmatter: turn and tool limits; body: the prompt, sent verbatim) and one grader per file under `graders/`. Reports land in `evals/plugin/results/<timestamp>/`, already gitignored. Every run and every `llm` grader is a real model call on your account, so this runs on demand and never in CI, like Tier 3.
+
+Two rules keep it honest. The manifest's `experimental.evals` key scopes the scan to `evals/plugin/`, so a fixture elsewhere under `evals/` is never read as a case. And a `tool_used: Skill` grader only says whether the skill fired; in a two-arm run it is excluded from the score, so pair it with a grader on the reply itself. `code-review-fires` shows the pattern: the fired indicator, a free `regex` grader that looks for the skill's severity taxonomy (Critical, Required, Nit, Optional, Consider, FYI) used as a heading or as a label, and one `llm` judge on the planted off-by-one. `code-review-stays-quiet` is the precision check: the review skill must not fire on a test-first request, and its `Δ` is expected to be 0; a second, unscored indicator records whether test-driven-development fires instead.
+
+What the first runs taught (Claude Code 2.1.278, claude-opus-5). Skill invocation is stochastic: the review skill fired in 5 of 7 runs on the phrasing the case uses, and test-driven-development fired in 2 of 7 runs on the test-first prompt, so read `Δ` and the report rather than the exit code, or pass `--threshold 0.8` as the CI example in the docs does. In one run the review skill did not fire and the reply still used its severity taxonomy as headings, which no baseline run did in nine; the loaded skill descriptions may shape the reply even without an invocation. Phrasing matters, and the description is the lever. With the original description, "Review this diff before I merge it", "Can you do a proper code review of this change before I merge it?" and "Review this pull request for me before it goes into main" rarely fired the skill; the model reviewed the diff on its own, competently but without the verdict, the severity tiers or the five-axis pass. Describing what the skill adds did not help, and neither did naming diffs and pull requests on their own; what made the difference was saying that the skill applies even when the diff is pasted inline, which is the case the model was treating as "I can just do this myself". On claude-opus-5-5 with the model pinned, that one clause took the four review phrasings from 7 of 27 fires to 21 of 27, left the nine adjacent must-not-fire prompts at 0 of 27 both ways, and moved the plainest phrasing from 0 of 9 to 3 of 9, so it is better, not solved. `code-review-stays-quiet-on-commit-message` guards that clause: a pasted diff with a commit-message request must not fire the review skill. Two practical rules from the same day: pin `--model` and record the Claude Code version whenever you report numbers, because the CLI updates itself and the default model changed twice between morning and evening; and give a case a turn budget of 10 or more, since the model may reach a skill through its slash command (`agent-skills:review`, then `code-review-and-quality`), which costs two turns.
+
+## Eval case format
+
+One file per skill: `evals/cases/<skill-name>.json`.
+
+```json
+{
+  "skill_name": "test-driven-development",
+  "trigger": {
+    "positive": [
+      { "prompt": "Write a failing test for this bug before fixing it", "top_k": 3 }
+    ],
+    "negative": [
+      { "prompt": "Update the architecture diagram in the docs", "owner": "documentation-and-adrs" }
+    ]
+  },
+  "evals": [
+    {
+      "id": 1,
+      "kind": "execution",
+      "prompt": "Finance filed the reconciliation bug written up in BUG.md. Fix it.",
+      "expected_output": "A failing reproduction test for the lost-cent case, a fix preserving both README invariants (exact sum, earliest-shares fairness), the fairness invariant covered by its own test, full suite passing",
+      "files": [
+        "test-driven-development"
+      ],
+      "expectations": [
+        "A test reproducing the lost-cent case from BUG.md is added and shown failing before src/split.js is modified",
+        "The final implementation satisfies the full README fairness invariant (leftover cents go to the earliest shares): splitCents(10000, 3) returns [3334, 3333, 3333] as BUG.md expects and splitCents(100, 7) returns [15, 15, 14, 14, 14, 14, 14] as the README example shows; dumping the whole remainder on a single share would violate both",
+        "The fairness invariant from the README has its own test case in the suite on an input with remainder of at least 2 (such as splitCents(100, 7)), where dumping the whole remainder on one share would fail it, beyond the reported lost-cent case",
+        "The full suite is run with the repository's own command after the fix"
+      ]
+    }
+  ]
+}
+```
+
+- `evals[]` uses skill-creator's core schema (`id`, `prompt`, `expected_output`, optional `files[]`, `expectations[]`) plus this repository's optional `kind`. IDs are unique positive integers within a case file. `kind` must be `execution` or `dialogue` and defaults to `execution` for compatibility. Execution evals require non-empty `files[]`; paths are relative to `evals/fixtures/` and may name a file or project directory. Dialogue evals may omit `files[]` because the transcript is the artifact. Expectations are verifiable statements a grader checks against the relevant artifact — behaviors, not phrasings.
+- `trigger` is this repo's extension. `positive` prompts are realistic user asks that should route here (`top_k` defaults to 3; tighten to 1 for a skill's signature ask). `negative` prompts belong to a *different* skill; this skill must not rank first for them. Declare that skill in `owner` where you can: the runner then asserts the owner **outranks** this skill, turning the negative into a real pairwise routing test instead of one that can pass vacuously when the prompt matches nothing.
+
+**Writing good trigger prompts:** paraphrase how users actually talk; don't copy the description (that's gaming the eval). If a realistic prompt can't rank because the description lacks its vocabulary, that is a real finding — improve the description.
+
+## Adding a skill
+
+Every skill ships with an eval file. When you add `skills/<name>/`, add `evals/cases/<name>.json` with at least 3 positive triggers, 2 negative triggers, and 1 behavioral eval. Execution evals must be backed by `evals/fixtures/<name>/`; use `kind: "dialogue"` only when the skill's deliverable is genuinely the conversation itself. Missing case files, incomplete case counts, unknown kinds, invalid fixture paths, and absent required fixtures are CI errors.
+
+## Metrics to watch
+
+The Tier-2 run prints a **trigger rank-1 rate** (share of positive prompts that rank their skill first, not merely top-k). CI runs with `--min-rank1 95`, leaving useful headroom below the checked-in 100% baseline so an unrelated description edit does not immediately turn CI red. Raise the floor as routing improves; never lower it to make a regression pass. Falling numbers mean descriptions are drifting toward each other. The collision check errors at ≥75% pairwise description similarity and warns at ≥50%. When these evals surface a description-vocabulary gap (see [#351](https://github.com/addyosmani/agent-skills/issues/351) for the original examples), fix the description, not the prompt.

@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Idea Refine"
+  "short_description": "Refines raw ideas into sharp, actionable concepts through\
+    \ st"
+  "default_prompt": "Use $idea-refine to help with this task."

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Serverless"
+  "short_description": "Builds, deploys, manages, debugs, configures, and optimizes "
+  "default_prompt": "Use $aws-serverless to help with this task."

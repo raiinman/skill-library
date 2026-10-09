@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Iam"
+  "short_description": "Provides verified corrections for IAM behaviors that AI agen"
+  "default_prompt": "Use $aws-iam to help with this task."

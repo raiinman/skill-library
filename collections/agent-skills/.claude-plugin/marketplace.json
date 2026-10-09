@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "raiinman-agent-skills",
+  "description": "Personal Codex-first fork of Addy Osmani's engineering workflows, with persistent authorization and task-proportional verification.",
+  "owner": {
+    "name": "raiinman",
+    "url": "https://github.com/raiinman"
+  },
+  "plugins": [
+    {
+      "name": "raiinman-agent-skills",
+      "version": "0.6.13",
+      "source": {
+        "source": "github",
+        "repo": "raiinman/agent-skills"
+      },
+      "description": "Personal Codex-first fork of Addy Osmani's engineering workflows, with persistent authorization and task-proportional verification.",
+      "homepage": "https://github.com/raiinman/agent-skills",
+      "license": "MIT",
+      "keywords": ["skills", "agents", "engineering", "spec", "tdd", "review", "ship"]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Compute"
+  "short_description": "Provisions, scales, and operates Amazon EC2 virtual-machine "
+  "default_prompt": "Use $aws-compute to help with this task."

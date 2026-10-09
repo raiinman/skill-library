@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Frontend Ui Engineering"
+  "short_description": "Builds production-quality, accessible, responsive user-facin"
+  "default_prompt": "Use $frontend-ui-engineering to help with this task."

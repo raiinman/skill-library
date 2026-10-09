@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Spec Driven Development"
+  "short_description": "Creates specs before coding. Use when starting a new project"
+  "default_prompt": "Use $spec-driven-development to help with this task."

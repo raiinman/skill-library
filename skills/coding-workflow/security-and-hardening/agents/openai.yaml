@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Security And Hardening"
+  "short_description": "Hardens code against vulnerabilities. Use when auditing an\
+    \ i"
+  "default_prompt": "Use $security-and-hardening to help with this task."

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Cloudformation"
+  "short_description": "Authors, validates, and troubleshoots AWS CloudFormation tem"
+  "default_prompt": "Use $aws-cloudformation to help with this task."

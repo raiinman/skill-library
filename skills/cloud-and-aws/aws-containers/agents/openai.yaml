@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Containers"
+  "short_description": "Builds and deploys containerized workloads on Elastic Kubern"
+  "default_prompt": "Use $aws-containers to help with this task."

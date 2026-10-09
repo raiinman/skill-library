@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Build"
+  "short_description": "Provides the build command adapter. Use when the user invoke"
+  "default_prompt": "Use $build to help with this task."

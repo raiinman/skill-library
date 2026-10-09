@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Code Review And Quality"
+  "short_description": "Conducts multi-axis code review. Use before merging any chan"
+  "default_prompt": "Use $code-review-and-quality to help with this task."

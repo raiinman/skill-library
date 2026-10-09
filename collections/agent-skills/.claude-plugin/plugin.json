@@ -1,0 +1,17 @@
+{
+  "name": "raiinman-agent-skills",
+  "version": "0.6.13",
+  "description": "Personal Codex-first fork of Addy Osmani's engineering workflows, with persistent authorization and task-proportional verification.",
+  "author": {
+    "name": "raiinman (fork); Addy Osmani (original)",
+    "url": "https://github.com/raiinman"
+  },
+  "homepage": "https://github.com/raiinman/agent-skills",
+  "repository": "https://github.com/raiinman/agent-skills",
+  "license": "MIT",
+  "commands": ["./.claude/commands", "./commands"],
+  "skills": "./skills",
+  "experimental": {
+    "evals": "evals/plugin"
+  }
+}
