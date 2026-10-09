@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "OKX DEX MARKET"
+  "short_description": "Query read-only DEX token, market, signal, social, trenches,"
+  "default_prompt": "Use $okx-dex-market to help with this task."

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Unreal Engine Cpp Pro"
+  "short_description": "Expert guide for Unreal Engine 5.x C++ development, covering"
+  "default_prompt": "Use $unreal-engine-cpp-pro to help with this task."

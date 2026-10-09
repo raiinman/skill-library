@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Chaos Engineer"
+  "short_description": "Designs chaos experiments, creates failure injection framewo"
+  "default_prompt": "Use $chaos-engineer to help with this task."

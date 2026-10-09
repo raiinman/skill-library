@@ -1,0 +1,496 @@
+[
+  {
+    "repo": "hoainho/img2threejs",
+    "selector": "img2threejs",
+    "category": "3d-and-web",
+    "name": "img2threejs",
+    "listing": "https://explainx.ai/skills/hoainho/img2threejs/img2threejs",
+    "path": "skills/3d-and-web/img2threejs",
+    "upstream_path": "SKILL.md",
+    "commit": "d508b596cb221f1509f6e50ab68fce275a5cfb44",
+    "source_url": "https://github.com/hoainho/img2threejs/blob/d508b596cb221f1509f6e50ab68fce275a5cfb44/SKILL.md",
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  },
+  {
+    "repo": "Leonxlnx/taste-skill",
+    "selector": "image-to-code",
+    "category": "3d-and-web",
+    "name": "image-to-code",
+    "listing": "https://explainx.ai/skills/Leonxlnx/taste-skill/image-to-code",
+    "path": "skills/3d-and-web/image-to-code",
+    "upstream_path": "skills/image-to-code-skill/SKILL.md",
+    "commit": "18dfc928b135629e0eddfdd445a06400d04ed439",
+    "source_url": "https://github.com/Leonxlnx/taste-skill/blob/18dfc928b135629e0eddfdd445a06400d04ed439/skills/image-to-code-skill/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  },
+  {
+    "repo": "omer-metin/skills-for-antigravity",
+    "selector": "pixel-art-sprites",
+    "category": "game-design",
+    "name": "pixel-art-sprites",
+    "listing": "https://explainx.ai/skills/omer-metin/skills-for-antigravity/pixel-art-sprites",
+    "path": "skills/game-design/pixel-art-sprites",
+    "upstream_path": "skills/pixel-art-sprites/SKILL.md",
+    "commit": "e8dcf4e8737921a10088bd5c9eb65e81f74c051f",
+    "source_url": "https://github.com/omer-metin/skills-for-antigravity/blob/e8dcf4e8737921a10088bd5c9eb65e81f74c051f/skills/pixel-art-sprites/SKILL.md",
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "selector": "Civil Engineer",
+    "category": "engineering",
+    "name": "civil-engineer",
+    "listing": "https://explainx.ai/skills/msitarzewski/agency-agents/Civil%20Engineer",
+    "path": "skills/engineering/civil-engineer",
+    "upstream_path": "specialized/specialized-civil-engineer.md",
+    "commit": "f99f6aa910a442b0197b768ce0ea7751e35e2060",
+    "source_url": "https://github.com/msitarzewski/agency-agents/blob/f99f6aa910a442b0197b768ce0ea7751e35e2060/specialized/specialized-civil-engineer.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Agent profile packaged as a Codex skill"
+    ]
+  },
+  {
+    "repo": "vercel-labs/next-skills",
+    "selector": "next-best-practices",
+    "category": "3d-and-web",
+    "name": "next-best-practices",
+    "listing": "https://explainx.ai/skills/vercel-labs/next-skills/next-best-practices",
+    "path": "skills/3d-and-web/next-best-practices",
+    "upstream_path": "skills/next-best-practices/SKILL.md",
+    "commit": "31e6ebd130eb63a0310d04c66f7e8d4f2bdd3196",
+    "source_url": "https://github.com/vercel-labs/next-skills/blob/31e6ebd130eb63a0310d04c66f7e8d4f2bdd3196/skills/next-best-practices/SKILL.md",
+    "license": "No root license identified upstream",
+    "license_files": [],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Archived upstream version; requested skill removed from current branch"
+    ]
+  },
+  {
+    "repo": "poteto/noodle",
+    "selector": "adversarial-review",
+    "category": "review-and-resilience",
+    "name": "adversarial-review",
+    "listing": "https://explainx.ai/skills/poteto/noodle/adversarial-review",
+    "path": "skills/review-and-resilience/adversarial-review",
+    "upstream_path": ".agents/skills/adversarial-review/SKILL.md",
+    "commit": "82d2921c52370f23f29086de81ccfb600939c037",
+    "source_url": "https://github.com/poteto/noodle/blob/82d2921c52370f23f29086de81ccfb600939c037/.agents/skills/adversarial-review/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Included brain principles and their linked principle files",
+      "Runtime path and setup compatibility note added for local installation"
+    ]
+  },
+  {
+    "repo": "mindrally/skills",
+    "selector": "lua",
+    "category": "programming",
+    "name": "lua",
+    "listing": "https://explainx.ai/skills/mindrally/skills/lua",
+    "path": "skills/programming/lua",
+    "upstream_path": "lua/SKILL.md",
+    "commit": "7682ca77710e0971eab4e0ae5dddfa281aea0ba5",
+    "source_url": "https://github.com/mindrally/skills/blob/7682ca77710e0971eab4e0ae5dddfa281aea0ba5/lua/SKILL.md",
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  },
+  {
+    "repo": "omer-metin/skills-for-antigravity",
+    "selector": "game-design-core",
+    "category": "game-design",
+    "name": "game-design-core",
+    "listing": "https://explainx.ai/skills/omer-metin/skills-for-antigravity/game-design-core",
+    "path": "skills/game-design/game-design-core",
+    "upstream_path": "skills/game-design-core/SKILL.md",
+    "commit": "e8dcf4e8737921a10088bd5c9eb65e81f74c051f",
+    "source_url": "https://github.com/omer-metin/skills-for-antigravity/blob/e8dcf4e8737921a10088bd5c9eb65e81f74c051f/skills/game-design-core/SKILL.md",
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  },
+  {
+    "repo": "sickn33/antigravity-awesome-skills",
+    "selector": "game-development",
+    "category": "game-development",
+    "name": "game-development",
+    "listing": "https://explainx.ai/skills/sickn33/antigravity-awesome-skills/game-development",
+    "path": "skills/game-development/game-development",
+    "upstream_path": "skills/game-development/SKILL.md",
+    "commit": "b84d35abf733cbbc3400dbc0e16fbbdc2a4fe97e",
+    "source_url": "https://github.com/sickn33/antigravity-awesome-skills/blob/b84d35abf733cbbc3400dbc0e16fbbdc2a4fe97e/skills/game-development/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE",
+      "LICENSE-CONTENT"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "selector": "Game Designer",
+    "category": "game-design",
+    "name": "game-designer",
+    "listing": "https://explainx.ai/skills/msitarzewski/agency-agents/Game%20Designer",
+    "path": "skills/game-design/game-designer",
+    "upstream_path": "game-development/game-designer.md",
+    "commit": "f99f6aa910a442b0197b768ce0ea7751e35e2060",
+    "source_url": "https://github.com/msitarzewski/agency-agents/blob/f99f6aa910a442b0197b768ce0ea7751e35e2060/game-development/game-designer.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Agent profile packaged as a Codex skill"
+    ]
+  },
+  {
+    "repo": "ityes22/game-design-document",
+    "selector": "game-design-document",
+    "category": "game-design",
+    "name": "game-design-document",
+    "listing": "https://explainx.ai/skills/ityes22/game-design-document/game-design-document",
+    "path": "skills/game-design/game-design-document",
+    "upstream_path": "SKILL.md",
+    "commit": "0b6126aa8aba5352a179012746e8319fd093ef12",
+    "source_url": "https://github.com/ityes22/game-design-document/blob/0b6126aa8aba5352a179012746e8319fd093ef12/SKILL.md",
+    "license": "Apache-2.0 (upstream LICENSE.txt)",
+    "license_files": [
+      "LICENSE.txt"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Runtime path and setup compatibility note added for local installation"
+    ]
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "selector": "Level Designer",
+    "category": "game-design",
+    "name": "level-designer",
+    "listing": "https://explainx.ai/skills/msitarzewski/agency-agents/Level%20Designer",
+    "path": "skills/game-design/level-designer",
+    "upstream_path": "game-development/level-designer.md",
+    "commit": "f99f6aa910a442b0197b768ce0ea7751e35e2060",
+    "source_url": "https://github.com/msitarzewski/agency-agents/blob/f99f6aa910a442b0197b768ce0ea7751e35e2060/game-development/level-designer.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Agent profile packaged as a Codex skill"
+    ]
+  },
+  {
+    "repo": "opusgamelabs/game-creator",
+    "selector": "game-architecture",
+    "category": "game-development",
+    "name": "game-architecture",
+    "listing": "https://explainx.ai/skills/opusgamelabs/game-creator/game-architecture",
+    "path": "skills/game-development/game-architecture",
+    "upstream_path": "skills/game-architecture/SKILL.md",
+    "commit": "4e64b83b5fe400b34ad3a484d9b4a6090b26d512",
+    "source_url": "https://github.com/opusgamelabs/game-creator/blob/4e64b83b5fe400b34ad3a484d9b4a6090b26d512/skills/game-architecture/SKILL.md",
+    "license": "MIT",
+    "license_files": [],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "selector": "Unreal Multiplayer Architect",
+    "category": "unreal-engine",
+    "name": "unreal-multiplayer-architect",
+    "listing": "https://explainx.ai/skills/msitarzewski/agency-agents/Unreal%20Multiplayer%20Architect",
+    "path": "skills/unreal-engine/unreal-multiplayer-architect",
+    "upstream_path": "game-development/unreal-engine/unreal-multiplayer-architect.md",
+    "commit": "f99f6aa910a442b0197b768ce0ea7751e35e2060",
+    "source_url": "https://github.com/msitarzewski/agency-agents/blob/f99f6aa910a442b0197b768ce0ea7751e35e2060/game-development/unreal-engine/unreal-multiplayer-architect.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Agent profile packaged as a Codex skill"
+    ]
+  },
+  {
+    "repo": "Donchitos/Claude-Code-Game-Studios",
+    "selector": "map-systems",
+    "category": "game-development",
+    "name": "map-systems",
+    "listing": "https://explainx.ai/skills/Donchitos/Claude-Code-Game-Studios/map-systems",
+    "path": "skills/game-development/map-systems",
+    "upstream_path": ".claude/skills/map-systems/SKILL.md",
+    "commit": "be8993bbc5a1f016bc770b2846ce06272d284526",
+    "source_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/blob/be8993bbc5a1f016bc770b2846ce06272d284526/.claude/skills/map-systems/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Included studio docs, agent roles, workflow references, config template and YAML helper; bundled workflows renamed WORKFLOW.md to avoid unintended skill registration"
+    ]
+  },
+  {
+    "repo": "Donchitos/Claude-Code-Game-Studios",
+    "selector": "day-one-patch",
+    "category": "game-development",
+    "name": "day-one-patch",
+    "listing": "https://explainx.ai/skills/Donchitos/Claude-Code-Game-Studios/day-one-patch",
+    "path": "skills/game-development/day-one-patch",
+    "upstream_path": ".claude/skills/day-one-patch/SKILL.md",
+    "commit": "be8993bbc5a1f016bc770b2846ce06272d284526",
+    "source_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/blob/be8993bbc5a1f016bc770b2846ce06272d284526/.claude/skills/day-one-patch/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Included studio docs, agent roles, workflow references, config template and YAML helper; bundled workflows renamed WORKFLOW.md to avoid unintended skill registration"
+    ]
+  },
+  {
+    "repo": "jeffallan/claude-skills",
+    "selector": "chaos-engineer",
+    "category": "review-and-resilience",
+    "name": "chaos-engineer",
+    "listing": "https://explainx.ai/skills/jeffallan/claude-skills/chaos-engineer",
+    "path": "skills/review-and-resilience/chaos-engineer",
+    "upstream_path": "skills/chaos-engineer/SKILL.md",
+    "commit": "1be15d8064f88fc25216442406d40add8fd23b53",
+    "source_url": "https://github.com/jeffallan/claude-skills/blob/1be15d8064f88fc25216442406d40add8fd23b53/skills/chaos-engineer/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  },
+  {
+    "repo": "sickn33/antigravity-awesome-skills",
+    "selector": "unreal-engine-cpp-pro",
+    "category": "unreal-engine",
+    "name": "unreal-engine-cpp-pro",
+    "listing": "https://explainx.ai/skills/sickn33/antigravity-awesome-skills/unreal-engine-cpp-pro",
+    "path": "skills/unreal-engine/unreal-engine-cpp-pro",
+    "upstream_path": "skills/unreal-engine-cpp-pro/SKILL.md",
+    "commit": "b84d35abf733cbbc3400dbc0e16fbbdc2a4fe97e",
+    "source_url": "https://github.com/sickn33/antigravity-awesome-skills/blob/b84d35abf733cbbc3400dbc0e16fbbdc2a4fe97e/skills/unreal-engine-cpp-pro/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE",
+      "LICENSE-CONTENT"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "selector": "Unreal Technical Artist",
+    "category": "unreal-engine",
+    "name": "unreal-technical-artist",
+    "listing": "https://explainx.ai/skills/msitarzewski/agency-agents/Unreal%20Technical%20Artist",
+    "path": "skills/unreal-engine/unreal-technical-artist",
+    "upstream_path": "game-development/unreal-engine/unreal-technical-artist.md",
+    "commit": "f99f6aa910a442b0197b768ce0ea7751e35e2060",
+    "source_url": "https://github.com/msitarzewski/agency-agents/blob/f99f6aa910a442b0197b768ce0ea7751e35e2060/game-development/unreal-engine/unreal-technical-artist.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Agent profile packaged as a Codex skill"
+    ]
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "selector": "Unreal Systems Engineer",
+    "category": "unreal-engine",
+    "name": "unreal-systems-engineer",
+    "listing": "https://explainx.ai/skills/msitarzewski/agency-agents/Unreal%20Systems%20Engineer",
+    "path": "skills/unreal-engine/unreal-systems-engineer",
+    "upstream_path": "game-development/unreal-engine/unreal-systems-engineer.md",
+    "commit": "f99f6aa910a442b0197b768ce0ea7751e35e2060",
+    "source_url": "https://github.com/msitarzewski/agency-agents/blob/f99f6aa910a442b0197b768ce0ea7751e35e2060/game-development/unreal-engine/unreal-systems-engineer.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Agent profile packaged as a Codex skill"
+    ]
+  },
+  {
+    "repo": "cloudai-x/threejs-skills",
+    "selector": "threejs-postprocessing",
+    "category": "3d-and-web",
+    "name": "threejs-postprocessing",
+    "listing": "https://explainx.ai/skills/cloudai-x/threejs-skills/threejs-postprocessing",
+    "path": "skills/3d-and-web/threejs-postprocessing",
+    "upstream_path": "skills/threejs-postprocessing/SKILL.md",
+    "commit": "b1c623076c661fc9b03dac19292e825a5d106823",
+    "source_url": "https://github.com/cloudai-x/threejs-skills/blob/b1c623076c661fc9b03dac19292e825a5d106823/skills/threejs-postprocessing/SKILL.md",
+    "license": "No root license identified upstream",
+    "license_files": [],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  },
+  {
+    "repo": "okx/agent-skills",
+    "selector": "okx-cex-portfolio",
+    "category": "finance",
+    "name": "okx-cex-portfolio",
+    "listing": "https://explainx.ai/skills/okx/agent-skills/okx-cex-portfolio",
+    "path": "skills/finance/okx-cex-portfolio",
+    "upstream_path": "skills/okx-cex-portfolio/SKILL.md",
+    "commit": "9c180cc1e9911a1ca44c0df5cc7509dba5bb7697",
+    "source_url": "https://github.com/okx/agent-skills/blob/9c180cc1e9911a1ca44c0df5cc7509dba5bb7697/skills/okx-cex-portfolio/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Shared preflight bundled locally; authentication workflow included as a reference"
+    ]
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "selector": "Unreal World Builder",
+    "category": "unreal-engine",
+    "name": "unreal-world-builder",
+    "listing": "https://explainx.ai/skills/msitarzewski/agency-agents/Unreal%20World%20Builder",
+    "path": "skills/unreal-engine/unreal-world-builder",
+    "upstream_path": "game-development/unreal-engine/unreal-world-builder.md",
+    "commit": "f99f6aa910a442b0197b768ce0ea7751e35e2060",
+    "source_url": "https://github.com/msitarzewski/agency-agents/blob/f99f6aa910a442b0197b768ce0ea7751e35e2060/game-development/unreal-engine/unreal-world-builder.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Agent profile packaged as a Codex skill"
+    ]
+  },
+  {
+    "repo": "refoundai/lenny-skills",
+    "selector": "managing-timelines",
+    "category": "planning",
+    "name": "managing-timelines",
+    "listing": "https://explainx.ai/skills/refoundai/lenny-skills/managing-timelines",
+    "path": "skills/planning/managing-timelines",
+    "upstream_path": "skills/managing-timelines/SKILL.md",
+    "commit": "0123453c617e1114d3097380feffb09761ce824a",
+    "source_url": "https://github.com/refoundai/lenny-skills/blob/0123453c617e1114d3097380feffb09761ce824a/skills/managing-timelines/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Archived upstream version; requested skill removed from current branch"
+    ]
+  },
+  {
+    "repo": "dstn2000/claude-unreal-engine-skill",
+    "selector": "unreal-engine",
+    "category": "unreal-engine",
+    "name": "unreal-engine",
+    "listing": "https://explainx.ai/skills/dstn2000/claude-unreal-engine-skill/unreal-engine",
+    "path": "skills/unreal-engine/unreal-engine",
+    "upstream_path": "SKILL.md",
+    "commit": "d58c833a1e4a2b6cea6da8430a81ea32772cd336",
+    "source_url": "https://github.com/dstn2000/claude-unreal-engine-skill/blob/d58c833a1e4a2b6cea6da8430a81ea32772cd336/SKILL.md",
+    "license": "No root license identified upstream",
+    "license_files": [],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  },
+  {
+    "repo": "okx/onchainos-skills",
+    "selector": "okx-dex-market",
+    "category": "finance",
+    "name": "okx-dex-market",
+    "listing": "https://explainx.ai/skills/okx/onchainos-skills/okx-dex-market",
+    "path": "skills/finance/okx-dex-market",
+    "upstream_path": "skills/okx-dex-market/SKILL.md",
+    "commit": "cfbb0bafa71898e50762cd9fa77f026b4a8caa1b",
+    "source_url": "https://github.com/okx/onchainos-skills/blob/cfbb0bafa71898e50762cd9fa77f026b4a8caa1b/skills/okx-dex-market/SKILL.md",
+    "license": "MIT",
+    "license_files": [],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Runtime path and setup compatibility note added for local installation"
+    ]
+  },
+  {
+    "repo": "onewave-ai/claude-skills",
+    "selector": "sports-betting-analyzer",
+    "category": "sports",
+    "name": "sports-betting-analyzer",
+    "listing": "https://explainx.ai/skills/onewave-ai/claude-skills/sports-betting-analyzer",
+    "path": "skills/sports/sports-betting-analyzer",
+    "upstream_path": "sports-betting-analyzer/SKILL.md",
+    "commit": "fc5b7851a6c7ba367e05797df46ad3679df355dd",
+    "source_url": "https://github.com/onewave-ai/claude-skills/blob/fc5b7851a6c7ba367e05797df46ad3679df355dd/sports-betting-analyzer/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md"
+    ]
+  }
+]

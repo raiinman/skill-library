@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Lua"
+  "short_description": "Lua development guidelines covering tables, metatables, erro"
+  "default_prompt": "Use $lua to help with this task."

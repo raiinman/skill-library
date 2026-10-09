@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Game Design Document"
+  "short_description": "Generates professional, publisher-grade Game Design Document"
+  "default_prompt": "Use $game-design-document to help with this task."

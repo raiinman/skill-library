@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Game Design Core"
+  "short_description": "The foundational theory of interactive experience design -\
+    \ l"
+  "default_prompt": "Use $game-design-core to help with this task."

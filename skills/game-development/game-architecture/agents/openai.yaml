@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Game Architecture"
+  "short_description": "Game architecture patterns and best practices for browser\
+    \ ga"
+  "default_prompt": "Use $game-architecture to help with this task."

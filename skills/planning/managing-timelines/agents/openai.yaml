@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Managing Timelines"
+  "short_description": "Help users set and hit realistic deadlines. Use when someone"
+  "default_prompt": "Use $managing-timelines to help with this task."
