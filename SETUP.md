@@ -20,6 +20,10 @@ Some existing skills refer to machine-specific MCP services, local checkouts, cl
 | okx-cex-portfolio | `@okx_ai/okx-trade-cli` 1.4.8 and account authentication | CLI and its verified auth/pilot binaries installed; user sign-in remains |
 | okx-dex-market | OnchainOS CLI and account authentication | Windows release installed with SHA256 verification; user sign-in remains |
 
+## Brainstorming
+
+The adapted `brainstorming` skill includes its original source, MIT license, builder prompt, and optional visual companion. Its companion uses Node.js standard-library modules and Bash; both Node and Git Bash are available on this machine. No npm dependencies or Superpowers plugin install are needed. The Codex launch guide is bundled in the package, and the launcher disables upstream branding telemetry.
+
 ## Windows paths
 
 - Claude and OnchainOS: `~/.local/bin/claude.exe`, `~/.local/bin/onchainos.exe`.

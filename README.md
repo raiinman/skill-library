@@ -1,6 +1,6 @@
 # Skill Library
 
-Your home for skills. 100 skill packages are organized by purpose, including the first 27 imports and your existing GitHub, local, and engineering-plugin skills.
+Your home for skills. 101 skill packages are organized by purpose, including the first 27 imports, your existing GitHub, local, and engineering-plugin skills, and an adapted brainstorming workflow.
 
 ## Find what you need
 
@@ -16,7 +16,7 @@ Your home for skills. 100 skill packages are organized by purpose, including the
 | [Game Design](skills/game-design/) | 5 |
 | [Game Development](skills/game-development/) | 4 |
 | [Personal Workflow](skills/personal-workflow/) | 8 |
-| [Planning](skills/planning/) | 1 |
+| [Planning](skills/planning/) | 2 |
 | [Programming](skills/programming/) | 1 |
 | [Reverse Engineering](skills/reverse-engineering/) | 2 |
 | [Review And Resilience](skills/review-and-resilience/) | 2 |

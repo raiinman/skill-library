@@ -1965,5 +1965,26 @@
     ],
     "origin_kind": "github",
     "original_skill_sha256": "fdd090c7d429b72b69a922e93c63951483cd687a2b55efc3eb0ee6e1e374b507"
+  },
+  {
+    "repo": "obra/superpowers",
+    "selector": "brainstorming",
+    "category": "planning",
+    "name": "brainstorming",
+    "listing": "https://github.com/obra/superpowers/tree/main",
+    "path": "skills/planning/brainstorming",
+    "upstream_path": "skills/brainstorming/SKILL.md",
+    "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
+    "source_url": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/skills/brainstorming/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "original_sha256": "6ee10d1481b8a2580d5336ff66c5c08acc9d4b251b13bbc3bfd31be99c261d43",
+    "adaptations": [
+      "Codex workflow and picker metadata; original skill and visual guide preserved",
+      "Self-contained builder prompt and visual companion resources; no dependency on other Superpowers skills",
+      "Visual companion launcher disables upstream branding telemetry"
+    ]
   }
 ]

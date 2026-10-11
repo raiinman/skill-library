@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brainstorming"
+  short_description: "Explore ideas and turn them into clear designs"
+  default_prompt: "Use $brainstorming to help me explore this idea and shape a clear design."

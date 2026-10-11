@@ -120,6 +120,7 @@ Start with the task you want to do, or search this page for a skill name.
 
 ## Planning
 
+- [`$brainstorming`](skills/planning/brainstorming/SKILL.md) · [source](skills/planning/brainstorming/SOURCE.md)
 - [`$managing-timelines`](skills/planning/managing-timelines/SKILL.md) · [source](skills/planning/managing-timelines/SOURCE.md)
 
 ## Programming
