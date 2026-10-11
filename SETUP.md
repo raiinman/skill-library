@@ -22,7 +22,7 @@ Some existing skills refer to machine-specific MCP services, local checkouts, cl
 
 ## Brainstorming
 
-The adapted `brainstorming` skill includes its original source, MIT license, builder prompt, and optional visual companion. Its companion uses Node.js standard-library modules and Bash; both Node and Git Bash are available on this machine. No npm dependencies or Superpowers plugin install are needed. The Codex launch guide is bundled in the package, and the launcher disables upstream branding telemetry.
+The adapted `brainstorming` skill includes its original source, MIT license, builder prompt, and optional visual companion. Its companion uses Node.js standard-library modules and Bash; both Node and Git Bash are available on this machine. No npm dependencies or Superpowers plugin install are needed. The Codex launch guide is bundled in the package, and the launcher disables upstream branding telemetry. ADHD-friendly facilitation guidance adds flexible idea capture, optional mind maps and short rounds, and restart checkpoints; bundled research notes record the sources and evidence limits.
 
 ## Windows paths
 

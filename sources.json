@@ -1984,7 +1984,10 @@
     "adaptations": [
       "Codex workflow and picker metadata; original skill and visual guide preserved",
       "Self-contained builder prompt and visual companion resources; no dependency on other Superpowers skills",
-      "Visual companion launcher disables upstream branding telemetry"
-    ]
+      "Visual companion launcher disables upstream branding telemetry",
+      "ADHD-friendly capture, optional facilitation techniques, restart checkpoints, and sourced evidence notes"
+    ],
+    "supporting_research": "skills/planning/brainstorming/references/research-notes.md",
+    "updated": "2026-10-11"
   }
 ]

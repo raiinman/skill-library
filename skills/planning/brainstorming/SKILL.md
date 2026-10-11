@@ -1,6 +1,6 @@
 ---
 name: brainstorming
-description: Turn an unclear idea into a concrete design through a focused conversation. Use when the user asks to brainstorm, explore an idea, compare directions, or clarify a project before building. Clear tasks and already-approved plans can proceed directly.
+description: Turn an unclear idea into a concrete design through a focused conversation, with ADHD-friendly idea capture and optional mind maps. Use when the user asks to brainstorm, explore an idea, compare directions, or clarify a project before building. Clear tasks and already-approved plans can proceed directly.
 license: MIT
 ---
 
@@ -14,7 +14,17 @@ Read the request and relevant existing work. If the important decisions are alre
 
 When an idea needs exploration, briefly say the user can skip the questions and have you start. If they choose that, state significant assumptions or choices plainly and proceed; brainstorming is finished.
 
-Otherwise, ask one open question grounded in a real situation: what prompted the idea, who needs it, or what success would look like. Use the host's question interface when appropriate; questions belong there or in the final response, not in progress commentary.
+Otherwise, start from what the user has already given you. Capture an existing brain dump before asking for more. When a question will help, ask one grounded in a real situation: what prompted the idea, who needs it, or what success would look like. Use the host's question interface when appropriate; questions belong there or in the final response, not in progress commentary.
+
+## Capture first, then shape
+
+Use these defaults to reduce the work the user must hold in their head. They do not require an ADHD diagnosis or disclosure.
+
+- Accept fragments, tangents, pasted notes, and available voice transcripts in whatever order they arrive. Preserve meaningful details and conflicting ideas before organizing them; mark uncertain wording for clarification.
+- During idea generation, capture possibilities without ranking or dismissing them. In the later shaping phase, check feasibility, constraints, and tradeoffs. Keep unrealistic ideas available as prompts for alternatives, while distinguishing them from an actionable plan.
+- Maintain one working note in the current conversation or an existing project document. Show the active topic, decisions, unresolved questions, and ideas parked for later when a checkpoint would help. A tangent may change the goal; infer clear steering and clarify only genuine ambiguity.
+- Keep responses brief and ask at most one needed question at a time. When the user seems overloaded or asks where to start, reduce the current demand to one small, concrete action. Reuse captured context after a pause instead of restarting the interview.
+- Read [ADHD-friendly facilitation](references/adhd-facilitation.md) when nonlinear capture, mind mapping, optional timeboxes, group brainstorming, or restarting after a pause would help. Offer the relevant technique; keep the user's established preferences and option to skip questions in effect.
 
 ## Discover the intent
 
@@ -22,7 +32,7 @@ Otherwise, ask one open question grounded in a real situation: what prompted the
 - Explore the purpose, audience, current state, constraints, goals, non-goals, and outcomes they want to avoid. Treat these as topics to cover when relevant, rather than a questionnaire to recite.
 - Find out which platform, medium, tool, and resource decisions they care about and which they delegate. Build on the project's existing choices. Label your own assumptions and recommendations accurately.
 - Inspect relevant code, files, or public sources within the authorized task scope. Explain what the inspection resolved. Ask only when access or an action requires additional authorization.
-- Consider plausible alternatives and recommend the simplest direction that meets the need. Show comparisons when a meaningful tradeoff remains.
+- When ready to shape the ideas, compare the few meaningful directions and recommend the simplest one that meets the need. Avoid asking the user to rank a whole brain dump; preserve the remaining ideas for later.
 - Reflect each understood part back briefly and invite correction. Keep the length proportional to the decision; distinguish what they said from your interpretation.
 
 Chat during work is steering. Incorporate it and continue independent work; pause only actions that depend on an unanswered decision or conflict with the new input.
@@ -45,4 +55,4 @@ For a substantial written design, use [builder-check-prompt.md](builder-check-pr
 
 When the user requested a brainstorming discussion, get their approval of the complete proposed design before beginning implementation. Approval covers what you actually presented. An existing approved design, an explicit request to proceed, or the user's choice to skip brainstorming already supplies that authorization; avoid asking again for it.
 
-After approval, prepare an implementation plan proportional to the work, using the available planning workflow if helpful. The skill is complete when the direction, remaining assumptions, and next action are clear. It does not require other Superpowers skills.
+After approval, prepare an implementation plan proportional to the work, using the available planning workflow if helpful. End with one concrete next action and a short restart note when the session is paused. Captured ideas are not approved features; bring proposed scope changes back through the applicable authorization boundary. The skill is complete when the direction, remaining assumptions, and next action are clear. It does not require other Superpowers skills.
