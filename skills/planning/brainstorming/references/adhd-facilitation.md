@@ -16,6 +16,8 @@ Keep only the context needed for the present decision visible. A useful checkpoi
 
 Use only the fields that help. Update at meaningful transitions, after a large dump, or before a pause; repeating the entire note every turn adds work. Preserve distinct ideas when grouping or condensing. If a working document is appropriate, put it beside the project where it will be used and link it from the handoff. Follow the user's file and privacy preferences.
 
+Group notes into a few broad categories first; add subcategories only when they make something easier to find. Stop reorganizing once the note is useful for the current decision. Keep the active action list short while retaining the remaining material in the working note.
+
 ## Visual connections
 
 When relationships are hard to follow in prose, offer or use a compact mind map: a central goal, a few branches, short keywords, and visible connections. Choose an inline diagram, plain text tree, or the included browser companion according to the host and user's preferences. A map should expose relationships, not decorate a giant list. Pair it with a brief text explanation and readable labels; meaning must remain clear without color.
@@ -37,6 +39,8 @@ When facilitating a group, offer a quiet written round before sharing, accept bo
 ## Shape without rushing
 
 Move from capture to evaluation when the user is ready or needs a decision. Use the known goal and constraints to reduce the options, then compare the few that materially differ. Keep a simple distinction between the current choice, likely next steps, and later exploration; deadlines can change that order.
+
+When a decision keeps looping, use the user's most important criterion to focus the comparison. If a boundary would help, use an existing deadline or budget, or offer to agree on one; do not impose a new cutoff. Recommend a sufficient choice within that boundary and reopen settled decisions when relevant information changes. When projects compete for attention, make the current priority and what can wait explicit, preserving the other ideas.
 
 Leave room for later additions when useful, but do not impose a one- or two-day delay. Further ideas should not hold up an authorized decision or silently expand its scope. Reconfirm only decisions that actually changed.
 

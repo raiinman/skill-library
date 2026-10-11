@@ -18,3 +18,5 @@ The skill and companion can be restored from this package without the upstream r
 ## ADHD-friendly update, 2026-10-11
 
 Added capture before evaluation, one working note with parked ideas, optional visual and timed rounds, group participation options, and a concrete next action with restart checkpoints. The core defaults work without requiring disclosure of a diagnosis. Detailed facilitation guidance and independently checked sources are bundled in [references/adhd-facilitation.md](references/adhd-facilitation.md) and [references/research-notes.md](references/research-notes.md); practical suggestions are distinguished from clinical evidence. The original Superpowers entrypoint, license, and companion resources remain preserved.
+
+The ADDitude article was subsequently read in the user's shared browser tab. Its relevant suggestions informed broad note categories and optional decision boundaries; its source entry now records that successful review.
