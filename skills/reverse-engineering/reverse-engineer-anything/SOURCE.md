@@ -16,6 +16,6 @@ All 44 English Markdown guides from this release are backed up under `docs/`, wi
 
 ## This machine
 
-REA 6.4.0 is installed globally. Its Codex MCP entry launches the installed public `scripts/rea.mjs` through Node, with a 30-second startup timeout. Setup was restricted to Codex, with the skill installed separately from this library; existing configuration was preserved and backed up in `~/.codex/config.toml.rea.backup`.
+REA 6.4.0 is installed globally. The skill is installed in `~/.agents/skills/reverse-engineer-anything`, the shared skill location used by Codex and REA's readiness check. Its Codex MCP entry launches the installed public `scripts/rea.mjs` through Node, with a 30-second startup timeout. Setup was restricted to Codex, with the skill installed separately from this library; existing configuration was preserved and backed up in `~/.codex/config.toml.rea.backup`.
 
 Restart or reconnect Codex to make the new MCP server available in the app. Some operations require separately configured providers or task-specific tools. Static JavaScript analysis and several artifact inspections work without Hopper or Ghidra; native decompilation needs a supported configured engine. The installed CLI and actual connected tool schemas determine which capabilities are available.

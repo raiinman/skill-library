@@ -26,7 +26,7 @@ The adapted `brainstorming` skill includes its original source, MIT license, bui
 
 ## REA reverse engineering
 
-`reverse-engineer-anything` is aligned with the published `rea-agents@6.4.0` release. The REA CLI is installed globally, and its stdio MCP registration is configured only for Codex, using the installed Node launcher and a 30-second startup timeout. The original Codex configuration is backed up as `~/.codex/config.toml.rea.backup`; unrelated settings are preserved. Restart or reconnect Codex after installation to load the new tools.
+`reverse-engineer-anything` is aligned with the published `rea-agents@6.4.0` release. Its single installed copy is in `~/.agents/skills/reverse-engineer-anything`, the shared skill root used by Codex and REA's readiness check; use that destination when restoring this package. The REA CLI is installed globally, and its stdio MCP registration is configured only for Codex, using the installed Node launcher and a 30-second startup timeout. The original Codex configuration is backed up as `~/.codex/config.toml.rea.backup`; unrelated settings are preserved. Restart or reconnect Codex after installation to load the new tools.
 
 The package includes its seven released workflow files, original repository entrypoint, MIT license, upstream README, and 44 release guides. Restore the runtime with `npm install --global rea-agents@6.4.0`. Node.js 22.19+, 24.11+, or 26+ is required on the supported release lines. Static JavaScript analysis works without a disassembler. Native decompilation needs a supported configured Ghidra, Hopper, or IDA provider; other specialized workflows have their own host and tool prerequisites. No native analysis engine was configured during this installation.
 
