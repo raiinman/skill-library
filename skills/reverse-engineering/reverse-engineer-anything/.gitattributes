@@ -1,0 +1,3 @@
+SKILL.md text eol=lf
+references/*.md text eol=lf
+references/upstream-skill.md -text

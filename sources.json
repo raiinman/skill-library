@@ -1989,5 +1989,29 @@
     ],
     "supporting_research": "skills/planning/brainstorming/references/research-notes.md",
     "updated": "2026-10-11"
+  },
+  {
+    "repo": "morluto/rea",
+    "selector": "reverse-engineer-anything",
+    "category": "reverse-engineering",
+    "name": "reverse-engineer-anything",
+    "listing": "https://github.com/morluto/rea",
+    "path": "skills/reverse-engineering/reverse-engineer-anything",
+    "upstream_path": ".agents/skills/reverse-engineer-anything/SKILL.md",
+    "commit": "a56f7bb668ab23fec8d33f7af353ac7ed2fe1895",
+    "source_url": "https://github.com/morluto/rea/blob/a56f7bb668ab23fec8d33f7af353ac7ed2fe1895/.agents/skills/reverse-engineer-anything/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "original_sha256": "b4fc3b53592913e229d116f95c4b898024071678e5269858dac5effc1dd8fca4",
+    "runtime_package": "rea-agents",
+    "runtime_version": "6.4.0",
+    "runtime_integrity": "sha512-Vj1zWfSlna5bphGoaoI/TcVBuYvze9u+OyPC3Shz8YkBqaCTqB4COnnRoX7XDwMpwI24ZlFEel2yEj0k8LTWEQ==",
+    "adaptations": [
+      "Unmodified published release skill and six workflow references; original repository entrypoint preserved",
+      "Codex picker metadata and provenance added",
+      "44 release Markdown guides, upstream README, and MIT license bundled"
+    ]
   }
 ]
