@@ -30,6 +30,10 @@ The adapted `brainstorming` skill includes its original source, MIT license, bui
 
 The package includes its seven released workflow files, original repository entrypoint, MIT license, upstream README, and 44 release guides. Restore the runtime with `npm install --global rea-agents@6.4.0`. Node.js 22.19+, 24.11+, or 26+ is required on the supported release lines. Static JavaScript analysis works without a disassembler. Native decompilation needs a supported configured Ghidra, Hopper, or IDA provider; other specialized workflows have their own host and tool prerequisites. No native analysis engine was configured during this installation.
 
+## Roll the dice
+
+`roll-the-dice` uses a Python standard-library helper for an actual uniform draw among viable options, then follows the selected path through the authorized task. Python is already available; no package installation is needed. Run its bundled check with `python -X utf8 scripts/test_roll.py` from the skill folder. The poem is an attributed inspiration, with no poem text included.
+
 ## Windows paths
 
 - Claude and OnchainOS: `~/.local/bin/claude.exe`, `~/.local/bin/onchainos.exe`.

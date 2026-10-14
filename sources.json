@@ -2013,5 +2013,31 @@
       "Codex picker metadata and provenance added",
       "44 release Markdown guides, upstream README, and MIT license bundled"
     ]
+  },
+  {
+    "repo": "raiinman/skill-library",
+    "selector": "roll-the-dice",
+    "category": "personal-workflow",
+    "name": "roll-the-dice",
+    "listing": "https://github.com/raiinman/skill-library/tree/main/skills/personal-workflow/roll-the-dice",
+    "path": "skills/personal-workflow/roll-the-dice",
+    "upstream_path": null,
+    "commit": null,
+    "source_url": "https://github.com/raiinman/skill-library/blob/main/skills/personal-workflow/roll-the-dice/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "origin": "original",
+    "created": "2026-10-13",
+    "inspirations": [
+      "User-defined Flipism",
+      "https://hellopoetry.com/poem/68266/roll-the-dice"
+    ],
+    "adaptations": [
+      "Original skill for randomly choosing a viable delegated path and completing the work",
+      "Python standard-library randomizer with regression check; no extra dependencies",
+      "Poem linked as inspiration without reproducing its text"
+    ]
   }
 ]

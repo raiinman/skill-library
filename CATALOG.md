@@ -114,6 +114,7 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$grill-me`](skills/personal-workflow/grill-me/SKILL.md) · [source](skills/personal-workflow/grill-me/SOURCE.md)
 - [`$grilling`](skills/personal-workflow/grilling/SKILL.md) · [source](skills/personal-workflow/grilling/SOURCE.md)
 - [`$handoff`](skills/personal-workflow/handoff/SKILL.md) · [source](skills/personal-workflow/handoff/SOURCE.md)
+- [`$roll-the-dice`](skills/personal-workflow/roll-the-dice/SKILL.md) · [source](skills/personal-workflow/roll-the-dice/SOURCE.md)
 - [`$teach`](skills/personal-workflow/teach/SKILL.md) · [source](skills/personal-workflow/teach/SOURCE.md)
 - [`$to-questionnaire`](skills/personal-workflow/to-questionnaire/SKILL.md) · [source](skills/personal-workflow/to-questionnaire/SOURCE.md)
 - [`$wait-what`](skills/personal-workflow/wait-what/SKILL.md) · [source](skills/personal-workflow/wait-what/SOURCE.md)
