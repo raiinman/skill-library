@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arcads Competitor Ad Research"
+  short_description: "Research competitor ads in Meta’s library"
+  default_prompt: "Use $arcads-spy-competitor-ads to help with my competitor ad research brief and references."

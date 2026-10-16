@@ -2103,5 +2103,327 @@
       "Unsupported Bash tool restriction removed; actual belt CLI schema, file inputs, and authentication preflight used",
       "Related skill installations are optional, not prerequisites; model catalog kept as a dated upstream reference"
     ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "ads",
+    "category": "marketing-and-ads",
+    "name": "arcads-ads",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-ads",
+    "upstream_path": "skills/ads/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/ads/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "5e45a6bb52036632bbb03a91524962cc6f394be0897527b7f64e5ca17d47489a",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "amazon-listing-system",
+    "category": "marketing-and-ads",
+    "name": "arcads-amazon-listing-system",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-amazon-listing-system",
+    "upstream_path": "skills/amazon-listing-system/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/amazon-listing-system/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "258575e89c09905c450f7a2ce9e6ee05ad5a81d06005d8841e3bac55cbb371a1",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills",
+      "Main product hero requirements distinguished from promotional secondary-image graphics"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "animated-ad",
+    "category": "marketing-and-ads",
+    "name": "arcads-animated-ad",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-animated-ad",
+    "upstream_path": "skills/animated-ad/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/animated-ad/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "cea9e22a8a14f20270ff30430b6e11b11b9015048cb6b84ee6ff9667a158f154",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "cinematic-ads",
+    "category": "marketing-and-ads",
+    "name": "arcads-cinematic-ads",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-cinematic-ads",
+    "upstream_path": "skills/cinematic-ads/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/cinematic-ads/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "6158e8acd97aad6457d1e5691f0c5dfc237f28464e0634c0c05726e9296fc7bd",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "clone-hook",
+    "category": "marketing-and-ads",
+    "name": "arcads-clone-hook",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-clone-hook",
+    "upstream_path": "skills/clone-hook/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/clone-hook/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "cf63eaa5b22f80a1250e1de6329c21c533742d2267005b90ff450fa8791a856e",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "clone-static-ad",
+    "category": "marketing-and-ads",
+    "name": "arcads-clone-static-ad",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-clone-static-ad",
+    "upstream_path": "skills/clone-static-ad/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/clone-static-ad/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "db33a2fad2ff89dff3fec8b4c373a3196e09b779d1a752b2cfb39cbeec0ef806",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "collage-motion",
+    "category": "marketing-and-ads",
+    "name": "arcads-collage-motion",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-collage-motion",
+    "upstream_path": "skills/collage-motion/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/collage-motion/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "67a72fb4635ed4fea0e8eaa1af507a154019136e36945232615e42a204e464a2",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "fpv-drone-path",
+    "category": "marketing-and-ads",
+    "name": "arcads-fpv-drone-path",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-fpv-drone-path",
+    "upstream_path": "skills/fpv-drone-path/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/fpv-drone-path/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "41f43db05b0ffa60cb31f0ea4d3c2f0705cbb8f6d4e210c7aea3ddb489a7f7e0",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "image-to-motion",
+    "category": "marketing-and-ads",
+    "name": "arcads-image-to-motion",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-image-to-motion",
+    "upstream_path": "skills/image-to-motion/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/image-to-motion/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "154941419bb4da97c5db8ae4bba2e40967d3ecc77b927d1d1bedc67c6f263d14",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "media-router",
+    "category": "marketing-and-ads",
+    "name": "arcads-media-router",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-media-router",
+    "upstream_path": "skills/media-router/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/media-router/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "57df7318623cedd5aa01c6c59bd8dd25eaef5819a65fb09f8fbd35b8382f7ad0",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "omniflash-restyle",
+    "category": "marketing-and-ads",
+    "name": "arcads-omniflash-restyle",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-omniflash-restyle",
+    "upstream_path": "skills/omniflash-restyle/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/omniflash-restyle/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "6cd62035329533b79033eca0729ff61907a8932537f20ec7979c114337560da4",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "pixar-ad",
+    "category": "marketing-and-ads",
+    "name": "arcads-pixar-ad",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-pixar-ad",
+    "upstream_path": "skills/pixar-ad/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/pixar-ad/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "53533713b61e633502c4566bb03155fd7be15112e681457f714eb7ad888aaca9",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "spy-competitor-ads",
+    "category": "marketing-and-ads",
+    "name": "arcads-spy-competitor-ads",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-spy-competitor-ads",
+    "upstream_path": "skills/spy-competitor-ads/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/spy-competitor-ads/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "bc4a52337b16fe0332baca3963a2339fb32c475b2c8f71b9396e07c93bc4a0cc",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills",
+      "Replaced injected browser download scripts and wildcard overwrite moves with supported browser downloads and scoped file handling"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "static-to-motion",
+    "category": "marketing-and-ads",
+    "name": "arcads-static-to-motion",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-static-to-motion",
+    "upstream_path": "skills/static-to-motion/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/static-to-motion/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "bf47155a4282c15a1ee4789da3da51cd40fd9ae09ee8d116fa2586a0782b3970",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "tsunami-soundstage",
+    "category": "marketing-and-ads",
+    "name": "arcads-tsunami-soundstage",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-tsunami-soundstage",
+    "upstream_path": "skills/tsunami-soundstage/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/tsunami-soundstage/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "1805628ea63796f4ef32011539f973d00c0f2e3778e40d6a28bdc16d6953f053",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
+  },
+  {
+    "repo": "arcads-ai/skills",
+    "selector": "viral-clone",
+    "category": "marketing-and-ads",
+    "name": "arcads-viral-clone",
+    "listing": "https://github.com/arcads-ai/skills",
+    "path": "skills/marketing-and-ads/arcads-viral-clone",
+    "upstream_path": "skills/viral-clone/SKILL.md",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "source_url": "https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/viral-clone/SKILL.md",
+    "license": "MIT declared in upstream plugin manifests; no standalone license file",
+    "license_files": [],
+    "original_sha256": "8f5ec1b8c31269c6bb51bc2fbd622d874e911efb6224f7d7e31d0c51a67f5955",
+    "adaptations": [
+      "Codex namespace and picker metadata; original entrypoint retained byte-for-byte",
+      "Full creative workflow disclosed separately, with explicit Codex runtime precedence",
+      "Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks",
+      "All skill-local references preserved; complete source repository archived in collections/arcads-skills"
+    ]
   }
 ]

@@ -1,0 +1,12 @@
+interface:
+  display_name: "Arcads Cinematic Ads"
+  short_description: "Build cinematic product stories and films"
+  default_prompt: "Use $arcads-cinematic-ads to help with my cinematic ads brief and references."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "arcads"
+      description: "Arcads media generation and editing"
+      transport: "streamable_http"
+      url: "https://mcp.arcads.ai"

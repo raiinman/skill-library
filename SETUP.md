@@ -43,6 +43,14 @@ Three packages are in `skills/video-and-audio`: `video-editing`, `seedance-2-0-p
 - AI generation: native inference.sh `belt` v1.25.9 installed in `~/.local/bin`, with `infsh` and `inferencesh` aliases. The vendor manifest ZIP SHA256 was verified: `d1a63616e8ecc932872aaff1bb65f29480328d924e9a4721af4855e1d48dda0d`. CLI version/help checks passed. Sign in with `belt login` before cloud generation. No paid generation, upload, or account creation was performed during installation.
 - Fusion: both complete preset bundles, their provenance, and original macOS Lua installers are retained. Windows installation guidance is bundled separately. DaVinci Resolve is optional and was not found at its standard Windows location; no native Fusion import or render was tested here. Upstream native-test claims remain labeled as upstream results.
 
+## Arcads marketing skills
+
+All 16 requested Arcads skills are packaged in `skills/marketing-and-ads` with the `arcads-` prefix for clear Codex discovery. Each includes its original entrypoint, creative workflow, needed references, runtime compatibility notes, and picker entry. The complete 28-file upstream source at commit `7af9117e45a8f4ddc2cae60283baf701eae66b4b` is preserved in `collections/arcads-skills`, including both plugin manifests and the original build script. Both manifests declare MIT; upstream supplies no standalone license text.
+
+The official remote MCP server `https://mcp.arcads.ai` is registered in this computer's Codex configuration. A read-only preflight returned HTTP 401 with OAuth resource discovery, so authentication and actual generation remain untested. Complete `codex mcp login arcads` when ready to use Arcads and reconnect Codex. An Arcads account and its credits are separate from Google AI Pro and inference.sh. No Arcads subscription, upload, or generation was performed.
+
+No local Arcads daemon or package installation is required. FFmpeg/ffprobe are already installed for local video assembly. Competitor research uses the connected browser's supported download methods, and prompt-only templates work without an Arcads account. The upstream `jq`/`zip` build script is optional for recreating plugin ZIPs; it is not needed for these installed Codex skill folders. Codex configuration before registration is backed up locally in `~/.codex/tmp/arcads-import/config-before.toml`; it is not included in this repository.
+
 ## Windows paths
 
 - Claude and OnchainOS: `~/.local/bin/claude.exe`, `~/.local/bin/onchainos.exe`.

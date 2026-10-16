@@ -1,0 +1,12 @@
+interface:
+  display_name: "Arcads Animated Ad"
+  short_description: "Write paper-collage animated ad scripts"
+  default_prompt: "Use $arcads-animated-ad to help with my animated ad brief and references."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "arcads"
+      description: "Arcads media generation and editing"
+      transport: "streamable_http"
+      url: "https://mcp.arcads.ai"

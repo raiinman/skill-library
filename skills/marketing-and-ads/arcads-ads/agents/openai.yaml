@@ -1,0 +1,12 @@
+interface:
+  display_name: "Arcads Ads"
+  short_description: "Plan ad creatives from a marketing goal"
+  default_prompt: "Use $arcads-ads to help with my ads brief and references."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "arcads"
+      description: "Arcads media generation and editing"
+      transport: "streamable_http"
+      url: "https://mcp.arcads.ai"

@@ -1,0 +1,12 @@
+interface:
+  display_name: "Arcads Media Router"
+  short_description: "Choose the right connected Arcads tool"
+  default_prompt: "Use $arcads-media-router to help with my media router brief and references."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "arcads"
+      description: "Arcads media generation and editing"
+      transport: "streamable_http"
+      url: "https://mcp.arcads.ai"

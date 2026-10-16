@@ -107,6 +107,25 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$game-development`](skills/game-development/game-development/SKILL.md) · [source](skills/game-development/game-development/SOURCE.md)
 - [`$map-systems`](skills/game-development/map-systems/SKILL.md) · [source](skills/game-development/map-systems/SOURCE.md)
 
+## Marketing And Ads
+
+- [`$arcads-ads`](skills/marketing-and-ads/arcads-ads/SKILL.md) · [source](skills/marketing-and-ads/arcads-ads/SOURCE.md)
+- [`$arcads-amazon-listing-system`](skills/marketing-and-ads/arcads-amazon-listing-system/SKILL.md) · [source](skills/marketing-and-ads/arcads-amazon-listing-system/SOURCE.md)
+- [`$arcads-animated-ad`](skills/marketing-and-ads/arcads-animated-ad/SKILL.md) · [source](skills/marketing-and-ads/arcads-animated-ad/SOURCE.md)
+- [`$arcads-cinematic-ads`](skills/marketing-and-ads/arcads-cinematic-ads/SKILL.md) · [source](skills/marketing-and-ads/arcads-cinematic-ads/SOURCE.md)
+- [`$arcads-clone-hook`](skills/marketing-and-ads/arcads-clone-hook/SKILL.md) · [source](skills/marketing-and-ads/arcads-clone-hook/SOURCE.md)
+- [`$arcads-clone-static-ad`](skills/marketing-and-ads/arcads-clone-static-ad/SKILL.md) · [source](skills/marketing-and-ads/arcads-clone-static-ad/SOURCE.md)
+- [`$arcads-collage-motion`](skills/marketing-and-ads/arcads-collage-motion/SKILL.md) · [source](skills/marketing-and-ads/arcads-collage-motion/SOURCE.md)
+- [`$arcads-fpv-drone-path`](skills/marketing-and-ads/arcads-fpv-drone-path/SKILL.md) · [source](skills/marketing-and-ads/arcads-fpv-drone-path/SOURCE.md)
+- [`$arcads-image-to-motion`](skills/marketing-and-ads/arcads-image-to-motion/SKILL.md) · [source](skills/marketing-and-ads/arcads-image-to-motion/SOURCE.md)
+- [`$arcads-media-router`](skills/marketing-and-ads/arcads-media-router/SKILL.md) · [source](skills/marketing-and-ads/arcads-media-router/SOURCE.md)
+- [`$arcads-omniflash-restyle`](skills/marketing-and-ads/arcads-omniflash-restyle/SKILL.md) · [source](skills/marketing-and-ads/arcads-omniflash-restyle/SOURCE.md)
+- [`$arcads-pixar-ad`](skills/marketing-and-ads/arcads-pixar-ad/SKILL.md) · [source](skills/marketing-and-ads/arcads-pixar-ad/SOURCE.md)
+- [`$arcads-spy-competitor-ads`](skills/marketing-and-ads/arcads-spy-competitor-ads/SKILL.md) · [source](skills/marketing-and-ads/arcads-spy-competitor-ads/SOURCE.md)
+- [`$arcads-static-to-motion`](skills/marketing-and-ads/arcads-static-to-motion/SKILL.md) · [source](skills/marketing-and-ads/arcads-static-to-motion/SOURCE.md)
+- [`$arcads-tsunami-soundstage`](skills/marketing-and-ads/arcads-tsunami-soundstage/SKILL.md) · [source](skills/marketing-and-ads/arcads-tsunami-soundstage/SOURCE.md)
+- [`$arcads-viral-clone`](skills/marketing-and-ads/arcads-viral-clone/SKILL.md) · [source](skills/marketing-and-ads/arcads-viral-clone/SOURCE.md)
+
 ## Personal Workflow
 
 - [`$1f3d9-citylife`](skills/personal-workflow/1f3d9-citylife/SKILL.md) · [source](skills/personal-workflow/1f3d9-citylife/SOURCE.md)

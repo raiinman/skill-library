@@ -1,0 +1,12 @@
+interface:
+  display_name: "Arcads Clone Static Ad"
+  short_description: "Adapt a static ad to a different product"
+  default_prompt: "Use $arcads-clone-static-ad to help with my clone static ad brief and references."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "arcads"
+      description: "Arcads media generation and editing"
+      transport: "streamable_http"
+      url: "https://mcp.arcads.ai"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arcads FPV Drone Path"
+  short_description: "Turn a drawn path into a drone-shot prompt"
+  default_prompt: "Use $arcads-fpv-drone-path to help with my fpv drone path brief and references."
