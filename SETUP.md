@@ -34,6 +34,15 @@ The package includes its seven released workflow files, original repository entr
 
 `roll-the-dice` uses a Python standard-library helper for an actual uniform draw among viable options, then follows the selected path through the authorized task. Python is already available; no package installation is needed. Run its bundled check with `python -X utf8 scripts/test_roll.py` from the skill folder. The poem is an attributed inspiration, with no poem text included.
 
+## Video and audio
+
+Three packages are in `skills/video-and-audio`: `video-editing`, `seedance-2-0-prompter`, and `ai-video-generation`. Their pinned originals and all requested-skill supporting files are included. The first two retain their upstream MIT licenses. The inference-sh source has no license file or explicit grant in its pinned tree; no license is assigned to that package. Confirm permission before further redistribution or reuse that requires a license.
+
+- Local editing: FFmpeg and ffprobe 8.1.2 are already installed through WinGet. A synthetic cut/export/decode check verifies the local editing route. Remotion is optional and belongs in a project that needs programmable composition. Cloud voice, transcription, stock, and generation services are optional and need their own accounts or tools.
+- Seedance prompting: instruction-only, with all three reference guides. No Pexo CLI or account is needed. Generation uses a chosen provider's actual upload identifiers and schema, not just `@filename` prose.
+- AI generation: native inference.sh `belt` v1.25.9 installed in `~/.local/bin`, with `infsh` and `inferencesh` aliases. The vendor manifest ZIP SHA256 was verified: `d1a63616e8ecc932872aaff1bb65f29480328d924e9a4721af4855e1d48dda0d`. CLI version/help checks passed. Sign in with `belt login` before cloud generation. No paid generation, upload, or account creation was performed during installation.
+- Fusion: both complete preset bundles, their provenance, and original macOS Lua installers are retained. Windows installation guidance is bundled separately. DaVinci Resolve is optional and was not found at its standard Windows location; no native Fusion import or render was tested here. Upstream native-test claims remain labeled as upstream results.
+
 ## Windows paths
 
 - Claude and OnchainOS: `~/.local/bin/claude.exe`, `~/.local/bin/onchainos.exe`.

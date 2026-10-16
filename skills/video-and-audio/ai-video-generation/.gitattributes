@@ -1,0 +1,2 @@
+references/upstream-*.md -text whitespace=-blank-at-eof
+assets/** -text

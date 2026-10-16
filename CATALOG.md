@@ -152,3 +152,9 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$unreal-systems-engineer`](skills/unreal-engine/unreal-systems-engineer/SKILL.md) · [source](skills/unreal-engine/unreal-systems-engineer/SOURCE.md)
 - [`$unreal-technical-artist`](skills/unreal-engine/unreal-technical-artist/SKILL.md) · [source](skills/unreal-engine/unreal-technical-artist/SOURCE.md)
 - [`$unreal-world-builder`](skills/unreal-engine/unreal-world-builder/SKILL.md) · [source](skills/unreal-engine/unreal-world-builder/SOURCE.md)
+
+## Video And Audio
+
+- [`$ai-video-generation`](skills/video-and-audio/ai-video-generation/SKILL.md) · [source](skills/video-and-audio/ai-video-generation/SOURCE.md)
+- [`$seedance-2-0-prompter`](skills/video-and-audio/seedance-2-0-prompter/SKILL.md) · [source](skills/video-and-audio/seedance-2-0-prompter/SOURCE.md)
+- [`$video-editing`](skills/video-and-audio/video-editing/SKILL.md) · [source](skills/video-and-audio/video-editing/SOURCE.md)

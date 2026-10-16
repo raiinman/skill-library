@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seedance 2.0 Prompter"
+  short_description: "Build video prompts from multimodal assets"
+  default_prompt: "Use $seedance-2-0-prompter to turn my brief and references into a video prompt."

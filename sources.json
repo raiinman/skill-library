@@ -2039,5 +2039,69 @@
       "Python standard-library randomizer with regression check; no extra dependencies",
       "Poem linked as inspiration without reproducing its text"
     ]
+  },
+  {
+    "repo": "affaan-m/everything-claude-code",
+    "selector": "video-editing",
+    "category": "video-and-audio",
+    "name": "video-editing",
+    "listing": "https://explainx.ai/skills/affaan-m/everything-claude-code/video-editing",
+    "path": "skills/video-and-audio/video-editing",
+    "upstream_path": "skills/video-editing/SKILL.md",
+    "commit": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+    "source_url": "https://github.com/affaan-m/everything-claude-code/blob/76aaa77df6adc5b889e689007bf99b9a4f74af34/skills/video-editing/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "original_sha256": "4ab8c9ef5a511e8a0de9ed375b9edbbfa74f23a0881519d2aceea67e7252b197",
+    "adaptations": [
+      "Codex entrypoint and picker metadata; pinned original entrypoint retained byte-for-byte",
+      "Relative resource paths and Windows tool guidance; optional services scoped to the requested task",
+      "Both complete Fusion preset bundles preserved, with their provenance and original macOS installers",
+      "Accurate FFmpeg trimming, ordered edits, and output verification replace mandatory multi-service pipeline"
+    ]
+  },
+  {
+    "repo": "pexoai/pexo-skills",
+    "selector": "seedance-2.0-prompter",
+    "category": "video-and-audio",
+    "name": "seedance-2-0-prompter",
+    "listing": "https://explainx.ai/skills/pexoai/pexo-skills/seedance-2.0-prompter",
+    "path": "skills/video-and-audio/seedance-2-0-prompter",
+    "upstream_path": "skills/seedance-2.0-prompter/SKILL.md",
+    "commit": "f724267e45a065b6be445ea6f07312e62d3207cd",
+    "source_url": "https://github.com/pexoai/pexo-skills/blob/f724267e45a065b6be445ea6f07312e62d3207cd/skills/seedance-2.0-prompter/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "original_sha256": "2bc27e046afb539af0b65ee41b8a5d522d2c0a015486ffc88ec39a37fce013af",
+    "adaptations": [
+      "Codex entrypoint and picker metadata; pinned original entrypoint retained byte-for-byte",
+      "Relative resource paths and Windows tool guidance; optional services scoped to the requested task",
+      "All three upstream reference guides bundled; prompt references distinguished from provider upload identifiers",
+      "Skill identifier normalized to seedance-2-0-prompter because Codex names do not accept dots"
+    ]
+  },
+  {
+    "repo": "inference-sh/skills",
+    "selector": "ai-video-generation",
+    "category": "video-and-audio",
+    "name": "ai-video-generation",
+    "listing": "https://explainx.ai/skills/inference-sh/skills/ai-video-generation",
+    "path": "skills/video-and-audio/ai-video-generation",
+    "upstream_path": "tools/video/ai-video-generation/SKILL.md",
+    "commit": "0cbf91c26ada28702c79962406286f0c14292150",
+    "source_url": "https://github.com/inference-sh/skills/blob/0cbf91c26ada28702c79962406286f0c14292150/tools/video/ai-video-generation/SKILL.md",
+    "license": "No license identified upstream",
+    "license_files": [],
+    "original_sha256": "30521e6262ed22b6f548c9dd636b667fee916bc3ce9c747a208b8daa46aff427",
+    "adaptations": [
+      "Codex entrypoint and picker metadata; pinned original entrypoint retained byte-for-byte",
+      "Relative resource paths and Windows tool guidance; optional services scoped to the requested task",
+      "Unsupported Bash tool restriction removed; actual belt CLI schema, file inputs, and authentication preflight used",
+      "Related skill installations are optional, not prerequisites; model catalog kept as a dated upstream reference"
+    ]
   }
 ]

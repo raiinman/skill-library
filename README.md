@@ -27,7 +27,7 @@
 <a name="readme-overview"></a>
 <h2 align="center">Overview</h2>
 
-Your home for skills. 103 skill packages are organized by purpose, including the first 27 imports, your existing GitHub, local, and engineering-plugin skills, and brainstorming, REA, and random decision workflows.
+Your home for skills. 106 skill packages are organized by purpose, including the first 27 imports, your existing GitHub, local, and engineering-plugin skills, and brainstorming, REA, random decision workflows, and video editing and generation.
 
 <p align="center"><a href="#readme-index">↑ Back to index</a></p>
 
@@ -106,6 +106,10 @@ Your home for skills. 103 skill packages are organized by purpose, including the
 <tr>
 <td align="center"><a href="skills/unreal-engine/">Unreal Engine</a></td>
 <td align="center" style="text-align:right">7</td>
+</tr>
+<tr>
+<td align="center"><a href="skills/video-and-audio/">Video And Audio</a></td>
+<td align="center" style="text-align:right">3</td>
 </tr>
 </tbody>
 </table>
