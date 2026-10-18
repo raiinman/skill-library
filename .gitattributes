@@ -1,3 +1,3 @@
 * text=auto
 **/references/upstream-skill.md -text
-**/references/upstream-entrypoint.md -text
+**/references/upstream-entrypoint.md -text -whitespace
