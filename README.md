@@ -27,7 +27,7 @@
 <a name="readme-overview"></a>
 <h2 align="center">Overview</h2>
 
-Your home for skills. 134 skill packages are organized by purpose, including the first 27 imports, your existing GitHub, local, and engineering-plugin skills, and brainstorming, REA, random decision workflows, and video editing and generation.
+Your home for skills. 137 skill packages are organized by purpose, including the first 27 imports, your existing GitHub, local, and engineering-plugin skills, and brainstorming, REA, random decision workflows, and video editing and generation.
 
 <p align="center"><a href="#readme-index">↑ Back to index</a></p>
 
@@ -45,7 +45,7 @@ Your home for skills. 134 skill packages are organized by purpose, including the
 <tbody>
 <tr>
 <td align="center"><a href="skills/3d-and-web/">3D And Web</a></td>
-<td align="center" style="text-align:right">14</td>
+<td align="center" style="text-align:right">17</td>
 </tr>
 <tr>
 <td align="center"><a href="skills/business-planning/">Business Planning</a></td>

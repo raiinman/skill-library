@@ -1,0 +1,232 @@
+{
+  "repository": "saofund/LLM-Blender-Agent",
+  "commit": "bcbb6863b4ca60275332ee791df5e7dab84821f8",
+  "archive": "assets/upstream.zip",
+  "sha256": "d53466a8ba1fecde8acdb51269354678ae5e4358837b96cd7f50b69b42d7a8d5",
+  "files": {
+    ".gitignore": {
+      "bytes": 396,
+      "sha256": "8f2c00c95718837cb6e4b2fe1a98afdd2de2cf9eb6eb06e053e7c13a921cb245"
+    },
+    "LICENSE": {
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "README.md": {
+      "bytes": 6782,
+      "sha256": "39c0c6dae3b0bb4c3d7b07266c71c11180f4f289c3b5c7165c4928107d19ab88"
+    },
+    "addon.py": {
+      "bytes": 48540,
+      "sha256": "71d2a68f607b6d5092c2fbe921a9f31730b144c7c4acf71775740656502335b6"
+    },
+    "app.py": {
+      "bytes": 2060,
+      "sha256": "848d700e8ff204e676989fd1ff2c63a563311667667b7ae993e46a4743742999"
+    },
+    "asserts/banner1.jpg": {
+      "bytes": 146615,
+      "sha256": "bd992edc0b1dc1302fe1276573c105d489ee6811ddc7e92ac8a6334630cfafda"
+    },
+    "asserts/download_icons.ps1": {
+      "bytes": 1318,
+      "sha256": "e1988c3a147009158d488d957d23827f0c20a3a6652bee611023886cd5992fb7"
+    },
+    "asserts/guide/how_to_start_addon.gif": {
+      "bytes": 3052067,
+      "sha256": "ff3dd2ca85b9da8a41464dd296ba0afa51cd435a5ea58227490334528b6f3cf5"
+    },
+    "asserts/guide/if_cant_render_images.png": {
+      "bytes": 1710369,
+      "sha256": "964556817638953ebdcbff729ba2a6d3d296ce66e73e87c8045ed549be36c0c4"
+    },
+    "asserts/icons/aimlapi.png": {
+      "bytes": 578,
+      "sha256": "0f08af23767b7b975982022149a3dcc80720b9ec5cfade4bcce8154e5454576e"
+    },
+    "asserts/icons/claude.png": {
+      "bytes": 15086,
+      "sha256": "816a55828befeb50fe8a9556cb92d80194efefbd3f4e04ccf694992dd8e085e3"
+    },
+    "asserts/icons/deepseek.png": {
+      "bytes": 209762,
+      "sha256": "30a4420e6e4dcb17fd7de560c5004346c2bc8cd971d2d5f5ee15326603e51321"
+    },
+    "asserts/icons/doubao.png": {
+      "bytes": 24409,
+      "sha256": "cf686448b25b6fe106d7fa07d683a4ca6fe249ffb6e07bfaf0d4cb155d97de9e"
+    },
+    "asserts/icons/hunyuan.png": {
+      "bytes": 3180,
+      "sha256": "d42c09bc6f08bb8435f3549c88467590aa73b0ce8cf38a1513398bc8dcb7b971"
+    },
+    "asserts/icons/moonshot.png": {
+      "bytes": 3310,
+      "sha256": "b963e8d74a9a4f6986fee2662e333ae4b4379f0553c8bf9eee50d40a3077014f"
+    },
+    "asserts/icons/zhipu.png": {
+      "bytes": 2217,
+      "sha256": "94e48956654f0b02d7a113628cdea50819579c6bccecec8888928f321c0f997d"
+    },
+    "asserts/ui1.png": {
+      "bytes": 297109,
+      "sha256": "55314b967e1a3dac97882e04889d1326dd44675b0d3067d63ac48b6c8a41dc0e"
+    },
+    "asserts/ui2.gif": {
+      "bytes": 2572481,
+      "sha256": "d79ff3b838e808d5e746bd72bab20a0ca1ac50db003f1257fe0b17184eddc1e9"
+    },
+    "backup/addon.py": {
+      "bytes": 77437,
+      "sha256": "568b2c9a5882de56d7b28f29197ef90d67bc94a9a324e9b1b4dbcab97b47dce4"
+    },
+    "backup/hunyuan_addon.py": {
+      "bytes": 12350,
+      "sha256": "ee79b5430c6e116e0c9b78bfd76f484b6ffd169fbb24cebbb2600cb163fa9cb3"
+    },
+    "config.json": {
+      "bytes": 665,
+      "sha256": "6c4ce4cf38da2ed5467f7dcb59e2027fb01253e8cd21bb9c467f35113a2f204a"
+    },
+    "data/aimlapi_samples/end_turn_and_no_content.json": {
+      "bytes": 550,
+      "sha256": "aaca46b920989e6991e1d28634612f4c26815bc3fc180b563423515bfbc5cc35"
+    },
+    "data/aimlapi_samples/function_call.json": {
+      "bytes": 1051,
+      "sha256": "e423d9add39cf2ea3935fecc111a27e22688ce181e96ed073a7673ea58523cd1"
+    },
+    "data/aimlapi_samples/response_and_end.json": {
+      "bytes": 1642,
+      "sha256": "2d42b03c0204da945c5696603bf0dc1879fb6c13e74940b3f3a06a5d6d04dc3a"
+    },
+    "data/stream_parser.py": {
+      "bytes": 11086,
+      "sha256": "8b76c20a7c76818edea5c3c67a29d4e20d127d6757608ed8aa591fc142eaa3e0"
+    },
+    "data/stream_samples/processed_results.json": {
+      "bytes": 4000,
+      "sha256": "1463a108aa29afa747a0dca4211bc709f59b9930217c45322f8919845028d242"
+    },
+    "data/stream_samples/test_stream.jsonl": {
+      "bytes": 7983,
+      "sha256": "36aaf8308929b1b1cce8b9a1e2c64973a91ca53423f6a1671d8e48da0562c3aa"
+    },
+    "doc/BlenderMCP_API_Doc.md": {
+      "bytes": 6823,
+      "sha256": "cf60d8f79b4b720f790469e0003b887e47e1e60dcf9b9902af31541d63dc7e80"
+    },
+    "doc/project_structure.md": {
+      "bytes": 1476,
+      "sha256": "f93bfbbaf4c15ac488bbdb012b56ff12e2f346ce161c1ad08abf1d5a06192aeb"
+    },
+    "hunyuan/api_server.py": {
+      "bytes": 11394,
+      "sha256": "638afd11500f3627a2c8594be0d2b5f7aab7c88289283c32b50656a62eddd738"
+    },
+    "hunyuan/how-to-install-hunyuan.md": {
+      "bytes": 1463,
+      "sha256": "4c293189dddf9e0064814bf29e755f2bf6ad9ee8da304b34a83c90d56839e389"
+    },
+    "requirements.txt": {
+      "bytes": 235,
+      "sha256": "14c5e33c79e583f618b2200d49841810fb014ba112a46c45efdb793c380e7c87"
+    },
+    "src/__init__.py": {
+      "bytes": 130,
+      "sha256": "3d8a697ebb79440214ee58ec4ec8c181ae72091590d9ca48d68d5bf9cc4646d8"
+    },
+    "src/agent/__init__.py": {
+      "bytes": 67,
+      "sha256": "bb5d788e34bf59bb250a2098fd57db465e138295aa26b64a94b431c4f0634deb"
+    },
+    "src/agent/agent.py": {
+      "bytes": 14348,
+      "sha256": "4d6d8416174bc959071a3e471c886df62295695b4709bcb072d24ccc3f67d28f"
+    },
+    "src/blender/__init__.py": {
+      "bytes": 71,
+      "sha256": "c095fd6b8d69cd038a0484fedf5c11a84c5e0b39b76781fe17c446ffe907cf2e"
+    },
+    "src/blender/client.py": {
+      "bytes": 17231,
+      "sha256": "7e3a17f6de6bb3ab0722ee2519f0bcd549d033cd59bbcbd31b0335aedf7efb51"
+    },
+    "src/blender/test_client.py": {
+      "bytes": 14574,
+      "sha256": "4d0dc3b39811d2547f8a3b1593d4a876834dff5f3e77c58019c36d540b4db2d5"
+    },
+    "src/llm/__init__.py": {
+      "bytes": 2615,
+      "sha256": "e87a02a6fd0b2484cf94e1551cdf3cd3cdfca757f3a8f050cb8ff4c0526673b4"
+    },
+    "src/llm/aimlapi.py": {
+      "bytes": 24502,
+      "sha256": "45a0ca0cf6708238a884b4fc62d29cdb7170bdd4928ad81601c7449dfbb9f6f4"
+    },
+    "src/llm/base.py": {
+      "bytes": 2354,
+      "sha256": "850b309d1b118567486532bbc8ef41dc1b43bb4a21310f7539870ec745be23be"
+    },
+    "src/llm/claude.py": {
+      "bytes": 4936,
+      "sha256": "225d67e6516dcb3344883893f06b168b3a2bc33569331d85d5b935b1a703d4db"
+    },
+    "src/llm/deepseek.py": {
+      "bytes": 5117,
+      "sha256": "af1900090df792d56679bafe07e53a672e4682a31201b197388a107f6dd69f67"
+    },
+    "src/llm/doubao.py": {
+      "bytes": 4404,
+      "sha256": "777f8dbea16573ddb8df9fa6edf02b028d3105c63020e03205dcf8a4eb5be47b"
+    },
+    "src/llm/moonshot.py": {
+      "bytes": 4556,
+      "sha256": "4c1fd2d9ab09538546dab106ba8c86708232e37f61cb31e2b4744e8f812fbd5c"
+    },
+    "src/llm/zhipu.py": {
+      "bytes": 4990,
+      "sha256": "edc16b0b13a5e9829e72d540c3123bb704c881ebec77bbb3ee383575bf851a66"
+    },
+    "ui/__init__.py": {
+      "bytes": 17,
+      "sha256": "07c511d3e80b68c54d6655680a974669ee626319804757fd6fb60bf65f80260f"
+    },
+    "ui/components/__init__.py": {
+      "bytes": 23,
+      "sha256": "f7bce73146be98604429f563a296d1ee55c3e416ec048629fd675531794d9ebc"
+    },
+    "ui/components/bot_ui.py": {
+      "bytes": 3764,
+      "sha256": "26b446f1125f79be97529903fbfb7e6175d6cb6f20f1db9a1ac09ffa593e4e4a"
+    },
+    "ui/components/chat_tab.py": {
+      "bytes": 13308,
+      "sha256": "c04121d274c2767107ddd8d5ec61b83a2951309e7f271b6ceec0a247d326c27b"
+    },
+    "ui/globals.py": {
+      "bytes": 295,
+      "sha256": "7b871baa237a12e7379f93241f98d8bf1c3a7081bf8be3b4517e8f6234ba5504"
+    },
+    "ui/main.py": {
+      "bytes": 2391,
+      "sha256": "9dffd02b0282b81d71e9ffc52e097e0fe19fd843116332567b33969bb18ad4b9"
+    },
+    "ui/utils/__init__.py": {
+      "bytes": 23,
+      "sha256": "eae25eb84207e451d6cf1bf61914bda63d1972156cdfeaf48e6fb26a6016fd51"
+    },
+    "ui/utils/blender_utils.py": {
+      "bytes": 5472,
+      "sha256": "4b7b4fd2f32b9c3626cafc5d801d5926d906057dbbfcb2cd67af0942d1531998"
+    },
+    "ui/utils/chat_utils.py": {
+      "bytes": 13821,
+      "sha256": "4975eb9a7718476c304458297fd2593d7b398c8854185f9cbd9350f19eb76735"
+    },
+    "ui/utils/llm_utils.py": {
+      "bytes": 5835,
+      "sha256": "d63c843e65281e7939fbf39a1e8ac769cdf88339b64d47a83b9e9f9b0ca6c076"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "CC Blender Toolkit"
+  short_description: "Blender production and reference-fitting toolkit"
+  default_prompt: "Use $cc-blender-toolkit for this Blender task."

@@ -2701,5 +2701,74 @@
       "Version-aware native Blender fallback; corrected unsafe or unconditional export, API and state assumptions",
       "Made MCP conditional and corrected universal name-mapping, array preservation, timeout and compression claims; isolated original examples as archive."
     ]
+  },
+  {
+    "repo": "saofund/LLM-Blender-Agent",
+    "selector": "llm-blender-agent",
+    "category": "3d-and-web",
+    "name": "llm-blender-agent",
+    "path": "skills/3d-and-web/llm-blender-agent",
+    "upstream_path": "README.md",
+    "commit": "bcbb6863b4ca60275332ee791df5e7dab84821f8",
+    "source_url": "https://github.com/saofund/LLM-Blender-Agent/blob/bcbb6863b4ca60275332ee791df5e7dab84821f8/README.md",
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "bundled_skill_count": 0,
+    "source_archive": "assets/upstream.zip",
+    "adaptations": [
+      "Single Codex entrypoint with task-scoped routing and native Blender fallback",
+      "Complete byte-verified upstream repository archived, including original specialist skills and support files",
+      "Source extracted outside skill discovery to avoid nested name collisions; optional providers and live MCP kept explicit"
+    ],
+    "upstream_sha256": "39c0c6dae3b0bb4c3d7b07266c71c11180f4f289c3b5c7165c4928107d19ab88",
+    "archive_sha256": "d53466a8ba1fecde8acdb51269354678ae5e4358837b96cd7f50b69b42d7a8d5"
+  },
+  {
+    "repo": "RobLe3/cc-blender-skill",
+    "selector": "cc-blender-toolkit",
+    "category": "3d-and-web",
+    "name": "cc-blender-toolkit",
+    "path": "skills/3d-and-web/cc-blender-toolkit",
+    "upstream_path": "plugin/skills/text-to-blender/SKILL.md",
+    "commit": "a2634b588e80265e796aa53f8ab178d75105c2af",
+    "source_url": "https://github.com/RobLe3/cc-blender-skill/blob/a2634b588e80265e796aa53f8ab178d75105c2af/plugin/skills/text-to-blender/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "bundled_skill_count": 30,
+    "source_archive": "assets/upstream.zip",
+    "adaptations": [
+      "Single Codex entrypoint with task-scoped routing and native Blender fallback",
+      "Complete byte-verified upstream repository archived, including original specialist skills and support files",
+      "Source extracted outside skill discovery to avoid nested name collisions; optional providers and live MCP kept explicit"
+    ],
+    "upstream_sha256": "be8b2f7726e217bf78e65a77dff99a983aa86823ece22c52b71048bae2e2289e",
+    "archive_sha256": "31ede9845e883b175df172ddb03b58aa1594ec2333b657ea1c567c2ebd5c88ea"
+  },
+  {
+    "repo": "arjun988/blender-skills",
+    "selector": "blender-studio",
+    "category": "3d-and-web",
+    "name": "blender-studio",
+    "path": "skills/3d-and-web/blender-studio",
+    "upstream_path": ".claude/skills/blender-director/SKILL.md",
+    "commit": "8f778d2405a214b508d4c7d80742be8e43acdd52",
+    "source_url": "https://github.com/arjun988/blender-skills/blob/8f778d2405a214b508d4c7d80742be8e43acdd52/.claude/skills/blender-director/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "bundled_skill_count": 94,
+    "source_archive": "assets/upstream.zip",
+    "adaptations": [
+      "Single Codex entrypoint with task-scoped routing and native Blender fallback",
+      "Complete byte-verified upstream repository archived, including original specialist skills and support files",
+      "Source extracted outside skill discovery to avoid nested name collisions; optional providers and live MCP kept explicit"
+    ],
+    "upstream_sha256": "ba10ae3243590f94fb114b6cb1e476f8f0510f0a99de100e8c14651d081bc008",
+    "archive_sha256": "e4a051b10c54a266f838cdf6f100043eb96e2066efa4ccaf1b1ec7993f0bc931"
   }
 ]

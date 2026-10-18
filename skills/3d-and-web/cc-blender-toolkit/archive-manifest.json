@@ -1,0 +1,788 @@
+{
+  "repository": "RobLe3/cc-blender-skill",
+  "commit": "a2634b588e80265e796aa53f8ab178d75105c2af",
+  "archive": "assets/upstream.zip",
+  "sha256": "31ede9845e883b175df172ddb03b58aa1594ec2333b657ea1c567c2ebd5c88ea",
+  "files": {
+    ".github/CONTRIBUTING.md": {
+      "bytes": 3505,
+      "sha256": "ec8dedc71816b1b5b1f00b40834fcda6375bdcb40dac6b206fb6c36334401cd7"
+    },
+    ".github/ISSUE_TEMPLATE/bug_report.yml": {
+      "bytes": 3560,
+      "sha256": "487acc1a136f592e841563a9c6dd4fc43e9d94707a8c6a6e61bbf978f2fd943f"
+    },
+    ".github/ISSUE_TEMPLATE/config.yml": {
+      "bytes": 419,
+      "sha256": "00c8dd40b882e9882f273c4f1fc8eaa34d7860ec034a06cc65ea5b9a4be87643"
+    },
+    ".github/ISSUE_TEMPLATE/feature_request.yml": {
+      "bytes": 2071,
+      "sha256": "fea4b3ea33b078574d04d9b3d24432e7b568f4432d420916e09d766826879660"
+    },
+    ".gitignore": {
+      "bytes": 620,
+      "sha256": "b01a046ac4f3f1b5af63ea641a44700fc7a44c734fc174d1e6d9672ae44e725c"
+    },
+    "CHANGELOG.md": {
+      "bytes": 23984,
+      "sha256": "ac48ac7cc86ad16ac52d2f0503c9072d5c78f63c2f8707e79bf9278757b6f4f6"
+    },
+    "LICENSE": {
+      "bytes": 1063,
+      "sha256": "53551803e298669de282d339c7e85ae64e6fbf370d07ca08105d8e0a2d2fbf3d"
+    },
+    "README.md": {
+      "bytes": 23256,
+      "sha256": "a1c24d0126257745407858861f96a7b7a9e967a225e91e5ef2d4c29199410520"
+    },
+    "VERSIONING.md": {
+      "bytes": 28175,
+      "sha256": "b3a870f9644da265ffe8e605130db29907afe86cb5171a9e9603ea879d6d4832"
+    },
+    "docs/BLENDER_BEST_PRACTICES.md": {
+      "bytes": 23358,
+      "sha256": "ea9d78c8757b2286154536cf67506055f7cf3bf51a17ca30759d2acd1280a419"
+    },
+    "docs/BLENDER_INTEGRATION_GUIDE.md": {
+      "bytes": 19912,
+      "sha256": "6f242364d180e0f81a76e8474fd14438b8edbc6fc74f8e6359b741a004058079"
+    },
+    "docs/BLENDER_MCP_ALIGNMENT.md": {
+      "bytes": 11694,
+      "sha256": "9989145a463d8f51363f7fab02ee8da5756063f29563496dc97f7f396d17a857"
+    },
+    "docs/SKILL_FOUNDATION.md": {
+      "bytes": 27029,
+      "sha256": "3ef85fb714fc435f8c18957215484206d98ea1adb6d57ee07601db9978ada0c4"
+    },
+    "docs/SKILL_RESEARCH_SUMMARY.md": {
+      "bytes": 16631,
+      "sha256": "6853b017b542c5d88bfcaa79f8b7d8fadbf564fe8be12571ac5ac94d25c82f60"
+    },
+    "docs/WIREFRAME_SKILL.md": {
+      "bytes": 15070,
+      "sha256": "0358dab4e27541d2862dd7dededd124da5e83276a2cc4dcabf4a83bcbec2a2e5"
+    },
+    "docs/process/BLENDER_TOOLKIT_COMPARISON.md": {
+      "bytes": 4296,
+      "sha256": "a5e50c56b24c26cbab895aef0bbeb770721c34aa7a0deb42862d03f5a0d2cb20"
+    },
+    "docs/process/DEVELOPMENT.md": {
+      "bytes": 11376,
+      "sha256": "5b533b49a989be6baa07da6e2cb6beae75f67fc8dac878b66f5b91569670cb45"
+    },
+    "docs/process/IMPLEMENTATION_LOG.md": {
+      "bytes": 9456,
+      "sha256": "dd383fa43fccbfa87663ec3fc4d27edca917997b604b7bfaf728002f83b3d77b"
+    },
+    "docs/process/INSTALL_BLENDER_MCP.md": {
+      "bytes": 4627,
+      "sha256": "12224d635813e93d6e6ced7b6464c3024b8e5b8c3a16cabd472ceac55f5d0da4"
+    },
+    "docs/process/MCP_COVERAGE_ASSESSMENT.md": {
+      "bytes": 8910,
+      "sha256": "8081c94b1e8d7087c2011fc9a6f363c56c1018df7e00a2eab2690804b3275c2a"
+    },
+    "docs/process/PLAN.md": {
+      "bytes": 12422,
+      "sha256": "eb896b2823a97ecc3df95a282aa27dd72dc80e610beea31d547e6dd7e424b0b5"
+    },
+    "docs/process/TESTING_PLAN.md": {
+      "bytes": 8864,
+      "sha256": "834a4d230d80a1717c1f83cb86880ee5cab66c77daa8a0379855ef5893b1efbe"
+    },
+    "docs/process/VERIFICATION_REPORT.md": {
+      "bytes": 16001,
+      "sha256": "7f917384d1f4ec02bb50e0e9dd60d7f39ec359ae05d15b5568ef36cde7ac3539"
+    },
+    "docs/test-results/test.md": {
+      "bytes": 19510,
+      "sha256": "a9b79bfd4008d00195ec29f5bab47954723747f8bb1cbbbee1e9c825fbe77124"
+    },
+    "docs/test-results/test_round2.md": {
+      "bytes": 21079,
+      "sha256": "9acfda824c186d8334250edd0f8f66a0879ec8e051fa2b5d48d7fd5d786d289e"
+    },
+    "docs/test-results/test_round3.md": {
+      "bytes": 12752,
+      "sha256": "4a6701ca74714e280f9456f6c78beb5813b28a83ea08933243932171ed1fd4f7"
+    },
+    "docs/test-results/v1.4.0-integration.md": {
+      "bytes": 5249,
+      "sha256": "0b199ca5df2ec34d621ab3f10e3e884dc5ae4873710b3d8a21181801da59e0d7"
+    },
+    "docs/test-results/v1.4.0-summary.json": {
+      "bytes": 4134,
+      "sha256": "0722e8148c83f55d93944bdfaac8ab4c4283800f2adaab15d4555542fdaaaab1"
+    },
+    "knowledge/01-modeling/00-overview.md": {
+      "bytes": 10126,
+      "sha256": "1026110415e27f325cc653dfdc71ee4d8f84ba0563e95478621caabb3084ec60"
+    },
+    "knowledge/02-curves-surfaces/00-overview.md": {
+      "bytes": 8613,
+      "sha256": "fb8a1ca657a6d2f40e3e559e44cbb20b07a652d0593d92e9d5d5fbc56760f8c8"
+    },
+    "knowledge/03-sculpting-retopo/00-overview.md": {
+      "bytes": 10247,
+      "sha256": "ae964c020b1b0dde8476376b7ea80eae5b59ea9e402908c1a7f05cd857ed4c28"
+    },
+    "knowledge/04-geometry-nodes/00-overview.md": {
+      "bytes": 10298,
+      "sha256": "80660e7e99aae73b4a4a389901ec0e4896465e10e4950e52f159eb775cfafffc"
+    },
+    "knowledge/05-materials-shading/00-overview.md": {
+      "bytes": 12447,
+      "sha256": "ed71e8b6d6d19603b42cacd5f7db60e5f18480bd2cd38b1d030ab8cb9724c361"
+    },
+    "knowledge/06-uv-texturing/00-overview.md": {
+      "bytes": 10287,
+      "sha256": "444433336a93ec4da7ef82ebb11efdb460e8287981c1c2c19779a580401f6154"
+    },
+    "knowledge/07-lighting/00-overview.md": {
+      "bytes": 10187,
+      "sha256": "8f88c9123929fc6b3207ce2016729652971656c54250a094bf4cbffeea989eba"
+    },
+    "knowledge/08-cameras-composition/00-overview.md": {
+      "bytes": 9208,
+      "sha256": "80ea9935fe27484cbd3c71ee319eb8ec6541ebac0e118e783bdf3e7a176584ca"
+    },
+    "knowledge/09-animation/00-overview.md": {
+      "bytes": 9810,
+      "sha256": "be8ee1ed97f4ca332770a16ba1208051a9f07c4e160af536c895fb6901f38f6a"
+    },
+    "knowledge/10-rigging/00-overview.md": {
+      "bytes": 10610,
+      "sha256": "56d114d9af864da02bc049c3409f61cdebbee4ba31ca5f1bbf6c4d571237668d"
+    },
+    "knowledge/11-rendering/00-overview.md": {
+      "bytes": 10690,
+      "sha256": "5f467b6507e1e6f094d008e2d0533e1216714d2468abf0a4dcaea02157a3446f"
+    },
+    "knowledge/12-compositing/00-overview.md": {
+      "bytes": 11079,
+      "sha256": "5aef34f093d56032b6f2abc60a52643b5aea90eaf40881b0f4c5723ad1274c49"
+    },
+    "knowledge/13-physics-particles/00-overview.md": {
+      "bytes": 11521,
+      "sha256": "e45188bfbc6db1ee76ef67d4b6db915bc15d0e64d3a359d27a8df6fc9a836321"
+    },
+    "knowledge/14-import-export/00-overview.md": {
+      "bytes": 10641,
+      "sha256": "e35ce955a25b704cd3eb72ae024ffbf7416e1fdbf47dbeaa1d90da39e54b2337"
+    },
+    "knowledge/15-cross-cutting/00-overview.md": {
+      "bytes": 9166,
+      "sha256": "7093b7bca8cacdd4e19392e481cfd65220ee4e0b2b28fb3f9935aba85f2af788"
+    },
+    "knowledge/16-pro-workflows/00-overview.md": {
+      "bytes": 10667,
+      "sha256": "ca11edf82a32a497eac6890cd0f5529236207e50e60136ba6cf2773c131e2596"
+    },
+    "knowledge/README.md": {
+      "bytes": 4666,
+      "sha256": "c36db1ab40cff33b8cf81333ea889edaaa4d9ad5f6d8de1d220afc9e86b7eeba"
+    },
+    "plugin/README.md": {
+      "bytes": 12476,
+      "sha256": "c7651d051c7be04f725d17738862366bcb4682307fbba688726babfbd8e60dcf"
+    },
+    "plugin/manifest.json": {
+      "bytes": 9471,
+      "sha256": "0233be1e9337e2a00627790d8cf0ffef0013a4e205bb0249952eebcae5bbaead"
+    },
+    "plugin/skills/EVALS_README.md": {
+      "bytes": 4194,
+      "sha256": "ae91251b8c66a37128e81f26382ce47783c1b8a8218cde1ae820038f0952b51e"
+    },
+    "plugin/skills/animation-quality-gate/SKILL.md": {
+      "bytes": 2954,
+      "sha256": "86ffc68b672743e68a4be2f0341788aca937eac38016241a599ccb0f01c202c7"
+    },
+    "plugin/skills/animation-quality-gate/scripts/animation_contact_sheet.py": {
+      "bytes": 1929,
+      "sha256": "32186d126dc4981569eb1e67c017c65f765d0d8664f7e6ebf794234b9cb50d69"
+    },
+    "plugin/skills/atlas-uv-fitting/SKILL.md": {
+      "bytes": 4042,
+      "sha256": "4fdf1d52c4112ae27c8442f5e80b2d24059da8e90af3384559b301fd4ebeeb7c"
+    },
+    "plugin/skills/atlas-uv-fitting/scripts/atlas_region_detector.py": {
+      "bytes": 2371,
+      "sha256": "854d93476402c7f7b8161ebc896d3035a74bb9d88fd045f56145532f4a8c18b2"
+    },
+    "plugin/skills/atlas-uv-fitting/scripts/atlas_region_mapper.py": {
+      "bytes": 2297,
+      "sha256": "8ac0184492a7e2f854344dab6ecef6e802d7c9e548dbb8b18eb455b5794e14c9"
+    },
+    "plugin/skills/blender-animation/SKILL.md": {
+      "bytes": 10914,
+      "sha256": "875301e83c751d0b71e7b7a5689d9f9c7854569bc2370a4265e35783f28f132d"
+    },
+    "plugin/skills/blender-animation/evals/evals.json": {
+      "bytes": 2055,
+      "sha256": "0fee82ace8565c84815f1e30886d86dc3beefd941d1b601d889e2273fdb06d6d"
+    },
+    "plugin/skills/blender-animation/references/overview.md": {
+      "bytes": 9810,
+      "sha256": "be8ee1ed97f4ca332770a16ba1208051a9f07c4e160af536c895fb6901f38f6a"
+    },
+    "plugin/skills/blender-cameras/SKILL.md": {
+      "bytes": 11490,
+      "sha256": "2b6bd6ebeb20d0c69c6dfc38f7cbe1c77175d87e40bace458dcd14fdedf248bd"
+    },
+    "plugin/skills/blender-cameras/evals/evals.json": {
+      "bytes": 2043,
+      "sha256": "2df124e2e8205c70cf1c1ee209938c9a94402573e03180e62c093cc3da7721ac"
+    },
+    "plugin/skills/blender-cameras/references/overview.md": {
+      "bytes": 9208,
+      "sha256": "80ea9935fe27484cbd3c71ee319eb8ec6541ebac0e118e783bdf3e7a176584ca"
+    },
+    "plugin/skills/blender-export/SKILL.md": {
+      "bytes": 14784,
+      "sha256": "56b21cd6876bbcd5dd23f10f7ef82f99942495ec36f57a7a429ff9aa1701d285"
+    },
+    "plugin/skills/blender-export/evals/evals.json": {
+      "bytes": 2272,
+      "sha256": "4b165a4a6506500ec283a16142f1b884e01129ef5143c58d416a7e0f002b90b8"
+    },
+    "plugin/skills/blender-export/references/overview.md": {
+      "bytes": 10641,
+      "sha256": "e35ce955a25b704cd3eb72ae024ffbf7416e1fdbf47dbeaa1d90da39e54b2337"
+    },
+    "plugin/skills/blender-export/references/unreal-export.md": {
+      "bytes": 2809,
+      "sha256": "a63f4c7c5d9845f74d56096ba7f26a5fec617be5475f04a659f0f9cc248e0743"
+    },
+    "plugin/skills/blender-export/scripts/collision_preflight.py": {
+      "bytes": 9214,
+      "sha256": "5aafc6395904bd001f9957ea3ffe773c39a00a071a78a294c6d5af78418ce3f7"
+    },
+    "plugin/skills/blender-export/scripts/multires_bake_export.py": {
+      "bytes": 7759,
+      "sha256": "6cac3c78e0664f8ebdf6deb69de759b541d0780aa733dcb033b616a37980527d"
+    },
+    "plugin/skills/blender-lighting/SKILL.md": {
+      "bytes": 22107,
+      "sha256": "d7ff87caca03cb9ab0e7f7731a8753e5e0ca814b2862ae2bb91fc6b8e3cc2794"
+    },
+    "plugin/skills/blender-lighting/evals/evals.json": {
+      "bytes": 1950,
+      "sha256": "f45e6edb903f08e1ee0d8fe4d8b952b120d928efc4bc3d6f0ff24dfd162d0822"
+    },
+    "plugin/skills/blender-lighting/references/overview.md": {
+      "bytes": 10187,
+      "sha256": "8f88c9123929fc6b3207ce2016729652971656c54250a094bf4cbffeea989eba"
+    },
+    "plugin/skills/blender-materials/SKILL.md": {
+      "bytes": 21953,
+      "sha256": "25839f9707b2239e9d45a9e3c8b2d38fddd88515ea81464306062e5524bed1b5"
+    },
+    "plugin/skills/blender-materials/evals/evals.json": {
+      "bytes": 2107,
+      "sha256": "6b3de9334707ff07a2959e5340cc7608b03d14f4cfb547416876c110700163f0"
+    },
+    "plugin/skills/blender-materials/references/overview.md": {
+      "bytes": 12447,
+      "sha256": "ed71e8b6d6d19603b42cacd5f7db60e5f18480bd2cd38b1d030ab8cb9724c361"
+    },
+    "plugin/skills/blender-modeling/SKILL.md": {
+      "bytes": 14860,
+      "sha256": "5ff43df5f31ef9189b23a9ddb074e58ecef49ef3723d150113e6eb0d66f95000"
+    },
+    "plugin/skills/blender-modeling/evals/evals.json": {
+      "bytes": 2157,
+      "sha256": "78e483e5198e31d9cbbf46e7d8dc1d66147e71fe36cbbf748ce59bae34b1faf2"
+    },
+    "plugin/skills/blender-modeling/references/overview.md": {
+      "bytes": 10126,
+      "sha256": "1026110415e27f325cc653dfdc71ee4d8f84ba0563e95478621caabb3084ec60"
+    },
+    "plugin/skills/blender-pro-workflow/SKILL.md": {
+      "bytes": 10228,
+      "sha256": "94c6a59311d2833cfaeb1465d7b7ae1ff253eda50683be39d49e724de2d3e861"
+    },
+    "plugin/skills/blender-pro-workflow/evals/evals.json": {
+      "bytes": 2156,
+      "sha256": "636ffe44c5fdf5efb6acacedb567b470289bef4cb625f86069f21caacf6187b8"
+    },
+    "plugin/skills/blender-pro-workflow/references/overview.md": {
+      "bytes": 10667,
+      "sha256": "ca11edf82a32a497eac6890cd0f5529236207e50e60136ba6cf2773c131e2596"
+    },
+    "plugin/skills/blender-rendering/SKILL.md": {
+      "bytes": 11662,
+      "sha256": "7699bab8a4e634d531c78bc4496837645c867c4070b4722a473fe6c180a29d70"
+    },
+    "plugin/skills/blender-rendering/evals/evals.json": {
+      "bytes": 1839,
+      "sha256": "a140f3e1df999f85993d91d624c39c260dc11165d32ba7dee9ae8671004ed0ae"
+    },
+    "plugin/skills/blender-rendering/references/overview.md": {
+      "bytes": 10690,
+      "sha256": "5f467b6507e1e6f094d008e2d0533e1216714d2468abf0a4dcaea02157a3446f"
+    },
+    "plugin/skills/blender-skill-harmonizer/SKILL.md": {
+      "bytes": 7928,
+      "sha256": "1bf28a83cfdc6964c7229af5d352e651f0f88c01fc80f3cda36ba2cff545c8dd"
+    },
+    "plugin/skills/blender-skill-harmonizer/references/handoff-contracts.md": {
+      "bytes": 1544,
+      "sha256": "e8a40df12c36a54734d6ff2a7ab59f90dc77817b7a01e464f8c3a6837f81bfb3"
+    },
+    "plugin/skills/blender-skill-harmonizer/scripts/skill_graph_audit.py": {
+      "bytes": 2979,
+      "sha256": "e2346d1f3a5ada4d291c5bd291754b3ec9dc100d8dca78ac8204fbf8873a8230"
+    },
+    "plugin/skills/blender-uv-texturing/SKILL.md": {
+      "bytes": 7563,
+      "sha256": "67c68827cb04c52bc7354fcf3b0bda717e192343def25998cdb64cbf1534cd1d"
+    },
+    "plugin/skills/blender-uv-texturing/evals/evals.json": {
+      "bytes": 1109,
+      "sha256": "3e994f9897c424a19d96c0d45430243391fe1228da85bf2ac32799264c4e9676"
+    },
+    "plugin/skills/blender-uv-texturing/references/overview.md": {
+      "bytes": 1099,
+      "sha256": "7ab3bc3e680122a6b2d9eaafdf3436634f676b9994eb0f240eb15e49f2b59ead"
+    },
+    "plugin/skills/closed-surface-uv-coverage/SKILL.md": {
+      "bytes": 4642,
+      "sha256": "5a22881aba8d36ea40ffb8ae46c8fa6f41fcbf54f849d346975bc8f4d60d097f"
+    },
+    "plugin/skills/closed-surface-uv-coverage/scripts/surface_texture_coverage_audit.py": {
+      "bytes": 3008,
+      "sha256": "4fc0ee03babc23afd8de417e111c1074961ca76072ac92e40c0d4f5a27587d9d"
+    },
+    "plugin/skills/contour-to-mesh/SKILL.md": {
+      "bytes": 5376,
+      "sha256": "44e4b708196467c1353f4feade4e1ff6a8299bfa2bbb5871083e5974b651d268"
+    },
+    "plugin/skills/contour-to-mesh/scripts/mask_to_mesh_recipe.py": {
+      "bytes": 4550,
+      "sha256": "2c53a1c705ccb3847c76fc193d220b77ed01a37b3b465bf74ace830226236268"
+    },
+    "plugin/skills/contour-to-mesh/scripts/source_locked_skin_recipe.py": {
+      "bytes": 5789,
+      "sha256": "037999e99b5eef9f2487090048c641696943e7164405d7fbf4edaa5684f79813"
+    },
+    "plugin/skills/fit-repair-optimizer/SKILL.md": {
+      "bytes": 4061,
+      "sha256": "03c9616d397e3026a1617b3e20b663222f69c21136a97a3ca4c93de11afb10e1"
+    },
+    "plugin/skills/fit-repair-optimizer/scripts/fit_repair_queue.py": {
+      "bytes": 5302,
+      "sha256": "dcf52d0720bc26e83ddcfb3b88973ff60d0d898552b32125cf75c2ef370ba283"
+    },
+    "plugin/skills/landmark-fit-repair/SKILL.md": {
+      "bytes": 2831,
+      "sha256": "f18155b8622fe802e4f5182abb14071c92544ea7a64d1b25afeb88e0edfe3056"
+    },
+    "plugin/skills/landmark-fit-repair/scripts/landmark_fit_report.py": {
+      "bytes": 1578,
+      "sha256": "2ccb9ea70333721b9d88b3055b07a03d272261e6fa3b956c9c5c9abb7571f2cc"
+    },
+    "plugin/skills/mascot-logo-reconstruction/SKILL.md": {
+      "bytes": 4404,
+      "sha256": "3e7d5eb434c2de40bfc710bd54ec5f5bebb9bd7478d248aa2eba5924bbcb6bcc"
+    },
+    "plugin/skills/multiview-constraint-solver/SKILL.md": {
+      "bytes": 2535,
+      "sha256": "c69a29446c2423d3c849ba297cdfc26ede7e4c8e960e2c1ed777adcffdf55909"
+    },
+    "plugin/skills/multiview-constraint-solver/scripts/view_constraint_report.py": {
+      "bytes": 3603,
+      "sha256": "797b8bedd72bc9a0186bf3f7a31da3440fe570452f23d1bf8ac248bcebb2221d"
+    },
+    "plugin/skills/multiview-fit-loop/SKILL.md": {
+      "bytes": 3493,
+      "sha256": "2880fbb6d24c995f681fc125e7032c0643a175be1e59f3a51db966304383ff9c"
+    },
+    "plugin/skills/multiview-fit-loop/scripts/multiview_fit_report.py": {
+      "bytes": 5380,
+      "sha256": "3768aee0eb7ba3a5556bce1dd000af08e6166d777e78f73357b597af8564e270"
+    },
+    "plugin/skills/orbital-hud-motion/SKILL.md": {
+      "bytes": 3126,
+      "sha256": "556b9395852f4e85f982206eb74ad5dfeba62a3952c361b7f47fd9b826a63e00"
+    },
+    "plugin/skills/orbital-hud-motion/scripts/orbit_layout_manifest.py": {
+      "bytes": 1282,
+      "sha256": "c928bc0aa9af303105ea972a04c0227e7c731fb713ce3009e2b717b2302b04fc"
+    },
+    "plugin/skills/orthographic-registration/SKILL.md": {
+      "bytes": 2807,
+      "sha256": "f1779cb4c5a5025eec30189f6054f42b5f8fd753f4cb7838bf2725ac02c3e3cd"
+    },
+    "plugin/skills/orthographic-registration/scripts/register_views.py": {
+      "bytes": 2242,
+      "sha256": "3979967e2cf98e450071a95777796635fbd79cb3f468b049e07c8c2d0c8ee9ee"
+    },
+    "plugin/skills/quality-refinement-autoloop/SKILL.md": {
+      "bytes": 5663,
+      "sha256": "092ebc5546c05c9048e3edbb9c0b19835f9a4a01281e2b49e240717cc773a9c7"
+    },
+    "plugin/skills/quality-refinement-autoloop/scripts/ralph_autoloop_plan.py": {
+      "bytes": 2764,
+      "sha256": "99f8f0f5fb4c5e60bd10b757d0402b8b987ac3984f4e675a06a6e9bb7fbcee6b"
+    },
+    "plugin/skills/quality-refinement-autoloop/scripts/release_readiness_check.py": {
+      "bytes": 1383,
+      "sha256": "8cb685e90df40a65597b54b6b728a35a903db9e8520fc651555be68ee094447f"
+    },
+    "plugin/skills/quality-refinement-autoloop/scripts/sanitize_skill_contributions.py": {
+      "bytes": 1291,
+      "sha256": "7190b0ab2ad507ae88ed6ed244c2320d87b16382cbae72e6923892053a280b9d"
+    },
+    "plugin/skills/reference-analysis-validator/SKILL.md": {
+      "bytes": 4075,
+      "sha256": "1b1786f0c50ec9c39dfc4e8ca95d36590df075ba7d1f61fba3c179535dc34862"
+    },
+    "plugin/skills/reference-analysis-validator/references/metrics-and-thresholds.md": {
+      "bytes": 1565,
+      "sha256": "9b70b74286b3d9fac8bf9e00f28785abd1fc92147ba3e80658b6c5a555be4960"
+    },
+    "plugin/skills/reference-analysis-validator/scripts/reference_manifest_compiler.py": {
+      "bytes": 5277,
+      "sha256": "7e88cabee3913d4a238fef948cf1fff78a37b819c147d3e31f42243c60135d19"
+    },
+    "plugin/skills/reference-analysis-validator/scripts/render_overlay_validator.py": {
+      "bytes": 4115,
+      "sha256": "7fe26400c9c791850e2fe647986edf7edac75ee5c6f0c7350119365be1ab5777"
+    },
+    "plugin/skills/reference-look-calibration/SKILL.md": {
+      "bytes": 2919,
+      "sha256": "131e80e3d927f3a9e6295f75bfef249317680752c2254e3a3e3fb34c223a5b44"
+    },
+    "plugin/skills/reference-look-calibration/scripts/look_fit_report.py": {
+      "bytes": 3925,
+      "sha256": "6b1067d089d5580ddffb0409b503c4d453f827ef9d340abb47b486206d90202d"
+    },
+    "plugin/skills/reference-to-3d/SKILL.md": {
+      "bytes": 10231,
+      "sha256": "135db337ac2453ee37cc0cc954b43c986a107209870b2f7e69e01e8a06f74ed5"
+    },
+    "plugin/skills/reference-to-3d/evals/evals.json": {
+      "bytes": 1209,
+      "sha256": "8a1f238cc708b87f54ea9db58adbd097feb88c8a4a60efa4a0e73c5b0eb9a428"
+    },
+    "plugin/skills/reference-to-3d/references/overview.md": {
+      "bytes": 1367,
+      "sha256": "ffe16563a2250421964f86d30e2fe3ec83c4b6c3f052c2d10d4a47454eb38a92"
+    },
+    "plugin/skills/reference-to-3d/scripts/silhouette_validator.py": {
+      "bytes": 2311,
+      "sha256": "6027462ce25ac1c07713b66280a029117f32ef1037a02851069a3c0ab622627c"
+    },
+    "plugin/skills/reference-to-3d/scripts/template_analyzer.py": {
+      "bytes": 4579,
+      "sha256": "07ef58d77a3d08fd658b60cb244103b3014d0355f99d61473c7bde02f7bee9f7"
+    },
+    "plugin/skills/source-part-segmentation/SKILL.md": {
+      "bytes": 3788,
+      "sha256": "ec45b5d5723eef927fe8dbbd8d149be29620d76ec5be90753a5b8dab2a743862"
+    },
+    "plugin/skills/source-part-segmentation/scripts/seeded_part_masks.py": {
+      "bytes": 4698,
+      "sha256": "92f4ebfd17bb8fb2486a6fff0973fae83ebf16b86fe6ee03ccec3de1bf2b1f5c"
+    },
+    "plugin/skills/source-part-segmentation/scripts/segment_source_parts.py": {
+      "bytes": 2908,
+      "sha256": "4b1332880aeed3eadbc799d345638c463a8a56890914514f251694872e516e3c"
+    },
+    "plugin/skills/text-to-blender/SKILL.md": {
+      "bytes": 18720,
+      "sha256": "be8b2f7726e217bf78e65a77dff99a983aa86823ece22c52b71048bae2e2289e"
+    },
+    "plugin/skills/text-to-blender/assets/v0.4.0-validation/README.md": {
+      "bytes": 1506,
+      "sha256": "12f12704a72fb4ee30a0fbaee56f7d6d1a46c61fefa6bb5b94b390169a316695"
+    },
+    "plugin/skills/text-to-blender/assets/v0.4.0-validation/test1-modeling-materials-lighting-render.webp": {
+      "bytes": 7422,
+      "sha256": "bce8bfaa3f3a9fcab6b090d1452c8dbe984aec37025ce692cec0acc859a83bd9"
+    },
+    "plugin/skills/text-to-blender/assets/v0.4.0-validation/test2-glass-cycles.webp": {
+      "bytes": 13180,
+      "sha256": "0c58a0481fa4ff4f46ad54c7c3b8468c1165abdf8f0dc6ea49e7b0cb682063fa"
+    },
+    "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame001.webp": {
+      "bytes": 3024,
+      "sha256": "53a382d27c44f65786964422eafda94aa1e255b11c8d95014ff78e9078e374a0"
+    },
+    "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame048.webp": {
+      "bytes": 3024,
+      "sha256": "f8a688f3f02351cc14bfc140a8cbcd64c787a52f94eda0347e53a2926936f332"
+    },
+    "plugin/skills/text-to-blender/assets/v0.4.0-validation/test3-anim-frame096.webp": {
+      "bytes": 3024,
+      "sha256": "53a382d27c44f65786964422eafda94aa1e255b11c8d95014ff78e9078e374a0"
+    },
+    "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_FINAL_v0.6.0.webp": {
+      "bytes": 4290,
+      "sha256": "e1d55102c167480f8ea5b85a948b601c95977f6295cd26e54f83da243391147c"
+    },
+    "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt1_broken_world.webp": {
+      "bytes": 4880,
+      "sha256": "93035d36d18a83daff3925e8c049950f0b0f9468e2f695b019611454fb8bcfc4"
+    },
+    "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt2_clean_world.webp": {
+      "bytes": 6584,
+      "sha256": "c198045d25c05cae3c8779b66dcce66d4f1cf326aae183502428eefa3e9afc0d"
+    },
+    "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt3_aimed_lights.webp": {
+      "bytes": 8244,
+      "sha256": "4a766bfd5e93ce4b3970e7ae1cb36715cf2b656f228229402ad2282c1eb8508c"
+    },
+    "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt4_correct_dimensions_wrong_orientation.webp": {
+      "bytes": 3324,
+      "sha256": "d450d9d7f7b7907663ea5a9e45870fd9298275b84667e112f18662bb1e4d754c"
+    },
+    "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt5_rotated_no_taper.webp": {
+      "bytes": 3368,
+      "sha256": "4c5f9845ab2e36e60f15a8b088d56e17c607ceec84403d84c3c29ed2b06b0b23"
+    },
+    "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/M_sword_attempt6_with_pointed_tip.webp": {
+      "bytes": 3824,
+      "sha256": "7b36bb2386e52dc05ba28dac9f3ed5a037e58ca3f94653cca4958e1ac3fa1373"
+    },
+    "plugin/skills/text-to-blender/assets/v0.6.0-round2-validation/README.md": {
+      "bytes": 2893,
+      "sha256": "272835ae12ab950d86d6e83c24ead1b7f5158987930663661fa733c8329dd421"
+    },
+    "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/README.md": {
+      "bytes": 2415,
+      "sha256": "74d1fda09f624cedb1b3f6afc5b2a84ee29579cf2e828c4a0d051e1e61829cba"
+    },
+    "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/bottle_FINAL_v0.7.0.webp": {
+      "bytes": 8892,
+      "sha256": "27d06900c50fa0d9137bfe4fa671cd7352c0aa3ca272114405235aff857511af"
+    },
+    "plugin/skills/text-to-blender/assets/v0.7.0-bottle-validation/bottle_first_try.webp": {
+      "bytes": 8584,
+      "sha256": "0fbef295182cddd844d4d2c8a1b8d4029bf048cd741d8561991c303922d0b586"
+    },
+    "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/README.md": {
+      "bytes": 3748,
+      "sha256": "9abc9949d85587ee41d03b7a4ef8f5e26747300049b7ab7dc96931863ef08e12"
+    },
+    "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_FINAL_v0.8.0.webp": {
+      "bytes": 16986,
+      "sha256": "8ba448342ae6ad955441e2ee2f0a5e2d3259d9204ef48ee1a8d0ca48fcb72d28"
+    },
+    "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt1_simple_rectangles.webp": {
+      "bytes": 18908,
+      "sha256": "4e09d75e517e83f68823e801c744f1f58ebe22b36c30f670026c0432901a0862"
+    },
+    "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt2_overcooked_wood.webp": {
+      "bytes": 26584,
+      "sha256": "eeccca965522f7fecfdb9a928fffd8ff6d239080513a6944c101304030c0361c"
+    },
+    "plugin/skills/text-to-blender/assets/v0.8.0-chair-validation/chair_attempt3_balanced_wood.webp": {
+      "bytes": 14390,
+      "sha256": "3c558486aceafbe60a0b96912da860414e114b37a9590076abe193b8019de17c"
+    },
+    "plugin/skills/text-to-blender/assets/v0.9.0-validation/01_bottle_glass_class_lighting.webp": {
+      "bytes": 8050,
+      "sha256": "3894dd419ad80f450548fb64562e76599b3bcdeb76afa806b19af23bd7a5fd74"
+    },
+    "plugin/skills/text-to-blender/assets/v0.9.0-validation/02_bottle_proper_wine_density.webp": {
+      "bytes": 8736,
+      "sha256": "8370d11533a753c7c768f9b2d8c9cbc185b9dfd05eee9cdc5e12c5893e1f3605"
+    },
+    "plugin/skills/text-to-blender/assets/v0.9.0-validation/03_aviator_wireframe_to_3d.webp": {
+      "bytes": 6438,
+      "sha256": "f33e19094983fb7a9f26b303b3923007c94ef860fc4c62930a87350c7b98c344"
+    },
+    "plugin/skills/text-to-blender/assets/v0.9.0-validation/04_aviator_chained_upgrade.webp": {
+      "bytes": 13724,
+      "sha256": "fa167fa3e3046d80d5acfe6fcddf23274f45b61700cd6f3e559a38d240d707e4"
+    },
+    "plugin/skills/text-to-blender/assets/v0.9.0-validation/05_aviator_proper_rayban_dimensions.webp": {
+      "bytes": 11922,
+      "sha256": "c24ff08ee632594bb46fe90cf5cb3ff838c21de85298f0a57fbb071ca286ee22"
+    },
+    "plugin/skills/text-to-blender/assets/v1.1.0-validation/desk_lamp_emission.webp": {
+      "bytes": 8054,
+      "sha256": "d3c161827e69a9cc377c4a0b59dd7a5786fbf8fb3533676941ee71e4ef945b1e"
+    },
+    "plugin/skills/text-to-blender/assets/v1.2.0-validation/01_broadcaster_too_bright.webp": {
+      "bytes": 9430,
+      "sha256": "e32fba7cb43b5f12edc6e889401ab5c4439bdaf2684412b877d1dcba15b9f487"
+    },
+    "plugin/skills/text-to-blender/assets/v1.2.0-validation/02_broadcaster_neutral_dominates.webp": {
+      "bytes": 8830,
+      "sha256": "ea972e224e40415d50903aebcb0713f2da2698d15ff06001a29b3e7e53fb0f0e"
+    },
+    "plugin/skills/text-to-blender/assets/v1.2.0-validation/03_broadcaster_synthwave_FINAL.webp": {
+      "bytes": 11176,
+      "sha256": "d976b0429c025b39ad14cfcd43537366c1f1c5922d997cb6fb2a488f68e54861"
+    },
+    "plugin/skills/text-to-blender/assets/v1.2.0-validation/04_broadcaster_with_features_still_not_human.webp": {
+      "bytes": 12198,
+      "sha256": "690515f65371d435931df7dfd66508a3121b129597540961dd98d02d02d424d3"
+    },
+    "plugin/skills/text-to-blender/assets/v1.4.0-validation/README.md": {
+      "bytes": 832,
+      "sha256": "c91f29e3693ce93054b39a6fc88e262575586b4cf451297d10af6b22d2ff6978"
+    },
+    "plugin/skills/text-to-blender/assets/v1.4.0-validation/aviator.png": {
+      "bytes": 39619,
+      "sha256": "12ca26a2433eae8595af95d6e3d4d1d70b04f8f1ba989be192c5b2fb1675f25a"
+    },
+    "plugin/skills/text-to-blender/assets/v1.4.0-validation/bottle.png": {
+      "bytes": 36980,
+      "sha256": "667bdf15b90b6b88e645711f870593ee5caf2ba18432010c13ab343d7a0513ea"
+    },
+    "plugin/skills/text-to-blender/assets/v1.4.0-validation/broadcaster_avatar.png": {
+      "bytes": 48030,
+      "sha256": "a6c4a7a605d693a92df54ace6375c890b26daa940b5cb6c31028fc13cbd7fd7d"
+    },
+    "plugin/skills/text-to-blender/assets/v1.4.0-validation/chair.png": {
+      "bytes": 48014,
+      "sha256": "3d45cd5ca66973765aa8fa5f61601fcf578a3e0e2b4cb82b5eca4c2b04b495a0"
+    },
+    "plugin/skills/text-to-blender/assets/v1.4.0-validation/desk_lamp.png": {
+      "bytes": 41725,
+      "sha256": "bced19c60fa9af5fc292b823a8462b86b6dc874e4a4fbcf09f79f569ff1c9c20"
+    },
+    "plugin/skills/text-to-blender/assets/v1.4.0-validation/sword.png": {
+      "bytes": 41911,
+      "sha256": "de79d5566b920d80cdeb0c534c1f5b6629c0ef5ea6683bcb2784d6285fcf41a2"
+    },
+    "plugin/skills/text-to-blender/evals/backend-scenarios.json": {
+      "bytes": 2388,
+      "sha256": "72fb342dc463d0e2c46e93c118dd1d3719c9b0c048fd754796c7e3dac0555c63"
+    },
+    "plugin/skills/text-to-blender/evals/evals.json": {
+      "bytes": 2790,
+      "sha256": "e6cc3cb30a2814d8d18ba2a3735a5551ba4242a113cf6c5c716c5ccebb060154"
+    },
+    "plugin/skills/text-to-blender/references/agent-hosts.md": {
+      "bytes": 5013,
+      "sha256": "7723a628497e2c2c80d58996553e92ac8fc606fbc57713e3a9546e974fd564f0"
+    },
+    "plugin/skills/text-to-blender/references/assembly-order.md": {
+      "bytes": 4962,
+      "sha256": "33676b36afb2b31207a8be32491a56ba9606fc35c7c843aa96d1428c4ec23777"
+    },
+    "plugin/skills/text-to-blender/references/blender-version-compat.md": {
+      "bytes": 4002,
+      "sha256": "88d70e06b7ef76ae415436ffec8283d032f87035cacd6a80477a0d3936468f37"
+    },
+    "plugin/skills/text-to-blender/references/common-object-dimensions.md": {
+      "bytes": 12259,
+      "sha256": "07c2f16dea1375a9064d06dc5b3a999ce2c1e24418ee93878d21bea64698fc5d"
+    },
+    "plugin/skills/text-to-blender/references/mcp-backends.md": {
+      "bytes": 7398,
+      "sha256": "7955a3ec4d33905379e006404271595f3195b4b4dd9f294d98606218221537a6"
+    },
+    "plugin/skills/texture-driven-mesh-fitting/SKILL.md": {
+      "bytes": 3660,
+      "sha256": "e142fab09e8c989d42ae0addba131f77e55ea7917f40d045eed782536cd3634b"
+    },
+    "plugin/skills/texture-driven-mesh-fitting/scripts/contour_correspondence_report.py": {
+      "bytes": 2329,
+      "sha256": "0fe9311b6f1aa135b82b8e571f0598ba6d0dc93abcf6b12ce5e8fded473ed46c"
+    },
+    "plugin/skills/texture-state-animation/SKILL.md": {
+      "bytes": 3730,
+      "sha256": "d320e5aad5fe35b87bdfa8b31746200a20636e195293a987f9514dcbc5c6ef70"
+    },
+    "plugin/skills/texture-state-animation/scripts/texture_transition_plan.py": {
+      "bytes": 2064,
+      "sha256": "e9811d343f4a1f7cc5ea3d00ea1c64e259afa28fed6a136ee9227548fd1ac1db"
+    },
+    "plugin/skills/wireframe-to-3d/SKILL.md": {
+      "bytes": 16360,
+      "sha256": "ed65099bd418e8badd7422dfe4274a905d36a13afe9db531f5f106c89278f242"
+    },
+    "plugin/skills/wireframe-to-3d/evals/evals.json": {
+      "bytes": 2187,
+      "sha256": "ce33f55d58eb400b644f16fdde72bd464ec8f3cb925c22cb832567a4c1204068"
+    },
+    "plugin/skills/wireframe-to-3d/references/algorithms.md": {
+      "bytes": 27029,
+      "sha256": "3ef85fb714fc435f8c18957215484206d98ea1adb6d57ee07601db9978ada0c4"
+    },
+    "plugin/skills/wireframe-to-3d/references/best-practices.md": {
+      "bytes": 28293,
+      "sha256": "35a99450a8b4948fb71869a51f42a8a9770331147bae7cf66e5324324e3f5351"
+    },
+    "plugin/skills/wireframe-to-3d/references/blender-patterns.md": {
+      "bytes": 19912,
+      "sha256": "6f242364d180e0f81a76e8474fd14438b8edbc6fc74f8e6359b741a004058079"
+    },
+    "plugin/skills/wireframe-to-3d/scripts/wireframe_analyzer.py": {
+      "bytes": 13464,
+      "sha256": "10fa1d183824d0617e233d250e4e8108d7c198e95e6cf7809866939cdf457838"
+    },
+    "requirements.txt": {
+      "bytes": 359,
+      "sha256": "f00154c5e2dd90eebefe84565db8b121944df81d6f81dca22544be2d900c4cbf"
+    },
+    "skill/README.md": {
+      "bytes": 2671,
+      "sha256": "5e6b3a885be36e480847c86df4a9f9e3edb727daae663dff4e25573b4707fd5e"
+    },
+    "skill/wireframe-to-3d/SKILL.md": {
+      "bytes": 11929,
+      "sha256": "1c90d2187fdcbdb532e81d93bb55c900980c4dd5821ce01a0123b35700937c56"
+    },
+    "skill/wireframe-to-3d/references/algorithms.md": {
+      "bytes": 27029,
+      "sha256": "3ef85fb714fc435f8c18957215484206d98ea1adb6d57ee07601db9978ada0c4"
+    },
+    "skill/wireframe-to-3d/references/best-practices.md": {
+      "bytes": 23358,
+      "sha256": "ea9d78c8757b2286154536cf67506055f7cf3bf51a17ca30759d2acd1280a419"
+    },
+    "skill/wireframe-to-3d/references/blender-patterns.md": {
+      "bytes": 19912,
+      "sha256": "6f242364d180e0f81a76e8474fd14438b8edbc6fc74f8e6359b741a004058079"
+    },
+    "skill/wireframe-to-3d/scripts/wireframe_analyzer.py": {
+      "bytes": 12095,
+      "sha256": "431636e63ff4aed5c0577a0052767b9d1ad23a2379030056582fb35a2674106f"
+    },
+    "src/wireframe_analyzer.py": {
+      "bytes": 12095,
+      "sha256": "431636e63ff4aed5c0577a0052767b9d1ad23a2379030056582fb35a2674106f"
+    },
+    "tests/README.md": {
+      "bytes": 4401,
+      "sha256": "99e001a98303a14b0216dd144e6d0ef4b09d6e18efad0d6a5ede6e23bbf9b8a4"
+    },
+    "tests/blender_export_regressions.py": {
+      "bytes": 12130,
+      "sha256": "b24fd5d88ab93c51b09bd64c945bae0450abc184a2a5fa4b492ceeaecd5f9455"
+    },
+    "tests/compare_mcp_regressions.py": {
+      "bytes": 2633,
+      "sha256": "b8fed09690ddef5865b6596e484d7410cc3a603d4e377fe96b1b4951f85bb7a4"
+    },
+    "tests/core_recipe_regressions.py": {
+      "bytes": 15435,
+      "sha256": "70fb9dc576facae3188348e575ddd8484791c3d5a88c20db8bf38ccd07b819ff"
+    },
+    "tests/mcp_recipe_regressions.py": {
+      "bytes": 6344,
+      "sha256": "47753db309e4c47ab1fcc11aa16730f93363c3ed48258126652ee4a59e220222"
+    },
+    "tests/mcp_test_instance.py": {
+      "bytes": 1690,
+      "sha256": "582354a25d384be87b1426d52cad188f4df27c08181f2610ea27ff561ad7e40f"
+    },
+    "tests/test_reference_helpers.py": {
+      "bytes": 3809,
+      "sha256": "db81c8b94b0ecdf3df20a6245b292b5d5960594d73ec1ea00e4056ea906a8be2"
+    },
+    "tests/test_skill_contracts.py": {
+      "bytes": 5426,
+      "sha256": "140a87b591a0412479f53807024a598812417aff18404609442a2b2dc8df5e1a"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "local_runtime": "C:\\Users\\mikea\\.codex\\tools\\blender-bundles\\llm-blender-agent",
+  "upstream_commit": "bcbb6863b4ca60275332ee791df5e7dab84821f8",
+  "status": "source bundle prepared; native Blender route; optional app/MCP/providers not configured"
+}
