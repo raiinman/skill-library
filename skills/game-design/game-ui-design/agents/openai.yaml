@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game UI Design"
+  short_description: "Design readable HUDs and game interfaces"
+  default_prompt: "Use $game-ui-design to improve my interface based on the brief and project context."

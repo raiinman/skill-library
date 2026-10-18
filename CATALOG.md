@@ -4,12 +4,15 @@ Start with the task you want to do, or search this page for a skill name.
 
 ## 3D And Web
 
+- [`$antigravity-design-expert`](skills/3d-and-web/antigravity-design-expert/SKILL.md) · [source](skills/3d-and-web/antigravity-design-expert/SOURCE.md)
+- [`$frontend-design`](skills/3d-and-web/frontend-design/SKILL.md) · [source](skills/3d-and-web/frontend-design/SOURCE.md)
 - [`$frontend-motion-wizard`](skills/3d-and-web/frontend-motion-wizard/SKILL.md) · [source](skills/3d-and-web/frontend-motion-wizard/SOURCE.md)
 - [`$high-end-visual-design`](skills/3d-and-web/high-end-visual-design/SKILL.md) · [source](skills/3d-and-web/high-end-visual-design/SOURCE.md)
 - [`$image-to-code`](skills/3d-and-web/image-to-code/SKILL.md) · [source](skills/3d-and-web/image-to-code/SOURCE.md)
 - [`$img2threejs`](skills/3d-and-web/img2threejs/SKILL.md) · [source](skills/3d-and-web/img2threejs/SOURCE.md)
 - [`$next-best-practices`](skills/3d-and-web/next-best-practices/SKILL.md) · [source](skills/3d-and-web/next-best-practices/SOURCE.md)
 - [`$threejs-postprocessing`](skills/3d-and-web/threejs-postprocessing/SKILL.md) · [source](skills/3d-and-web/threejs-postprocessing/SOURCE.md)
+- [`$ui-animation`](skills/3d-and-web/ui-animation/SKILL.md) · [source](skills/3d-and-web/ui-animation/SOURCE.md)
 
 ## Business Planning
 
@@ -82,6 +85,7 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$impeccable`](skills/design-and-art/impeccable/SKILL.md) · [source](skills/design-and-art/impeccable/SOURCE.md)
 - [`$krita-iterate`](skills/design-and-art/krita-iterate/SKILL.md) · [source](skills/design-and-art/krita-iterate/SOURCE.md)
 - [`$krita-layer-rebuild`](skills/design-and-art/krita-layer-rebuild/SKILL.md) · [source](skills/design-and-art/krita-layer-rebuild/SOURCE.md)
+- [`$mobile-app-ui-design`](skills/design-and-art/mobile-app-ui-design/SKILL.md) · [source](skills/design-and-art/mobile-app-ui-design/SOURCE.md)
 
 ## Engineering
 
@@ -97,6 +101,7 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$game-design-core`](skills/game-design/game-design-core/SKILL.md) · [source](skills/game-design/game-design-core/SOURCE.md)
 - [`$game-design-document`](skills/game-design/game-design-document/SKILL.md) · [source](skills/game-design/game-design-document/SOURCE.md)
 - [`$game-designer`](skills/game-design/game-designer/SKILL.md) · [source](skills/game-design/game-designer/SOURCE.md)
+- [`$game-ui-design`](skills/game-design/game-ui-design/SKILL.md) · [source](skills/game-design/game-ui-design/SOURCE.md)
 - [`$level-designer`](skills/game-design/level-designer/SKILL.md) · [source](skills/game-design/level-designer/SOURCE.md)
 - [`$pixel-art-sprites`](skills/game-design/pixel-art-sprites/SKILL.md) · [source](skills/game-design/pixel-art-sprites/SOURCE.md)
 

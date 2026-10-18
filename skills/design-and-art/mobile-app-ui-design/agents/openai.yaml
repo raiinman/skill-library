@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mobile App UI Design"
+  short_description: "Design mobile screens, flows, and components"
+  default_prompt: "Use $mobile-app-ui-design to improve my interface based on the brief and project context."

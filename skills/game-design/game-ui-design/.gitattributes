@@ -1,0 +1,5 @@
+references/upstream-* -text whitespace=-blank-at-eof,-blank-at-eol
+scripts/*.py text eol=lf
+references/patterns.md -text whitespace=-blank-at-eof,-blank-at-eol
+references/sharp_edges.md -text whitespace=-blank-at-eof,-blank-at-eol
+references/validations.md -text whitespace=-blank-at-eof,-blank-at-eol

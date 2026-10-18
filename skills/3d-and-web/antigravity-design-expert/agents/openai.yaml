@@ -1,0 +1,4 @@
+interface:
+  display_name: "Antigravity Design Expert"
+  short_description: "Build spatial, floating web interfaces"
+  default_prompt: "Use $antigravity-design-expert to improve my interface based on the brief and project context."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Animation"
+  short_description: "Design and measure interface motion"
+  default_prompt: "Use $ui-animation to improve my interface based on the brief and project context."

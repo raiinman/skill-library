@@ -51,6 +51,16 @@ The official remote MCP server `https://mcp.arcads.ai` is registered in this com
 
 No local Arcads daemon or package installation is required. FFmpeg/ffprobe are already installed for local video assembly. Competitor research uses the connected browser's supported download methods, and prompt-only templates work without an Arcads account. The upstream `jq`/`zip` build script is optional for recreating plugin ZIPs; it is not needed for these installed Codex skill folders. Codex configuration before registration is backed up locally in `~/.codex/tmp/arcads-import/config-before.toml`; it is not included in this repository.
 
+## Interface design and motion
+
+Five skills were added on 2026-10-17: `antigravity-design-expert`, `mobile-app-ui-design`, `ui-animation`, `game-ui-design`, and Anthropic's `frontend-design`. Each includes its original entrypoint, available supporting resources, source commit/hash, licenses or license declarations, and Codex picker metadata. These are local filesystem skills for the desktop app/Codex. This does not publish them as cloud workspace skills or universal-directory plugins.
+
+Four are instruction-only and require no additional runtime. Their suggested frameworks and services are task-specific choices, not global prerequisites. The `ui-animation` package includes all three upstream Python tools, 18 reference guides, and its evaluation fixtures. Its `extract_frames.py` uses a numbered PNG sequence for Windows compatibility, validates extraction arguments, and refuses to overwrite prior extraction files. The original changed script is archived. Run the bundled pipeline regression check to verify extraction, tracking, fitting, and prior-output protection.
+
+Python 3.11 with OpenCV, NumPy, and SciPy is installed in `~/.codex/tools/skill-library-ui-animation`; use its `Scripts/python.exe` on Windows. Dependencies are pinned in the skill's `requirements.txt`. FFmpeg/ffprobe are already installed. Framework packages such as GSAP or Motion belong in the actual project only when required. No paid service or account sign-in is needed for these five skills.
+
+The spatial design skill's prose is CC BY 4.0 under its included content notice, with MIT for upstream tooling. Mobile UI's README declares MIT but has no standalone license file. Anthropic's requested entrypoint was byte-identical to its official `anthropics/skills` copy, whose Apache-2.0 LICENSE.txt is bundled to resolve the missing license reference. Provenance records both locations.
+
 ## Windows paths
 
 - Claude and OnchainOS: `~/.local/bin/claude.exe`, `~/.local/bin/onchainos.exe`.
