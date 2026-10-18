@@ -4,6 +4,10 @@
 
 Keep the reference camera, aspect, framing, view transform, and lighting stable while diagnosing geometry. A reference camera is fitted by observing the image; automatic orbit cameras do not solve that calibration. Put the reference and current render side by side using the host's vision tools. Inspect close crops for small identity features.
 
+Review neutral clay before materials and retain it beside the final beauty render. The helper's clay override removes material colors and photo labels, but also removes transparency/displacement from materials; alpha-cutout hair/leaves, glass, and shader-displaced forms need a separate appropriate geometry or opacity-preserving check. Scene modifiers still evaluate. Neutral clay is a diagnostic, not the final appearance.
+
+Measure corresponding landmarks or full-frame bounds before accepting a proportion correction. Inspect the uncropped reference frame as well as any aligned silhouettes. For an actual game asset, also inspect the intended on-screen pixel size; do not impose a game-camera test on every Blender illustration.
+
 Review in this order:
 
 1. Camera, overall scale, and perspective.

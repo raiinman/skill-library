@@ -27,7 +27,15 @@ For articulated objects, add joints, local origins, attachment constraints, and 
 
 ## State on disk
 
-Keep `.img2blender/spec.json`, `build_scene.py`, versioned `.blend` files, and per-pass evidence directories. Append one JSON object per review to `.img2blender/reviews.jsonl`, for example:
+Keep `.img2blender/spec.json`, `build_scene.py`, versioned `.blend` files, and per-pass evidence directories.
+
+Add a `cameraEvidence` record with image size/crop, projection, focal-length source and units, sensor assumption, fitted camera settings, and unresolved ambiguity. Put named reference landmarks and their measured image coordinates in a linked JSON file when useful. Record tolerance units explicitly. Do not convert uncalibrated photo pixels into asserted real-world dimensions.
+
+Use `scripts/snapshot_checkpoint.py` after each accepted pass to copy the exact `.blend`, build script, spec, and explicitly named inputs into a new checkpoint directory, preserving their project-relative paths and SHA256 hashes. Record the build command. Include imported local modules, prepared textures, and other external dependencies explicitly; automatic dependency discovery is not provided. Work on the project's next version, leaving accepted snapshots untouched. Changes made during copying cause an error rather than an accepted manifest.
+
+If a manual sculpt step cannot be rebuilt by code, include its input/output `.blend` checkpoints and an explicit manual-step note. Distinguish file restoration from a fully procedural rebuild.
+
+Append one JSON object per review to `.img2blender/reviews.jsonl`, for example:
 
 ```json
 {"pass":"blockout","iteration":1,"action":"refine-code","blend":"passes/blockout-01.blend","evidence":["review-01/reference.png","review-01/orbit-000.png"],"changes":"named parameters changed this iteration","defects":["specific mismatch with reference"],"reason":"volume differs despite matching front outline"}

@@ -30,19 +30,35 @@ The output directory must not already exist. The script creates:
 
 - `reference.png` if the scene has an active camera, retaining its aspect ratio and camera.
 - Four square, elevated orbit renders around the model bounds at `000`, `090`, `180`, and `270` degrees. These are world-axis views, not automatically identified anatomical sides.
+- Matching `clay-reference.png` and four `clay-orbit-*.png` views using a neutral material override. The default `--mode both` captures ten images when a reference camera exists. `--mode clay` captures only the geometry diagnostic; `--mode beauty` retains the earlier five-image behavior.
 - `report.json` with the source `.blend` hash, Blender version, frame, evaluated geometry bounds and triangle counts, materials, dependency warnings, and each render's camera settings and file hash.
+
+Use `--landmarks C:/project/landmarks.json` for optional projected point errors in the original reference image coordinates. See [camera and landmark data](camera-and-landmarks.md). The report includes sensor dimensions/fit, lens, camera shift/clipping, view transform, exposure and gamma; these settings plus the source `.blend` hash make capture changes traceable. The helper does not automatically fit the camera or accept the model.
 
 Capture uses the scene's renderer, lights, materials, and view transform. It bypasses the compositor and sequencer to avoid their output nodes writing elsewhere; a composited final image needs its own intentional capture. Geometry statistics use the current viewport dependency graph, including evaluated instances, not a final-render topology guarantee. Missing collection geometry is an error. Missing camera or missing dependencies are recorded for the agent to resolve; they are not silently passed.
 
 The helper opens no network connection, does not save the source file, and refuses output reuse. A failed run may leave a partial evidence directory; inspect it and use a new versioned directory. Review all images with vision. It does not prove likeness, nonintersection, manifoldness, correct rigging, or export readiness.
 
+Clay overrides do not preserve material cutouts, transmission, or shader displacement. Hair cards, leaves, glass, and displaced surfaces need their own appropriate check. Scene modifiers still run. Preserve material appearance separately from this neutral geometry diagnostic.
+
+## Freeze the exact checkpoint inputs
+
+From the project directory, run the standard-library helper before editing the next version:
+
+```powershell
+python -X utf8 'C:/Users/mikea/.codex/skills/img2blender/scripts/snapshot_checkpoint.py' --project 'C:/project' --blend 'passes/blockout-01.blend' --build 'build_scene.py' --spec '.img2blender/spec.json' --include 'reference.png' --include 'textures/paint.png' --out 'C:/project/checkpoints/blockout-01' --command 'blender --background --python build_scene.py -- --out passes/blockout-01.blend'
+```
+
+Only include actual dependencies. Paths are resolved within `--project` and copied under the same relative layout. The destination must be new. `checkpoint.json` is the completion marker and includes file hashes and the recorded command, which is never executed by the snapshot helper. Copy inputs into the project first if they are external. Include imported local modules and prepared textures explicitly, along with a manual-step note if a sculpt cannot be regenerated from the build script. This is explicit file capture, not automatic dependency discovery or an atomic filesystem transaction. Inspect a partial destination after failure and use a new checkpoint name.
+
 ## Smoke test
 
 ```powershell
 python -X utf8 'C:/Users/mikea/.codex/skills/img2blender/scripts/test_review_scene.py' --blender $blender
+python -X utf8 'C:/Users/mikea/.codex/skills/img2blender/scripts/test_snapshot_checkpoint.py'
 ```
 
-This builds a small temporary fixture, reopens it in Blender, tests modifier/instance geometry capture and renders, verifies source preservation and output refusal, and checks an invalid collection failure. It establishes helper behavior, not arbitrary subject reconstruction quality.
+The Blender test reopens a small fixture, captures ten beauty/clay PNGs, checks known zero and six-pixel landmark errors, modifier/instance geometry, source preservation, and rejection of invalid collection/landmark data. The checkpoint test verifies restoration bytes after source edits, output refusal, path containment, and rejection of changes during copying. These establish helper behavior, not arbitrary subject reconstruction quality.
 
 Official references checked 2026-10-17 through Context7:
 
@@ -50,3 +66,5 @@ Official references checked 2026-10-17 through Context7:
 - [Render operation](https://docs.blender.org/api/current/bpy.ops.render.html)
 - [Saving a Blender file](https://docs.blender.org/api/current/bpy.ops.wm.html)
 - [Render settings](https://docs.blender.org/api/current/bpy.types.RenderSettings.html)
+- [Camera-space point projection](https://docs.blender.org/api/current/bpy_extras.object_utils.html)
+- [View-layer material override](https://docs.blender.org/api/current/bpy.types.ViewLayer.html)

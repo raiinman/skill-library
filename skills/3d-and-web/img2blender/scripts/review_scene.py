@@ -12,6 +12,7 @@ from pathlib import Path
 import sys
 
 import bpy
+from bpy_extras.object_utils import world_to_camera_view
 from mathutils import Vector
 
 
@@ -103,9 +104,54 @@ def capture(scene, out, name):
         'projection': camera.data.type,
         'lens_mm': camera.data.lens,
         'ortho_scale': camera.data.ortho_scale,
+        'sensor_mm': [camera.data.sensor_width, camera.data.sensor_height],
+        'sensor_fit': camera.data.sensor_fit,
+        'shift': [camera.data.shift_x, camera.data.shift_y],
+        'clip': [camera.data.clip_start, camera.data.clip_end],
         'resolution': [scene.render.resolution_x, scene.render.resolution_y],
         'pixel_aspect': [scene.render.pixel_aspect_x, scene.render.pixel_aspect_y],
     }
+
+
+def project_landmarks(scene, collection, path):
+    data = json.loads(path.read_text(encoding='utf-8'))
+    size = data['reference_size']
+    if len(size) != 2 or any(type(v) is not int or v <= 0 for v in size):
+        raise ValueError('reference_size must contain two positive integer dimensions')
+    width, height = size
+    ratio = scene.render.resolution_x / scene.render.resolution_y
+    if not math.isclose(width / height, ratio, rel_tol=0.002):
+        raise ValueError('Landmark reference aspect differs from the saved camera frame')
+    if scene.camera is None:
+        raise ValueError('Landmarks require an active reference camera')
+    rows, seen = [], set()
+    for entry in data['points']:
+        name = entry['id']
+        if not isinstance(name, str) or not name or name in seen:
+            raise ValueError('Landmark IDs must be nonempty and unique')
+        seen.add(name)
+        obj = collection.all_objects.get(entry['object'])
+        if obj is None:
+            raise ValueError('Landmark object not in model collection: ' + entry['object'])
+        local, reference = entry['local'], entry['reference_px']
+        if len(local) != 3 or len(reference) != 2 or not all(type(v) in (int, float) and math.isfinite(v) for v in local + reference):
+            raise ValueError('Landmark coordinates must be finite 3D/2D numbers')
+        if not (0 <= reference[0] <= width and 0 <= reference[1] <= height):
+            raise ValueError('Reference landmark is outside the image')
+        point = world_to_camera_view(scene, scene.camera, obj.matrix_world @ Vector(local))
+        projected = [point.x * width, (1 - point.y) * height]
+        residual = [projected[i] - reference[i] for i in (0, 1)]
+        tolerance = entry.get('tolerance_px')
+        if tolerance is not None and (type(tolerance) not in (int, float) or not math.isfinite(tolerance) or tolerance < 0):
+            raise ValueError('Landmark tolerance must be a finite nonnegative pixel value')
+        error = math.hypot(*residual)
+        rows.append({'id': name, 'reference_px': reference, 'projected_px': projected,
+                     'residual_px': residual, 'error_px': error, 'behind_camera': point.z <= 0,
+                     'tolerance_px': tolerance,
+                     'within_tolerance': None if tolerance is None else point.z > 0 and error <= tolerance})
+    if not rows:
+        raise ValueError('Landmark points must not be empty')
+    return {'source': str(path.resolve()), 'sha256': sha256(path), 'reference_size': size, 'points': rows}
 
 
 def main():
@@ -113,6 +159,8 @@ def main():
     parser.add_argument('--collection', default='Model')
     parser.add_argument('--out', required=True, type=Path)
     parser.add_argument('--size', type=int, default=512)
+    parser.add_argument('--mode', choices=['beauty', 'clay', 'both'], default='both')
+    parser.add_argument('--landmarks', type=Path)
     args = parser.parse_args(sys.argv[sys.argv.index('--') + 1:] if '--' in sys.argv else [])
     if not 64 <= args.size <= 2048:
         parser.error('--size must be between 64 and 2048')
@@ -129,14 +177,19 @@ def main():
     records, lower, upper, center, radius = collect_geometry(collection)
     scene = bpy.context.scene
     warnings = dependency_warnings()
+    landmarks = project_landmarks(scene, collection, args.landmarks) if args.landmarks else None
     report = {
-        'schema': 'img2blender-review-v1',
+        'schema': 'img2blender-review-v2',
         'source': str(source),
         'source_sha256': before,
         'blender_version': bpy.app.version_string,
         'frame': scene.frame_current,
         'engine': scene.render.engine,
         'view_transform': scene.view_settings.view_transform,
+        'exposure': scene.view_settings.exposure,
+        'gamma': scene.view_settings.gamma,
+        'requested_mode': args.mode,
+        'landmarks': landmarks,
         'collection': collection.name,
         'bounds': {'min': lower, 'max': upper},
         'evaluated_viewport_triangles': sum(row['triangles'] for row in records),
@@ -147,6 +200,7 @@ def main():
             'Geometry visibility may differ from render-layer exclusions; inspect the captures.',
             'No automatic likeness, topology, intersection, rigging, or export verdict.',
             'Compositor and sequencer bypassed; the rest of the scene remains renderable.',
+            'Clay overrides remove material transparency and shader displacement; review those forms separately.',
         ],
         'renders': [],
     }
@@ -161,28 +215,52 @@ def main():
     longest = max(scene.render.resolution_x, scene.render.resolution_y)
     scene.render.resolution_x = max(1, round(scene.render.resolution_x * args.size / longest))
     scene.render.resolution_y = max(1, round(scene.render.resolution_y * args.size / longest))
-    if scene.camera:
-        report['renders'].append(capture(scene, out, 'reference'))
-    else:
+    reference_camera = scene.camera
+    reference_resolution = (scene.render.resolution_x, scene.render.resolution_y)
+    reference_aspect = (scene.render.pixel_aspect_x, scene.render.pixel_aspect_y)
+    if reference_camera is None:
         warnings.append('No active reference camera; only automatic orbit views were captured.')
-    scene.render.resolution_x = scene.render.resolution_y = args.size
-    scene.render.pixel_aspect_x = scene.render.pixel_aspect_y = 1
     data = bpy.data.cameras.new('img2blender-review')
     camera = bpy.data.objects.new('img2blender-review', data)
     scene.collection.objects.link(camera)
-    scene.camera = camera
     data.type = 'PERSP'
     data.lens = 50
     distance = radius / math.sin(data.angle / 2) * 1.25
     data.clip_start = max(radius * 0.001, 0.000001)
     data.clip_end = max(distance * 4, data.clip_start * 100)
-    for angle in (0, 90, 180, 270):
-        radians = math.radians(angle)
-        direction = Vector((math.sin(radians), -math.cos(radians), 0.35)).normalized()
-        camera.location = center + direction * distance
-        camera.rotation_euler = (center - camera.location).to_track_quat('-Z', 'Y').to_euler()
-        bpy.context.view_layer.update()
-        report['renders'].append(capture(scene, out, f'orbit-{angle:03d}'))
+    modes = ['beauty', 'clay'] if args.mode == 'both' else [args.mode]
+    for mode in modes:
+        prefix = ''
+        if mode == 'clay':
+            prefix = 'clay-'
+            material = bpy.data.materials.new('img2blender-neutral-clay')
+            if bpy.app.version < (5, 0, 0):
+                material.use_nodes = True
+            shader = next(node for node in material.node_tree.nodes if node.type == 'BSDF_PRINCIPLED')
+            shader.inputs['Base Color'].default_value = (0.4, 0.4, 0.4, 1)
+            shader.inputs['Roughness'].default_value = 0.8
+            for layer in scene.view_layers:
+                layer.material_override = material
+        if reference_camera:
+            scene.camera = reference_camera
+            scene.render.resolution_x, scene.render.resolution_y = reference_resolution
+            scene.render.pixel_aspect_x, scene.render.pixel_aspect_y = reference_aspect
+            bpy.context.view_layer.update()
+            record = capture(scene, out, prefix + 'reference')
+            record['mode'] = mode
+            report['renders'].append(record)
+        scene.camera = camera
+        scene.render.resolution_x = scene.render.resolution_y = args.size
+        scene.render.pixel_aspect_x = scene.render.pixel_aspect_y = 1
+        for angle in (0, 90, 180, 270):
+            radians = math.radians(angle)
+            direction = Vector((math.sin(radians), -math.cos(radians), 0.35)).normalized()
+            camera.location = center + direction * distance
+            camera.rotation_euler = (center - camera.location).to_track_quat('-Z', 'Y').to_euler()
+            bpy.context.view_layer.update()
+            record = capture(scene, out, prefix + f'orbit-{angle:03d}')
+            record['mode'] = mode
+            report['renders'].append(record)
     if sha256(source) != before:
         raise RuntimeError('Source .blend changed during capture')
     (out / 'report.json').write_text(json.dumps(report, indent=2, allow_nan=False) + '\n', encoding='utf-8')

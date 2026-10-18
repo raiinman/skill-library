@@ -67,6 +67,9 @@ instance.instance_type = 'COLLECTION'
 instance.instance_collection = prototype
 instance.location = (-0.6, 0.2, 1.1)
 model.objects.link(instance)
+anchor = bpy.data.objects.new('CalibrationAnchor', None)
+anchor.location = (0, 0, 0.2)
+model.objects.link(anchor)
 
 # The same mesh object instanced outside Model must not inflate its bounds/counts.
 outside_prototype = bpy.data.collections.new('OutsidePrototype')
@@ -136,7 +139,12 @@ def main():
     before = digest(blend)
     helper = Path(__file__).with_name('review_scene.py').resolve()
     review = out / 'review'
-    command = [str(blend), '--python-exit-code', '1', '--python', str(helper), '--', '--out', str(review), '--size', '96']
+    landmarks = out / 'landmarks.json'
+    landmarks.write_text(json.dumps({'reference_size': [240, 160], 'points': [
+        {'id': 'target', 'object': 'CalibrationAnchor', 'local': [0, 0, 0], 'reference_px': [120, 80], 'tolerance_px': 0.1},
+        {'id': 'offset', 'object': 'CalibrationAnchor', 'local': [0, 0, 0], 'reference_px': [126, 80], 'tolerance_px': 1},
+    ]}), encoding='utf-8')
+    command = [str(blend), '--python-exit-code', '1', '--python', str(helper), '--', '--out', str(review), '--size', '96', '--landmarks', str(landmarks)]
     run(command)
     report = json.loads((review / 'report.json').read_text(encoding='utf-8'))
     assert report['source_sha256'] == before == digest(blend)
@@ -147,7 +155,10 @@ def main():
     assert report['bounds']['min'][1] < -1
     assert report['bounds']['max'][2] > 1.3
     assert report['bounds']['max'][0] < 2
-    assert len(report['renders']) == 5
+    assert len(report['renders']) == 10
+    points = report['landmarks']['points']
+    assert points[0]['error_px'] < 0.1 and points[0]['within_tolerance']
+    assert abs(points[1]['error_px'] - 6) < 0.1 and not points[1]['within_tolerance']
     for render in report['renders']:
         path = review / render['path']
         data = path.read_bytes()
@@ -155,16 +166,24 @@ def main():
         assert list(struct.unpack('>II', data[16:24])) == render['resolution']
         assert digest(path) == render['sha256']
     assert report['renders'][0]['resolution'] == [96, 64]
-    assert all(row['resolution'] == [96, 96] for row in report['renders'][1:])
-    assert len({row['sha256'] for row in report['renders']}) == 5
+    assert all(row['resolution'] == ([96, 64] if 'reference' in row['path'] else [96, 96]) for row in report['renders'])
+    assert len({row['sha256'] for row in report['renders']}) == 10
+    assert sum(row['mode'] == 'clay' for row in report['renders']) == 5
     snapshot = {p.name: digest(p) for p in review.iterdir()}
     run(command, False, 'Output directory already exists')
     assert snapshot == {p.name: digest(p) for p in review.iterdir()}
     invalid = out / 'invalid'
     run([str(blend), '--python-exit-code', '1', '--python', str(helper), '--', '--collection', 'Absent', '--out', str(invalid)], False, 'Collection is missing')
     assert not invalid.exists()
+    bad_landmarks = out / 'bad-landmarks.json'
+    bad = json.loads(landmarks.read_text(encoding='utf-8'))
+    bad['points'][0]['local'][0] = float('nan')
+    bad_landmarks.write_text(json.dumps(bad), encoding='utf-8')
+    bad_output = out / 'bad-landmarks-output'
+    run([str(blend), '--python-exit-code', '1', '--python', str(helper), '--', '--out', str(bad_output), '--landmarks', str(bad_landmarks)], False, 'finite 3D/2D numbers')
+    assert not bad_output.exists()
     assert digest(blend) == before
-    print('PASS: Blender build/reopen, modifier and instance geometry, 5 PNGs, aspect, hashes, source preservation, overwrite and invalid-collection refusal')
+    print('PASS: Blender build/reopen, modifier and instance geometry, 10 beauty/clay PNGs, calibrated landmark residuals, aspect, hashes, source preservation, overwrite and invalid-collection refusal')
     print('Artifacts:', out)
 
 

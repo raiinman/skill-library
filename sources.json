@@ -2602,7 +2602,22 @@
       "Reference analysis, quality contract, staged multi-view review, correction bounds, and optional rig/export checks",
       "New dependency-free Blender capture helper and real headless regression fixture",
       "Original entrypoint, Apache-2.0 license, attribution, and pinned provenance retained",
-      "Replaces rather than ports the Three.js forge runtime and domain plugin harness"
+      "Replaces rather than ports the Three.js forge runtime and domain plugin harness",
+      "Camera evidence and landmark residuals before geometry changes; separate clay and beauty review",
+      "Explicit immutable build/spec/input checkpoint snapshots with hash and containment checks",
+      "Conditional planar graphic and relief route; reviewed tutorial and game-skill limitations documented"
+    ],
+    "research_sources": [
+      {
+        "url": "https://www.youtube.com/watch?v=BcjPCjxsCZo",
+        "review": "Auto-generated transcript and sampled browser playback; paraphrased workflow analysis only"
+      },
+      {
+        "repo": "majidmanzarpour/blender-game-skills",
+        "commit": "f0ef29385a03de139957e6f700b801cdc00b7e29",
+        "license": "MIT",
+        "review": "Static source review; no code vendored or runtime installed"
+      }
     ]
   }
 ]
