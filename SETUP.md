@@ -86,3 +86,9 @@ Validation covers Codex metadata, packaged resources, installed-file parity, CLI
 Unity compilation, profiling, tests, and builds require the actual project, its editor version, packages, applicable license, and target modules. The separately installed local `unity-cli` skill and Unity CLI can support editor work when the target project provides a compatible connection. This import does not install or upgrade an editor or add packages to any project. No Unity project compilation or runtime test was performed during packaging.
 
 Local installs are discoverable by Codex and compatible local ChatGPT desktop workflows. Publishing these files on GitHub does not install skills into the ChatGPT web or mobile account.
+
+## Image to Blender
+
+`img2blender` is the native Blender adaptation of the pinned library `img2threejs` skill. It uses Blender's bundled Python, editable `.blend` files, subject-specific build scripts, and visual correction passes. It does not require Three.js, npm, a neural model, or a Blender MCP server. Blender 5.2.1 LTS is already installed on this machine; no application or global configuration changes were needed.
+
+The bundled headless review helper captures a reference camera and four orbit views, reports evaluated geometry and resource warnings, and preserves the source file. Its real Blender smoke test covers reopen/render behavior, modifier and instance reporting, image dimensions, and refusal to overwrite evidence. Fidelity, rigging, and exported assets need their own visual and target-specific checks. See the package's `references/blender-execution.md` for commands and limits.

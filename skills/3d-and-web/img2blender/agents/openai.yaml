@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image to Blender"
+  short_description: "Rebuild image references as editable Blender models"
+  default_prompt: "Use $img2blender to recreate my reference image as an editable Blender model and verify it with renders."

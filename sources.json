@@ -2580,5 +2580,29 @@
       "No automatic Unity upgrades, package migrations, or unrelated service setup",
       "Complete upstream examples retained, with a separate caveat guide for incomplete and unsafe-to-copy patterns"
     ]
+  },
+  {
+    "repo": "raiinman/skill-library",
+    "selector": "img2threejs",
+    "category": "3d-and-web",
+    "name": "img2blender",
+    "listing": "https://github.com/raiinman/skill-library/tree/1ff8501e6f5378a65b5dac987514e7498baa7cd5/skills/3d-and-web/img2threejs",
+    "path": "skills/3d-and-web/img2blender",
+    "upstream_path": "skills/3d-and-web/img2threejs/SKILL.md",
+    "commit": "1ff8501e6f5378a65b5dac987514e7498baa7cd5",
+    "source_url": "https://github.com/raiinman/skill-library/blob/1ff8501e6f5378a65b5dac987514e7498baa7cd5/skills/3d-and-web/img2threejs/SKILL.md",
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE",
+      "NOTICE"
+    ],
+    "original_sha256": "e0c29eca4bba7759a2f8703dc4acd8aaabcc3f60aedf938b283b6ffd51531bcc",
+    "adaptations": [
+      "Native Blender adaptation with editable blend files and subject-specific bpy build scripts",
+      "Reference analysis, quality contract, staged multi-view review, correction bounds, and optional rig/export checks",
+      "New dependency-free Blender capture helper and real headless regression fixture",
+      "Original entrypoint, Apache-2.0 license, attribution, and pinned provenance retained",
+      "Replaces rather than ports the Three.js forge runtime and domain plugin harness"
+    ]
   }
 ]

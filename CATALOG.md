@@ -9,6 +9,7 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$frontend-motion-wizard`](skills/3d-and-web/frontend-motion-wizard/SKILL.md) · [source](skills/3d-and-web/frontend-motion-wizard/SOURCE.md)
 - [`$high-end-visual-design`](skills/3d-and-web/high-end-visual-design/SKILL.md) · [source](skills/3d-and-web/high-end-visual-design/SOURCE.md)
 - [`$image-to-code`](skills/3d-and-web/image-to-code/SKILL.md) · [source](skills/3d-and-web/image-to-code/SOURCE.md)
+- [`$img2blender`](skills/3d-and-web/img2blender/SKILL.md) · [source](skills/3d-and-web/img2blender/SOURCE.md)
 - [`$img2threejs`](skills/3d-and-web/img2threejs/SKILL.md) · [source](skills/3d-and-web/img2threejs/SOURCE.md)
 - [`$next-best-practices`](skills/3d-and-web/next-best-practices/SKILL.md) · [source](skills/3d-and-web/next-best-practices/SOURCE.md)
 - [`$threejs-postprocessing`](skills/3d-and-web/threejs-postprocessing/SKILL.md) · [source](skills/3d-and-web/threejs-postprocessing/SOURCE.md)
