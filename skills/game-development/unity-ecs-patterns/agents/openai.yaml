@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity ECS Patterns"
+  short_description: "Develop Unity ECS systems with Jobs and Burst"
+  default_prompt: "Use $unity-ecs-patterns to help with my Unity project using its installed editor and package versions."

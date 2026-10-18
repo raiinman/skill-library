@@ -78,3 +78,11 @@ The spatial design skill's prose is CC BY 4.0 under its included content notice,
 - Chaos experiments require the infrastructure and failure-injection tool chosen for the actual experiment. No production chaos experiment was run as part of installation.
 
 Validation covers Codex metadata, packaged resources, installed-file parity, CLI versions, and small generator checks. It does not claim every skill workflow has been executed.
+
+## Unity development
+
+`unity-developer` and `unity-ecs-patterns` are instruction-only packages in `skills/game-development`. Both include pinned originals, supporting examples where provided, MIT licenses, and Codex picker metadata. They require no extra Python, npm, or cloud service installation. The adapted ECS entrypoint routes through caveats for the upstream snippets before reuse.
+
+Unity compilation, profiling, tests, and builds require the actual project, its editor version, packages, applicable license, and target modules. The separately installed local `unity-cli` skill and Unity CLI can support editor work when the target project provides a compatible connection. This import does not install or upgrade an editor or add packages to any project. No Unity project compilation or runtime test was performed during packaging.
+
+Local installs are discoverable by Codex and compatible local ChatGPT desktop workflows. Publishing these files on GitHub does not install skills into the ChatGPT web or mobile account.

@@ -2537,5 +2537,48 @@
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/frontend-design/SKILL.md"
     }
+  },
+  {
+    "repo": "rmyndharis/antigravity-skills",
+    "selector": "unity-developer",
+    "category": "game-development",
+    "name": "unity-developer",
+    "listing": "https://explainx.ai/skills/rmyndharis/antigravity-skills/unity-developer",
+    "path": "skills/game-development/unity-developer",
+    "upstream_path": "skills/unity-developer/SKILL.md",
+    "commit": "364ea63c190fcf7cac035f7fa91f0406fa392584",
+    "source_url": "https://github.com/rmyndharis/antigravity-skills/blob/364ea63c190fcf7cac035f7fa91f0406fa392584/skills/unity-developer/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "original_sha256": "e4f0ae6ba63bbc6b39087e116ef7dda885556b8598d1310f2a835ad1b088c887",
+    "adaptations": [
+      "Codex entrypoint and picker metadata; byte-preserved upstream entrypoint and MIT license",
+      "Project-version-aware workflow, existing architecture and tool discovery, proportionate verification",
+      "No automatic Unity upgrades, package migrations, or unrelated service setup"
+    ]
+  },
+  {
+    "repo": "wshobson/agents",
+    "selector": "unity-ecs-patterns",
+    "category": "game-development",
+    "name": "unity-ecs-patterns",
+    "listing": "https://explainx.ai/skills/wshobson/agents/unity-ecs-patterns",
+    "path": "skills/game-development/unity-ecs-patterns",
+    "upstream_path": "plugins/game-development/skills/unity-ecs-patterns/SKILL.md",
+    "commit": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+    "source_url": "https://github.com/wshobson/agents/blob/0874a27b17a22e2b7c2e2bcd725768e0803cad06/plugins/game-development/skills/unity-ecs-patterns/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "original_sha256": "18c3305e118e330e352b3e85011640385bb2bed1602e88d7447f55ae3447c973",
+    "adaptations": [
+      "Codex entrypoint and picker metadata; byte-preserved upstream entrypoint and MIT license",
+      "Project-version-aware workflow, existing architecture and tool discovery, proportionate verification",
+      "No automatic Unity upgrades, package migrations, or unrelated service setup",
+      "Complete upstream examples retained, with a separate caveat guide for incomplete and unsafe-to-copy patterns"
+    ]
   }
 ]

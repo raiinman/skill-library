@@ -111,6 +111,8 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$game-architecture`](skills/game-development/game-architecture/SKILL.md) · [source](skills/game-development/game-architecture/SOURCE.md)
 - [`$game-development`](skills/game-development/game-development/SKILL.md) · [source](skills/game-development/game-development/SOURCE.md)
 - [`$map-systems`](skills/game-development/map-systems/SKILL.md) · [source](skills/game-development/map-systems/SOURCE.md)
+- [`$unity-developer`](skills/game-development/unity-developer/SKILL.md) · [source](skills/game-development/unity-developer/SOURCE.md)
+- [`$unity-ecs-patterns`](skills/game-development/unity-ecs-patterns/SKILL.md) · [source](skills/game-development/unity-ecs-patterns/SOURCE.md)
 
 ## Marketing And Ads
 
