@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Workflows"
+  short_description: "Model, shade, rig and prepare assets in Blender"
+  default_prompt: "Use $blender to help with this Blender task."

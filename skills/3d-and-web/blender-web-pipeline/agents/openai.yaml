@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Web Pipeline"
+  short_description: "Export and optimize Blender assets for the web"
+  default_prompt: "Use $blender-web-pipeline to help with this Blender task."

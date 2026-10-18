@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender MCP"
+  short_description: "Inspect Blender scenes and troubleshoot MCP workflows"
+  default_prompt: "Use $blender-mcp to help with this Blender task."

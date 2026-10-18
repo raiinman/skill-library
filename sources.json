@@ -2619,5 +2619,87 @@
         "review": "Static source review; no code vendored or runtime installed"
       }
     ]
+  },
+  {
+    "repo": "freshtechbro/claudedesignskills",
+    "selector": "blender-web-pipeline",
+    "category": "3d-and-web",
+    "name": "blender-web-pipeline",
+    "listing": "https://explainx.ai/skills/freshtechbro/claudedesignskills/blender-web-pipeline",
+    "path": "skills/3d-and-web/blender-web-pipeline",
+    "upstream_path": ".claude/skills/blender-web-pipeline/SKILL.md",
+    "commit": "1da73febff0c3e1dfefc07f8a5ef8f7d1dfdb6cd",
+    "source_url": "https://github.com/freshtechbro/claudedesignskills/blob/1da73febff0c3e1dfefc07f8a5ef8f7d1dfdb6cd/.claude/skills/blender-web-pipeline/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "upstream_sha256": "788e4c2fa8d559b5f682a0c49c87159bed06207fd04119ec6f8c3fc7203a7b4c",
+    "adaptations": [
+      "Codex entrypoint and picker metadata; original entrypoint and all supporting resources archived byte-for-byte",
+      "Version-aware native Blender fallback; corrected unsafe or unconditional export, API and state assumptions",
+      "Archived all three upstream scripts; replaced active execution with explicit-collection output-copy CLI and real Blender smoke test. Absent advertised templates are not claimed as included."
+    ]
+  },
+  {
+    "repo": "davincidreams/agent-team-plugins",
+    "selector": "blender",
+    "category": "3d-and-web",
+    "name": "blender",
+    "listing": "https://explainx.ai/skills/davincidreams/agent-team-plugins/blender",
+    "path": "skills/3d-and-web/blender",
+    "upstream_path": "teams/3d-design/skills/blender/SKILL.md",
+    "commit": "826a409e23fde79a322d8e7680d0a23ff5cad9d5",
+    "source_url": "https://github.com/davincidreams/agent-team-plugins/blob/826a409e23fde79a322d8e7680d0a23ff5cad9d5/teams/3d-design/skills/blender/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "upstream_sha256": "17b71c9fae475bfca5774f3093ee78afafb05d01969db454a17470309e5ef515",
+    "adaptations": [
+      "Codex entrypoint and picker metadata; original entrypoint and all supporting resources archived byte-for-byte",
+      "Version-aware native Blender fallback; corrected unsafe or unconditional export, API and state assumptions"
+    ]
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "selector": "Blender Add-on Engineer",
+    "category": "3d-and-web",
+    "name": "blender-addon-engineer",
+    "listing": "https://explainx.ai/skills/msitarzewski/agency-agents/Blender%20Add-on%20Engineer",
+    "path": "skills/3d-and-web/blender-addon-engineer",
+    "upstream_path": "game-development/blender/blender-addon-engineer.md",
+    "commit": "652b2692f8d8ec2b1f1a38e559073e287dfdc469",
+    "source_url": "https://github.com/msitarzewski/agency-agents/blob/652b2692f8d8ec2b1f1a38e559073e287dfdc469/game-development/blender/blender-addon-engineer.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "upstream_sha256": "e9a778fb9a78c31b6c2e2d8a0912cccd32652c1627be4794ae70f5ceb0021076",
+    "adaptations": [
+      "Codex entrypoint and picker metadata; original entrypoint and all supporting resources archived byte-for-byte",
+      "Version-aware native Blender fallback; corrected unsafe or unconditional export, API and state assumptions"
+    ]
+  },
+  {
+    "repo": "vladmdgolam/agent-skills",
+    "selector": "blender-mcp",
+    "category": "3d-and-web",
+    "name": "blender-mcp",
+    "listing": "https://explainx.ai/skills/vladmdgolam/agent-skills/blender-mcp",
+    "path": "skills/3d-and-web/blender-mcp",
+    "upstream_path": "skills/blender-mcp/SKILL.md",
+    "commit": "b66d157341c7c08023f6ef61324bd3ba3c1b6f85",
+    "source_url": "https://github.com/vladmdgolam/agent-skills/blob/b66d157341c7c08023f6ef61324bd3ba3c1b6f85/skills/blender-mcp/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "upstream_sha256": "8721e51d4b47d429fbf490c5c5cf304fdac49c4677e2f0718bfc8771b9a7aa73",
+    "adaptations": [
+      "Codex entrypoint and picker metadata; original entrypoint and all supporting resources archived byte-for-byte",
+      "Version-aware native Blender fallback; corrected unsafe or unconditional export, API and state assumptions",
+      "Made MCP conditional and corrected universal name-mapping, array preservation, timeout and compression claims; isolated original examples as archive."
+    ]
   }
 ]
