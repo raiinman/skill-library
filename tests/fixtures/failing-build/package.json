@@ -1,0 +1,9 @@
+{
+  "name": "dsi-plugin-debug-fixture",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node src/index.mjs",
+    "test": "node verify.mjs"
+  }
+}

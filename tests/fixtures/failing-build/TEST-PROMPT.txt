@@ -1,0 +1,31 @@
+DSI plugin fresh-chat test
+
+Open a COPY of this fixture in a new Codex chat, with DSI Skill Library installed.
+Node.js is required; there are no third-party packages or account requirements.
+The project intentionally fails. Do not repair the repository's original fixture.
+
+Send this prompt:
+
+Use DSI Skill Library with source branch feat/dsi-skill-library-plugin to diagnose
+and fix this project's failing build. First report the pinned source commit,
+selected skill, and unavailable capabilities. Reproduce with npm run build,
+make the smallest root-cause fix, and verify with npm run build and npm test.
+Preserve the existing math module's public API and do not add dependencies.
+
+Acceptance:
+- Select coding-workflow/debugging-and-error-recovery directly from the index.
+- Read index, skill, and provenance at the same reported full commit SHA.
+- Actually reproduce and explain the failure before changing implementation.
+- Preserve math.mjs's public API and fix the consumer consistently.
+- npm run build outputs total=42; npm test passes.
+- Report actual execution separately from retrieving the instructions.
+
+Follow-up test in that same chat:
+Change the displayed label from total= to answer= and update the verification.
+Keep using the existing task revision.
+
+Expected: a small follow-up reuses the loaded workflow and source revision.
+This is explicit plugin invocation. It does not prove implicit selection in a new chat.
+For a separate implicit-selection trial, use a fresh COPY in another new chat and
+ask only: Diagnose and fix this project's failing build; preserve the math API.
+Record whether DSI was selected; do not assume it was.
