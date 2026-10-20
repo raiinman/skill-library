@@ -1,6 +1,6 @@
 ---
 name: high-end-visual-design
-description: Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.
+description: Shape premium agency-style website visual direction when the user explicitly requests that aesthetic, including typography, spacing, depth, cards, and motion. Use for a new or approved visual redesign; exclude routine component implementation and maintenance of an established design system unless the user approves changing it.
 metadata:
   library_source:
     kind: installed-local-snapshot

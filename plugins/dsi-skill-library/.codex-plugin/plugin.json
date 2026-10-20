@@ -1,0 +1,13 @@
+{
+  "name": "dsi-skill-library",
+  "version": "0.1.0",
+  "description": "Select DSI workflows and read accepted instructions at one GitHub revision per task.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DSI Skill Library",
+    "shortDescription": "Find the right DSI workflow",
+    "longDescription": "One library router for the canonical DSI skill collection. Requires GitHub read access or a local Git checkout for current instructions.",
+    "developerName": "raiinman",
+    "category": "Productivity"
+  }
+}

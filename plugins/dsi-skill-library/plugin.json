@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dsi-skill-library",
+  "version": "0.1.0",
+  "description": "Select DSI workflows from raiinman/skill-library and retrieve accepted instructions at one GitHub revision per task.",
+  "author": { "name": "raiinman" },
+  "repository": "https://github.com/raiinman/skill-library",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "DSI Skill Library",
+        "shortDescription": "Find the right DSI workflow",
+        "longDescription": "One library router for the canonical DSI skill collection. Requires GitHub read access or a local Git checkout for current instructions. Local applications and provider accounts remain workflow prerequisites.",
+        "developerName": "raiinman",
+        "category": "Productivity"
+      }
+    }
+  }
+}

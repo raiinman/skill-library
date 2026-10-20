@@ -1,6 +1,6 @@
 ---
 name: uefn-toolbelt
-description: Inspect and automate Unreal Editor for Fortnite with the globally installed UEFN Toolbelt MCP server. Use for UEFN actors, assets, devices, imports, level inspection, Toolbelt setup, and choosing existing editor tools.
+description: Inspect and automate Unreal Editor for Fortnite through UEFN Toolbelt when its MCP server and editor listener are available. Use for UEFN actors, assets, devices, imports, level inspection, Toolbelt setup, and choosing existing editor tools; exclude ordinary Unreal Engine projects and unrelated game engines.
 metadata:
   library_source:
     kind: installed-local-snapshot
@@ -8,6 +8,16 @@ metadata:
 ---
 
 # UEFN Toolbelt
+
+## Execution contract
+
+Input: the intended UEFN project/level and requested inspection or editor operation.
+Output: inspected state or the requested scoped change, verified by editor readback.
+Requires an actual UEFN Toolbelt MCP connection and a listener in the intended editor
+session. The paths and historical test results below describe the source machine;
+check them on this host before using them. If either connection is unavailable,
+report setup guidance and leave editor execution unverified. Tool discovery alone
+does not prove an editor action succeeded.
 
 ## Local installation
 
