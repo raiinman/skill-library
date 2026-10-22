@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "evaluation": "manual instruction review only",
+  "fresh_host_selection_tested": false,
+  "method": "A reviewer read router instructions and relevant canonical skill descriptions and bodies. These are expected model choices, not results from a deterministic routing implementation or executed host trials.",
+  "cases": [
+    {
+      "id": "interface-visual-direction",
+      "prompt": "Design a distinctive frontend for a local ceramics studio. Start with typography, palette, hierarchy and layout.",
+      "context": "New substantive task; no previously selected workflow or design system.",
+      "expected_primary": "3d-and-web/frontend-design",
+      "expected_behaviors": ["Pin main to one full commit before reading the index and canonical entrypoint.", "Prefer the direct aesthetic-direction match; do not load several overlapping design skills.", "Respect the ceramics brief when selecting the visual direction."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "interface-implementation",
+      "prompt": "Implement an accessible responsive settings form in our existing React app, with keyboard navigation and validation states.",
+      "context": "Existing app has accepted design tokens and component conventions.",
+      "expected_primary": "coding-workflow/frontend-ui-engineering",
+      "expected_behaviors": ["Preserve existing conventions and design tokens.", "Use the focused engineering workflow; do not impose a new visual identity.", "Read only relevant supports and verify the actual app runtime."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "debug-runtime-failure",
+      "prompt": "Checkout started returning a 500 after yesterday's deploy. Find and fix the root cause.",
+      "context": "New substantive debugging task with repository and logs available.",
+      "expected_primary": "coding-workflow/debugging-and-error-recovery",
+      "expected_behaviors": ["Select the direct debugging workflow without first entering using-agent-skills.", "Preserve evidence, reproduce, diagnose and verify the fix.", "Do not treat a successful skill fetch as successful debugging."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "blender-general-modeling",
+      "prompt": "Model a simple editable coffee mug in Blender and save the blend file with a preview render.",
+      "context": "No bridge or provider selected; saved-file work is acceptable.",
+      "expected_primary": "3d-and-web/blender",
+      "expected_behaviors": ["Choose the general Blender workflow over integration-specific alternatives.", "Discover Blender and its version; use native bpy if appropriate.", "Save an editable artifact and inspect the resulting render."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "blender-reference-reconstruction",
+      "prompt": "Rebuild this toy train photo as an editable Blender model and compare renders against the reference.",
+      "context": "Readable image is attached; no generation provider selected.",
+      "expected_primary": "3d-and-web/img2blender",
+      "expected_behaviors": ["Use the focused reconstruction workflow.", "Load pinned reference-analysis, camera and execution guidance when needed.", "Separate observed geometry, inferred hidden surfaces and visual fidelity from render execution."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "blender-web-handoff",
+      "prompt": "Export my saved Blender character to GLB for Three.js without losing its walk animation.",
+      "context": "Saved blend path is supplied; editable source must be retained.",
+      "expected_primary": "3d-and-web/blender-web-pipeline",
+      "expected_behaviors": ["Use the focused browser asset handoff workflow.", "Preserve source and animation requirements.", "Verify the exported GLB in the intended consumer rather than claiming success from file creation."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "blender-addon",
+      "prompt": "Build a Blender sidebar add-on that validates selected assets before export.",
+      "context": "Target Blender version and asset rules are available.",
+      "expected_primary": "3d-and-web/blender-addon-engineer",
+      "expected_behaviors": ["Choose the focused add-on workflow.", "Inspect actual asset rules and separate validation from mutations.", "Verify registration, reload, error cases and export enforcement."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "uefn-editor-inspection",
+      "prompt": "Inspect the active UEFN level with Toolbelt and list the devices already in it.",
+      "context": "No local Toolbelt installation has yet been verified on this host.",
+      "expected_primary": "unreal-engine/uefn-toolbelt",
+      "expected_behaviors": ["Discover actual Toolbelt capabilities and verify ping plus intended level before editor work.", "Treat historical Windows paths and old live-test records as source history, not proof about this host.", "If Toolbelt is unavailable, name the missing capability without inventing tools or switching bridges."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "explicit-remote-skill",
+      "prompt": "Use $blender-studio to make a stylized game prop.",
+      "context": "The named DSI workflow is remote and not already selected as an installed native skill.",
+      "expected_primary": "3d-and-web/blender-studio",
+      "expected_behaviors": ["Honor the named workflow, pin source and fetch its canonical entrypoint directly.", "Load only the useful specialist guides.", "Do not route again through sibling or umbrella workflows."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "explicit-installed-skill",
+      "prompt": "Use $frontend-design for this landing page.",
+      "context": "frontend-design is already installed and explicitly selected in the host.",
+      "expected_primary": "3d-and-web/frontend-design",
+      "expected_behaviors": ["Follow the explicitly selected installed skill immediately.", "Do not require extra remote discovery or create a router loop."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "explicit-inference-provider",
+      "prompt": "Generate a short product video through inference.sh.",
+      "context": "Provider choice is explicit; belt CLI access is not yet verified.",
+      "expected_primary": "video-and-audio/ai-video-generation",
+      "expected_behaviors": ["Preserve inference.sh and verify belt runtime, authentication and current app schema.", "Do not switch to Arcads when the selected provider is unavailable.", "Separate prompt planning, retrieval, submission and reviewed output."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "greeting",
+      "prompt": "Hi! How are you?",
+      "context": "Ordinary conversation with no task.",
+      "expected_primary": null,
+      "expected_behaviors": ["Respond normally; do not fetch the library or invoke its router."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "minor-followup",
+      "prompt": "Make that button label shorter.",
+      "context": "Continuation of a UI task with frontend-ui-engineering loaded at a retained full commit.",
+      "expected_primary": null,
+      "expected_behaviors": ["Continue the loaded workflow without a new routing pass.", "Reuse its retained source revision and accepted design decisions."],
+      "evaluation": "manual instruction review only"
+    },
+    {
+      "id": "github-source-failure",
+      "prompt": "Use the DSI library to debug this failed build.",
+      "context": "GitHub commit resolution fails and no approved local source adapter is available.",
+      "expected_primary": null,
+      "expected_behaviors": ["Report that current source access is unavailable.", "Snapshot descriptions may suggest debugging-and-error-recovery but must not be presented as retrieved current instructions.", "Name the missing capability and continue useful independent diagnosis within existing authorization.", "Do not silently use a different source or claim fresh-host routing success."],
+      "evaluation": "manual instruction review only"
+    }
+  ]
+}

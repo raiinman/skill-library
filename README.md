@@ -122,6 +122,8 @@ Your home for skills. 138 skill packages are organized by purpose, including the
 
 [Browse all skills by name](CATALOG.md) · [Find your GitHub projects](REPOSITORIES.md) · [Runtime setup](SETUP.md)
 
+[DSI Skill Library plugin: installation, refresh, and rollback](docs/DSI-PLUGIN.md)
+
 <p align="center"><a href="#readme-index">↑ Back to index</a></p>
 
 <a name="readme-section-2"></a>

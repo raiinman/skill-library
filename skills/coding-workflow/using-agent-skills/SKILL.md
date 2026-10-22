@@ -1,6 +1,6 @@
 ---
 name: using-agent-skills
-description: Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This is the meta-skill that governs how all other skills are discovered and invoked.
+description: Select engineering workflow skills by development phase when a software task spans requirements, implementation, verification, review, or delivery. Use when the appropriate engineering phase is unclear; a directly matched or explicitly named skill takes precedence. Exclude ordinary conversation and non-engineering library selection.
 metadata:
   library_source:
     kind: installed-plugin-snapshot
