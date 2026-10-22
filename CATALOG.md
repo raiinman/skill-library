@@ -4,6 +4,7 @@ Start with the task you want to do, or search this page for a skill name.
 
 ## 3D And Web
 
+- [`$aify-blender`](skills/3d-and-web/aify-blender/SKILL.md) · [source](skills/3d-and-web/aify-blender/SOURCE.md)
 - [`$antigravity-design-expert`](skills/3d-and-web/antigravity-design-expert/SKILL.md) · [source](skills/3d-and-web/antigravity-design-expert/SOURCE.md)
 - [`$blender-addon-engineer`](skills/3d-and-web/blender-addon-engineer/SKILL.md) · [source](skills/3d-and-web/blender-addon-engineer/SOURCE.md)
 - [`$blender-mcp`](skills/3d-and-web/blender-mcp/SKILL.md) · [source](skills/3d-and-web/blender-mcp/SOURCE.md)
@@ -11,6 +12,7 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$blender-web-pipeline`](skills/3d-and-web/blender-web-pipeline/SKILL.md) · [source](skills/3d-and-web/blender-web-pipeline/SOURCE.md)
 - [`$blender`](skills/3d-and-web/blender/SKILL.md) · [source](skills/3d-and-web/blender/SOURCE.md)
 - [`$cc-blender-toolkit`](skills/3d-and-web/cc-blender-toolkit/SKILL.md) · [source](skills/3d-and-web/cc-blender-toolkit/SOURCE.md)
+- [`$dream-loop`](skills/3d-and-web/dream-loop/SKILL.md) · [source](skills/3d-and-web/dream-loop/SOURCE.md)
 - [`$frontend-design`](skills/3d-and-web/frontend-design/SKILL.md) · [source](skills/3d-and-web/frontend-design/SOURCE.md)
 - [`$frontend-motion-wizard`](skills/3d-and-web/frontend-motion-wizard/SKILL.md) · [source](skills/3d-and-web/frontend-motion-wizard/SOURCE.md)
 - [`$high-end-visual-design`](skills/3d-and-web/high-end-visual-design/SKILL.md) · [source](skills/3d-and-web/high-end-visual-design/SOURCE.md)

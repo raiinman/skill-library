@@ -2786,5 +2786,37 @@
       "Standalone zero-dependency JSON-RPC stdio MCP server for Antigravity and Codex",
       "Non-destructive workflow, adaptive voxel sizing, and one-click instance realization"
     ]
+  },
+  {
+    "name": "aify-blender",
+    "category": "3d-and-web",
+    "path": "skills/3d-and-web/aify-blender",
+    "repo": "AiKodex/Ai.Fy-Text-To-Image-Unity",
+    "source_url": "https://assetstore.unity.com/packages/tools/ai/ai-fy-text-to-image-227878",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Reverse engineered C# editor and ONNX neural pipeline into native Blender add-on",
+      "Vectorized NumPy Normal and Specular PBR map synthesis without external imaging libraries",
+      "Asynchronous inference execution with non-blocking viewport timer UI polling"
+    ]
+  },
+  {
+    "name": "dream-loop",
+    "category": "3d-and-web",
+    "path": "skills/3d-and-web/dream-loop",
+    "repo": "achimala/dream-loop",
+    "source_url": "https://github.com/achimala/dream-loop",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "upstream_sha": "9bddb901f7d071cfefdd21e264267c757177a9df",
+    "adaptations": [
+      "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
+      "Bundled Fal batch runner and local preview capture server for iterative critique"
+    ]
   }
 ]
