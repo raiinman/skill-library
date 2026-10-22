@@ -2770,5 +2770,21 @@
     ],
     "upstream_sha256": "ba10ae3243590f94fb114b6cb1e476f8f0510f0a99de100e8c14651d081bc008",
     "archive_sha256": "e4a051b10c54a266f838cdf6f100043eb96e2066efa4ccaf1b1ec7993f0bc931"
+  },
+  {
+    "name": "voxify",
+    "category": "3d-and-web",
+    "path": "skills/3d-and-web/voxify",
+    "repo": "CartesianCaramel/Voxify",
+    "source_url": "https://superhivemarket.com/products/voxify",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Native Blender add-on with Asset Library integration and 3D Viewport sidebar UI",
+      "Standalone zero-dependency JSON-RPC stdio MCP server for Antigravity and Codex",
+      "Non-destructive workflow, adaptive voxel sizing, and one-click instance realization"
+    ]
   }
 ]

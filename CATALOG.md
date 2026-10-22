@@ -21,6 +21,7 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$next-best-practices`](skills/3d-and-web/next-best-practices/SKILL.md) · [source](skills/3d-and-web/next-best-practices/SOURCE.md)
 - [`$threejs-postprocessing`](skills/3d-and-web/threejs-postprocessing/SKILL.md) · [source](skills/3d-and-web/threejs-postprocessing/SOURCE.md)
 - [`$ui-animation`](skills/3d-and-web/ui-animation/SKILL.md) · [source](skills/3d-and-web/ui-animation/SOURCE.md)
+- [`$voxify`](skills/3d-and-web/voxify/SKILL.md) · [source](skills/3d-and-web/voxify/SOURCE.md)
 
 ## Business Planning
 
