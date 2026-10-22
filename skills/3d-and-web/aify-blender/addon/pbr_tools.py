@@ -21,17 +21,13 @@ def get_image_rgb_array(image: bpy.types.Image) -> np.ndarray:
 
 
 def create_or_get_image(name: str, width: int, height: int, colorspace: str = 'sRGB') -> bpy.types.Image:
-    """Create a new bpy.data.images or reuse existing by name with specified colorspace."""
+    """Create a new bpy.data.images with specified colorspace."""
     if name in bpy.data.images:
-        img = bpy.data.images[name]
-        if img.size[0] != width or img.size[1] != height:
-            bpy.data.images.remove(img)
-            img = bpy.data.images.new(name, width=width, height=height)
-    else:
-        img = bpy.data.images.new(name, width=width, height=height)
-    
+        bpy.data.images.remove(bpy.data.images[name])
+    img = bpy.data.images.new(name, width=width, height=height)
     try:
-        img.colorspace_settings.name = colorspace
+        if img.colorspace_settings.name != colorspace:
+            img.colorspace_settings.name = colorspace
     except Exception:
         pass
     return img
@@ -91,6 +87,10 @@ def generate_normal_map(source_image: bpy.types.Image, strength: float = 5.0, na
     out_img = create_or_get_image(out_name, w, h, colorspace='Non-Color')
     out_img.pixels.foreach_set(out_rgba.ravel())
     out_img.update()
+    try:
+        out_img.pack()
+    except Exception:
+        pass
     return out_img
 
 
@@ -128,6 +128,10 @@ def generate_roughness_map(source_image: bpy.types.Image, contrast: float = 1.5,
     out_img = create_or_get_image(out_name, w, h, colorspace='Non-Color')
     out_img.pixels.foreach_set(out_rgba.ravel())
     out_img.update()
+    try:
+        out_img.pack()
+    except Exception:
+        pass
     return out_img
 
 
@@ -153,6 +157,10 @@ def generate_displacement_map(source_image: bpy.types.Image, name_suffix: str = 
     out_img = create_or_get_image(out_name, w, h, colorspace='Non-Color')
     out_img.pixels.foreach_set(out_rgba.ravel())
     out_img.update()
+    try:
+        out_img.pack()
+    except Exception:
+        pass
     return out_img
 
 
@@ -195,10 +203,6 @@ def create_pbr_material(
         tex_rough = nodes.new("ShaderNodeTexImage")
         tex_rough.location = (-300, -100)
         tex_rough.image = roughness_img
-        try:
-            tex_rough.image.colorspace_settings.name = 'Non-Color'
-        except Exception:
-            pass
         links.new(tex_rough.outputs["Color"], bsdf_node.inputs["Roughness"])
         
     # 5. Normal Map Node & Texture Node
@@ -206,10 +210,6 @@ def create_pbr_material(
         tex_norm = nodes.new("ShaderNodeTexImage")
         tex_norm.location = (-550, -400)
         tex_norm.image = normal_img
-        try:
-            tex_norm.image.colorspace_settings.name = 'Non-Color'
-        except Exception:
-            pass
         
         node_norm_map = nodes.new("ShaderNodeNormalMap")
         node_norm_map.location = (-250, -400)
@@ -221,10 +221,6 @@ def create_pbr_material(
         tex_disp = nodes.new("ShaderNodeTexImage")
         tex_disp.location = (-300, -700)
         tex_disp.image = displacement_img
-        try:
-            tex_disp.image.colorspace_settings.name = 'Non-Color'
-        except Exception:
-            pass
         node_disp = nodes.new("ShaderNodeDisplacement")
         node_disp.location = (100, -500)
         links.new(tex_disp.outputs["Color"], node_disp.inputs["Height"])
