@@ -2818,5 +2818,63 @@
       "Codex frontmatter and picker metadata; original instructions preserved in references/upstream-skill.md",
       "Bundled Fal batch runner and local preview capture server for iterative critique"
     ]
+  },
+  {
+    "repo": "trailofbits/skills",
+    "selector": "plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+    "name": "property-based-testing",
+    "category": "coding-workflow",
+    "path": "skills/coding-workflow/property-based-testing",
+    "upstream_path": "plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+    "commit": "196a9073ab10d35bacf111f945e02c00b2c6883a",
+    "source_url": "https://github.com/trailofbits/skills/blob/196a9073ab10d35bacf111f945e02c00b2c6883a/plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+    "license": "CC-BY-SA-4.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Adapted frontmatter for the library; omitted upstream effort override and unnecessary picker metadata.",
+      "Retained all five upstream Markdown references unchanged; qualified their generic examples in the adapted entrypoint (bounded timing, mutation testing seams, property strength, contract authority and historical library leads).",
+      "Added C++ numeric-domain and evidence/oracle qualifications and existing-workflow boundaries; no executable tools, dependencies, hooks or game inputs are included."
+    ]
+  },
+  {
+    "repo": "affaan-m/ECC",
+    "selector": "skills/cpp-testing/SKILL.md",
+    "name": "cpp-testing",
+    "category": "coding-workflow",
+    "path": "skills/coding-workflow/cpp-testing",
+    "upstream_path": "skills/cpp-testing/SKILL.md",
+    "commit": "25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b",
+    "source_url": "https://github.com/affaan-m/ECC/blob/25278e7d7b6cf6e6a4e7a6c8e10f14ff22f0eb5b/skills/cpp-testing/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Adapted for the existing test runner rather than imposing GoogleTest/CMake or a language version.",
+      "Replaced generic GCC/Clang sanitizer/download/coverage examples with Microsoft-primary-source MSVC decision guidance; added genuine RED/GREEN and platform/runtime evidence distinctions.",
+      "No dependencies, executable scripts, build-system changes or original game inputs are included."
+    ]
+  },
+  {
+    "repo": "zhaoxuya520/reverse-skill",
+    "selector": "skills/case-review/SKILL.md",
+    "name": "native-evidence-review",
+    "category": "reverse-engineering",
+    "path": "skills/reverse-engineering/native-evidence-review",
+    "upstream_path": "skills/case-review/SKILL.md",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "source_url": "https://github.com/zhaoxuya520/reverse-skill/blob/cab634bd855fc287f6e420c1f36fd1a6b9245960/skills/case-review/SKILL.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Renamed to native-evidence-review to distinguish the manual DSI/REA companion from the upstream executable case-package workflow.",
+      "Adapted evidence-to-finding/path traceability and fixity checks into the existing provider-owned specification/handoff and acceptance system; creates no second ledger.",
+      "Omitted upstream scripts, bootstrap, case initialization, mandatory journal/tool-index/router, fixed Chinese-language contract and historical-authorization assertions. No target action or file hashing is authorized by instruction installation.",
+      "Added behavior-contract, original-oracle, private/public and layered native-test evidence qualifications."
+    ]
   }
 ]

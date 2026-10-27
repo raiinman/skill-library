@@ -66,6 +66,7 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$constraint-driven-development`](skills/coding-workflow/constraint-driven-development/SKILL.md) · [source](skills/coding-workflow/constraint-driven-development/SOURCE.md)
 - [`$context-engineering`](skills/coding-workflow/context-engineering/SKILL.md) · [source](skills/coding-workflow/context-engineering/SOURCE.md)
 - [`$context7-mcp`](skills/coding-workflow/context7-mcp/SKILL.md) · [source](skills/coding-workflow/context7-mcp/SOURCE.md)
+- [`$cpp-testing`](skills/coding-workflow/cpp-testing/SKILL.md) · [source](skills/coding-workflow/cpp-testing/SOURCE.md)
 - [`$debugging-and-error-recovery`](skills/coding-workflow/debugging-and-error-recovery/SKILL.md) · [source](skills/coding-workflow/debugging-and-error-recovery/SOURCE.md)
 - [`$deprecation-and-migration`](skills/coding-workflow/deprecation-and-migration/SKILL.md) · [source](skills/coding-workflow/deprecation-and-migration/SOURCE.md)
 - [`$documentation-and-adrs`](skills/coding-workflow/documentation-and-adrs/SKILL.md) · [source](skills/coding-workflow/documentation-and-adrs/SOURCE.md)
@@ -83,6 +84,7 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$ponytail-lite`](skills/coding-workflow/ponytail-lite/SKILL.md) · [source](skills/coding-workflow/ponytail-lite/SOURCE.md)
 - [`$ponytail-no-questions-asked`](skills/coding-workflow/ponytail-no-questions-asked/SKILL.md) · [source](skills/coding-workflow/ponytail-no-questions-asked/SOURCE.md)
 - [`$ponytail-ultra`](skills/coding-workflow/ponytail-ultra/SKILL.md) · [source](skills/coding-workflow/ponytail-ultra/SOURCE.md)
+- [`$property-based-testing`](skills/coding-workflow/property-based-testing/SKILL.md) · [source](skills/coding-workflow/property-based-testing/SOURCE.md)
 - [`$security-and-hardening`](skills/coding-workflow/security-and-hardening/SKILL.md) · [source](skills/coding-workflow/security-and-hardening/SOURCE.md)
 - [`$shipping-and-launch`](skills/coding-workflow/shipping-and-launch/SKILL.md) · [source](skills/coding-workflow/shipping-and-launch/SOURCE.md)
 - [`$source-driven-development`](skills/coding-workflow/source-driven-development/SKILL.md) · [source](skills/coding-workflow/source-driven-development/SOURCE.md)
@@ -167,6 +169,7 @@ Start with the task you want to do, or search this page for a skill name.
 
 ## Reverse Engineering
 
+- [`$native-evidence-review`](skills/reverse-engineering/native-evidence-review/SKILL.md) · [source](skills/reverse-engineering/native-evidence-review/SOURCE.md)
 - [`$reverse-engineer-anything`](skills/reverse-engineering/reverse-engineer-anything/SKILL.md) · [source](skills/reverse-engineering/reverse-engineer-anything/SOURCE.md)
 - [`$reverse-engineering-tools`](skills/reverse-engineering/reverse-engineering-tools/SKILL.md) · [source](skills/reverse-engineering/reverse-engineering-tools/SOURCE.md)
 - [`$reverse-skill-router`](skills/reverse-engineering/reverse-skill-router/SKILL.md) · [source](skills/reverse-engineering/reverse-skill-router/SOURCE.md)
