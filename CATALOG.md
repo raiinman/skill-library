@@ -173,6 +173,7 @@ Start with the task you want to do, or search this page for a skill name.
 - [`$reverse-engineer-anything`](skills/reverse-engineering/reverse-engineer-anything/SKILL.md) · [source](skills/reverse-engineering/reverse-engineer-anything/SOURCE.md)
 - [`$reverse-engineering-tools`](skills/reverse-engineering/reverse-engineering-tools/SKILL.md) · [source](skills/reverse-engineering/reverse-engineering-tools/SOURCE.md)
 - [`$reverse-skill-router`](skills/reverse-engineering/reverse-skill-router/SKILL.md) · [source](skills/reverse-engineering/reverse-skill-router/SOURCE.md)
+- [`$spimdisasm`](skills/reverse-engineering/spimdisasm/SKILL.md) · [source](skills/reverse-engineering/spimdisasm/SOURCE.md)
 
 ## Review And Resilience
 

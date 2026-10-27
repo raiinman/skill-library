@@ -2876,5 +2876,24 @@
       "Omitted upstream scripts, bootstrap, case initialization, mandatory journal/tool-index/router, fixed Chinese-language contract and historical-authorization assertions. No target action or file hashing is authorized by instruction installation.",
       "Added behavior-contract, original-oracle, private/public and layered native-test evidence qualifications."
     ]
+  },
+  {
+    "name": "spimdisasm",
+    "category": "reverse-engineering",
+    "path": "skills/reverse-engineering/spimdisasm",
+    "repo": "Decompollaborate/spimdisasm",
+    "selector": "original-static-instruction-wrapper",
+    "upstream_path": "README.md",
+    "commit": "4b5d4c68eeb9f9eae14b3bb713971433ae2c3c43",
+    "source_url": "https://github.com/Decompollaborate/spimdisasm/blob/4b5d4c68eeb9f9eae14b3bb713971433ae2c3c43/README.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "adaptations": [
+      "Original Markdown-only static-word wrapper; no upstream executable, binary, download, runtime path or game input bundled.",
+      "Require per-environment capability/version and trusted-module checks, isolated Python/trusted working directory, strict caller-side hex/complete-word validation, explicit endian/category, argument-vector invocation and empty stdin.",
+      "Static original-synthetic decode only; no REA/provider/update, PS-X loading, GTE execution, Windows availability, game boot or provenance clearance claim."
+    ]
   }
 ]
