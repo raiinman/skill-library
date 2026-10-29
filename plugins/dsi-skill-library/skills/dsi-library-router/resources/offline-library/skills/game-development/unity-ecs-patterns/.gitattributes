@@ -1,0 +1,2 @@
+references/upstream-* -text whitespace=-blank-at-eof,-blank-at-eol
+LICENSE -text whitespace=-blank-at-eof,-blank-at-eol

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unity Developer"
+  short_description: "Build and improve Unity games in the existing project"
+  default_prompt: "Use $unity-developer to help with my Unity project using its installed editor and package versions."

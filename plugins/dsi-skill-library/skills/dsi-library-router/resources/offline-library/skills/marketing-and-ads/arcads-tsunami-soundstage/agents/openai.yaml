@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arcads Tsunami Soundstage"
+  short_description: "Write a miniature-flood film-set prompt"
+  default_prompt: "Use $arcads-tsunami-soundstage to help with my tsunami soundstage brief and references."

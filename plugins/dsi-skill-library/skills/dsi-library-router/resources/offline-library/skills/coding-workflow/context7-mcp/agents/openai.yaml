@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Context7 Mcp"
+  "short_description": "This skill should be used when the user asks about libraries"
+  "default_prompt": "Use $context7-mcp to help with this task."

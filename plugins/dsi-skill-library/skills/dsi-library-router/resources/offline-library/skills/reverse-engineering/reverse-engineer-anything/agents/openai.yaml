@@ -1,0 +1,4 @@
+interface:
+  display_name: "REA — Reverse Engineer Anything"
+  short_description: "Inspect shipped apps, binaries, and runtime evidence"
+  default_prompt: "Use $reverse-engineer-anything to investigate this target with REA and explain the evidence."

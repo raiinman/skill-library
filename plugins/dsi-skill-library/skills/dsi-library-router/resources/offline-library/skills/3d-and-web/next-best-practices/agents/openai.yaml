@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Next Best Practices"
+  "short_description": "Next.js best practices - file conventions, RSC boundaries,\
+    \ d"
+  "default_prompt": "Use $next-best-practices to help with this task."

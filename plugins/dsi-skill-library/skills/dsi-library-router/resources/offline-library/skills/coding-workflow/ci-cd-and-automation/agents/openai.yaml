@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Ci Cd And Automation"
+  "short_description": "Automates CI/CD pipeline setup. Use when setting up or modif"
+  "default_prompt": "Use $ci-cd-and-automation to help with this task."

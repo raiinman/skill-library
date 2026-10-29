@@ -1,0 +1,4 @@
+interface:
+  display_name: "The Forge"
+  short_description: "Build cross-platform native rendering infrastructure"
+  default_prompt: "Use $the-forge to help integrate this system into my project."

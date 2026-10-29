@@ -1,0 +1,3 @@
+scripts/*.sh text eol=lf
+references/upstream-start-server.sh -text
+references/upstream-visual-companion.md -text

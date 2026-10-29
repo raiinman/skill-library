@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "displayName": "DSL-Helper",
+    "shortDescription": "154 skill guides for ChatGPT",
+    "longDescription": "DSL-Helper (Dead Signal Library - Helper) helps ChatGPT use a library of 154 specialist skill guides for coding, design, 3D, games, AWS, media, marketing and planning. Think of it as a set of practical playbooks: it finds the guide that fits your request and brings the relevant steps into the conversation.\n\nThe helper finds the right version of a guide and checks its digital fingerprint before applying an approved update. It checks both the downloaded original and the updated copy. This helps ChatGPT follow clear, repeatable methods while you focus on the task.\n\nBy default, DSL-Helper looks up guides online and keeps the same version while you work on that task. Say \"use the bundled guides only\" to use the built-in library without fetching guides online. Tasks that need apps, tools or accounts use the access and permissions already available in your chat.\n\nHow to use it:\nEnable DSL-Helper, then ask normally: \"Fix this failing test\", \"Review this code\", or \"Help me plan a game level\". You can also ask which DSL-Helper skills fit your task.\n\nTo choose a skill, say \"use\" followed by its name. For example, \"activate ponytail\" turns on a simpler, less cluttered coding style. Ponytail stays active for the conversation until you say \"stop ponytail\". Special skill markers are optional.",
+    "developerName": "Dead Signal Interactive",
+    "category": "Productivity",
+    "websiteURL": "https://deadsignal.studio",
+    "capabilities": [],
+    "defaultPrompt": null
+  },
+  "name": "dsi-skill-library",
+  "version": "0.1.20",
+  "description": "DSL-Helper brings 154 specialist skill guides into ChatGPT, Codex and Claude Code, finds one for your task and checks approved updates before using them.",
+  "author": {
+    "name": "Dead Signal Interactive"
+  },
+  "keywords": [],
+  "homepage": "https://deadsignal.studio",
+  "repository": "https://github.com/raiinman/skill-library",
+  "skills": "./skills"
+}

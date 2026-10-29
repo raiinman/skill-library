@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Threejs Postprocessing"
+  "short_description": "Three.js post-processing - EffectComposer, bloom, DOF, scree"
+  "default_prompt": "Use $threejs-postprocessing to help with this task."

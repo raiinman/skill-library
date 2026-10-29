@@ -1,0 +1,12 @@
+interface:
+  display_name: "Arcads Amazon Listing System"
+  short_description: "Create a researched product image set"
+  default_prompt: "Use $arcads-amazon-listing-system to help with my amazon listing system brief and references."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "arcads"
+      description: "Arcads media generation and editing"
+      transport: "streamable_http"
+      url: "https://mcp.arcads.ai"

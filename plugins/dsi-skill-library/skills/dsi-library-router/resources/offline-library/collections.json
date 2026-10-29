@@ -1,0 +1,45 @@
+[
+  {
+    "name": "agent-skills",
+    "path": "collections/agent-skills",
+    "repository": "https://github.com/raiinman/agent-skills",
+    "commit": "09644278517cb57a9447cbeaddb3395b6fcf4a56",
+    "skill_files": 26,
+    "purpose": "Source layout with shared scripts, plugin manifests and routing dependencies",
+    "unavailable_references": []
+  },
+  {
+    "name": "reverse-skill",
+    "path": "collections/reverse-skill",
+    "repository": "https://github.com/raiinman/reverse-skill",
+    "commit": "cab634bd855fc287f6e420c1f36fd1a6b9245960",
+    "skill_files": 89,
+    "purpose": "Source layout with shared scripts, plugin manifests and routing dependencies",
+    "unavailable_references": [
+      {
+        "path": "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md",
+        "source_url": "https://github.com/raiinman/reverse-skill/blob/cab634bd855fc287f6e420c1f36fd1a6b9245960/skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md",
+        "reason": "Windows Defender flagged original content during copy; replaced by source pointer"
+      },
+      {
+        "path": "skills/pentest-tools/src-hunter/references/payloader/waf-bypass.md",
+        "source_url": "https://github.com/raiinman/reverse-skill/blob/cab634bd855fc287f6e420c1f36fd1a6b9245960/skills/pentest-tools/src-hunter/references/payloader/waf-bypass.md",
+        "reason": "Windows Defender flagged original content during copy; replaced by source pointer"
+      },
+      {
+        "path": "skills/pentest-tools/src-hunter/references/playbooks/xss.md",
+        "source_url": "https://github.com/raiinman/reverse-skill/blob/cab634bd855fc287f6e420c1f36fd1a6b9245960/skills/pentest-tools/src-hunter/references/playbooks/xss.md",
+        "reason": "Windows Defender flagged original content during copy; replaced by source pointer"
+      }
+    ]
+  },
+  {
+    "name": "arcads-skills",
+    "path": "collections/arcads-skills",
+    "repository": "https://github.com/arcads-ai/skills",
+    "commit": "7af9117e45a8f4ddc2cae60283baf701eae66b4b",
+    "skill_files": 16,
+    "purpose": "Complete pinned source repository including original skills, references, manifests, icons and plugin builder; active Codex packages live under skills/marketing-and-ads",
+    "unavailable_references": []
+  }
+]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "LLM Blender Agent"
+  short_description: "Natural-language Blender work and agent integration"
+  default_prompt: "Use $llm-blender-agent for this Blender task."

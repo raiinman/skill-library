@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Test Driven Development"
+  "short_description": "Drives development with tests using the red-green-refactor\
+    \ l"
+  "default_prompt": "Use $test-driven-development to help with this task."

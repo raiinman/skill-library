@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Pixel Art Sprites"
+  "short_description": "Specialist in pixel art creation, sprite animation, and limi"
+  "default_prompt": "Use $pixel-art-sprites to help with this task."

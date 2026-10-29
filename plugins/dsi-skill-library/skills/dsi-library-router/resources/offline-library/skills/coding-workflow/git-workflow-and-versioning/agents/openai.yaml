@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Git Workflow And Versioning"
+  "short_description": "Structures git workflow practices. Use when making any code "
+  "default_prompt": "Use $git-workflow-and-versioning to help with this task."

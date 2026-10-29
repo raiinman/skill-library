@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Video Generation"
+  short_description: "Generate video with inference.sh models"
+  default_prompt: "Use $ai-video-generation to create a video from my brief and references."

@@ -1,0 +1,43 @@
+{
+  "repository": "effekseer/Effekseer",
+  "revision": "098774f64c91d16f3aa0e2035d28a686249d9984",
+  "fork": "https://github.com/raiinman/Effekseer",
+  "files": [
+    {
+      "upstream_path": "docs/Development/HowToBuild.md",
+      "path": "upstream/docs/Development/HowToBuild.md.txt",
+      "sha256": "a67cee42adb3064e41f06fdb44b8a4c78a7f4542f215c3188869b23615eb7981",
+      "bytes": 2201
+    },
+    {
+      "upstream_path": "LICENSE",
+      "path": "upstream/LICENSE.txt",
+      "sha256": "9686573243a6e4732edef9e39ac1356371dc7f4a17d995bea32777e36463cb29",
+      "bytes": 1084
+    },
+    {
+      "upstream_path": "LICENSE_RUNTIME_DIRECTX",
+      "path": "upstream/LICENSE_RUNTIME_DIRECTX.txt",
+      "sha256": "8b9d86a405b0d3d7e5dc9e1b60d13d5a896117aeaecb60157021ab305b4cfe83",
+      "bytes": 1168
+    },
+    {
+      "upstream_path": "LICENSE_RUNTIME_VULKAN",
+      "path": "upstream/LICENSE_RUNTIME_VULKAN.txt",
+      "sha256": "3b208589c56986922a803b7c2700fc568d5eb7f4675eeab51530586ac64f3929",
+      "bytes": 22746
+    },
+    {
+      "upstream_path": "LICENSE_TOOL",
+      "path": "upstream/LICENSE_TOOL.txt",
+      "sha256": "e32cc7be243d939dec49776382cd458d05367a88fd8a0d497cda0550e2b6fb23",
+      "bytes": 12358
+    },
+    {
+      "upstream_path": "README.md",
+      "path": "upstream/README.md.txt",
+      "sha256": "c52ae620f8de63adc11562e6bc006fa892119283f80d5913a4d6440248f3e392",
+      "bytes": 3460
+    }
+  ]
+}

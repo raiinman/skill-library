@@ -1,0 +1,31 @@
+{
+  "repository": "ConfettiFX/The-Forge",
+  "revision": "cd5046893faba2dc7869243873bf01f02a6f0df9",
+  "fork": "https://github.com/raiinman/The-Forge",
+  "files": [
+    {
+      "upstream_path": "Common_3/Tools/ForgeShadingLanguage/README.md",
+      "path": "upstream/Common_3/Tools/ForgeShadingLanguage/README.md.txt",
+      "sha256": "fc67390fa4377041f02fc300cc57b2d68dcf3f5cf46076371964dc99768da689",
+      "bytes": 87
+    },
+    {
+      "upstream_path": "LICENSE",
+      "path": "upstream/LICENSE.txt",
+      "sha256": "3485d677a6944ccd842b74d80abb90399728944d7dce78ee41d82ea50686cabe",
+      "bytes": 11367
+    },
+    {
+      "upstream_path": "PRE_BUILD.bat",
+      "path": "upstream/PRE_BUILD.bat.txt",
+      "sha256": "c6cbc445e1d4e067ab7389e4fd867993fca4b7214deb92613534f32b6efe9f3a",
+      "bytes": 418
+    },
+    {
+      "upstream_path": "README.md",
+      "path": "upstream/README.md.txt",
+      "sha256": "f877e6d21aef70fca24e2384df7f019f4c1d11062e3f94f5c2d6e7de38b3cf81",
+      "bytes": 113668
+    }
+  ]
+}

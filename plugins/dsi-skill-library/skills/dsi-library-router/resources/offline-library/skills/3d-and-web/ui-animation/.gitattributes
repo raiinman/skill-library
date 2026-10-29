@@ -1,0 +1,3 @@
+references/upstream-* -text whitespace=-blank-at-eof,-blank-at-eol
+scripts/*.py text eol=lf
+references/gesture-drag.md whitespace=-blank-at-eof

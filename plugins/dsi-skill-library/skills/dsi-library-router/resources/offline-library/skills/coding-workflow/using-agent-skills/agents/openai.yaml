@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Using Agent Skills"
+  "short_description": "Discovers and invokes agent skills. Use when starting a sess"
+  "default_prompt": "Use $using-agent-skills to help with this task."

@@ -1,0 +1,18 @@
+# Source
+
+- Upstream: [arcads-ai/skills](https://github.com/arcads-ai/skills)
+- Commit: `7af9117e45a8f4ddc2cae60283baf701eae66b4b`
+- Original name: `media-router`
+- Codex name: `arcads-media-router`
+- Source: [pinned entrypoint](https://github.com/arcads-ai/skills/blob/7af9117e45a8f4ddc2cae60283baf701eae66b4b/skills/media-router/SKILL.md)
+- Original SHA256: `57df7318623cedd5aa01c6c59bd8dd25eaef5819a65fb09f8fbd35b8382f7ad0`
+- Packaged: 2026-10-16
+
+Both upstream plugin manifests declare MIT. No standalone license text or copyright notice is supplied in this pinned tree; this package preserves that declaration without inventing a licensor notice. The full source snapshot includes those manifests and all 16 original skill entrypoints in `collections/arcads-skills`.
+
+- Codex namespace and picker metadata; original entrypoint retained byte-for-byte
+- Full creative workflow disclosed separately, with explicit Codex runtime precedence
+- Windows paths, actual Codex tools, provider choice, existing authorization, and live schema checks
+- All skill-local references preserved; complete source repository archived in collections/arcads-skills
+
+The active entrypoint and runtime reference adapt the original creative process for Codex. Historical model capabilities and test claims are upstream reports, not locally verified generation results. Arcads OAuth and credits are separate from Google Pro. No Arcads media generation, upload, subscription, or ad publication was performed during installation.

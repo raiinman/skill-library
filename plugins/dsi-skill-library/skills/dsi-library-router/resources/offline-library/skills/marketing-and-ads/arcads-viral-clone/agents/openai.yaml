@@ -1,0 +1,12 @@
+interface:
+  display_name: "Arcads Viral Ad Adaptation"
+  short_description: "Rebuild a reference ad with your product"
+  default_prompt: "Use $arcads-viral-clone to help with my viral ad adaptation brief and references."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "arcads"
+      description: "Arcads media generation and editing"
+      transport: "streamable_http"
+      url: "https://mcp.arcads.ai"

@@ -1,0 +1,2992 @@
+{
+  "source_revision": "697672c69dcb87834cf5c75cdcd0cbd85082c6cf",
+  "canonical_skills": 137,
+  "source_files": 2932,
+  "source_bytes": 36163645,
+  "scope": "Complete accepted canonical skill directories plus catalog, root setup/provenance documents and the README-linked reverse-skill missing-reference report; excludes duplicate archived skill trees.",
+  "external_capabilities": "Provider accounts, applications, Node/Python/runtime dependencies and separately archived upstream setup remain workflow prerequisites. Bundling does not install or execute them.",
+  "unresolved_source_references": [
+    {
+      "source": "skills/3d-and-web/blender-mcp/references/upstream-skill.md",
+      "line": 204,
+      "target": "references/texture-optimization.md",
+      "resolved": "skills/3d-and-web/blender-mcp/references/references/texture-optimization.md"
+    },
+    {
+      "source": "skills/3d-and-web/blender-mcp/references/upstream-skill.md",
+      "line": 652,
+      "target": "references/texture-optimization.md",
+      "resolved": "skills/3d-and-web/blender-mcp/references/references/texture-optimization.md"
+    },
+    {
+      "source": "skills/3d-and-web/blender-mcp/references/upstream-skill.md",
+      "line": 665,
+      "target": "references/asset-integrations.md",
+      "resolved": "skills/3d-and-web/blender-mcp/references/references/asset-integrations.md"
+    },
+    {
+      "source": "skills/3d-and-web/blender-mcp/references/upstream-skill.md",
+      "line": 669,
+      "target": "references/errors.md",
+      "resolved": "skills/3d-and-web/blender-mcp/references/references/errors.md"
+    },
+    {
+      "source": "skills/3d-and-web/cc-blender-toolkit/references/upstream-entrypoint.md",
+      "line": 12,
+      "target": "references/mcp-backends.md",
+      "resolved": "skills/3d-and-web/cc-blender-toolkit/references/references/mcp-backends.md"
+    },
+    {
+      "source": "skills/3d-and-web/llm-blender-agent/references/upstream-entrypoint.md",
+      "line": 3,
+      "target": "asserts/banner1.jpg",
+      "resolved": "skills/3d-and-web/llm-blender-agent/references/asserts/banner1.jpg"
+    },
+    {
+      "source": "skills/3d-and-web/llm-blender-agent/references/upstream-entrypoint.md",
+      "line": 7,
+      "target": "asserts/ui2.gif",
+      "resolved": "skills/3d-and-web/llm-blender-agent/references/asserts/ui2.gif"
+    },
+    {
+      "source": "skills/3d-and-web/llm-blender-agent/references/upstream-entrypoint.md",
+      "line": 48,
+      "target": "asserts/guide/how_to_start_addon.gif",
+      "resolved": "skills/3d-and-web/llm-blender-agent/references/asserts/guide/how_to_start_addon.gif"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 13,
+      "target": "./file-conventions.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/file-conventions.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 23,
+      "target": "./rsc-boundaries.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/rsc-boundaries.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 32,
+      "target": "./async-patterns.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/async-patterns.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 39,
+      "target": "./runtime-selection.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/runtime-selection.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 45,
+      "target": "./directives.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/directives.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 51,
+      "target": "./functions.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/functions.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 58,
+      "target": "./error-handling.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/error-handling.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 66,
+      "target": "./data-patterns.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/data-patterns.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 73,
+      "target": "./route-handlers.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/route-handlers.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 81,
+      "target": "./metadata.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/metadata.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 89,
+      "target": "./image.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/image.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 98,
+      "target": "./font.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/font.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 106,
+      "target": "./bundling.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/bundling.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 115,
+      "target": "./scripts.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/scripts.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 123,
+      "target": "./hydration-error.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/hydration-error.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 130,
+      "target": "./suspense-boundaries.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/suspense-boundaries.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 136,
+      "target": "./parallel-routes.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/parallel-routes.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 143,
+      "target": "./self-hosting.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/self-hosting.md"
+    },
+    {
+      "source": "skills/3d-and-web/next-best-practices/references/upstream-skill.md",
+      "line": 150,
+      "target": "./debug-tricks.md",
+      "resolved": "skills/3d-and-web/next-best-practices/references/debug-tricks.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 15,
+      "target": "references/decision-framework.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/decision-framework.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 16,
+      "target": "references/spring-animations.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/spring-animations.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 17,
+      "target": "references/component-patterns.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/component-patterns.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 18,
+      "target": "references/clip-path-techniques.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/clip-path-techniques.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 19,
+      "target": "references/gesture-drag.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/gesture-drag.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 20,
+      "target": "references/scroll-animations.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/scroll-animations.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 21,
+      "target": "references/performance-deep-dive.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/performance-deep-dive.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 22,
+      "target": "references/debugging-symptoms.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/debugging-symptoms.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 23,
+      "target": "references/svg-animation.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/svg-animation.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 24,
+      "target": "references/review-format.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/review-format.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 25,
+      "target": "references/contextual-animations.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/contextual-animations.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 26,
+      "target": "references/transition-recipes.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/transition-recipes.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 27,
+      "target": "references/measurement-guide.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/measurement-guide.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 28,
+      "target": "references/curve-fitting.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/curve-fitting.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 29,
+      "target": "references/code-output.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/code-output.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 30,
+      "target": "references/choreography.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/choreography.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 31,
+      "target": "references/vocabulary.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/vocabulary.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 32,
+      "target": "references/interface-sfx.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/interface-sfx.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 62,
+      "target": "references/svg-animation.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/svg-animation.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 95,
+      "target": "references/transition-recipes.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/transition-recipes.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 118,
+      "target": "references/contextual-animations.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/contextual-animations.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 118,
+      "target": "references/transition-recipes.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/transition-recipes.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 125,
+      "target": "references/interface-sfx.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/interface-sfx.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 134,
+      "target": "references/performance-deep-dive.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/performance-deep-dive.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 144,
+      "target": "references/scroll-animations.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/scroll-animations.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 162,
+      "target": "references/decision-framework.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/decision-framework.md"
+    },
+    {
+      "source": "skills/3d-and-web/ui-animation/references/upstream-skill.md",
+      "line": 166,
+      "target": "references/review-format.md",
+      "resolved": "skills/3d-and-web/ui-animation/references/references/review-format.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "line": 31,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "line": 31,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "line": 69,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "line": 103,
+      "target": "assets/tool_schema.json.tmpl",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/assets/tool_schema.json.tmpl"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "line": 103,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "line": 109,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "line": 110,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/eligibility.md",
+      "line": 22,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/eligibility.md",
+      "line": 30,
+      "target": "references/bedrock-agents-to-agentcore-harness/discovery.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/discovery.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/eligibility.md",
+      "line": 32,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/eligibility.md",
+      "line": 35,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "line": 11,
+      "target": "assets/lambda_shim.py.tmpl",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/assets/lambda_shim.py.tmpl"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "line": 11,
+      "target": "references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/deploy.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "line": 15,
+      "target": "references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/deploy.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "line": 18,
+      "target": "assets/tool_schema.json.tmpl",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/assets/tool_schema.json.tmpl"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "line": 24,
+      "target": "assets/kb_shim.py.tmpl",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/assets/kb_shim.py.tmpl"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "line": 24,
+      "target": "references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/deploy.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "line": 29,
+      "target": "references/bedrock-agents-to-agentcore-harness/eligibility.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/eligibility.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "line": 37,
+      "target": "references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/bedrock-agents-to-agentcore-harness/references/bedrock-agents-to-agentcore-harness/deploy.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 5,
+      "target": "references/bedrock-agents-to-agentcore-harness/",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 7,
+      "target": "references/bedrock-agents-to-agentcore-harness/discovery.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/discovery.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 12,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 20,
+      "target": "references/bedrock-agents-to-agentcore-harness/eligibility.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/eligibility.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 30,
+      "target": "references/bedrock-agents-to-agentcore-harness/cli.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/cli.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 40,
+      "target": "references/bedrock-agents-to-agentcore-harness/discovery.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/discovery.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 46,
+      "target": "references/bedrock-agents-to-agentcore-harness/discovery.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/discovery.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 50,
+      "target": "references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/deploy.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 56,
+      "target": "references/bedrock-agents-to-agentcore-harness/eligibility.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/eligibility.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 66,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 68,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 70,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 76,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 82,
+      "target": "references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/deploy.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 82,
+      "target": "references/bedrock-agents-to-agentcore-harness/mapping.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/mapping.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 88,
+      "target": "references/bedrock-agents-to-agentcore-harness/deploy.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/deploy.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "line": 89,
+      "target": "references/bedrock-agents-to-agentcore-harness/discovery.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/bedrock-agents-to-agentcore-harness/discovery.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 76,
+      "target": "references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/migrate-bedrock-agents-to-agentcore-harness.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 97,
+      "target": "references/prompt-engineering-by-model.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/prompt-engineering-by-model.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 99,
+      "target": "references/model-invocation.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/model-invocation.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 101,
+      "target": "references/sdk-converse-api-python.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/sdk-converse-api-python.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 101,
+      "target": "references/sdk-converse-api-typescript.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/sdk-converse-api-typescript.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 103,
+      "target": "references/model-invocation.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/model-invocation.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 109,
+      "target": "references/model-invocation.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/model-invocation.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 110,
+      "target": "references/knowledge-bases-setup.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/knowledge-bases-setup.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 111,
+      "target": "references/agents-and-action-groups.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agents-and-action-groups.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 112,
+      "target": "references/guardrails.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/guardrails.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 113,
+      "target": "references/agentcore-harness.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-harness.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 114,
+      "target": "references/migrate-bedrock-agents-to-agentcore-harness.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/migrate-bedrock-agents-to-agentcore-harness.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 115,
+      "target": "references/agentcore-runtime.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-runtime.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 116,
+      "target": "references/agentcore-gateway.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-gateway.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 117,
+      "target": "references/model-selection-guide.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/model-selection-guide.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 118,
+      "target": "references/prompt-caching.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/prompt-caching.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 119,
+      "target": "references/quota-health.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/quota-health.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 120,
+      "target": "references/cost-tracking.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/cost-tracking.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 121,
+      "target": "references/model-migration.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/model-migration.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 126,
+      "target": "references/knowledge-bases-setup.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/knowledge-bases-setup.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 128,
+      "target": "references/knowledge-bases-setup.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/knowledge-bases-setup.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 130,
+      "target": "references/knowledge-bases-retrieval.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/knowledge-bases-retrieval.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 166,
+      "target": "references/knowledge-bases-setup.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/knowledge-bases-setup.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 170,
+      "target": "references/agents-and-action-groups.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agents-and-action-groups.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 182,
+      "target": "references/prompt-caching.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/prompt-caching.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 186,
+      "target": "references/quota-health.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/quota-health.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 190,
+      "target": "references/cost-tracking.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/cost-tracking.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 194,
+      "target": "references/model-migration.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/model-migration.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 212,
+      "target": "references/knowledge-bases-setup.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/knowledge-bases-setup.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 226,
+      "target": "references/agents-and-action-groups.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agents-and-action-groups.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 230,
+      "target": "references/guardrails.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/guardrails.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 234,
+      "target": "references/agentcore-harness.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-harness.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 234,
+      "target": "references/agents-and-action-groups.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agents-and-action-groups.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 240,
+      "target": "references/prompt-caching.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/prompt-caching.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 248,
+      "target": "references/quota-health.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/quota-health.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 256,
+      "target": "references/cost-tracking.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/cost-tracking.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 263,
+      "target": "references/model-migration.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/model-migration.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 276,
+      "target": "references/quota-health.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/quota-health.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 279,
+      "target": "references/prompt-caching.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/prompt-caching.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 282,
+      "target": "references/model-migration.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/model-migration.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 337,
+      "target": "references/agentcore-harness.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-harness.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 338,
+      "target": "references/agentcore-gateway.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-gateway.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 339,
+      "target": "references/agentcore-runtime.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-runtime.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 340,
+      "target": "references/agentcore-runtime-container-build.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-runtime-container-build.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 341,
+      "target": "references/agentcore-memory-observability.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-memory-observability.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 342,
+      "target": "references/agentcore-credentials-and-security.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-credentials-and-security.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 344,
+      "target": "references/agentcore-payments.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-payments.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 345,
+      "target": "references/agentcore-memory-observability.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-memory-observability.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 346,
+      "target": "references/agentcore-registry-evaluations.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-registry-evaluations.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 347,
+      "target": "references/agentcore-registry-evaluations.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/agentcore-registry-evaluations.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 353,
+      "target": "references/model-selection-guide.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/model-selection-guide.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/amazon-bedrock/references/upstream-skill.md",
+      "line": 364,
+      "target": "references/model-selection-guide.md",
+      "resolved": "skills/cloud-and-aws/amazon-bedrock/references/references/model-selection-guide.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/finetuning/overview.md",
+      "line": 105,
+      "target": "-*[a-zA-Z0-9]",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/finetuning/-*[a-zA-Z0-9]"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/finetuning/references/rlvr_reward_function.md",
+      "line": 182,
+      "target": "-*[a-zA-Z0-9]",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/finetuning/references/-*[a-zA-Z0-9]"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/model-evaluation/references/create-reward-function.md",
+      "line": 48,
+      "target": "-*[a-zA-Z0-9]",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/model-evaluation/references/-*[a-zA-Z0-9]"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/model-selection/overview.md",
+      "line": 80,
+      "target": "url",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/model-selection/url"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 29,
+      "target": "references/planning/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/planning"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 30,
+      "target": "references/use-case-specification/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/use-case-specification"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 31,
+      "target": "references/model-selection/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/model-selection"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 32,
+      "target": "references/finetuning-technique/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/finetuning-technique"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 33,
+      "target": "references/dataset-evaluation/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/dataset-evaluation"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 34,
+      "target": "references/dataset-transformation/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/dataset-transformation"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 35,
+      "target": "references/finetuning/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/finetuning"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 36,
+      "target": "references/model-evaluation/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/model-evaluation"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 37,
+      "target": "references/model-deployment/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/model-deployment"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 38,
+      "target": "references/sdk-getting-started/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/sdk-getting-started"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 39,
+      "target": "references/directory-management/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/directory-management"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 40,
+      "target": "references/manage-mlflow/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/manage-mlflow"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-ai-ml/references/upstream-skill.md",
+      "line": 41,
+      "target": "references/endpoint-diagnostics/",
+      "resolved": "skills/cloud-and-aws/aws-ai-ml/references/references/endpoint-diagnostics"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 44,
+      "target": "references/identity-pools.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/identity-pools.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 48,
+      "target": "references/identity-pools.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/identity-pools.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 48,
+      "target": "references/managed-login-oauth.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/managed-login-oauth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 50,
+      "target": "references/managed-login-oauth.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/managed-login-oauth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 52,
+      "target": "references/tokens-and-sessions.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/tokens-and-sessions.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 54,
+      "target": "references/lambda-triggers.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/lambda-triggers.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 58,
+      "target": "references/troubleshooting.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/troubleshooting.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 64,
+      "target": "references/user-pools.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/user-pools.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 65,
+      "target": "references/managed-login-oauth.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/managed-login-oauth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 66,
+      "target": "references/tokens-and-sessions.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/tokens-and-sessions.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 67,
+      "target": "references/identity-pools.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/identity-pools.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 68,
+      "target": "references/api-authorization.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/api-authorization.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 69,
+      "target": "references/api-authorization.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/api-authorization.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 70,
+      "target": "references/managed-login-oauth.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/managed-login-oauth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 71,
+      "target": "references/user-pools.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/user-pools.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 72,
+      "target": "references/lambda-triggers.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/lambda-triggers.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 73,
+      "target": "references/passkeys.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/passkeys.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 74,
+      "target": "references/threat-protection.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/threat-protection.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 75,
+      "target": "references/troubleshooting.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/troubleshooting.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 79,
+      "target": "references/managed-login-oauth.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/managed-login-oauth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 79,
+      "target": "references/user-pools.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/user-pools.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 81,
+      "target": "references/managed-login-oauth.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/managed-login-oauth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 83,
+      "target": "references/api-authorization.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/api-authorization.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 85,
+      "target": "references/identity-pools.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/identity-pools.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-auth/references/upstream-skill.md",
+      "line": 97,
+      "target": "references/troubleshooting.md",
+      "resolved": "skills/cloud-and-aws/aws-auth/references/references/troubleshooting.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 22,
+      "target": "references/troubleshooting-deployment.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-deployment.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 24,
+      "target": "references/refactor-and-prevent-replacement.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/refactor-and-prevent-replacement.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 26,
+      "target": "references/troubleshooting-deployment.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-deployment.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 34,
+      "target": "references/bootstrap-and-project-setup.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/bootstrap-and-project-setup.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 35,
+      "target": "references/bootstrap-and-project-setup.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/bootstrap-and-project-setup.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 36,
+      "target": "references/bootstrap-and-project-setup.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/bootstrap-and-project-setup.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 38,
+      "target": "references/compliance-and-drift.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/compliance-and-drift.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 39,
+      "target": "references/compliance-and-drift.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/compliance-and-drift.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 40,
+      "target": "references/import-and-migrate.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/import-and-migrate.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 41,
+      "target": "references/refactor-and-prevent-replacement.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/refactor-and-prevent-replacement.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 47,
+      "target": "references/troubleshooting-deployment.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-deployment.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 48,
+      "target": "references/troubleshooting-credentials.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-credentials.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 49,
+      "target": "references/troubleshooting-synth.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-synth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 50,
+      "target": "references/troubleshooting-synth.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-synth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 51,
+      "target": "references/troubleshooting-synth.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-synth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 52,
+      "target": "references/troubleshooting-synth.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-synth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 53,
+      "target": "references/troubleshooting-credentials.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-credentials.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 54,
+      "target": "references/troubleshooting-synth.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-synth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 55,
+      "target": "references/troubleshooting-credentials.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-credentials.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 56,
+      "target": "references/troubleshooting-synth.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-synth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 57,
+      "target": "references/troubleshooting-synth.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-synth.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 58,
+      "target": "references/v1-to-v2-migration.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/v1-to-v2-migration.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 59,
+      "target": "references/troubleshooting-deployment.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-deployment.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 60,
+      "target": "references/troubleshooting-deployment.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/troubleshooting-deployment.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cdk/references/upstream-skill.md",
+      "line": 64,
+      "target": "references/construct-patterns.md",
+      "resolved": "skills/cloud-and-aws/aws-cdk/references/references/construct-patterns.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 52,
+      "target": "references/retrieve-template-context.script.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/retrieve-template-context.script.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 68,
+      "target": "references/retrieve-template-context.script.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/retrieve-template-context.script.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 112,
+      "target": "references/validate-cloudformation-template.script.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/validate-cloudformation-template.script.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 113,
+      "target": "references/check-cloudformation-template-compliance.script.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/check-cloudformation-template-compliance.script.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 114,
+      "target": "references/cloudformation-pre-deploy-validation.script.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/cloudformation-pre-deploy-validation.script.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 120,
+      "target": "references/cloudformation-pre-deploy-validation.script.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/cloudformation-pre-deploy-validation.script.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 125,
+      "target": "references/deploy-with-express-mode.script.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/deploy-with-express-mode.script.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 141,
+      "target": "references/troubleshoot-deployment.script.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/troubleshoot-deployment.script.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 181,
+      "target": "references/template-safety-guidance.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/template-safety-guidance.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 189,
+      "target": "references/template-safety-guidance.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/template-safety-guidance.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 197,
+      "target": "references/template-safety-guidance.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/template-safety-guidance.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 206,
+      "target": "references/template-safety-guidance.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/template-safety-guidance.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 214,
+      "target": "references/template-safety-guidance.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/template-safety-guidance.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-cloudformation/references/upstream-skill.md",
+      "line": 223,
+      "target": "references/template-safety-guidance.md",
+      "resolved": "skills/cloud-and-aws/aws-cloudformation/references/references/template-safety-guidance.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 25,
+      "target": "references/auto-scaling.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/auto-scaling.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 27,
+      "target": "references/auto-scaling.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/auto-scaling.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 29,
+      "target": "references/provisioning.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/provisioning.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 31,
+      "target": "references/instance-selection.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/instance-selection.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 33,
+      "target": "references/instance-selection.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/instance-selection.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 39,
+      "target": "references/instance-selection.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/instance-selection.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 40,
+      "target": "references/provisioning.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/provisioning.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 41,
+      "target": "references/auto-scaling.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/auto-scaling.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 42,
+      "target": "references/systems-manager.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/systems-manager.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 48,
+      "target": "references/instance-selection.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/instance-selection.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 49,
+      "target": "references/provisioning.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/provisioning.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 50,
+      "target": "references/auto-scaling.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/auto-scaling.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 51,
+      "target": "references/systems-manager.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/systems-manager.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 52,
+      "target": "references/ami-management.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/ami-management.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 53,
+      "target": "references/troubleshooting.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/troubleshooting.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 57,
+      "target": "references/auto-scaling.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/auto-scaling.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 57,
+      "target": "references/auto-scaling.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/auto-scaling.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 59,
+      "target": "references/auto-scaling.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/auto-scaling.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 61,
+      "target": "references/systems-manager.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/systems-manager.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 63,
+      "target": "references/instance-selection.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/instance-selection.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 69,
+      "target": "references/troubleshooting.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/troubleshooting.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 78,
+      "target": "references/troubleshooting.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/troubleshooting.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-compute/references/upstream-skill.md",
+      "line": 83,
+      "target": "references/systems-manager.md",
+      "resolved": "skills/cloud-and-aws/aws-compute/references/references/systems-manager.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-containers/references/upstream-skill.md",
+      "line": 63,
+      "target": "references/eks.md",
+      "resolved": "skills/cloud-and-aws/aws-containers/references/references/eks.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-containers/references/upstream-skill.md",
+      "line": 64,
+      "target": "references/ecs.md",
+      "resolved": "skills/cloud-and-aws/aws-containers/references/references/ecs.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-containers/references/upstream-skill.md",
+      "line": 65,
+      "target": "references/ecr.md",
+      "resolved": "skills/cloud-and-aws/aws-containers/references/references/ecr.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-containers/references/upstream-skill.md",
+      "line": 66,
+      "target": "references/beanstalk.md",
+      "resolved": "skills/cloud-and-aws/aws-containers/references/references/beanstalk.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 53,
+      "target": "references/codepipeline.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codepipeline.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 54,
+      "target": "references/codeconnections.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codeconnections.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 55,
+      "target": "references/codebuild.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codebuild.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 56,
+      "target": "references/codeartifact.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codeartifact.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 57,
+      "target": "references/codedeploy.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codedeploy.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 58,
+      "target": "references/codepipeline.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codepipeline.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 59,
+      "target": "references/troubleshooting.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/troubleshooting.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 65,
+      "target": "references/codedeploy.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codedeploy.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 65,
+      "target": "references/codepipeline.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codepipeline.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 66,
+      "target": "references/troubleshooting.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/troubleshooting.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 67,
+      "target": "references/codebuild.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codebuild.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 68,
+      "target": "references/codepipeline.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codepipeline.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 69,
+      "target": "references/codedeploy.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codedeploy.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-deployment/references/upstream-skill.md",
+      "line": 70,
+      "target": "references/codedeploy.md",
+      "resolved": "skills/cloud-and-aws/aws-deployment/references/references/codedeploy.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-iam/references/upstream-skill.md",
+      "line": 29,
+      "target": "references/aws-iam-role-management.md",
+      "resolved": "skills/cloud-and-aws/aws-iam/references/references/aws-iam-role-management.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-iam/references/upstream-skill.md",
+      "line": 31,
+      "target": "references/aws-iam-policy-generation.md",
+      "resolved": "skills/cloud-and-aws/aws-iam/references/references/aws-iam-policy-generation.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 33,
+      "target": "references/application-signals-onboarding.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/application-signals-onboarding.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 34,
+      "target": "references/application-signals-cicd-metadata.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/application-signals-cicd-metadata.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 35,
+      "target": "references/appsignals-guides/eks-python.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/appsignals-guides/eks-python.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 36,
+      "target": "references/log-insights.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/log-insights.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 37,
+      "target": "references/alarms.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/alarms.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 38,
+      "target": "references/metrics.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/metrics.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 39,
+      "target": "references/tracing.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/tracing.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 40,
+      "target": "references/dashboards.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/dashboards.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 41,
+      "target": "references/troubleshooting.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/troubleshooting.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 42,
+      "target": "references/synthetics.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/synthetics.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 43,
+      "target": "references/cloudtrail.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/cloudtrail.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 44,
+      "target": "assets/alarm-template.ts",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/assets/alarm-template.ts"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 45,
+      "target": "references/synthetics.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/synthetics.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 46,
+      "target": "assets/otel-config.yaml",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/assets/otel-config.yaml"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 47,
+      "target": "references/dynamic-instrumentation.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/dynamic-instrumentation.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 54,
+      "target": "references/application-signals-onboarding.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/application-signals-onboarding.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 55,
+      "target": "references/application-signals-cicd-metadata.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/application-signals-cicd-metadata.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 56,
+      "target": "references/appsignals-guides/eks-python.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/appsignals-guides/eks-python.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 57,
+      "target": "references/alarms.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/alarms.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 58,
+      "target": "references/log-insights.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/log-insights.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 59,
+      "target": "references/metrics.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/metrics.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 60,
+      "target": "references/tracing.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/tracing.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 61,
+      "target": "references/dashboards.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/dashboards.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 62,
+      "target": "references/troubleshooting.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/troubleshooting.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 63,
+      "target": "references/cloudtrail.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/cloudtrail.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 64,
+      "target": "references/synthetics.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/synthetics.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 65,
+      "target": "assets/alarm-template.ts",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/assets/alarm-template.ts"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 66,
+      "target": "assets/otel-config.yaml",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/assets/otel-config.yaml"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-observability/references/upstream-skill.md",
+      "line": 67,
+      "target": "references/dynamic-instrumentation.md",
+      "resolved": "skills/cloud-and-aws/aws-observability/references/references/dynamic-instrumentation.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-serverless/references/upstream-skill.md",
+      "line": 64,
+      "target": "references/architecture.md",
+      "resolved": "skills/cloud-and-aws/aws-serverless/references/references/architecture.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-serverless/references/upstream-skill.md",
+      "line": 65,
+      "target": "references/lambda.md",
+      "resolved": "skills/cloud-and-aws/aws-serverless/references/references/lambda.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-serverless/references/upstream-skill.md",
+      "line": 66,
+      "target": "references/concurrency.md",
+      "resolved": "skills/cloud-and-aws/aws-serverless/references/references/concurrency.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-serverless/references/upstream-skill.md",
+      "line": 67,
+      "target": "references/event-sources.md",
+      "resolved": "skills/cloud-and-aws/aws-serverless/references/references/event-sources.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-serverless/references/upstream-skill.md",
+      "line": 68,
+      "target": "references/orchestration.md",
+      "resolved": "skills/cloud-and-aws/aws-serverless/references/references/orchestration.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-serverless/references/upstream-skill.md",
+      "line": 69,
+      "target": "references/api-gateway.md",
+      "resolved": "skills/cloud-and-aws/aws-serverless/references/references/api-gateway.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-serverless/references/upstream-skill.md",
+      "line": 70,
+      "target": "references/deployment.md",
+      "resolved": "skills/cloud-and-aws/aws-serverless/references/references/deployment.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-serverless/references/upstream-skill.md",
+      "line": 71,
+      "target": "references/production.md",
+      "resolved": "skills/cloud-and-aws/aws-serverless/references/references/production.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-serverless/references/upstream-skill.md",
+      "line": 72,
+      "target": "references/troubleshooting.md",
+      "resolved": "skills/cloud-and-aws/aws-serverless/references/references/troubleshooting.md"
+    },
+    {
+      "source": "skills/cloud-and-aws/aws-serverless/references/upstream-skill.md",
+      "line": 73,
+      "target": "assets/powertools-handler.py",
+      "resolved": "skills/cloud-and-aws/aws-serverless/references/assets/powertools-handler.py"
+    },
+    {
+      "source": "skills/cloud-and-aws/launch-with-aws/references/upstream-skill.md",
+      "line": 33,
+      "target": "references/launchwithaws-2026-06-15.json",
+      "resolved": "skills/cloud-and-aws/launch-with-aws/references/references/launchwithaws-2026-06-15.json"
+    },
+    {
+      "source": "skills/cloud-and-aws/launch-with-aws/references/upstream-skill.md",
+      "line": 33,
+      "target": "scripts/archive.py",
+      "resolved": "skills/cloud-and-aws/launch-with-aws/references/scripts/archive.py"
+    },
+    {
+      "source": "skills/cloud-and-aws/launch-with-aws/references/upstream-skill.md",
+      "line": 33,
+      "target": "scripts/auth.py",
+      "resolved": "skills/cloud-and-aws/launch-with-aws/references/scripts/auth.py"
+    },
+    {
+      "source": "skills/cloud-and-aws/launch-with-aws/references/upstream-skill.md",
+      "line": 33,
+      "target": "scripts/auth_callback_server.py",
+      "resolved": "skills/cloud-and-aws/launch-with-aws/references/scripts/auth_callback_server.py"
+    },
+    {
+      "source": "skills/cloud-and-aws/launch-with-aws/references/upstream-skill.md",
+      "line": 33,
+      "target": "scripts/launch_api_client.py",
+      "resolved": "skills/cloud-and-aws/launch-with-aws/references/scripts/launch_api_client.py"
+    },
+    {
+      "source": "skills/cloud-and-aws/launch-with-aws/references/upstream-skill.md",
+      "line": 33,
+      "target": "scripts/launch_config.py",
+      "resolved": "skills/cloud-and-aws/launch-with-aws/references/scripts/launch_config.py"
+    },
+    {
+      "source": "skills/cloud-and-aws/launch-with-aws/references/upstream-skill.md",
+      "line": 33,
+      "target": "scripts/launch_with_aws.py",
+      "resolved": "skills/cloud-and-aws/launch-with-aws/references/scripts/launch_with_aws.py"
+    },
+    {
+      "source": "skills/coding-workflow/build/references/upstream-skill.md",
+      "line": 25,
+      "target": "../planning-and-task-breakdown/SKILL.md",
+      "resolved": "skills/coding-workflow/build/planning-and-task-breakdown/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/build/references/upstream-skill.md",
+      "line": 25,
+      "target": "../spec-driven-development/SKILL.md",
+      "resolved": "skills/coding-workflow/build/spec-driven-development/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/build/references/upstream-skill.md",
+      "line": 26,
+      "target": "../git-workflow-and-versioning/SKILL.md",
+      "resolved": "skills/coding-workflow/build/git-workflow-and-versioning/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/build/references/upstream-skill.md",
+      "line": 26,
+      "target": "../incremental-implementation/SKILL.md",
+      "resolved": "skills/coding-workflow/build/incremental-implementation/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/build/references/upstream-skill.md",
+      "line": 26,
+      "target": "../test-driven-development/SKILL.md",
+      "resolved": "skills/coding-workflow/build/test-driven-development/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/build/references/upstream-skill.md",
+      "line": 27,
+      "target": "../browser-testing-with-devtools/SKILL.md",
+      "resolved": "skills/coding-workflow/build/browser-testing-with-devtools/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/build/references/upstream-skill.md",
+      "line": 27,
+      "target": "../debugging-and-error-recovery/SKILL.md",
+      "resolved": "skills/coding-workflow/build/debugging-and-error-recovery/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/build/references/upstream-skill.md",
+      "line": 27,
+      "target": "../frontend-ui-engineering/SKILL.md",
+      "resolved": "skills/coding-workflow/build/frontend-ui-engineering/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/build/references/upstream-skill.md",
+      "line": 27,
+      "target": "../security-and-hardening/SKILL.md",
+      "resolved": "skills/coding-workflow/build/security-and-hardening/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/constraint-driven-development/references/upstream-skill.md",
+      "line": 216,
+      "target": "references/floor-guard.md",
+      "resolved": "skills/coding-workflow/constraint-driven-development/references/references/floor-guard.md"
+    },
+    {
+      "source": "skills/coding-workflow/constraint-driven-development/references/upstream-skill.md",
+      "line": 258,
+      "target": "references/floor-guard.md",
+      "resolved": "skills/coding-workflow/constraint-driven-development/references/references/floor-guard.md"
+    },
+    {
+      "source": "skills/coding-workflow/performance-optimization/references/upstream-skill.md",
+      "line": 123,
+      "target": "references/optimization-patterns.md",
+      "resolved": "skills/coding-workflow/performance-optimization/references/references/optimization-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/performance-optimization/references/upstream-skill.md",
+      "line": 127,
+      "target": "references/optimization-patterns.md#n1-queries-backend",
+      "resolved": "skills/coding-workflow/performance-optimization/references/references/optimization-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/performance-optimization/references/upstream-skill.md",
+      "line": 128,
+      "target": "references/optimization-patterns.md#unbounded-data-fetching",
+      "resolved": "skills/coding-workflow/performance-optimization/references/references/optimization-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/performance-optimization/references/upstream-skill.md",
+      "line": 129,
+      "target": "references/optimization-patterns.md#queries-that-ignore-their-index",
+      "resolved": "skills/coding-workflow/performance-optimization/references/references/optimization-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/performance-optimization/references/upstream-skill.md",
+      "line": 130,
+      "target": "references/optimization-patterns.md#connection-pool-exhaustion",
+      "resolved": "skills/coding-workflow/performance-optimization/references/references/optimization-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/performance-optimization/references/upstream-skill.md",
+      "line": 131,
+      "target": "references/optimization-patterns.md#missing-caching-backend",
+      "resolved": "skills/coding-workflow/performance-optimization/references/references/optimization-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/performance-optimization/references/upstream-skill.md",
+      "line": 135,
+      "target": "references/optimization-patterns.md#missing-image-optimization-frontend",
+      "resolved": "skills/coding-workflow/performance-optimization/references/references/optimization-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/performance-optimization/references/upstream-skill.md",
+      "line": 136,
+      "target": "references/optimization-patterns.md#unnecessary-re-renders-react",
+      "resolved": "skills/coding-workflow/performance-optimization/references/references/optimization-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/performance-optimization/references/upstream-skill.md",
+      "line": 137,
+      "target": "references/optimization-patterns.md#large-bundle-size",
+      "resolved": "skills/coding-workflow/performance-optimization/references/references/optimization-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/ponytail-full/references/upstream-skill.md",
+      "line": 11,
+      "target": "../ponytail/SKILL.md",
+      "resolved": "skills/coding-workflow/ponytail-full/ponytail/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/ponytail-lite/references/upstream-skill.md",
+      "line": 11,
+      "target": "../ponytail/SKILL.md",
+      "resolved": "skills/coding-workflow/ponytail-lite/ponytail/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/ponytail-no-questions-asked/references/upstream-skill.md",
+      "line": 11,
+      "target": "../ponytail/SKILL.md",
+      "resolved": "skills/coding-workflow/ponytail-no-questions-asked/ponytail/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/ponytail-ultra/references/upstream-skill.md",
+      "line": 11,
+      "target": "../ponytail/SKILL.md",
+      "resolved": "skills/coding-workflow/ponytail-ultra/ponytail/SKILL.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 79,
+      "target": "references/hardening-patterns.md",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 87,
+      "target": "references/hardening-patterns.md#broken-access-control",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 87,
+      "target": "references/hardening-patterns.md#cross-site-scripting-xss",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 87,
+      "target": "references/hardening-patterns.md#injection",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 94,
+      "target": "references/hardening-patterns.md#broken-authentication",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 102,
+      "target": "references/hardening-patterns.md#security-misconfiguration",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 102,
+      "target": "references/hardening-patterns.md#sensitive-data-exposure",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 109,
+      "target": "references/hardening-patterns.md#file-upload-safety",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 109,
+      "target": "references/hardening-patterns.md#schema-validation-at-boundaries",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 115,
+      "target": "references/hardening-patterns.md#server-side-request-forgery-ssrf",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 121,
+      "target": "references/hardening-patterns.md#destructive-operations-on-derived-paths",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 127,
+      "target": "references/hardening-patterns.md#rate-limiting",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 133,
+      "target": "references/hardening-patterns.md#secrets-management",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 142,
+      "target": "references/hardening-patterns.md#dependency-audit-triage",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 154,
+      "target": "references/hardening-patterns.md#data-classification",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/security-and-hardening/references/upstream-skill.md",
+      "line": 164,
+      "target": "references/hardening-patterns.md#llm-output-handling",
+      "resolved": "skills/coding-workflow/security-and-hardening/references/references/hardening-patterns.md"
+    },
+    {
+      "source": "skills/coding-workflow/writing-for-agents/references/upstream-skill.md",
+      "line": 8,
+      "target": "SKILL-MECHANICS.md",
+      "resolved": "skills/coding-workflow/writing-for-agents/references/SKILL-MECHANICS.md"
+    },
+    {
+      "source": "skills/coding-workflow/writing-for-agents/references/upstream-skill.md",
+      "line": 59,
+      "target": "SKILL-MECHANICS.md",
+      "resolved": "skills/coding-workflow/writing-for-agents/references/SKILL-MECHANICS.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 18,
+      "target": "reference/new-work.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/new-work.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 19,
+      "target": "reference/craft-floor.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/craft-floor.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 38,
+      "target": "reference/new-work.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/new-work.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 38,
+      "target": "reference/operate.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/operate.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 44,
+      "target": "reference/craft.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/craft.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 45,
+      "target": "reference/shape.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/shape.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 46,
+      "target": "reference/init.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/init.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 47,
+      "target": "reference/document.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/document.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 48,
+      "target": "reference/extract.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/extract.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 49,
+      "target": "reference/critique.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/critique.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 50,
+      "target": "reference/audit.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/audit.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 50,
+      "target": "reference/audit.native.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/audit.native.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 51,
+      "target": "reference/polish.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/polish.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 52,
+      "target": "reference/bolder.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/bolder.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 53,
+      "target": "reference/quieter.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/quieter.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 54,
+      "target": "reference/distill.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/distill.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 55,
+      "target": "reference/harden.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/harden.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 56,
+      "target": "reference/onboard.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/onboard.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 57,
+      "target": "reference/animate.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/animate.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 58,
+      "target": "reference/colorize.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/colorize.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 59,
+      "target": "reference/typeset.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/typeset.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 60,
+      "target": "reference/layout.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/layout.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 61,
+      "target": "reference/delight.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/delight.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 62,
+      "target": "reference/overdrive.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/overdrive.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 63,
+      "target": "reference/clarify.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/clarify.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 64,
+      "target": "reference/adapt.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/adapt.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 64,
+      "target": "reference/adapt.native.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/adapt.native.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 65,
+      "target": "reference/optimize.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/optimize.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 66,
+      "target": "reference/live.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/live.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 67,
+      "target": "reference/generate.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/generate.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 71,
+      "target": "reference/routing.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/routing.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 73,
+      "target": "reference/routing.md#workflow-questions",
+      "resolved": "skills/design-and-art/impeccable/references/reference/routing.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 81,
+      "target": "reference/hooks.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/hooks.md"
+    },
+    {
+      "source": "skills/design-and-art/impeccable/references/upstream-skill.md",
+      "line": 83,
+      "target": "reference/doctor.md",
+      "resolved": "skills/design-and-art/impeccable/references/reference/doctor.md"
+    },
+    {
+      "source": "skills/design-and-art/krita-iterate/references/upstream-skill.md",
+      "line": 14,
+      "target": "references/fox-anatomy.md",
+      "resolved": "skills/design-and-art/krita-iterate/references/references/fox-anatomy.md"
+    },
+    {
+      "source": "skills/design-and-art/krita-iterate/references/upstream-skill.md",
+      "line": 20,
+      "target": "references/fox-bike-illustrator.md",
+      "resolved": "skills/design-and-art/krita-iterate/references/references/fox-bike-illustrator.md"
+    },
+    {
+      "source": "skills/design-and-art/krita-iterate/references/upstream-skill.md",
+      "line": 52,
+      "target": "references/review-package.md",
+      "resolved": "skills/design-and-art/krita-iterate/references/references/review-package.md"
+    },
+    {
+      "source": "skills/design-and-art/krita-iterate/references/upstream-skill.md",
+      "line": 52,
+      "target": "scripts/package_review.py",
+      "resolved": "skills/design-and-art/krita-iterate/references/scripts/package_review.py"
+    },
+    {
+      "source": "skills/design-and-art/krita-layer-rebuild/references/upstream-skill.md",
+      "line": 38,
+      "target": "references/construction-and-perspective.md",
+      "resolved": "skills/design-and-art/krita-layer-rebuild/references/references/construction-and-perspective.md"
+    },
+    {
+      "source": "skills/design-and-art/krita-layer-rebuild/references/upstream-skill.md",
+      "line": 39,
+      "target": "references/materials-and-light.md",
+      "resolved": "skills/design-and-art/krita-layer-rebuild/references/references/materials-and-light.md"
+    },
+    {
+      "source": "skills/design-and-art/krita-layer-rebuild/references/upstream-skill.md",
+      "line": 40,
+      "target": "references/character-illustration.md",
+      "resolved": "skills/design-and-art/krita-layer-rebuild/references/references/character-illustration.md"
+    },
+    {
+      "source": "skills/design-and-art/krita-layer-rebuild/references/upstream-skill.md",
+      "line": 41,
+      "target": "references/text-and-fonts.md",
+      "resolved": "skills/design-and-art/krita-layer-rebuild/references/references/text-and-fonts.md"
+    },
+    {
+      "source": "skills/design-and-art/krita-layer-rebuild/references/upstream-skill.md",
+      "line": 42,
+      "target": "references/layout-and-effects.md",
+      "resolved": "skills/design-and-art/krita-layer-rebuild/references/references/layout-and-effects.md"
+    },
+    {
+      "source": "skills/design-and-art/krita-layer-rebuild/references/upstream-skill.md",
+      "line": 43,
+      "target": "references/drawing-decisions.md",
+      "resolved": "skills/design-and-art/krita-layer-rebuild/references/references/drawing-decisions.md"
+    },
+    {
+      "source": "skills/design-and-art/krita-layer-rebuild/references/upstream-skill.md",
+      "line": 44,
+      "target": "references/tutorial-reproduction.md",
+      "resolved": "skills/design-and-art/krita-layer-rebuild/references/references/tutorial-reproduction.md"
+    },
+    {
+      "source": "skills/design-and-art/krita-layer-rebuild/references/upstream-skill.md",
+      "line": 68,
+      "target": "references/drawing-decisions.md#test-a-correction-before-extending-it",
+      "resolved": "skills/design-and-art/krita-layer-rebuild/references/references/drawing-decisions.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 24,
+      "target": "references/trenches.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/trenches.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 30,
+      "target": "references/token.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/token.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 31,
+      "target": "references/market.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/market.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 32,
+      "target": "references/signal.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/signal.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 33,
+      "target": "references/social.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/social.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 34,
+      "target": "references/trenches.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/trenches.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 35,
+      "target": "references/ws.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/ws.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 39,
+      "target": "references/token-cli-reference.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/token-cli-reference.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 39,
+      "target": "references/token-keyword-glossary.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/token-keyword-glossary.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 39,
+      "target": "references/token-troubleshooting.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/token-troubleshooting.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 39,
+      "target": "references/token-ws-protocol.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/token-ws-protocol.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 40,
+      "target": "references/market-cli-reference.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/market-cli-reference.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 40,
+      "target": "references/market-keyword-glossary.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/market-keyword-glossary.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 40,
+      "target": "references/market-troubleshooting.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/market-troubleshooting.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 40,
+      "target": "references/market-ws-protocol.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/market-ws-protocol.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 41,
+      "target": "references/signal-cli-reference.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/signal-cli-reference.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 41,
+      "target": "references/signal-keyword-glossary.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/signal-keyword-glossary.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 41,
+      "target": "references/signal-troubleshooting.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/signal-troubleshooting.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 41,
+      "target": "references/signal-ws-protocol.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/signal-ws-protocol.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 42,
+      "target": "references/social-cli-reference.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/social-cli-reference.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 42,
+      "target": "references/social-troubleshooting.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/social-troubleshooting.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 43,
+      "target": "references/trenches-cli-reference.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/trenches-cli-reference.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 43,
+      "target": "references/trenches-keyword-glossary.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/trenches-keyword-glossary.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 43,
+      "target": "references/trenches-troubleshooting.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/trenches-troubleshooting.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 43,
+      "target": "references/trenches-ws-protocol.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/trenches-ws-protocol.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 44,
+      "target": "references/ws-troubleshooting.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/ws-troubleshooting.md"
+    },
+    {
+      "source": "skills/finance/okx-dex-market/references/upstream-skill.md",
+      "line": 61,
+      "target": "references/follow-ups.md",
+      "resolved": "skills/finance/okx-dex-market/references/references/follow-ups.md"
+    },
+    {
+      "source": "skills/game-design/game-ui-design/references/sharp_edges.md",
+      "line": 367,
+      "target": "px",
+      "resolved": "skills/game-design/game-ui-design/references/px"
+    },
+    {
+      "source": "skills/game-design/game-ui-design/references/validations.md",
+      "line": 70,
+      "target": "Press|Hit|Tap|Push",
+      "resolved": "skills/game-design/game-ui-design/references/Press|Hit|Tap|Push"
+    },
+    {
+      "source": "skills/game-development/day-one-patch/support/studio/.claude/docs/templates/release-notes.md",
+      "line": 101,
+      "target": "link",
+      "resolved": "skills/game-development/day-one-patch/support/studio/.claude/docs/templates/link"
+    },
+    {
+      "source": "skills/game-development/map-systems/support/studio/.claude/docs/templates/release-notes.md",
+      "line": 101,
+      "target": "link",
+      "resolved": "skills/game-development/map-systems/support/studio/.claude/docs/templates/link"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-clone-hook/WORKFLOW.md",
+      "line": 314,
+      "target": "run>/frame-1.png",
+      "resolved": "skills/marketing-and-ads/arcads-clone-hook/run>/frame-1.png"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-clone-hook/WORKFLOW.md",
+      "line": 344,
+      "target": "run>/clip-1.mp4",
+      "resolved": "skills/marketing-and-ads/arcads-clone-hook/run>/clip-1.mp4"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-clone-hook/references/upstream-skill.md",
+      "line": 313,
+      "target": "run>/frame-1.png",
+      "resolved": "skills/marketing-and-ads/arcads-clone-hook/references/run>/frame-1.png"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-clone-hook/references/upstream-skill.md",
+      "line": 343,
+      "target": "run>/clip-1.mp4",
+      "resolved": "skills/marketing-and-ads/arcads-clone-hook/references/run>/clip-1.mp4"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-clone-static-ad/WORKFLOW.md",
+      "line": 225,
+      "target": "run>/variant-1.png",
+      "resolved": "skills/marketing-and-ads/arcads-clone-static-ad/run>/variant-1.png"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-clone-static-ad/WORKFLOW.md",
+      "line": 227,
+      "target": "run>/variant-1.png",
+      "resolved": "skills/marketing-and-ads/arcads-clone-static-ad/run>/variant-1.png"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-clone-static-ad/references/upstream-skill.md",
+      "line": 224,
+      "target": "run>/variant-1.png",
+      "resolved": "skills/marketing-and-ads/arcads-clone-static-ad/references/run>/variant-1.png"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-clone-static-ad/references/upstream-skill.md",
+      "line": 226,
+      "target": "run>/variant-1.png",
+      "resolved": "skills/marketing-and-ads/arcads-clone-static-ad/references/run>/variant-1.png"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-media-router/WORKFLOW.md",
+      "line": 154,
+      "target": "run>/output-1.png",
+      "resolved": "skills/marketing-and-ads/arcads-media-router/run>/output-1.png"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-media-router/references/upstream-skill.md",
+      "line": 165,
+      "target": "run>/output-1.png",
+      "resolved": "skills/marketing-and-ads/arcads-media-router/references/run>/output-1.png"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-spy-competitor-ads/references/upstream-skill.md",
+      "line": 348,
+      "target": "/tmp/spy-ad-1-creatify-ai.mp4",
+      "resolved": "tmp/spy-ad-1-creatify-ai.mp4"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-spy-competitor-ads/references/upstream-skill.md",
+      "line": 349,
+      "target": "/tmp/spy-ad-2-captions.mp4",
+      "resolved": "tmp/spy-ad-2-captions.mp4"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-spy-competitor-ads/references/upstream-skill.md",
+      "line": 353,
+      "target": "/tmp/spy-ad-1-creatify-ai.jpg",
+      "resolved": "tmp/spy-ad-1-creatify-ai.jpg"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-spy-competitor-ads/references/upstream-skill.md",
+      "line": 354,
+      "target": "/tmp/spy-ad-2-creatify-ai.jpg",
+      "resolved": "tmp/spy-ad-2-creatify-ai.jpg"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-spy-competitor-ads/references/upstream-skill.md",
+      "line": 358,
+      "target": "/tmp/spy-ad-1-creatify-ai.mp4",
+      "resolved": "tmp/spy-ad-1-creatify-ai.mp4"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-spy-competitor-ads/references/upstream-skill.md",
+      "line": 359,
+      "target": "/tmp/spy-ad-2-creatify-ai.jpg",
+      "resolved": "tmp/spy-ad-2-creatify-ai.jpg"
+    },
+    {
+      "source": "skills/marketing-and-ads/arcads-spy-competitor-ads/references/upstream-skill.md",
+      "line": 360,
+      "target": "/tmp/spy-ad-3-creatify-ai.mp4",
+      "resolved": "tmp/spy-ad-3-creatify-ai.mp4"
+    },
+    {
+      "source": "skills/personal-workflow/1f3d9-citylife/references/upstream-skill.md",
+      "line": 149,
+      "target": "references/wallet.md",
+      "resolved": "skills/personal-workflow/1f3d9-citylife/references/references/wallet.md"
+    },
+    {
+      "source": "skills/personal-workflow/grill-me/references/upstream-skill.md",
+      "line": 6,
+      "target": "../grilling/SKILL.md",
+      "resolved": "skills/personal-workflow/grill-me/grilling/SKILL.md"
+    },
+    {
+      "source": "skills/personal-workflow/teach/references/upstream-skill.md",
+      "line": 14,
+      "target": "./MISSION-FORMAT.md",
+      "resolved": "skills/personal-workflow/teach/references/MISSION-FORMAT.md"
+    },
+    {
+      "source": "skills/personal-workflow/teach/references/upstream-skill.md",
+      "line": 16,
+      "target": "./RESOURCES-FORMAT.md",
+      "resolved": "skills/personal-workflow/teach/references/RESOURCES-FORMAT.md"
+    },
+    {
+      "source": "skills/personal-workflow/teach/references/upstream-skill.md",
+      "line": 17,
+      "target": "./LEARNING-RECORD-FORMAT.md",
+      "resolved": "skills/personal-workflow/teach/references/LEARNING-RECORD-FORMAT.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_ar.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_ar.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_de.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_de.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_es.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_es.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_fa.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_fa.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_fr.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_fr.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_id.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_id.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_it.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_it.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_ja.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_ja.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_ko.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_ko.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_pl.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_pl.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_pt-BR.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_pt-BR.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_ru.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_ru.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_th.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_th.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_tr.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_tr.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_uk.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_uk.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_vi.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_vi.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_zh-TW.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_zh-TW.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 3,
+      "target": "README_zh.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/README_zh.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 139,
+      "target": "website/public/assets/figures/rea-investigation-flow.svg",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/website/public/assets/figures/rea-investigation-flow.svg"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 141,
+      "target": "website/public/assets/figures/rea-investigation-flow.svg",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/website/public/assets/figures/rea-investigation-flow.svg"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 187,
+      "target": "docs/assets/rea-showcases.png",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/docs/assets/rea-showcases.png"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 309,
+      "target": "SECURITY.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/SECURITY.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 337,
+      "target": "CONTRIBUTING.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/CONTRIBUTING.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/README.md",
+      "line": 339,
+      "target": "docs/architecture.mermaid",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/docs/architecture.mermaid"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/docs/cli.md",
+      "line": 60,
+      "target": "product-catalog.json",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/docs/product-catalog.json"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/docs/ghidra-nativeaot.md",
+      "line": 11,
+      "target": "../licenses/nativeaot-parser-MIT.txt",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/licenses/nativeaot-parser-MIT.txt"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/docs/index.md",
+      "line": 46,
+      "target": "./assets/rea-hopper-analysis.png",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/docs/assets/rea-hopper-analysis.png"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/docs/mcp-contracts.md",
+      "line": 7,
+      "target": "/rea/product-catalog.json",
+      "resolved": "rea/product-catalog.json"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/references/upstream-skill.md",
+      "line": 29,
+      "target": "references/connection-and-recovery.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/references/references/connection-and-recovery.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/references/upstream-skill.md",
+      "line": 152,
+      "target": "references/javascript-applications.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/references/references/javascript-applications.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/references/upstream-skill.md",
+      "line": 205,
+      "target": "references/native-and-artifacts.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/references/references/native-and-artifacts.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/references/upstream-skill.md",
+      "line": 207,
+      "target": "references/javascript-applications.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/references/references/javascript-applications.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/references/upstream-skill.md",
+      "line": 209,
+      "target": "references/android-applications.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/references/references/android-applications.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/references/upstream-skill.md",
+      "line": 211,
+      "target": "references/runtime-observation.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/references/references/runtime-observation.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineer-anything/references/upstream-skill.md",
+      "line": 213,
+      "target": "references/evidence-workflows.md",
+      "resolved": "skills/reverse-engineering/reverse-engineer-anything/references/references/evidence-workflows.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineering-tools/references/upstream-skill.md",
+      "line": 12,
+      "target": "references/evidence-and-tools.md",
+      "resolved": "skills/reverse-engineering/reverse-engineering-tools/references/references/evidence-and-tools.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineering-tools/references/upstream-skill.md",
+      "line": 13,
+      "target": "references/analysis-and-protection.md",
+      "resolved": "skills/reverse-engineering/reverse-engineering-tools/references/references/analysis-and-protection.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineering-tools/references/upstream-skill.md",
+      "line": 14,
+      "target": "references/ecosystem-and-advanced.md",
+      "resolved": "skills/reverse-engineering/reverse-engineering-tools/references/references/ecosystem-and-advanced.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineering-tools/references/upstream-skill.md",
+      "line": 15,
+      "target": "references/repository-map.md",
+      "resolved": "skills/reverse-engineering/reverse-engineering-tools/references/references/repository-map.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineering-tools/references/upstream-skill.md",
+      "line": 15,
+      "target": "references/repository-resources.md",
+      "resolved": "skills/reverse-engineering/reverse-engineering-tools/references/references/repository-resources.md"
+    },
+    {
+      "source": "skills/reverse-engineering/reverse-engineering-tools/references/upstream-skill.md",
+      "line": 21,
+      "target": "scripts/evidence.py",
+      "resolved": "skills/reverse-engineering/reverse-engineering-tools/references/scripts/evidence.py"
+    },
+    {
+      "source": "skills/video-and-audio/video-editing/references/upstream-skill.md",
+      "line": 329,
+      "target": "assets/fusion/ito-production-v1/README.md",
+      "resolved": "skills/video-and-audio/video-editing/references/assets/fusion/ito-production-v1/README.md"
+    },
+    {
+      "source": "skills/video-and-audio/video-editing/references/upstream-skill.md",
+      "line": 331,
+      "target": "assets/fusion/ito-v28/README.md",
+      "resolved": "skills/video-and-audio/video-editing/references/assets/fusion/ito-v28/README.md"
+    }
+  ],
+  "refresh": {
+    "revision": "3e9de8899d205aad9142d58d68bb647946b4ff80",
+    "canonical_skill_count": 154,
+    "tracked_resources": 3093,
+    "source": "Committed canonical packages; retained pre-existing link diagnostics are historical, not a current all-links-pass claim."
+  }
+}

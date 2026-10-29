@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Database"
+  "short_description": "Routes any task involving AWS databases — choosing, comparin"
+  "default_prompt": "Use $aws-database to help with this task."

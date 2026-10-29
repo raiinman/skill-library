@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "id": "dsi-0.1.20",
+  "repository": "raiinman/skill-library",
+  "base_revision": "3e9de8899d205aad9142d58d68bb647946b4ff80",
+  "upstream": {
+    "repository": "addyosmani/agent-skills",
+    "revision": "aeac41d4d005999432bb7312f7ff06383a91d59d",
+    "release": "0.6.13",
+    "license": "MIT",
+    "scope": "Five reviewed selective updates plus shared-reference label correction and preserved per-skill provenance; not a wholesale upstream replacement."
+  },
+  "files": {
+    "skills/coding-workflow/code-review-and-quality/SOURCE.md": {
+      "base_sha256": "9327cd4aabc8f956c7da867d9e0dbaf908f9cc87b1e3fd664811d4704dcb29c4",
+      "sha256": "ab6615bce4b59899cba08ae5bcefd23b64efda046fd056a0c3ddc78190ec20a3",
+      "bytes": 1207,
+      "resource_path": "skills/coding-workflow/code-review-and-quality/SOURCE.md"
+    },
+    "skills/coding-workflow/code-review-and-quality/references/shared/performance-checklist.md": {
+      "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
+      "sha256": "eed8bfb07a7e707a9cc8c6b94c0b3b0ba2ba5c1a35ed5d40dc6482e696730e4f",
+      "bytes": 13179,
+      "resource_path": "skills/coding-workflow/code-review-and-quality/references/shared/performance-checklist.md"
+    },
+    "skills/coding-workflow/documentation-and-adrs/SKILL.md": {
+      "base_sha256": "5f0e8eb31d5f3a7a2247e22bd9e403de0132880c7c53c3ccd55f8ab0514f9c69",
+      "sha256": "09540ac2663b1a65dda593858212a6dec29197f758ffe0db291054e76317612e",
+      "bytes": 11619,
+      "resource_path": "skills/coding-workflow/documentation-and-adrs/SKILL.md.txt"
+    },
+    "skills/coding-workflow/documentation-and-adrs/SOURCE.md": {
+      "base_sha256": "689f0b0addc140b352fb185c2e87bd5c892ed54072f0fd147ca0686fb62e6c7d",
+      "sha256": "80a2eadffaf92220c161562d38934d646b3894aa8c72475c7cc819b3f2d4dc2e",
+      "bytes": 1286,
+      "resource_path": "skills/coding-workflow/documentation-and-adrs/SOURCE.md"
+    },
+    "skills/coding-workflow/doubt-driven-development/SOURCE.md": {
+      "base_sha256": "d2dea5cea6ad25b9289737f0c738f99053686c3af9f392d079379eec9e55127c",
+      "sha256": "c64db4872d5842b9b6f8da58eb1806c4761f226e10eef00267d145c7d60a7aee",
+      "bytes": 1208,
+      "resource_path": "skills/coding-workflow/doubt-driven-development/SOURCE.md"
+    },
+    "skills/coding-workflow/doubt-driven-development/references/shared/performance-checklist.md": {
+      "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
+      "sha256": "eed8bfb07a7e707a9cc8c6b94c0b3b0ba2ba5c1a35ed5d40dc6482e696730e4f",
+      "bytes": 13179,
+      "resource_path": "skills/coding-workflow/doubt-driven-development/references/shared/performance-checklist.md"
+    },
+    "skills/coding-workflow/frontend-ui-engineering/SKILL.md": {
+      "base_sha256": "d716feea615e119b4d6da048df7cff56333c903088e0e5a85bffb03f485bdef9",
+      "sha256": "710cd8292f1da378c494703fed6bcd822beca4ace9ac817a72546ebaced5746b",
+      "bytes": 12684,
+      "resource_path": "skills/coding-workflow/frontend-ui-engineering/SKILL.md.txt"
+    },
+    "skills/coding-workflow/frontend-ui-engineering/SOURCE.md": {
+      "base_sha256": "60c0752651afb73e57ab6640d200013a61ada74cc774851941629461beaef75d",
+      "sha256": "9ceb21583c203dae02190cd4810787a1a14cfa7c1166e72032864c9028d9f22c",
+      "bytes": 1826,
+      "resource_path": "skills/coding-workflow/frontend-ui-engineering/SOURCE.md"
+    },
+    "skills/coding-workflow/frontend-ui-engineering/references/shared/performance-checklist.md": {
+      "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
+      "sha256": "eed8bfb07a7e707a9cc8c6b94c0b3b0ba2ba5c1a35ed5d40dc6482e696730e4f",
+      "bytes": 13179,
+      "resource_path": "skills/coding-workflow/frontend-ui-engineering/references/shared/performance-checklist.md"
+    },
+    "skills/coding-workflow/idea-refine/SKILL.md": {
+      "base_sha256": "554025e17eca092bb05d0d79b9eabcb0646731a1bd176c0f3da8ee6461d64931",
+      "sha256": "79adc244c30e82bbfc029fa696c6c9a4d34e5408fb60656bcdf7a631a9afb61c",
+      "bytes": 9843,
+      "resource_path": "skills/coding-workflow/idea-refine/SKILL.md.txt"
+    },
+    "skills/coding-workflow/idea-refine/SOURCE.md": {
+      "base_sha256": "856fea81ebf3e653439d87eb2e8b3ee23b191466183b42d6c93108d6cdbe4c05",
+      "sha256": "87824d221172c6b1ea0ba2cc977f6f160f3ef81a01649f941aee5e6ad8f1445b",
+      "bytes": 1292,
+      "resource_path": "skills/coding-workflow/idea-refine/SOURCE.md"
+    },
+    "skills/coding-workflow/incremental-implementation/SOURCE.md": {
+      "base_sha256": "0405eff100d3d168e5ee1ddbfdb6cb0cc4e6d4c12c982283ffa54cf0aedafca6",
+      "sha256": "d59f1cb8041024840fa75bae34ac5e6ad46a170611f9b3c60c64e81cf294d35e",
+      "bytes": 1210,
+      "resource_path": "skills/coding-workflow/incremental-implementation/SOURCE.md"
+    },
+    "skills/coding-workflow/incremental-implementation/references/shared/performance-checklist.md": {
+      "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
+      "sha256": "eed8bfb07a7e707a9cc8c6b94c0b3b0ba2ba5c1a35ed5d40dc6482e696730e4f",
+      "bytes": 13179,
+      "resource_path": "skills/coding-workflow/incremental-implementation/references/shared/performance-checklist.md"
+    },
+    "skills/coding-workflow/observability-and-instrumentation/SOURCE.md": {
+      "base_sha256": "0fa5ab5834f8c618cd4ee2e451e5ba58d0227d007d032c48f845fb760f9b5d0f",
+      "sha256": "0207dd32bd9a7824620a59ad30c9bffadd0380a98f14f3e0b837f4a321eb82d8",
+      "bytes": 1217,
+      "resource_path": "skills/coding-workflow/observability-and-instrumentation/SOURCE.md"
+    },
+    "skills/coding-workflow/observability-and-instrumentation/references/shared/performance-checklist.md": {
+      "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
+      "sha256": "eed8bfb07a7e707a9cc8c6b94c0b3b0ba2ba5c1a35ed5d40dc6482e696730e4f",
+      "bytes": 13179,
+      "resource_path": "skills/coding-workflow/observability-and-instrumentation/references/shared/performance-checklist.md"
+    },
+    "skills/coding-workflow/performance-optimization/SKILL.md": {
+      "base_sha256": "5aa7240dbfba59428356d3b587a8199a9552b22ac409d234f05b9805e59e4015",
+      "sha256": "330dbf8db72385d6a157b47afda540eea9c4b6b1b96808beac816e720aaa6be9",
+      "bytes": 16856,
+      "resource_path": "skills/coding-workflow/performance-optimization/SKILL.md.txt"
+    },
+    "skills/coding-workflow/performance-optimization/SOURCE.md": {
+      "base_sha256": "513673fadc26e04e43dd62a4538af98889ef0d4eb3676a51c3430238a6d4265b",
+      "sha256": "1387e841ac9ef68e01bdba98403ce57dbd072e7b2aaa63162393f2c89c8f1f55",
+      "bytes": 1863,
+      "resource_path": "skills/coding-workflow/performance-optimization/SOURCE.md"
+    },
+    "skills/coding-workflow/performance-optimization/references/shared/performance-checklist.md": {
+      "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
+      "sha256": "eed8bfb07a7e707a9cc8c6b94c0b3b0ba2ba5c1a35ed5d40dc6482e696730e4f",
+      "bytes": 13179,
+      "resource_path": "skills/coding-workflow/performance-optimization/references/shared/performance-checklist.md"
+    },
+    "skills/coding-workflow/planning-and-task-breakdown/SOURCE.md": {
+      "base_sha256": "71c44a7b0d1d3c879deebc75632ab28dcdf3d3ce816dafb607133180678356f1",
+      "sha256": "d2a28eb5045f91c0ac97d815819ce8d261c644be3ebe5746481be0e8cebd2023",
+      "bytes": 1211,
+      "resource_path": "skills/coding-workflow/planning-and-task-breakdown/SOURCE.md"
+    },
+    "skills/coding-workflow/planning-and-task-breakdown/references/shared/performance-checklist.md": {
+      "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
+      "sha256": "eed8bfb07a7e707a9cc8c6b94c0b3b0ba2ba5c1a35ed5d40dc6482e696730e4f",
+      "bytes": 13179,
+      "resource_path": "skills/coding-workflow/planning-and-task-breakdown/references/shared/performance-checklist.md"
+    },
+    "skills/coding-workflow/security-and-hardening/SOURCE.md": {
+      "base_sha256": "2cf1f57b31e516df2ef138791fdd1eb1729e7a1645c9a859c84f6feb6fe99f59",
+      "sha256": "822247c5845e0b225730ec77e301bd912c2eb7368411acffbe41ed92f0593e3e",
+      "bytes": 1206,
+      "resource_path": "skills/coding-workflow/security-and-hardening/SOURCE.md"
+    },
+    "skills/coding-workflow/security-and-hardening/references/shared/performance-checklist.md": {
+      "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
+      "sha256": "eed8bfb07a7e707a9cc8c6b94c0b3b0ba2ba5c1a35ed5d40dc6482e696730e4f",
+      "bytes": 13179,
+      "resource_path": "skills/coding-workflow/security-and-hardening/references/shared/performance-checklist.md"
+    },
+    "skills/coding-workflow/shipping-and-launch/SOURCE.md": {
+      "base_sha256": "5eef291c302ec52d6293532fdbad2f1eeb0910ada248790f648c1c97cd7fa399",
+      "sha256": "e548266967730ab0d6b56f2c52afea780e397ca150822c18b0a0287cbd82c312",
+      "bytes": 1203,
+      "resource_path": "skills/coding-workflow/shipping-and-launch/SOURCE.md"
+    },
+    "skills/coding-workflow/shipping-and-launch/references/shared/performance-checklist.md": {
+      "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
+      "sha256": "eed8bfb07a7e707a9cc8c6b94c0b3b0ba2ba5c1a35ed5d40dc6482e696730e4f",
+      "bytes": 13179,
+      "resource_path": "skills/coding-workflow/shipping-and-launch/references/shared/performance-checklist.md"
+    },
+    "skills/coding-workflow/test-driven-development/SKILL.md": {
+      "base_sha256": "1bdd479c0a99e3b5b729cb3d7e92d6b85c8229871f5118c7a80808b4d15a8de5",
+      "sha256": "a8f4d56ab1769705046cabf5a951eac6ab79f50745b956ceddef5f89c31e179f",
+      "bytes": 17516,
+      "resource_path": "skills/coding-workflow/test-driven-development/SKILL.md.txt"
+    },
+    "skills/coding-workflow/test-driven-development/SOURCE.md": {
+      "base_sha256": "18be16b1a4c50cb841b6aa6aa68ba498224c080fc0fddc72490059acccf47bf5",
+      "sha256": "294de41f8657e26f2bdf97ca205c5b7305a9a59a87590dd00357861b1ca46966",
+      "bytes": 1883,
+      "resource_path": "skills/coding-workflow/test-driven-development/SOURCE.md"
+    },
+    "skills/coding-workflow/test-driven-development/references/shared/performance-checklist.md": {
+      "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
+      "sha256": "eed8bfb07a7e707a9cc8c6b94c0b3b0ba2ba5c1a35ed5d40dc6482e696730e4f",
+      "bytes": 13179,
+      "resource_path": "skills/coding-workflow/test-driven-development/references/shared/performance-checklist.md"
+    },
+    "skills/coding-workflow/using-agent-skills/SOURCE.md": {
+      "base_sha256": "5bd4b790fd170fd5a471cbaa80f8319a4cb9ea72005fbbaecec7f05114105c3d",
+      "sha256": "48edcce4f1b94fdb449a4e483c35f097850a17e0ec61e60c23550347968ff380",
+      "bytes": 1202,
+      "resource_path": "skills/coding-workflow/using-agent-skills/SOURCE.md"
+    },
+    "skills/coding-workflow/using-agent-skills/references/shared/performance-checklist.md": {
+      "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
+      "sha256": "eed8bfb07a7e707a9cc8c6b94c0b3b0ba2ba5c1a35ed5d40dc6482e696730e4f",
+      "bytes": 13179,
+      "resource_path": "skills/coding-workflow/using-agent-skills/references/shared/performance-checklist.md"
+    }
+  }
+}

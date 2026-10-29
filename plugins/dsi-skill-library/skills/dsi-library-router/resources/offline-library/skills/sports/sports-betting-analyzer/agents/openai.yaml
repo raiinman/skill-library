@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Sports Betting Analyzer"
+  "short_description": "Analyze spreads, over/unders, prop bets. Historical trends, "
+  "default_prompt": "Use $sports-betting-analyzer to help with this task."

@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Day One Patch"
+  "short_description": "Day-one launch patch — focused fix for known issues found\
+    \ af"
+  "default_prompt": "Use $day-one-patch to help with this task."

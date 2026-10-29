@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Shipping And Launch"
+  "short_description": "Prepares production launches. Use when preparing to deploy\
+    \ t"
+  "default_prompt": "Use $shipping-and-launch to help with this task."

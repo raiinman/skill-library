@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Game Designer"
+  "short_description": "Systems and mechanics architect - Masters GDD authorship,\
+    \ pl"
+  "default_prompt": "Use $game-designer to help with this task."

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Ai Ml"
+  "short_description": "Selects, deploys, and customizes AI models on Amazon SageMak"
+  "default_prompt": "Use $aws-ai-ml to help with this task."

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Auth"
+  "short_description": "Adds user authentication to web and mobile apps with Amazon "
+  "default_prompt": "Use $aws-auth to help with this task."

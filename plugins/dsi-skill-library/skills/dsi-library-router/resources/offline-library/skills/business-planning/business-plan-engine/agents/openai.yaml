@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Business Plan Engine"
+  "short_description": "商业计划书（BP）撰写专家。当用户提到写商业计划书、做BP、路演PPT、融资计划书、创业计划书、投资计划书、项目计划书、"
+  "default_prompt": "Use $business-plan-engine to help with this task."

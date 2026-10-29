@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Studio"
+  short_description: "94 Blender production, style and game-art guides"
+  default_prompt: "Use $blender-studio for this Blender task."

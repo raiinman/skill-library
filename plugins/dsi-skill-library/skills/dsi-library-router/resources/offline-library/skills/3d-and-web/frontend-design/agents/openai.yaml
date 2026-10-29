@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Design"
+  short_description: "Create distinctive, intentional interfaces"
+  default_prompt: "Use $frontend-design to improve my interface based on the brief and project context."

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Launch With Aws"
+  "short_description": "Migrates vibe-coded web applications to AWS. Handles the ful"
+  "default_prompt": "Use $launch-with-aws to help with this task."

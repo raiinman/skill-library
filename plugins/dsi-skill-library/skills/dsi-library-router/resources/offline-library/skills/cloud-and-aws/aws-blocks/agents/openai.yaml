@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Aws Blocks"
+  "short_description": "Guides building full-stack applications with AWS Blocks —\
+    \ an"
+  "default_prompt": "Use $aws-blocks to help with this task."

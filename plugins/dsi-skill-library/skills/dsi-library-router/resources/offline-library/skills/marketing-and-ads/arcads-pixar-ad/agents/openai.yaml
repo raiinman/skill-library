@@ -1,0 +1,12 @@
+interface:
+  display_name: "Arcads 3D Animated Ad"
+  short_description: "Create story-driven 3D product ads"
+  default_prompt: "Use $arcads-pixar-ad to help with my 3d animated ad brief and references."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "arcads"
+      description: "Arcads media generation and editing"
+      transport: "streamable_http"
+      url: "https://mcp.arcads.ai"

@@ -1,0 +1,37 @@
+{
+  "repository": "Zylann/godot_voxel",
+  "revision": "045ff9326a32fd10ac6fdac6357b5a098aaf2093",
+  "fork": "https://github.com/raiinman/godot_voxel",
+  "files": [
+    {
+      "upstream_path": "doc/source/getting_the_module.md",
+      "path": "upstream/doc/source/getting_the_module.md.txt",
+      "sha256": "1fe1919e52e54508ce743b171936117e28f034ac5e625a4af04571223b1862bf",
+      "bytes": 11770
+    },
+    {
+      "upstream_path": "doc/source/quick_start.md",
+      "path": "upstream/doc/source/quick_start.md.txt",
+      "sha256": "8573fa1d50979ee0f16daf28210ff01ddd52a213d1c0763691ddac07e3330f3e",
+      "bytes": 7435
+    },
+    {
+      "upstream_path": "doc/source/streams.md",
+      "path": "upstream/doc/source/streams.md.txt",
+      "sha256": "04bb9d3016a6a6f1bdc4bb73b7cc6fd4c1585b2ebc57152dc4d1b7d7b769e13a",
+      "bytes": 8793
+    },
+    {
+      "upstream_path": "LICENSE.md",
+      "path": "upstream/LICENSE.md.txt",
+      "sha256": "3a1f742145830b5702fe9e7aa2566c5896012a88fb3f70a00d6fd64e9cc203ee",
+      "bytes": 1075
+    },
+    {
+      "upstream_path": "README.md",
+      "path": "upstream/README.md.txt",
+      "sha256": "88d7d20c75461a11e419e2bbd5bdbc9b2cd4f1fd690a2855cee026c9717ed56c",
+      "bytes": 3861
+    }
+  ]
+}

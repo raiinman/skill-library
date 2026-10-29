@@ -1,0 +1,7 @@
+interface:
+  display_name: "Krita Recreate"
+  short_description: "Recreate references 1:1 in editable Krita layers"
+  default_prompt: "Use $krita-layer-rebuild with Krita Prototype to recreate my reference image 1:1 at full size in independently editable Krita layers and save a KRA plus PNG."
+
+policy:
+  allow_implicit_invocation: true

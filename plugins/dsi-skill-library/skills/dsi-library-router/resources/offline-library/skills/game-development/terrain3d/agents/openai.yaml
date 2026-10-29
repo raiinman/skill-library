@@ -1,0 +1,4 @@
+interface:
+  display_name: "Terrain3D"
+  short_description: "Install and author editable Godot heightfield terrain"
+  default_prompt: "Use $terrain3d to help integrate this system into my project."

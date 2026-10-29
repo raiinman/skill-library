@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "OKX CEX PORTFOLIO"
+  "short_description": "This skill should be used when the user asks about 'account "
+  "default_prompt": "Use $okx-cex-portfolio to help with this task."

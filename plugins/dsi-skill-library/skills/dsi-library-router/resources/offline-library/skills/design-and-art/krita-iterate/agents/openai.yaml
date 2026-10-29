@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Krita Iterate"
+  "short_description": "Draw or improve a fox on a bicycle in Krita through referenc"
+  "default_prompt": "Use $krita-iterate to help with this task."

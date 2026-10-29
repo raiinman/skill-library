@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Reverse Engineering Tools"
+  "short_description": "Analyze supplied game binaries, protection components, drive"
+  "default_prompt": "Use $reverse-engineering-tools to help with this task."

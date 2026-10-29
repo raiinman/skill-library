@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Planning And Task Breakdown"
+  "short_description": "Breaks work into ordered tasks. Use when you have a spec or "
+  "default_prompt": "Use $planning-and-task-breakdown to help with this task."

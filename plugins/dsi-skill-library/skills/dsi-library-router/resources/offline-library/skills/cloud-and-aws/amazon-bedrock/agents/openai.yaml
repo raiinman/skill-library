@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Amazon Bedrock"
+  "short_description": "Builds generative AI applications on Amazon Bedrock. Covers "
+  "default_prompt": "Use $amazon-bedrock to help with this task."

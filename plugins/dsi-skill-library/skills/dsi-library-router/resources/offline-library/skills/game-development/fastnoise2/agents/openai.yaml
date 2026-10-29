@@ -1,0 +1,4 @@
+interface:
+  display_name: "FastNoise2"
+  short_description: "Generate SIMD node-graph terrain and texture noise"
+  default_prompt: "Use $fastnoise2 to help integrate this system into my project."

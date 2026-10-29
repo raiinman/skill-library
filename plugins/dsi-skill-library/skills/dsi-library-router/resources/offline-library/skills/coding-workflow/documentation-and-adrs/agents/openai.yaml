@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Documentation And Adrs"
+  "short_description": "Records decisions and documentation. Use when you need to\
+    \ do"
+  "default_prompt": "Use $documentation-and-adrs to help with this task."

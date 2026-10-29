@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Civil Engineer"
+  "short_description": "Expert civil and structural engineer with global standards\
+    \ c"
+  "default_prompt": "Use $civil-engineer to help with this task."

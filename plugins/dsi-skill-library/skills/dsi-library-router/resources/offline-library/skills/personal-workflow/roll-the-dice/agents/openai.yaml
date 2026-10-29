@@ -1,0 +1,4 @@
+interface:
+  display_name: "Roll the Dice"
+  short_description: "Choose a viable path, then carry it through"
+  default_prompt: "Use $roll-the-dice to choose a viable path for this task and carry it through to completion."

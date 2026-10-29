@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Code Simplification"
+  "short_description": "Simplifies code for clarity. Use when refactoring code for\
+    \ c"
+  "default_prompt": "Use $code-simplification to help with this task."

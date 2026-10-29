@@ -1,0 +1,31 @@
+{
+  "repository": "TokisanGames/Terrain3D",
+  "revision": "0b2b01b9b7e2039b0b0d7d9d0aa88dc5ab66a53a",
+  "fork": "https://github.com/raiinman/Terrain3D",
+  "files": [
+    {
+      "upstream_path": "doc/docs/heightmaps.md",
+      "path": "upstream/doc/docs/heightmaps.md.txt",
+      "sha256": "1db6887448c8fa4a1bd8bb8d8cb23f9bcef5a2ea6973bb59f71e85a705f8efa4",
+      "bytes": 14564
+    },
+    {
+      "upstream_path": "doc/docs/installation.md",
+      "path": "upstream/doc/docs/installation.md.txt",
+      "sha256": "e43b061495cb342a0182a795a686e11a52413488a329a9456f55b126b0658cd6",
+      "bytes": 4440
+    },
+    {
+      "upstream_path": "LICENSE.txt",
+      "path": "upstream/LICENSE.txt.txt",
+      "sha256": "f7ecc09ce65c97828130728072c5a6ed3cc185d3bf0436e51a15828ad9ceca7c",
+      "bytes": 1112
+    },
+    {
+      "upstream_path": "README.md",
+      "path": "upstream/README.md.txt",
+      "sha256": "7363c83730920dc7963d02cfcb8e211ceca12bb91b145e37e3fe9bf40b03120c",
+      "bytes": 2594
+    }
+  ]
+}

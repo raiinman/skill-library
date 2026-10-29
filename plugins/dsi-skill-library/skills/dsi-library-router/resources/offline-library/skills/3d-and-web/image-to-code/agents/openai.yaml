@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Image To Code"
+  "short_description": "Elite website image-to-code skill for Codex. For visually\
+    \ im"
+  "default_prompt": "Use $image-to-code to help with this task."

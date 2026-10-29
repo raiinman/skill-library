@@ -1,0 +1,4 @@
+interface:
+  display_name: "Voxel Tools for Godot"
+  short_description: "Build editable and streaming Godot voxel worlds"
+  default_prompt: "Use $godot-voxel to help integrate this system into my project."

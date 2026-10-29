@@ -1,0 +1,12 @@
+interface:
+  display_name: "Arcads Collage Motion"
+  short_description: "Decode collage looks and animate layers"
+  default_prompt: "Use $arcads-collage-motion to help with my collage motion brief and references."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "arcads"
+      description: "Arcads media generation and editing"
+      transport: "streamable_http"
+      url: "https://mcp.arcads.ai"

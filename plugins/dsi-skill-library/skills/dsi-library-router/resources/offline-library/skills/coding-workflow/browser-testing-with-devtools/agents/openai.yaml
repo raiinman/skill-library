@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Browser Testing With Devtools"
+  "short_description": "Tests in real browsers via Chrome DevTools MCP. Use when bui"
+  "default_prompt": "Use $browser-testing-with-devtools to help with this task."

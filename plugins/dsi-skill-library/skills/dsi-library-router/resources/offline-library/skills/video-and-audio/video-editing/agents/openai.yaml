@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Editing"
+  short_description: "Cut and polish existing video footage"
+  default_prompt: "Use $video-editing to turn my footage into a finished edit."

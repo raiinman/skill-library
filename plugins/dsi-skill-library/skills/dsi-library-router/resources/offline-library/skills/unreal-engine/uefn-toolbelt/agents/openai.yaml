@@ -1,0 +1,4 @@
+interface:
+  display_name: "UEFN Toolbelt"
+  short_description: "Inspect and automate UEFN with Toolbelt MCP"
+  default_prompt: "Use $uefn-toolbelt to inspect my UEFN project and choose the right existing tools."

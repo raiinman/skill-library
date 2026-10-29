@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Sdk Js V3 Usage"
+  "short_description": "AWS SDK for JavaScript v3 development patterns. Use when wri"
+  "default_prompt": "Use $aws-sdk-js-v3-usage to help with this task."

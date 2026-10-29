@@ -1,0 +1,10 @@
+img2blender
+
+Adapted from img2threejs, Copyright 2026 hoainho, licensed under Apache-2.0.
+Original project: https://github.com/hoainho/img2threejs
+Source selection: raiinman/skill-library at 1ff8501e6f5378a65b5dac987514e7498baa7cd5.
+
+This adaptation replaces the Three.js build/runtime and forge gate implementation
+with native Blender instructions and a new bpy capture/inspection helper.
+The original entrypoint is preserved in references/upstream-skill.md.
+Modified workflow and new helper: 2026-10-17, ShiroMaō Studios.

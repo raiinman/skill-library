@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Img2Threejs"
+  "short_description": "Turn an object or character reference image into a quality-g"
+  "default_prompt": "Use $img2threejs to help with this task."

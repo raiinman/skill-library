@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Api And Interface Design"
+  "short_description": "Guides stable API and interface design. Use when designing\
+    \ A"
+  "default_prompt": "Use $api-and-interface-design to help with this task."

@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Source Driven Development"
+  "short_description": "Grounds every implementation decision in official documentat"
+  "default_prompt": "Use $source-driven-development to help with this task."

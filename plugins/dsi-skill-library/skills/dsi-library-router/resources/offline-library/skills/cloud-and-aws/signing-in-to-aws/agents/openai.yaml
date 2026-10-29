@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Signing In To Aws"
+  "short_description": "Gets AWS credentials for CLI/SDK access via `aws login`. Act"
+  "default_prompt": "Use $signing-in-to-aws to help with this task."

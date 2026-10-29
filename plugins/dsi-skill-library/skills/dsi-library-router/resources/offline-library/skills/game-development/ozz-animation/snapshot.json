@@ -1,0 +1,43 @@
+{
+  "repository": "guillaumeblanc/ozz-animation",
+  "revision": "744eb9d99f606eda849acb0b1204f7a3dc20bca1",
+  "fork": "https://github.com/raiinman/ozz-animation",
+  "files": [
+    {
+      "upstream_path": "CMakeLists.txt",
+      "path": "upstream/CMakeLists.txt.txt",
+      "sha256": "2371814a4c4c9e10cb525951c1cba82fc230919786e3e7e22b52a468dcbafd96",
+      "bytes": 4592
+    },
+    {
+      "upstream_path": "howtos/load_from_file.cc",
+      "path": "upstream/howtos/load_from_file.cc.txt",
+      "sha256": "f005bd0e287f392cefd2e9eda2646fd04a9b90f9c62a3a433c451dcd729e9d4f",
+      "bytes": 5446
+    },
+    {
+      "upstream_path": "LICENSE.md",
+      "path": "upstream/LICENSE.md.txt",
+      "sha256": "3ddd93e9888fe70b9d61675ceb1c4278a579dc67171678f015de114efe815852",
+      "bytes": 1183
+    },
+    {
+      "upstream_path": "README.md",
+      "path": "upstream/README.md.txt",
+      "sha256": "d232578af20d80e38c74d2bcec5641f058f8be343a87b35c1c6ad6180a5a887a",
+      "bytes": 3822
+    },
+    {
+      "upstream_path": "samples/blend/README.md",
+      "path": "upstream/samples/blend/README.md.txt",
+      "sha256": "18288b86340c93aaef000bf8497e9d9c9bb35bcd6b48f80b86bfd043551ad89a",
+      "bytes": 3393
+    },
+    {
+      "upstream_path": "samples/playback/README.md",
+      "path": "upstream/samples/playback/README.md.txt",
+      "sha256": "3ce9bbc8fcf00dfd19fb4ef9082ce89bd7cef3d4c27fd65ead4c93a972dafcef",
+      "bytes": 2404
+    }
+  ]
+}

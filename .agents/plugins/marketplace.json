@@ -1,0 +1,20 @@
+{
+  "name": "dsi-skill-library",
+  "interface": {
+    "displayName": "DSL-Helper"
+  },
+  "plugins": [
+    {
+      "name": "dsi-skill-library",
+      "source": {
+        "source": "local",
+        "path": "./plugins/dsi-skill-library"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

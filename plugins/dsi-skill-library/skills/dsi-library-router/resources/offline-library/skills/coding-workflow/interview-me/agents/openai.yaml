@@ -1,0 +1,5 @@
+"interface":
+  "display_name": "Interview Me"
+  "short_description": "Extracts what the user actually wants instead of what they\
+    \ t"
+  "default_prompt": "Use $interview-me to help with this task."

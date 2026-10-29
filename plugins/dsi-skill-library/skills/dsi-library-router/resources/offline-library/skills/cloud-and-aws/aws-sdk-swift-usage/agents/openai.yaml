@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Sdk Swift Usage"
+  "short_description": "AWS SDK for Swift development patterns. Use when writing Swi"
+  "default_prompt": "Use $aws-sdk-swift-usage to help with this task."

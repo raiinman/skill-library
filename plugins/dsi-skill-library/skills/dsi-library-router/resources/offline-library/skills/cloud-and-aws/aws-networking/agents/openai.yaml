@@ -1,0 +1,4 @@
+"interface":
+  "display_name": "Aws Networking"
+  "short_description": "Routes AWS networking requests to the correct service skill "
+  "default_prompt": "Use $aws-networking to help with this task."
