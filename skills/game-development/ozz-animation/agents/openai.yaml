@@ -1,0 +1,4 @@
+interface:
+  display_name: "ozz-animation"
+  short_description: "Integrate skeletal animation sampling and blending"
+  default_prompt: "Use $ozz-animation to help integrate this system into my project."

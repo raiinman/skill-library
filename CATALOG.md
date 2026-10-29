@@ -121,9 +121,19 @@ Start with the task you want to do, or search this page for a skill name.
 ## Game Development
 
 - [`$day-one-patch`](skills/game-development/day-one-patch/SKILL.md) · [source](skills/game-development/day-one-patch/SOURCE.md)
+- [`$effekseer`](skills/game-development/effekseer/SKILL.md) · [source](skills/game-development/effekseer/SOURCE.md)
+- [`$fastnoise2`](skills/game-development/fastnoise2/SKILL.md) · [source](skills/game-development/fastnoise2/SOURCE.md)
 - [`$game-architecture`](skills/game-development/game-architecture/SKILL.md) · [source](skills/game-development/game-architecture/SOURCE.md)
 - [`$game-development`](skills/game-development/game-development/SKILL.md) · [source](skills/game-development/game-development/SOURCE.md)
+- [`$godot-voxel`](skills/game-development/godot-voxel/SKILL.md) · [source](skills/game-development/godot-voxel/SOURCE.md)
+- [`$jolt-physics`](skills/game-development/jolt-physics/SKILL.md) · [source](skills/game-development/jolt-physics/SOURCE.md)
 - [`$map-systems`](skills/game-development/map-systems/SKILL.md) · [source](skills/game-development/map-systems/SOURCE.md)
+- [`$material-maker`](skills/game-development/material-maker/SKILL.md) · [source](skills/game-development/material-maker/SOURCE.md)
+- [`$meshoptimizer`](skills/game-development/meshoptimizer/SKILL.md) · [source](skills/game-development/meshoptimizer/SOURCE.md)
+- [`$ozz-animation`](skills/game-development/ozz-animation/SKILL.md) · [source](skills/game-development/ozz-animation/SOURCE.md)
+- [`$recast-navigation`](skills/game-development/recast-navigation/SKILL.md) · [source](skills/game-development/recast-navigation/SOURCE.md)
+- [`$terrain3d`](skills/game-development/terrain3d/SKILL.md) · [source](skills/game-development/terrain3d/SOURCE.md)
+- [`$the-forge`](skills/game-development/the-forge/SKILL.md) · [source](skills/game-development/the-forge/SOURCE.md)
 - [`$unity-developer`](skills/game-development/unity-developer/SKILL.md) · [source](skills/game-development/unity-developer/SOURCE.md)
 - [`$unity-ecs-patterns`](skills/game-development/unity-ecs-patterns/SKILL.md) · [source](skills/game-development/unity-ecs-patterns/SOURCE.md)
 

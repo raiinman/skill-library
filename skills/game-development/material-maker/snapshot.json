@@ -1,0 +1,19 @@
+{
+  "repository": "RodZill4/material-maker",
+  "revision": "7d6daae3c74c09720afe4138ce09699ab3591ce1",
+  "fork": "https://github.com/raiinman/material-maker",
+  "files": [
+    {
+      "upstream_path": "LICENSE.md",
+      "path": "upstream/LICENSE.md.txt",
+      "sha256": "db17817a68e6c06c3aba6242d50ec34285c02f1ada4fbd8cd7382110f95c09de",
+      "bytes": 1100
+    },
+    {
+      "upstream_path": "README.md",
+      "path": "upstream/README.md.txt",
+      "sha256": "fe4f9eff499f55f1d21fe692921ab2a2d40e6616c249a8734318e10fbbbfad68",
+      "bytes": 2009
+    }
+  ]
+}

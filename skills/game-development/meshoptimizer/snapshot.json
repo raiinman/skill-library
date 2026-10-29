@@ -1,0 +1,25 @@
+{
+  "repository": "zeux/meshoptimizer",
+  "revision": "f0a684f11ead064e176775c9b796f82a55910e92",
+  "fork": "https://github.com/raiinman/meshoptimizer",
+  "files": [
+    {
+      "upstream_path": "CMakeLists.txt",
+      "path": "upstream/CMakeLists.txt.txt",
+      "sha256": "93766ef46e03cb1cda964c75f248d9a7f2e35899b557960f4db15350760b646d",
+      "bytes": 8216
+    },
+    {
+      "upstream_path": "LICENSE.md",
+      "path": "upstream/LICENSE.md.txt",
+      "sha256": "f03037ca7bad1e3eb7f4a63fa6084a8baabd5ba30d3c239a9a7f35705d873e26",
+      "bytes": 1079
+    },
+    {
+      "upstream_path": "README.md",
+      "path": "upstream/README.md.txt",
+      "sha256": "69dee313d6982ef86199c0e8cb0f5ad9aca683bf2250418a872fcbbcc00d514b",
+      "bytes": 107230
+    }
+  ]
+}

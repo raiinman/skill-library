@@ -1,0 +1,31 @@
+{
+  "repository": "Auburn/FastNoise2",
+  "revision": "721400f9560831be2fc9790be9b72c44bee7d33f",
+  "fork": "https://github.com/raiinman/FastNoise2",
+  "files": [
+    {
+      "upstream_path": "CMakeLists.txt",
+      "path": "upstream/CMakeLists.txt.txt",
+      "sha256": "ddba7ea2fd7f3059ca1c759733a2a3c76fb52ac8d9191320f3c7f49e82693fa4",
+      "bytes": 4528
+    },
+    {
+      "upstream_path": "include/FastNoise/FastNoise.h",
+      "path": "upstream/include/FastNoise/FastNoise.h.txt",
+      "sha256": "ae8f9a43b32ecc10366b920ffd64b988d18b46ede8fdfc44c07e3272cdc30240",
+      "bytes": 3121
+    },
+    {
+      "upstream_path": "LICENSE",
+      "path": "upstream/LICENSE.txt",
+      "sha256": "6a772f6fa13928b07693cc8643dac0284910ea031b82cba1b49e51a36616cddf",
+      "bytes": 1068
+    },
+    {
+      "upstream_path": "README.md",
+      "path": "upstream/README.md.txt",
+      "sha256": "4fb442486b116974947b56bee05b658a03e337edf8b6d361fc4bc7cacdccee53",
+      "bytes": 6339
+    }
+  ]
+}

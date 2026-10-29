@@ -1,0 +1,4 @@
+interface:
+  display_name: "meshoptimizer"
+  short_description: "Optimize, simplify and compress game mesh buffers"
+  default_prompt: "Use $meshoptimizer to help integrate this system into my project."

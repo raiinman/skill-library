@@ -1,0 +1,4 @@
+interface:
+  display_name: "Effekseer"
+  short_description: "Author and integrate game particle effects"
+  default_prompt: "Use $effekseer to help integrate this system into my project."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Recast Navigation"
+  short_description: "Build navmeshes, paths and crowd navigation"
+  default_prompt: "Use $recast-navigation to help integrate this system into my project."

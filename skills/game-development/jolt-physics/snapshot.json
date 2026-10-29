@@ -1,0 +1,37 @@
+{
+  "repository": "jrouwe/JoltPhysics",
+  "revision": "5d5275c38074c44b14f38b85bc9c73573078c808",
+  "fork": "https://github.com/raiinman/JoltPhysics",
+  "files": [
+    {
+      "upstream_path": "Build/README.md",
+      "path": "upstream/Build/README.md.txt",
+      "sha256": "a0987df68b089afe6e8462991aa0a2999d299552235502547fa46227ef9e00d5",
+      "bytes": 17594
+    },
+    {
+      "upstream_path": "Docs/Architecture.md",
+      "path": "upstream/Docs/Architecture.md.txt",
+      "sha256": "045ea309efe6de3645edee08315ddfdb722e8981e7c07458ac02b3b705ecc618",
+      "bytes": 110629
+    },
+    {
+      "upstream_path": "HelloWorld/HelloWorld.cpp",
+      "path": "upstream/HelloWorld/HelloWorld.cpp.txt",
+      "sha256": "f05a9ac9cce7c119358ce39bb6704d19b71c11c603e377e273f227d3d3d0ac0c",
+      "bytes": 16868
+    },
+    {
+      "upstream_path": "LICENSE",
+      "path": "upstream/LICENSE.txt",
+      "sha256": "800abe35d64ad9defd636ff1ee8c961e06f0ebca3ef8d10083e8aa0e8ef86ac3",
+      "bytes": 1052
+    },
+    {
+      "upstream_path": "README.md",
+      "path": "upstream/README.md.txt",
+      "sha256": "ad1bc97a1bd81f5f0cda9975684dd175ddb22b721dd34d5d26f42443e5fe859d",
+      "bytes": 12043
+    }
+  ]
+}

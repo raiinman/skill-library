@@ -1,3 +1,6 @@
 * text=auto
 **/references/upstream-skill.md -text
 **/references/upstream-entrypoint.md -text -whitespace
+skills/game-development/**/upstream/**/*.txt -text -whitespace
+skills/game-development/*/LICENSE* -text -whitespace
+skills/game-development/*/License.txt -text -whitespace

@@ -27,7 +27,9 @@
 <a name="readme-overview"></a>
 <h2 align="center">Overview</h2>
 
-Your home for skills. 144 skill packages are organized by purpose, including the first 27 imports, your existing GitHub, local, and engineering-plugin skills, and brainstorming, REA, random decision workflows, and video editing and generation.
+Your home for skills. 154 skill packages are organized by purpose, including the first 27 imports, your existing GitHub, local, and engineering-plugin skills, and brainstorming, REA, random decision workflows, and video editing and generation.
+
+Native game-system source forks and integration guides are listed in [Game Tools](GAME-TOOLS.md).
 
 <p align="center"><a href="#readme-index">↑ Back to index</a></p>
 
@@ -77,7 +79,7 @@ Your home for skills. 144 skill packages are organized by purpose, including the
 </tr>
 <tr>
 <td align="center"><a href="skills/game-development/">Game Development</a></td>
-<td align="center" style="text-align:right">6</td>
+<td align="center" style="text-align:right">16</td>
 </tr>
 <tr>
 <td align="center"><a href="skills/marketing-and-ads/">Marketing And Ads</a></td>

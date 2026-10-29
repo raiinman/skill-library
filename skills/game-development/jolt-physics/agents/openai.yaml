@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jolt Physics"
+  short_description: "Integrate rigid-body physics and collision systems"
+  default_prompt: "Use $jolt-physics to help integrate this system into my project."

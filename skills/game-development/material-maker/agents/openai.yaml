@@ -1,0 +1,4 @@
+interface:
+  display_name: "Material Maker"
+  short_description: "Author and export procedural PBR material textures"
+  default_prompt: "Use $material-maker to help integrate this system into my project."

@@ -2895,5 +2895,208 @@
       "Require per-environment capability/version and trusted-module checks, isolated Python/trusted working directory, strict caller-side hex/complete-word validation, explicit endian/category, argument-vector invocation and empty stdin.",
       "Static original-synthetic decode only; no REA/provider/update, PS-X loading, GTE execution, Windows availability, game boot or provenance clearance claim."
     ]
+  },
+  {
+    "repo": "jrouwe/JoltPhysics",
+    "selector": "jolt-physics",
+    "category": "game-development",
+    "name": "jolt-physics",
+    "path": "skills/game-development/jolt-physics",
+    "upstream_path": "README.md",
+    "commit": "5d5275c38074c44b14f38b85bc9c73573078c808",
+    "source_url": "https://github.com/jrouwe/JoltPhysics/blob/5d5275c38074c44b14f38b85bc9c73573078c808/README.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "fork_url": "https://github.com/raiinman/JoltPhysics",
+    "adaptations": [
+      "Created focused Codex/Claude integration skill from official software documentation; repository is not itself a native agent skill",
+      "Pinned selected upstream documents and licenses, verified exact Git blob bytes; complete code preserved in the user GitHub fork",
+      "No engine replacement, SDK build or external runtime installation is implied by skill installation"
+    ]
+  },
+  {
+    "repo": "TokisanGames/Terrain3D",
+    "selector": "terrain3d",
+    "category": "game-development",
+    "name": "terrain3d",
+    "path": "skills/game-development/terrain3d",
+    "upstream_path": "README.md",
+    "commit": "0b2b01b9b7e2039b0b0d7d9d0aa88dc5ab66a53a",
+    "source_url": "https://github.com/TokisanGames/Terrain3D/blob/0b2b01b9b7e2039b0b0d7d9d0aa88dc5ab66a53a/README.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE.txt"
+    ],
+    "fork_url": "https://github.com/raiinman/Terrain3D",
+    "adaptations": [
+      "Created focused Codex/Claude integration skill from official software documentation; repository is not itself a native agent skill",
+      "Pinned selected upstream documents and licenses, verified exact Git blob bytes; complete code preserved in the user GitHub fork",
+      "No engine replacement, SDK build or external runtime installation is implied by skill installation"
+    ]
+  },
+  {
+    "repo": "RodZill4/material-maker",
+    "selector": "material-maker",
+    "category": "game-development",
+    "name": "material-maker",
+    "path": "skills/game-development/material-maker",
+    "upstream_path": "README.md",
+    "commit": "7d6daae3c74c09720afe4138ce09699ab3591ce1",
+    "source_url": "https://github.com/RodZill4/material-maker/blob/7d6daae3c74c09720afe4138ce09699ab3591ce1/README.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE.md"
+    ],
+    "fork_url": "https://github.com/raiinman/material-maker",
+    "adaptations": [
+      "Created focused Codex/Claude integration skill from official software documentation; repository is not itself a native agent skill",
+      "Pinned selected upstream documents and licenses, verified exact Git blob bytes; complete code preserved in the user GitHub fork",
+      "No engine replacement, SDK build or external runtime installation is implied by skill installation"
+    ]
+  },
+  {
+    "repo": "effekseer/Effekseer",
+    "selector": "effekseer",
+    "category": "game-development",
+    "name": "effekseer",
+    "path": "skills/game-development/effekseer",
+    "upstream_path": "README.md",
+    "commit": "098774f64c91d16f3aa0e2035d28a686249d9984",
+    "source_url": "https://github.com/effekseer/Effekseer/blob/098774f64c91d16f3aa0e2035d28a686249d9984/README.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE",
+      "LICENSE_RUNTIME_DIRECTX",
+      "LICENSE_RUNTIME_VULKAN",
+      "LICENSE_TOOL"
+    ],
+    "fork_url": "https://github.com/raiinman/Effekseer",
+    "adaptations": [
+      "Created focused Codex/Claude integration skill from official software documentation; repository is not itself a native agent skill",
+      "Pinned selected upstream documents and licenses, verified exact Git blob bytes; complete code preserved in the user GitHub fork",
+      "No engine replacement, SDK build or external runtime installation is implied by skill installation"
+    ]
+  },
+  {
+    "repo": "Zylann/godot_voxel",
+    "selector": "godot-voxel",
+    "category": "game-development",
+    "name": "godot-voxel",
+    "path": "skills/game-development/godot-voxel",
+    "upstream_path": "README.md",
+    "commit": "045ff9326a32fd10ac6fdac6357b5a098aaf2093",
+    "source_url": "https://github.com/Zylann/godot_voxel/blob/045ff9326a32fd10ac6fdac6357b5a098aaf2093/README.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE.md"
+    ],
+    "fork_url": "https://github.com/raiinman/godot_voxel",
+    "adaptations": [
+      "Created focused Codex/Claude integration skill from official software documentation; repository is not itself a native agent skill",
+      "Pinned selected upstream documents and licenses, verified exact Git blob bytes; complete code preserved in the user GitHub fork",
+      "No engine replacement, SDK build or external runtime installation is implied by skill installation"
+    ]
+  },
+  {
+    "repo": "recastnavigation/recastnavigation",
+    "selector": "recast-navigation",
+    "category": "game-development",
+    "name": "recast-navigation",
+    "path": "skills/game-development/recast-navigation",
+    "upstream_path": "README.md",
+    "commit": "9f4ce64458dfae86e1239c525ddc219c4e9e06f1",
+    "source_url": "https://github.com/recastnavigation/recastnavigation/blob/9f4ce64458dfae86e1239c525ddc219c4e9e06f1/README.md",
+    "license": "Zlib",
+    "license_files": [
+      "License.txt"
+    ],
+    "fork_url": "https://github.com/raiinman/recastnavigation",
+    "adaptations": [
+      "Created focused Codex/Claude integration skill from official software documentation; repository is not itself a native agent skill",
+      "Pinned selected upstream documents and licenses, verified exact Git blob bytes; complete code preserved in the user GitHub fork",
+      "No engine replacement, SDK build or external runtime installation is implied by skill installation"
+    ]
+  },
+  {
+    "repo": "guillaumeblanc/ozz-animation",
+    "selector": "ozz-animation",
+    "category": "game-development",
+    "name": "ozz-animation",
+    "path": "skills/game-development/ozz-animation",
+    "upstream_path": "README.md",
+    "commit": "744eb9d99f606eda849acb0b1204f7a3dc20bca1",
+    "source_url": "https://github.com/guillaumeblanc/ozz-animation/blob/744eb9d99f606eda849acb0b1204f7a3dc20bca1/README.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE.md"
+    ],
+    "fork_url": "https://github.com/raiinman/ozz-animation",
+    "adaptations": [
+      "Created focused Codex/Claude integration skill from official software documentation; repository is not itself a native agent skill",
+      "Pinned selected upstream documents and licenses, verified exact Git blob bytes; complete code preserved in the user GitHub fork",
+      "No engine replacement, SDK build or external runtime installation is implied by skill installation"
+    ]
+  },
+  {
+    "repo": "ConfettiFX/The-Forge",
+    "selector": "the-forge",
+    "category": "game-development",
+    "name": "the-forge",
+    "path": "skills/game-development/the-forge",
+    "upstream_path": "README.md",
+    "commit": "cd5046893faba2dc7869243873bf01f02a6f0df9",
+    "source_url": "https://github.com/ConfettiFX/The-Forge/blob/cd5046893faba2dc7869243873bf01f02a6f0df9/README.md",
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "fork_url": "https://github.com/raiinman/The-Forge",
+    "adaptations": [
+      "Created focused Codex/Claude integration skill from official software documentation; repository is not itself a native agent skill",
+      "Pinned selected upstream documents and licenses, verified exact Git blob bytes; complete code preserved in the user GitHub fork",
+      "No engine replacement, SDK build or external runtime installation is implied by skill installation"
+    ]
+  },
+  {
+    "repo": "zeux/meshoptimizer",
+    "selector": "meshoptimizer",
+    "category": "game-development",
+    "name": "meshoptimizer",
+    "path": "skills/game-development/meshoptimizer",
+    "upstream_path": "README.md",
+    "commit": "f0a684f11ead064e176775c9b796f82a55910e92",
+    "source_url": "https://github.com/zeux/meshoptimizer/blob/f0a684f11ead064e176775c9b796f82a55910e92/README.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE.md"
+    ],
+    "fork_url": "https://github.com/raiinman/meshoptimizer",
+    "adaptations": [
+      "Created focused Codex/Claude integration skill from official software documentation; repository is not itself a native agent skill",
+      "Pinned selected upstream documents and licenses, verified exact Git blob bytes; complete code preserved in the user GitHub fork",
+      "No engine replacement, SDK build or external runtime installation is implied by skill installation"
+    ]
+  },
+  {
+    "repo": "Auburn/FastNoise2",
+    "selector": "fastnoise2",
+    "category": "game-development",
+    "name": "fastnoise2",
+    "path": "skills/game-development/fastnoise2",
+    "upstream_path": "README.md",
+    "commit": "721400f9560831be2fc9790be9b72c44bee7d33f",
+    "source_url": "https://github.com/Auburn/FastNoise2/blob/721400f9560831be2fc9790be9b72c44bee7d33f/README.md",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "fork_url": "https://github.com/raiinman/FastNoise2",
+    "adaptations": [
+      "Created focused Codex/Claude integration skill from official software documentation; repository is not itself a native agent skill",
+      "Pinned selected upstream documents and licenses, verified exact Git blob bytes; complete code preserved in the user GitHub fork",
+      "No engine replacement, SDK build or external runtime installation is implied by skill installation"
+    ]
   }
 ]
