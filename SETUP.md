@@ -124,3 +124,7 @@ Ten integration skills cover Jolt Physics, Terrain3D, Material Maker, Effekseer,
 These software repositories are libraries/editors rather than pre-existing agent skills. Installing their integration guides does not compile ten SDKs, replace an engine backend or install external engine plugins into unrelated projects. Choose a supported release and install/build dependencies in the specific project that needs them. Target-engine binaries, platform SDKs and runtime integration still require project-specific verification.
 
 The DSI router package includes current canonical discovery and bundled resources, retaining its maintained workflow overlays. Root Agent Plugins, Codex compatibility and Claude plugin/marketplace manifests refer to the same router package. It loads focused guide content on demand rather than registering every archived copy as another native skill. Local standalone skills and the plugin keep distinct source ownership.
+
+## Unslop
+
+`unslop` is available as a shared local skill for Codex and Claude and through the DSI Skills router. It retains Damir Sokolovsky's attribution, CC BY 4.0 license, references, example pages and both Node helpers. Optional helper dependencies are installed separately in `C:/Users/mikea/.codex/tools/unslop`; FFmpeg is already on PATH. See [runtime notes](skills/design-and-art/unslop/references/runtime.md). Installing this skill does not redesign any current project or configure a paid image service.

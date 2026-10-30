@@ -5,3 +5,4 @@ skills/game-development/**/upstream/**/*.txt -text -whitespace
 skills/game-development/*/LICENSE* -text -whitespace
 skills/game-development/*/License.txt -text -whitespace
 plugins/dsi-skill-library/** -text -whitespace
+skills/design-and-art/unslop/** -text -whitespace

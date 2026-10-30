@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unslop"
+  short_description: "Give generic AI-looking UI a deliberate design"
+  default_prompt: "Use $unslop to audit and improve this interface while keeping its product and features."
