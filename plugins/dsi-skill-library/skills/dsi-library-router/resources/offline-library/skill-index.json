@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "discovery": "bundled-from-pinned-catalog",
-  "revision": "3e9de8899d205aad9142d58d68bb647946b4ff80",
+  "revision": "4ceca147c2225ec82c3e2ab35737eae41931e2ea",
   "maintenance_overlay": {
-    "id": "dsi-0.1.20",
+    "id": "dsi-0.1.22",
     "repository": "raiinman/skill-library",
-    "base_revision": "3e9de8899d205aad9142d58d68bb647946b4ff80",
-    "manifest_sha256": "90ec215c04d89a2592286b8d530db480857b876b6e346ed33899324d7bb2aafb"
+    "base_revision": "4ceca147c2225ec82c3e2ab35737eae41931e2ea",
+    "manifest_sha256": "0e9703d0f382eb824685f863e69995fafa6a670d49efb2d096bb7ed932573b5a"
   },
-  "count": 154,
+  "count": 155,
   "categories": [
     "3d-and-web",
     "business-planning",
@@ -859,6 +859,16 @@
       "description": "Design and improve mobile app screens, navigation, onboarding, and interactive prototypes. Use for mobile UI/UX work, including React Native, Flutter, SwiftUI, and mobile web interfaces.",
       "routing_metadata": {},
       "resource_path": "skills/design-and-art/mobile-app-ui-design/SKILL.md.txt"
+    },
+    {
+      "id": "design-and-art/unslop",
+      "name": "unslop",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/unslop/SKILL.md",
+      "source_path": "skills/design-and-art/unslop/SOURCE.md",
+      "description": "Turns vibecoded, AI-looking UI into a designed interface with its own character. Finds a direction from the product itself, then fixes spacing, color, icons, copy, type, layout, details, visuals and motion in that order, and can generate a real hero visual with an image tool when one is available. Use when the user asks to unslop, polish, clean up or redesign a screen so it stops looking AI-generated, or when a UI shows the usual tells like purple gradients, glows, gradient text, emoji labels, \"New ✨\" badges, glossy blobs, uppercase tracked labels, pulsing elements or uneven spacing. Works on React, Tailwind, HTML and CSS, for dashboards, apps and landing pages.",
+      "routing_metadata": {},
+      "resource_path": "skills/design-and-art/unslop/SKILL.md.txt"
     },
     {
       "id": "engineering/civil-engineer",

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "discovery": "canonical-native-frontmatter",
-  "count": 154,
+  "count": 155,
   "categories": [
     "3d-and-web",
     "business-planning",
@@ -771,6 +771,15 @@
       "routing_metadata": {}
     },
     {
+      "id": "design-and-art/unslop",
+      "name": "unslop",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/unslop/SKILL.md",
+      "source_path": "skills/design-and-art/unslop/SOURCE.md",
+      "description": "Turns vibecoded, AI-looking UI into a designed interface with its own character. Finds a direction from the product itself, then fixes spacing, color, icons, copy, type, layout, details, visuals and motion in that order, and can generate a real hero visual with an image tool when one is available. Use when the user asks to unslop, polish, clean up or redesign a screen so it stops looking AI-generated, or when a UI shows the usual tells like purple gradients, glows, gradient text, emoji labels, \"New ✨\" badges, glossy blobs, uppercase tracked labels, pulsing elements or uneven spacing. Works on React, Tailwind, HTML and CSS, for dashboards, apps and landing pages.",
+      "routing_metadata": {}
+    },
+    {
       "id": "engineering/civil-engineer",
       "name": "civil-engineer",
       "category": "engineering",
@@ -1410,5 +1419,5 @@
       "routing_metadata": {}
     }
   ],
-  "content_sha256": "a00d8e92e4b6c51ed012ea6f438fbd2e659a471db649244bedb3aee63db9f314"
+  "content_sha256": "477aa974715b590bf55213cead337f41b84cbec9e4fdaebfd2bfe86466ec81a8"
 }

@@ -95,6 +95,8 @@ Start with the task you want to do, or search this page for a skill name.
 
 ## Design And Art
 
+- [`$unslop`](skills/design-and-art/unslop/SKILL.md) · [source](skills/design-and-art/unslop/SOURCE.md)
+
 - [`$impeccable`](skills/design-and-art/impeccable/SKILL.md) · [source](skills/design-and-art/impeccable/SOURCE.md)
 - [`$krita-iterate`](skills/design-and-art/krita-iterate/SKILL.md) · [source](skills/design-and-art/krita-iterate/SOURCE.md)
 - [`$krita-layer-rebuild`](skills/design-and-art/krita-layer-rebuild/SKILL.md) · [source](skills/design-and-art/krita-layer-rebuild/SOURCE.md)

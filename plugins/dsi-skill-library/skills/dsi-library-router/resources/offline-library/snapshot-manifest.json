@@ -2,25 +2,25 @@
   "schema_version": 1,
   "repository": "raiinman/skill-library",
   "branch": "main",
-  "revision": "3e9de8899d205aad9142d58d68bb647946b4ff80",
+  "revision": "4ceca147c2225ec82c3e2ab35737eae41931e2ea",
   "source_kind": "bundled-snapshot",
   "default_git_mode": "100644",
   "maintenance_overlay": {
-    "id": "dsi-0.1.20",
+    "id": "dsi-0.1.22",
     "repository": "raiinman/skill-library",
-    "base_revision": "3e9de8899d205aad9142d58d68bb647946b4ff80",
-    "manifest_sha256": "90ec215c04d89a2592286b8d530db480857b876b6e346ed33899324d7bb2aafb"
+    "base_revision": "4ceca147c2225ec82c3e2ab35737eae41931e2ea",
+    "manifest_sha256": "0e9703d0f382eb824685f863e69995fafa6a670d49efb2d096bb7ed932573b5a"
   },
   "freshness": "Immutable committed source revision plus hash-gated maintained replacements; not a live branch check.",
   "index_path": "skill-index.json",
-  "canonical_skill_count": 154,
+  "canonical_skill_count": 155,
   "storage_note": "Canonical SKILL.md bodies are stored as SKILL.md.txt to avoid duplicate native registrations. Resolve canonical resources through files[path].stored_path.",
   "files": {
     "CATALOG.md": {
-      "sha256": "b123ff8eb00cf39807ffa28f6fe39c07eb77b09e97b0df01cd4e65ef7e91c480",
-      "bytes": 21688,
+      "sha256": "099a87ceeb8bc88437d3bf16028e4b80951db7053fd1e3cb9bc0b0ccf0a838ce",
+      "bytes": 21794,
       "stored_path": "CATALOG.md",
-      "git_blob": "f68e2510cfd50c2ffb1248a0a9bc05548004458b"
+      "git_blob": "5393009b284ae79c4a6a23c5d5b71c806bc6b1fe"
     },
     "GAME-TOOLS.md": {
       "sha256": "c55b55462551eacbf705e66c17ef066169bb6d3ab0e81d5856ddd92f2ed137ca",
@@ -29,10 +29,10 @@
       "git_blob": "56cdde699804a2aefc4103a812543fc7bf3e8559"
     },
     "README.md": {
-      "sha256": "8181249af22564d40d7ef9f43beffb8fd64616c9a490d5527db381f83bba6463",
+      "sha256": "bed222ca27dc38fb05833a992d60bb4834846bfe3bf0345f40ccca5eb81a75ed",
       "bytes": 8273,
       "stored_path": "README.md",
-      "git_blob": "f42fee96c8843516e61fc275abc79644aa76f3dd"
+      "git_blob": "317f0aff4c58c8bce3185bb0ad0b170159c10aae"
     },
     "REPOSITORIES.md": {
       "sha256": "608b5a61334d9f4290076b2b5ba998a2c1ebe7eb17ecfafb7e2be39ff68359e7",
@@ -41,10 +41,10 @@
       "git_blob": "e665c87226e98d0cc76f9127a2b990b98a511926"
     },
     "SETUP.md": {
-      "sha256": "3d777a5b32d5b6c9e9d763e533f0dfcd2b5429e73abd3f7feea0c6b3cebd4798",
-      "bytes": 20368,
+      "sha256": "3166c312f43f7207d2303022a07ec9d964a46f5c34efcd7b91504d9162364d65",
+      "bytes": 20883,
       "stored_path": "SETUP.md",
-      "git_blob": "f62b85eaf97f5a41079f8d9e1616dccc39cba181"
+      "git_blob": "de01cf16438d15a434ea24c088e32b92ba3f4692"
     },
     "collections.json": {
       "sha256": "ba0b5cef292c086ea71a45005219ae7c0b25a1bf1b3f4df90a9da4abafcca436",
@@ -6496,7 +6496,7 @@
       "stored_path": "skills/coding-workflow/code-review-and-quality/SOURCE.md",
       "base_sha256": "9327cd4aabc8f956c7da867d9e0dbaf908f9cc87b1e3fd664811d4704dcb29c4",
       "base_git_blob": "303f3023a9db500cf2118f828d862ddd6558dc24",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/code-review-and-quality/agents/openai.yaml": {
       "sha256": "5fcc70b5c8091b82942e2d4bf071f1dc7b28a023c671a4426959a6a269ceb4ac",
@@ -6540,7 +6540,7 @@
       "stored_path": "skills/coding-workflow/code-review-and-quality/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/code-review-and-quality/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -6824,7 +6824,7 @@
       "stored_path": "skills/coding-workflow/documentation-and-adrs/SKILL.md.txt",
       "base_sha256": "5f0e8eb31d5f3a7a2247e22bd9e403de0132880c7c53c3ccd55f8ab0514f9c69",
       "base_git_blob": "7c7dd384415bb34877dbb85c15c6736626196f28",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/documentation-and-adrs/SOURCE.md": {
       "sha256": "80a2eadffaf92220c161562d38934d646b3894aa8c72475c7cc819b3f2d4dc2e",
@@ -6832,7 +6832,7 @@
       "stored_path": "skills/coding-workflow/documentation-and-adrs/SOURCE.md",
       "base_sha256": "689f0b0addc140b352fb185c2e87bd5c892ed54072f0fd147ca0686fb62e6c7d",
       "base_git_blob": "7d1354f85065444645cd24e6abb2b0c5b2472b99",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/documentation-and-adrs/agents/openai.yaml": {
       "sha256": "18b7e13353726dbff6dbe9b67c7ad3c00465f050102ff3c0a0970da2fc3f2fc1",
@@ -6870,7 +6870,7 @@
       "stored_path": "skills/coding-workflow/doubt-driven-development/SOURCE.md",
       "base_sha256": "d2dea5cea6ad25b9289737f0c738f99053686c3af9f392d079379eec9e55127c",
       "base_git_blob": "9c8bf77bb2c3a37db7df136b8a6fa776e9d177fd",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/doubt-driven-development/agents/openai.yaml": {
       "sha256": "ad301c7050236c932331cc5eb1ca7735408718a50df8b96dffaf36c98b6c1de2",
@@ -6914,7 +6914,7 @@
       "stored_path": "skills/coding-workflow/doubt-driven-development/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/doubt-driven-development/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -6946,7 +6946,7 @@
       "stored_path": "skills/coding-workflow/frontend-ui-engineering/SKILL.md.txt",
       "base_sha256": "d716feea615e119b4d6da048df7cff56333c903088e0e5a85bffb03f485bdef9",
       "base_git_blob": "ed29664f92746d0a7e69d6f5c2c90778068d74da",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/frontend-ui-engineering/SOURCE.md": {
       "sha256": "9ceb21583c203dae02190cd4810787a1a14cfa7c1166e72032864c9028d9f22c",
@@ -6954,7 +6954,7 @@
       "stored_path": "skills/coding-workflow/frontend-ui-engineering/SOURCE.md",
       "base_sha256": "60c0752651afb73e57ab6640d200013a61ada74cc774851941629461beaef75d",
       "base_git_blob": "de0570953d5a5ad0138b4dbd7f962a78bb8b1a30",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/frontend-ui-engineering/agents/openai.yaml": {
       "sha256": "d2e2d06ec28b60baba935e2008f1b20ef24a5b78aa35190759572b81574c29ab",
@@ -6998,7 +6998,7 @@
       "stored_path": "skills/coding-workflow/frontend-ui-engineering/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/frontend-ui-engineering/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7066,7 +7066,7 @@
       "stored_path": "skills/coding-workflow/idea-refine/SKILL.md.txt",
       "base_sha256": "554025e17eca092bb05d0d79b9eabcb0646731a1bd176c0f3da8ee6461d64931",
       "base_git_blob": "226c22d04e4306ab5f910582d5e95f591dd379d4",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/idea-refine/SOURCE.md": {
       "sha256": "87824d221172c6b1ea0ba2cc977f6f160f3ef81a01649f941aee5e6ad8f1445b",
@@ -7074,7 +7074,7 @@
       "stored_path": "skills/coding-workflow/idea-refine/SOURCE.md",
       "base_sha256": "856fea81ebf3e653439d87eb2e8b3ee23b191466183b42d6c93108d6cdbe4c05",
       "base_git_blob": "37f2a2b040584802640d45229347b1a6afd5f36b",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/idea-refine/agents/openai.yaml": {
       "sha256": "cbb8f1f084f538292ddb2cdc2a59979f28958fc3962821e1b53a16fe4ca67b5c",
@@ -7136,7 +7136,7 @@
       "stored_path": "skills/coding-workflow/incremental-implementation/SOURCE.md",
       "base_sha256": "0405eff100d3d168e5ee1ddbfdb6cb0cc4e6d4c12c982283ffa54cf0aedafca6",
       "base_git_blob": "796fd9b451bde4a88d140a71313cfb466c127590",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/incremental-implementation/agents/openai.yaml": {
       "sha256": "8773f7a2285a35e62c24eb179f8fdd89f33c2dc3c6ec8d7e4518e99c73e79af8",
@@ -7180,7 +7180,7 @@
       "stored_path": "skills/coding-workflow/incremental-implementation/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/incremental-implementation/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7254,7 +7254,7 @@
       "stored_path": "skills/coding-workflow/observability-and-instrumentation/SOURCE.md",
       "base_sha256": "0fa5ab5834f8c618cd4ee2e451e5ba58d0227d007d032c48f845fb760f9b5d0f",
       "base_git_blob": "2a635f1d8d0bc3f0e63e2a7beeeb5d3cbdeb0a2b",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/observability-and-instrumentation/agents/openai.yaml": {
       "sha256": "32b6e791db91eda5194ed7dee1d5a01f72bed18a51560418539e0edd29533e5c",
@@ -7298,7 +7298,7 @@
       "stored_path": "skills/coding-workflow/observability-and-instrumentation/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/observability-and-instrumentation/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7330,7 +7330,7 @@
       "stored_path": "skills/coding-workflow/performance-optimization/SKILL.md.txt",
       "base_sha256": "5aa7240dbfba59428356d3b587a8199a9552b22ac409d234f05b9805e59e4015",
       "base_git_blob": "761a912932c622e9c963695e622913bc8b81ada2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/performance-optimization/SOURCE.md": {
       "sha256": "1387e841ac9ef68e01bdba98403ce57dbd072e7b2aaa63162393f2c89c8f1f55",
@@ -7338,7 +7338,7 @@
       "stored_path": "skills/coding-workflow/performance-optimization/SOURCE.md",
       "base_sha256": "513673fadc26e04e43dd62a4538af98889ef0d4eb3676a51c3430238a6d4265b",
       "base_git_blob": "b8b1f30445ce2006d89fff4f0e367cdcc2600f48",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/performance-optimization/agents/openai.yaml": {
       "sha256": "8b615ef2ed76ebbf61f02e57df46720d172b8b1fa7d46de50bb95b3f43d844e2",
@@ -7388,7 +7388,7 @@
       "stored_path": "skills/coding-workflow/performance-optimization/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/performance-optimization/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7426,7 +7426,7 @@
       "stored_path": "skills/coding-workflow/planning-and-task-breakdown/SOURCE.md",
       "base_sha256": "71c44a7b0d1d3c879deebc75632ab28dcdf3d3ce816dafb607133180678356f1",
       "base_git_blob": "0aeab8d664fa16b3666c4ccf90c028b09508e9eb",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/planning-and-task-breakdown/agents/openai.yaml": {
       "sha256": "2bd671b96f2d3469b9ed605597983a6fd3b97d48b7708c061f1c8feed91d35da",
@@ -7470,7 +7470,7 @@
       "stored_path": "skills/coding-workflow/planning-and-task-breakdown/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/planning-and-task-breakdown/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7742,7 +7742,7 @@
       "stored_path": "skills/coding-workflow/security-and-hardening/SOURCE.md",
       "base_sha256": "2cf1f57b31e516df2ef138791fdd1eb1729e7a1645c9a859c84f6feb6fe99f59",
       "base_git_blob": "b789439a4b24b558b72c1fde436e04532b55e2b9",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/security-and-hardening/agents/openai.yaml": {
       "sha256": "dca84d0bbc4bf4e15b0b9094e8170497258153d855fc4bac3b6d8c92b3917cca",
@@ -7792,7 +7792,7 @@
       "stored_path": "skills/coding-workflow/security-and-hardening/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/security-and-hardening/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7830,7 +7830,7 @@
       "stored_path": "skills/coding-workflow/shipping-and-launch/SOURCE.md",
       "base_sha256": "5eef291c302ec52d6293532fdbad2f1eeb0910ada248790f648c1c97cd7fa399",
       "base_git_blob": "b64fc4112228afc11d6fcdda5491b07bfb8819ab",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/shipping-and-launch/agents/openai.yaml": {
       "sha256": "5a005bc3707566294dd929953080f90405e0b6f7fe755d0838b68954fc594460",
@@ -7874,7 +7874,7 @@
       "stored_path": "skills/coding-workflow/shipping-and-launch/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/shipping-and-launch/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7978,7 +7978,7 @@
       "stored_path": "skills/coding-workflow/test-driven-development/SKILL.md.txt",
       "base_sha256": "1bdd479c0a99e3b5b729cb3d7e92d6b85c8229871f5118c7a80808b4d15a8de5",
       "base_git_blob": "6c3c399884a5b0fd35c5fb2cb4fbfc4fefcdc5f0",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/test-driven-development/SOURCE.md": {
       "sha256": "294de41f8657e26f2bdf97ca205c5b7305a9a59a87590dd00357861b1ca46966",
@@ -7986,7 +7986,7 @@
       "stored_path": "skills/coding-workflow/test-driven-development/SOURCE.md",
       "base_sha256": "18be16b1a4c50cb841b6aa6aa68ba498224c080fc0fddc72490059acccf47bf5",
       "base_git_blob": "1f4b9be537890d79ed814fb86ce81b1bcae7eb1b",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/test-driven-development/agents/openai.yaml": {
       "sha256": "191504abf8678fbe85c065b98abb5aa48187400af2def26ecba516b9fc46d756",
@@ -8030,7 +8030,7 @@
       "stored_path": "skills/coding-workflow/test-driven-development/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/test-driven-development/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -8068,7 +8068,7 @@
       "stored_path": "skills/coding-workflow/using-agent-skills/SOURCE.md",
       "base_sha256": "5bd4b790fd170fd5a471cbaa80f8319a4cb9ea72005fbbaecec7f05114105c3d",
       "base_git_blob": "cc0ccaa8bd300820ea7cca0b4a54557068e26b5d",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/using-agent-skills/agents/openai.yaml": {
       "sha256": "f9616fb09c48a69e7b5fc2f280d3845f713e2126b81cf386fe2384114263e791",
@@ -8112,7 +8112,7 @@
       "stored_path": "skills/coding-workflow/using-agent-skills/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.20"
+      "maintenance_overlay": "dsi-0.1.22"
     },
     "skills/coding-workflow/using-agent-skills/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -8749,6 +8749,138 @@
       "bytes": 7970,
       "stored_path": "skills/design-and-art/mobile-app-ui-design/references/upstream-skill.md",
       "git_blob": "0c6108bc47e0e630e3ac5beaddb92e804819a420"
+    },
+    "skills/design-and-art/unslop/CITATION.cff": {
+      "sha256": "05a1d33a8c94660a6240afa2adf2e0331abeccf178bf00827b8ebd7a4796fb11",
+      "bytes": 546,
+      "stored_path": "skills/design-and-art/unslop/CITATION.cff",
+      "git_blob": "048591f33cba9f86ade4234df30a06e984877dd3"
+    },
+    "skills/design-and-art/unslop/LICENSE": {
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "bytes": 18657,
+      "stored_path": "skills/design-and-art/unslop/LICENSE",
+      "git_blob": "da6ab6cc8f333d7e89a99812866df8f24374d47c"
+    },
+    "skills/design-and-art/unslop/SKILL.md": {
+      "sha256": "8626e384a04e05634deb45604165f24e492deef5b3ab6407749211cbd47a46b4",
+      "bytes": 32067,
+      "stored_path": "skills/design-and-art/unslop/SKILL.md.txt",
+      "git_blob": "78445ca5853c5166ec8f94b84b3f4277cc757d79"
+    },
+    "skills/design-and-art/unslop/SOURCE.md": {
+      "sha256": "7d825ead65e10b656a190d4e6d011799d5db395f0cf04bd0e90ac8726ebe3bb0",
+      "bytes": 842,
+      "stored_path": "skills/design-and-art/unslop/SOURCE.md",
+      "git_blob": "9c439133a8c278bde4133fc15bed37c2a1169842"
+    },
+    "skills/design-and-art/unslop/agents/openai.yaml": {
+      "sha256": "b86556b3d9bc0dd03e45d4a8701c103a5264f02e106e5355ffde0207690f6b34",
+      "bytes": 214,
+      "stored_path": "skills/design-and-art/unslop/agents/openai.yaml",
+      "git_blob": "7a9b8c94bb783e5189e4f95fbc48fa6b63272d93"
+    },
+    "skills/design-and-art/unslop/examples/assets/blob.webp": {
+      "sha256": "eb1e1e40c5a26ec64f9e518c91cd1f111e7b2946d3042f3b956ab2c128b576b1",
+      "bytes": 46730,
+      "stored_path": "skills/design-and-art/unslop/examples/assets/blob.webp",
+      "git_blob": "c59663579ddd8ba92e5f992067de48ab61ec685d"
+    },
+    "skills/design-and-art/unslop/examples/dashboard.html": {
+      "sha256": "063e4ada46ce0fe878f555556f2cfbc6f28c9b97d7cee326e002a86b5bdcb8bc",
+      "bytes": 12074,
+      "stored_path": "skills/design-and-art/unslop/examples/dashboard.html",
+      "git_blob": "4381a17ddd43ca6c8008eb88a9e5d0c5a8560ab5"
+    },
+    "skills/design-and-art/unslop/examples/hero.html": {
+      "sha256": "3d28548e44b928ba13704e44251f334e93cc4224a090ae865f4c69b868b95d08",
+      "bytes": 5091,
+      "stored_path": "skills/design-and-art/unslop/examples/hero.html",
+      "git_blob": "5199afcf1d34113e309d1149bf6d562b1a51db40"
+    },
+    "skills/design-and-art/unslop/references/effects.md": {
+      "sha256": "ded4f679e22843a8f68860e6cda0396fa8b8fa27202400e08337143b485c86a4",
+      "bytes": 4864,
+      "stored_path": "skills/design-and-art/unslop/references/effects.md",
+      "git_blob": "621f8ec43153d396d7e2cd7c4309a00d4aa27d32"
+    },
+    "skills/design-and-art/unslop/references/refs.md": {
+      "sha256": "12a70ce17d574914ea69eb0809e5a9605de044df1b66619159c6d0b38d6b8353",
+      "bytes": 2458,
+      "stored_path": "skills/design-and-art/unslop/references/refs.md",
+      "git_blob": "e6c23aa433b9ef191a75f16a65ce1b4b1a2a8505"
+    },
+    "skills/design-and-art/unslop/references/refs/beacon-engraving.webp": {
+      "sha256": "44e7680e9c944f03c8fe45df999bdf74077a106925a8189eebf89e751e306e5b",
+      "bytes": 569124,
+      "stored_path": "skills/design-and-art/unslop/references/refs/beacon-engraving.webp",
+      "git_blob": "cf8af41fa080808a3f715e8f3d7d58ea789abd1e"
+    },
+    "skills/design-and-art/unslop/references/refs/meadow-3d.webp": {
+      "sha256": "84f526b68021a06fc6d32f162406fab6cc8074da1ef76d2ae4530e1b58219b14",
+      "bytes": 286608,
+      "stored_path": "skills/design-and-art/unslop/references/refs/meadow-3d.webp",
+      "git_blob": "d8284c8d16fb3fd5f4436adbb04e8119819e36f1"
+    },
+    "skills/design-and-art/unslop/references/refs/story-dashboard-frames.webp": {
+      "sha256": "cfbf837e40b7626d5a5789dbce54f5c197aab303aa350d13a042048310717137",
+      "bytes": 187334,
+      "stored_path": "skills/design-and-art/unslop/references/refs/story-dashboard-frames.webp",
+      "git_blob": "b9a08721f366269b234727d4f6eddc403a85fc21"
+    },
+    "skills/design-and-art/unslop/references/refs/unslop-dashboard-after.webp": {
+      "sha256": "48067794f86b43dab20515b3810f245d67bff05d10bfa83c0f5885bee93cea52",
+      "bytes": 74724,
+      "stored_path": "skills/design-and-art/unslop/references/refs/unslop-dashboard-after.webp",
+      "git_blob": "9836639938830aac335963b8d1536178bc107fce"
+    },
+    "skills/design-and-art/unslop/references/refs/unslop-hero-after.webp": {
+      "sha256": "92b2d796c5b6116a2039f5ca2b0f3edf700c92b41846b11b9501a4e32f72af6e",
+      "bytes": 223664,
+      "stored_path": "skills/design-and-art/unslop/references/refs/unslop-hero-after.webp",
+      "git_blob": "ad9059318bd3ca85b008a622090f495ad42cf12e"
+    },
+    "skills/design-and-art/unslop/references/runtime.md": {
+      "sha256": "d2216e2f1ec948a3d91fa0b979df9dde2c1b5a58f42c24b82f5cb72a37633160",
+      "bytes": 1984,
+      "stored_path": "skills/design-and-art/unslop/references/runtime.md",
+      "git_blob": "ce4c2f96451c208c747ad40f5e1d48d4d821a8b0"
+    },
+    "skills/design-and-art/unslop/references/signs.md": {
+      "sha256": "6250d3c222c2aaa4ef4f31557d99d249e5be86d8720cd1157df14798caf1c8c4",
+      "bytes": 7038,
+      "stored_path": "skills/design-and-art/unslop/references/signs.md",
+      "git_blob": "e9bae0369394d56ed080ef8a7e3d15bd4ec70a7f"
+    },
+    "skills/design-and-art/unslop/references/tokens.md": {
+      "sha256": "988b754612b3e2d42d87b1bbaca0b4a61f3e07a2b2eef782d3614e8fdb6db5b0",
+      "bytes": 6494,
+      "stored_path": "skills/design-and-art/unslop/references/tokens.md",
+      "git_blob": "431cdc3f68650819274b22b91df9764d8f0a64d6"
+    },
+    "skills/design-and-art/unslop/references/upstream-skill.md": {
+      "sha256": "5039a0146128fa25ccf0d8cad33c9cf42d15bbb17145615f5685873e372758dd",
+      "bytes": 31223,
+      "stored_path": "skills/design-and-art/unslop/references/upstream-skill.md",
+      "git_blob": "07741545979f0362b3f79072af9b723b73e3843d"
+    },
+    "skills/design-and-art/unslop/references/visuals.md": {
+      "sha256": "7247da579d2d95ace1e051b867c757bd1e05aa02f3ab8dea0ead4cd4bf14d7d7",
+      "bytes": 8306,
+      "stored_path": "skills/design-and-art/unslop/references/visuals.md",
+      "git_blob": "d7e89c14ddc675def22a46435ef1f2053d8d9362"
+    },
+    "skills/design-and-art/unslop/scripts/snapshot.mjs": {
+      "sha256": "a0cd251b9e58655709558cffab29b1685cd1465a5dc5499c5181fe4185cdd3ab",
+      "bytes": 6183,
+      "stored_path": "skills/design-and-art/unslop/scripts/snapshot.mjs",
+      "git_blob": "4ad33a5aa05e36d7922f909ef16b5d9d8619702e"
+    },
+    "skills/design-and-art/unslop/scripts/story.mjs": {
+      "sha256": "ed83ac65c92290378fe874ebc3f7e61aab51a9128628f2057651dfb0f01c1815",
+      "bytes": 23193,
+      "stored_path": "skills/design-and-art/unslop/scripts/story.mjs",
+      "git_blob": "88fd86a7a039167ef73dde73394a259438b70240"
     },
     "skills/engineering/civil-engineer/LICENSE": {
       "sha256": "9a45258434d5cedf0af73c9ad4771373701225038d246c49219026c33677f66f",
@@ -18621,14 +18753,14 @@
       "git_blob": "524f075989aff50a74ca3b3159b6a9200eee82fa"
     },
     "sources.json": {
-      "sha256": "e4c85306cc2f9a26f76eadeea93635c5a2b1f2658f64a843f4f30740d6b969d5",
-      "bytes": 140655,
+      "sha256": "53e2dfb5486d3a2053e1ec0c307b99406fffdfeabe132fb1fdcbc104c5099fcf",
+      "bytes": 141307,
       "stored_path": "sources.json",
-      "git_blob": "e4c73a43635871e937739f07b97c1ec821c3c90a"
+      "git_blob": "96f32bf67cb8195a23a281c3ddf68acc172ef467"
     },
     "skill-index.json": {
-      "sha256": "635512a9a73df5c10747043d8f336891be38c9a23d5afd9ef4c4f1e284bb3651",
-      "bytes": 112943,
+      "sha256": "d6c5f710a5592de505d3b5000014276baf9a27e33495ab308690f9e187cbc9ea",
+      "bytes": 113967,
       "stored_path": "skill-index.json",
       "derived": true
     }

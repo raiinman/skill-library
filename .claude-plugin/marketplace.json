@@ -7,8 +7,8 @@
     {
       "name": "dsi-skill-library",
       "source": "./plugins/dsi-skill-library",
-      "description": "Route 154 DSI specialist workflows with pinned live retrieval and a complete bundled library.",
-      "version": "0.1.21"
+      "description": "Route 155 DSI specialist workflows with pinned live retrieval and a complete bundled library.",
+      "version": "0.1.22"
     }
   ],
   "metadata": {

@@ -1,6 +1,6 @@
 # DSI wiring for Codex and Claude Code
 
-The canonical library contains 154 top-level integration/workflow packages. DSI Skills 0.1.21 exposes one router and bundles all 154 packages with hash-verified provenance and resources. It preserves the existing 29 reviewed workflow replacements, rebased only after their original-source hashes match. The ten new game-system repositories are forked under raiinman and cataloged in [GAME-TOOLS.md](../GAME-TOOLS.md).
+The canonical library contains 155 top-level integration/workflow packages. DSI Skills 0.1.22 exposes one router and bundles all 155 packages with hash-verified provenance and resources. It preserves the existing 29 reviewed workflow replacements, rebased only after their original-source hashes match. The ten new game-system repositories are forked under raiinman and cataloged in [GAME-TOOLS.md](../GAME-TOOLS.md).
 
 ## Host formats
 

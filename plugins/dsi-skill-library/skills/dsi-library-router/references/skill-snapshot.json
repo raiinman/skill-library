@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "content_sha256": "c607c58c34bddba92478c1db1f7882b2b45869e6b598568f36aaeb7403fe3760",
-  "count": 154,
+  "content_sha256": "78664751400b324d939f2c8e54e801729a70b3a3bf8f2f23f0d647b1f5ea5f5b",
+  "count": 155,
   "categories": [
     "3d-and-web",
     "business-planning",
@@ -852,6 +852,16 @@
       "description": "Design and improve mobile app screens, navigation, onboarding, and interactive prototypes. Use for mobile UI/UX work, including React Native, Flutter, SwiftUI, and mobile web interfaces.",
       "routing_metadata": {},
       "resource_path": "skills/design-and-art/mobile-app-ui-design/SKILL.md.txt"
+    },
+    {
+      "id": "design-and-art/unslop",
+      "name": "unslop",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/unslop/SKILL.md",
+      "source_path": "skills/design-and-art/unslop/SOURCE.md",
+      "description": "Turns vibecoded, AI-looking UI into a designed interface with its own character. Finds a direction from the product itself, then fixes spacing, color, icons, copy, type, layout, details, visuals and motion in that order, and can generate a real hero visual with an image tool when one is available. Use when the user asks to unslop, polish, clean up or redesign a screen so it stops looking AI-generated, or when a UI shows the usual tells like purple gradients, glows, gradient text, emoji labels, \"New ✨\" badges, glossy blobs, uppercase tracked labels, pulsing elements or uneven spacing. Works on React, Tailwind, HTML and CSS, for dashboards, apps and landing pages.",
+      "routing_metadata": {},
+      "resource_path": "skills/design-and-art/unslop/SKILL.md.txt"
     },
     {
       "id": "engineering/civil-engineer",

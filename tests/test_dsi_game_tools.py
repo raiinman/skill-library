@@ -8,7 +8,7 @@ import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
 ROUTER=ROOT/'plugins/dsi-skill-library/skills/dsi-library-router'
-TOOLS=['jolt-physics','terrain3d','material-maker','effekseer','godot-voxel','recast-navigation','ozz-animation','the-forge','meshoptimizer','fastnoise2']
+TOOLS=['jolt-physics','terrain3d','material-maker','effekseer','godot-voxel','recast-navigation','ozz-animation','the-forge','meshoptimizer','fastnoise2','unslop']
 
 
 def run(*args,success=True):
@@ -30,11 +30,12 @@ class WiringTests(unittest.TestCase):
             run('begin','--snapshot',snapshot,'--lock',lock)
             for name in TOOLS:
                 with self.subTest(skill=name):
-                    primary=run('read','--lock',lock,'--path',f'skills/game-development/{name}/SKILL.md')
-                    provenance=run('read','--lock',lock,'--path',f'skills/game-development/{name}/SOURCE.md')
+                    category='design-and-art' if name=='unslop' else 'game-development'
+                    primary=run('read','--lock',lock,'--path',f'skills/{category}/{name}/SKILL.md')
+                    provenance=run('read','--lock',lock,'--path',f'skills/{category}/{name}/SOURCE.md')
                     self.assertEqual(primary['revision'],verified['revision'])
                     self.assertIn('name: '+name,primary['content'])
-                    self.assertIn('https://github.com/raiinman/',provenance['content'])
+                    self.assertIn('https://github.com/heydamir/' if name=='unslop' else 'https://github.com/raiinman/',provenance['content'])
 
     def test_tampered_primary_is_rejected(self):
         with tempfile.TemporaryDirectory(prefix='dsi-tamper-') as temp:

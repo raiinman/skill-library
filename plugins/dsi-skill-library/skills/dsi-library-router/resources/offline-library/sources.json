@@ -3098,5 +3098,23 @@
       "Pinned selected upstream documents and licenses, verified exact Git blob bytes; complete code preserved in the user GitHub fork",
       "No engine replacement, SDK build or external runtime installation is implied by skill installation"
     ]
+  },
+  {
+    "repo": "heydamir/unslop",
+    "selector": "unslop",
+    "category": "design-and-art",
+    "name": "unslop",
+    "path": "skills/design-and-art/unslop",
+    "upstream_path": "skills/unslop/SKILL.md",
+    "commit": "4652254daff586ff4739849395a127b56f7f8cc7",
+    "source_url": "https://github.com/heydamir/unslop/blob/4652254daff586ff4739849395a127b56f7f8cc7/skills/unslop/SKILL.md",
+    "license": "CC-BY-4.0",
+    "license_files": [
+      "LICENSE",
+      "CITATION.cff"
+    ],
+    "adaptations": [
+      "Host compatibility guidance, optional runtime notes and Codex picker metadata; original primary and all resources preserved."
+    ]
   }
 ]
