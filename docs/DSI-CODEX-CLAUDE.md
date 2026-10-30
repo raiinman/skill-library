@@ -1,6 +1,6 @@
 # DSI wiring for Codex and Claude Code
 
-The canonical library contains 154 top-level integration/workflow packages. DSI/DSL-Helper 0.1.20 exposes one router and bundles all 154 packages with hash-verified provenance and resources. It preserves the existing 29 reviewed workflow replacements, rebased only after their original-source hashes match. The ten new game-system repositories are forked under raiinman and cataloged in [GAME-TOOLS.md](../GAME-TOOLS.md).
+The canonical library contains 154 top-level integration/workflow packages. DSI Skills 0.1.21 exposes one router and bundles all 154 packages with hash-verified provenance and resources. It preserves the existing 29 reviewed workflow replacements, rebased only after their original-source hashes match. The ten new game-system repositories are forked under raiinman and cataloged in [GAME-TOOLS.md](../GAME-TOOLS.md).
 
 ## Host formats
 
@@ -21,7 +21,7 @@ claude plugin marketplace add raiinman/skill-library
 claude plugin install dsi-skill-library@dsi-skill-library --scope user
 ```
 
-For an existing registration, inspect the marketplace and update the existing plugin rather than creating another identity. Codex can use the existing private DSL-Helper account installation or the repository marketplace:
+For an existing registration, inspect the marketplace and update the existing plugin rather than creating another identity. Codex can use the existing private DSI Skills account installation or the repository marketplace:
 
 ```text
 codex plugin marketplace add raiinman/skill-library --ref main --json
@@ -49,3 +49,7 @@ The maintenance script requires PyYAML and Git. It reads committed Git blobs, pr
 The tests exercise all ten named primaries and SOURCE.md retrieval through the actual pinned reader, complete snapshot integrity, tampered-body rejection and equal host plugin identities/versions. Regeneration was checked for determinism. These checks do not compile ten SDKs or claim real project/engine integration; those need a target project and its compatibility constraints.
 
 A private account release update must use the existing plugin ID and observed current release guard. Preserve its audience, metadata and unrelated configuration. This repository contains the reproducible source; the host's installed cached version remains a separate verification step.
+
+## Branding
+
+DSI Skills is the display name. The stable package identity remains `dsi-skill-library` so existing installations keep their settings. The custom app icon is packaged at `plugins/dsi-skill-library/assets/dsi-skills-icon.png` and is shared by the listing and composer. Claude Code retains its native text-based plugin listing.

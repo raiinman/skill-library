@@ -1,7 +1,7 @@
 {
   "name": "dsi-skill-library",
   "interface": {
-    "displayName": "DSL-Helper"
+    "displayName": "DSI Skills"
   },
   "plugins": [
     {
