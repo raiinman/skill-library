@@ -128,3 +128,7 @@ The DSI router package includes current canonical discovery and bundled resource
 ## Unslop
 
 `unslop` is available as a shared local skill for Codex and Claude and through the DSI Skills router. It retains Damir Sokolovsky's attribution, CC BY 4.0 license, references, example pages and both Node helpers. Optional helper dependencies are installed separately in `C:/Users/mikea/.codex/tools/unslop`; FFmpeg is already on PATH. See [runtime notes](skills/design-and-art/unslop/references/runtime.md). Installing this skill does not redesign any current project or configure a paid image service.
+
+## Design ecosystem imports
+
+See [DESIGN-TOOLS.md](DESIGN-TOOLS.md) for the ten packages, their current source repositories, bundled companion guides, licensing boundaries and service requirements.

@@ -1,0 +1,3 @@
+Use the complete upstream workflow below the compatibility note. In a hosted chat without a shell, MCP connection or required service authentication, report that specific capability limit and continue only supported work. Do not claim remote generation or review occurred merely because this package is installed.
+
+Better Design needs its official MCP connection, not generic substitute advice. The user's installation request authorizes setup of the official client connection. Do not register a second native copy of this skill. The bundled [animate-text workflow](animate-text/SKILL.md.txt) is an optional supporting workflow; resolve its helper paths from that directory. Its local Node catalogue helpers do not require an image provider.

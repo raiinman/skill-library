@@ -1,0 +1,10 @@
+{
+  "upstream_revision": "a04a99b235299ee79a123a16ccb2e6cf9da74b6b",
+  "files": {
+    "agents/openai.yaml": "db82a62ee86c3a9abff8eb747ac491f5160d5ce6560b60051d8e61e118afaf7d",
+    "LICENSE": "bec2f82dbf3947fb46bbb41cf4a28f32da74fb68dd4c94013f17d43e023024e0",
+    "references/source-map.md": "253f98e16bddecca2c5d83eaff25204882904f95838a7f9a4c94aa5cebdf2935",
+    "SKILL.md": "7bc2c95270856702eda8c56028bb733f2e816a4b76804d23348cc3fc40bb3ca5",
+    "SOURCE.md": "561de5b531d1c61f5549b999216c689aa5f88b6f6a61dd4218c2a94f2be915bb"
+  }
+}

@@ -1,0 +1,3 @@
+Use the complete upstream workflow below the compatibility note. In a hosted chat without a shell, MCP connection or required service authentication, report that specific capability limit and continue only supported work. Do not claim remote generation or review occurred merely because this package is installed.
+
+The supplied superdesign repository is the retired IDE extension; its README points to this maintained superdesign-skill package. Use the current skill and CLI, not the retired extension. CLI installation is complete separately; service login still requires the user. Do not run INSTALL.md's first-design workflow just to install this package.

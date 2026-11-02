@@ -1,0 +1,14 @@
+{
+  "upstream_revision": "88a7b2e04f9fb78bf88918f6b5f529b0ae9ac73a",
+  "files": {
+    "agents/openai.yaml": "8ef320b35e181169d99094a28fc4e01e4f4e17a23eddd8841b60b782ea024c1d",
+    "LICENSE": "bec2f82dbf3947fb46bbb41cf4a28f32da74fb68dd4c94013f17d43e023024e0",
+    "references/source-map.md": "9f03503452752a98d5e692d996d4678da687d874e8050952362cf746b71c129a",
+    "references/upstream/LICENSE.txt": "56044ea593d0bbc5e4b802df3c786fe3eaa1b9055e0b0ce0305c289f0218878c",
+    "references/upstream/LICENSE_EFFECTS.txt": "a2e69cace9356e6973b0153aac668a2f8d078d540967e937eb1e5f3fe2a16a1b",
+    "references/upstream/package.json.txt": "61911c69fd4a7e7437e14cb373e7ee95b70b1e0e16cf78643b229159c454be06",
+    "references/upstream/README.md.txt": "65c3af8c551c83902f88c500029b33efebd1619abaca7fcb663272cd42d16790",
+    "SKILL.md": "e3880c7425946da05c9b07844cb29fc3205f1862d2b4ae0b412807e375fc6cc3",
+    "SOURCE.md": "b3ed78c876ac76822e46b47845a38f0cb96fa3438766a60121b616178460b229"
+  }
+}

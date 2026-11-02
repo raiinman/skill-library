@@ -1,0 +1,5 @@
+interface:
+  display_name: Trickle Ui Kit
+  short_description: Add Trickle UI Kit CSS text animation components to React whi
+  default_prompt: Use $trickle-ui-kit for this interface task, preserving the existing
+    product and stack.

@@ -2984,9 +2984,9 @@
     }
   ],
   "refresh": {
-    "revision": "4ceca147c2225ec82c3e2ab35737eae41931e2ea",
-    "canonical_skill_count": 155,
-    "tracked_resources": 3115,
+    "revision": "73743fc9eb9b51667f4a8698f195841d6915249a",
+    "canonical_skill_count": 165,
+    "tracked_resources": 3315,
     "source": "Committed canonical packages; retained pre-existing link diagnostics are historical, not a current all-links-pass claim."
   }
 }

@@ -1,0 +1,5 @@
+interface:
+  display_name: Ui Layouts
+  short_description: Select and integrate UI Layouts components and interactive la
+  default_prompt: Use $ui-layouts for this interface task, preserving the existing
+    product and stack.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "discovery": "canonical-native-frontmatter",
-  "count": 155,
+  "count": 165,
   "categories": [
     "3d-and-web",
     "business-planning",
@@ -735,6 +735,51 @@
       "routing_metadata": {}
     },
     {
+      "id": "design-and-art/better-design",
+      "name": "better-design",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/better-design/SKILL.md",
+      "source_path": "skills/design-and-art/better-design/SOURCE.md",
+      "description": "Use Better Design MCP design systems, UI and UX guidance, icons and review tools when that service is requested or connected.",
+      "routing_metadata": {}
+    },
+    {
+      "id": "design-and-art/canvas-ui",
+      "name": "canvas-ui",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/canvas-ui/SKILL.md",
+      "source_path": "skills/design-and-art/canvas-ui/SOURCE.md",
+      "description": "Integrate Canvas UI interactive GPU effects into a real interface, choosing framework, renderer and browser fallback deliberately.",
+      "routing_metadata": {}
+    },
+    {
+      "id": "design-and-art/cursify",
+      "name": "cursify",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/cursify/SKILL.md",
+      "source_path": "skills/design-and-art/cursify/SOURCE.md",
+      "description": "Evaluate and integrate a Cursify cursor effect while preserving native pointer usability, touch fallback and performance.",
+      "routing_metadata": {}
+    },
+    {
+      "id": "design-and-art/design-taste",
+      "name": "design-taste",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/design-taste/SKILL.md",
+      "source_path": "skills/design-and-art/design-taste/SOURCE.md",
+      "description": "Give landing pages, portfolios and marketing sites a deliberate visual direction with Design Taste and its specialist style guides.",
+      "routing_metadata": {}
+    },
+    {
+      "id": "design-and-art/hyperiux-components",
+      "name": "hyperiux-components",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/hyperiux-components/SKILL.md",
+      "source_path": "skills/design-and-art/hyperiux-components/SOURCE.md",
+      "description": "Integrate Hyperiux Vault effects through its CLI or source catalogue, respecting account access and per-effect licenses.",
+      "routing_metadata": {}
+    },
+    {
       "id": "design-and-art/impeccable",
       "name": "impeccable",
       "category": "design-and-art",
@@ -768,6 +813,51 @@
       "path": "skills/design-and-art/mobile-app-ui-design/SKILL.md",
       "source_path": "skills/design-and-art/mobile-app-ui-design/SOURCE.md",
       "description": "Design and improve mobile app screens, navigation, onboarding, and interactive prototypes. Use for mobile UI/UX work, including React Native, Flutter, SwiftUI, and mobile web interfaces.",
+      "routing_metadata": {}
+    },
+    {
+      "id": "design-and-art/motion-primitives",
+      "name": "motion-primitives",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/motion-primitives/SKILL.md",
+      "source_path": "skills/design-and-art/motion-primitives/SOURCE.md",
+      "description": "Integrate Motion Primitives React animation components with the project's Motion and Tailwind setup.",
+      "routing_metadata": {}
+    },
+    {
+      "id": "design-and-art/paper-shaders",
+      "name": "paper-shaders",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/paper-shaders/SKILL.md",
+      "source_path": "skills/design-and-art/paper-shaders/SOURCE.md",
+      "description": "Add Paper Design canvas shaders to React or vanilla web apps, with correct package choice, sizing, lifecycle and performance checks.",
+      "routing_metadata": {}
+    },
+    {
+      "id": "design-and-art/superdesign",
+      "name": "superdesign",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/superdesign/SKILL.md",
+      "source_path": "skills/design-and-art/superdesign/SOURCE.md",
+      "description": "Explore and iterate UI, graphics and presentations using the Superdesign canvas and CLI. Use when Superdesign or its canvas workflow is requested.",
+      "routing_metadata": {}
+    },
+    {
+      "id": "design-and-art/trickle-ui-kit",
+      "name": "trickle-ui-kit",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/trickle-ui-kit/SKILL.md",
+      "source_path": "skills/design-and-art/trickle-ui-kit/SOURCE.md",
+      "description": "Add Trickle UI Kit CSS text animation components to React while preserving SSR behavior, accessibility and reduced motion.",
+      "routing_metadata": {}
+    },
+    {
+      "id": "design-and-art/ui-layouts",
+      "name": "ui-layouts",
+      "category": "design-and-art",
+      "path": "skills/design-and-art/ui-layouts/SKILL.md",
+      "source_path": "skills/design-and-art/ui-layouts/SOURCE.md",
+      "description": "Select and integrate UI Layouts components and interactive layouts into an existing React and Tailwind project.",
       "routing_metadata": {}
     },
     {
@@ -1419,5 +1509,5 @@
       "routing_metadata": {}
     }
   ],
-  "content_sha256": "477aa974715b590bf55213cead337f41b84cbec9e4fdaebfd2bfe86466ec81a8"
+  "content_sha256": "beff88075f3ec669317848097b88746fa3abe1195c2f4eb48c4d9798485931c4"
 }

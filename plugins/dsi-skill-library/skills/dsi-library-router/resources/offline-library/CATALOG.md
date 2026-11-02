@@ -95,6 +95,17 @@ Start with the task you want to do, or search this page for a skill name.
 
 ## Design And Art
 
+- [`$superdesign`](skills/design-and-art/superdesign/SKILL.md) · [source](skills/design-and-art/superdesign/SOURCE.md)
+- [`$better-design`](skills/design-and-art/better-design/SKILL.md) · [source](skills/design-and-art/better-design/SOURCE.md)
+- [`$design-taste`](skills/design-and-art/design-taste/SKILL.md) · [source](skills/design-and-art/design-taste/SOURCE.md)
+- [`$canvas-ui`](skills/design-and-art/canvas-ui/SKILL.md) · [source](skills/design-and-art/canvas-ui/SOURCE.md)
+- [`$paper-shaders`](skills/design-and-art/paper-shaders/SKILL.md) · [source](skills/design-and-art/paper-shaders/SOURCE.md)
+- [`$ui-layouts`](skills/design-and-art/ui-layouts/SKILL.md) · [source](skills/design-and-art/ui-layouts/SOURCE.md)
+- [`$hyperiux-components`](skills/design-and-art/hyperiux-components/SKILL.md) · [source](skills/design-and-art/hyperiux-components/SOURCE.md)
+- [`$motion-primitives`](skills/design-and-art/motion-primitives/SKILL.md) · [source](skills/design-and-art/motion-primitives/SOURCE.md)
+- [`$cursify`](skills/design-and-art/cursify/SKILL.md) · [source](skills/design-and-art/cursify/SOURCE.md)
+- [`$trickle-ui-kit`](skills/design-and-art/trickle-ui-kit/SKILL.md) · [source](skills/design-and-art/trickle-ui-kit/SOURCE.md)
+
 - [`$unslop`](skills/design-and-art/unslop/SKILL.md) · [source](skills/design-and-art/unslop/SOURCE.md)
 
 - [`$impeccable`](skills/design-and-art/impeccable/SKILL.md) · [source](skills/design-and-art/impeccable/SOURCE.md)

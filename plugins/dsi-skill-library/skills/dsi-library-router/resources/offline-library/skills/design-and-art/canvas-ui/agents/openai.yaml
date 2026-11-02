@@ -1,0 +1,5 @@
+interface:
+  display_name: Canvas Ui
+  short_description: Integrate Canvas UI interactive GPU effects into a real inter
+  default_prompt: Use $canvas-ui for this interface task, preserving the existing
+    product and stack.

@@ -2,25 +2,31 @@
   "schema_version": 1,
   "repository": "raiinman/skill-library",
   "branch": "main",
-  "revision": "4ceca147c2225ec82c3e2ab35737eae41931e2ea",
+  "revision": "73743fc9eb9b51667f4a8698f195841d6915249a",
   "source_kind": "bundled-snapshot",
   "default_git_mode": "100644",
   "maintenance_overlay": {
-    "id": "dsi-0.1.22",
+    "id": "dsi-0.1.23",
     "repository": "raiinman/skill-library",
-    "base_revision": "4ceca147c2225ec82c3e2ab35737eae41931e2ea",
-    "manifest_sha256": "0e9703d0f382eb824685f863e69995fafa6a670d49efb2d096bb7ed932573b5a"
+    "base_revision": "73743fc9eb9b51667f4a8698f195841d6915249a",
+    "manifest_sha256": "ed772e00df24bab96eed71d20a0dc1ad4d59c4e512ec6af0c008031aeaed1e75"
   },
   "freshness": "Immutable committed source revision plus hash-gated maintained replacements; not a live branch check.",
   "index_path": "skill-index.json",
-  "canonical_skill_count": 155,
+  "canonical_skill_count": 165,
   "storage_note": "Canonical SKILL.md bodies are stored as SKILL.md.txt to avoid duplicate native registrations. Resolve canonical resources through files[path].stored_path.",
   "files": {
     "CATALOG.md": {
-      "sha256": "099a87ceeb8bc88437d3bf16028e4b80951db7053fd1e3cb9bc0b0ccf0a838ce",
-      "bytes": 21794,
+      "sha256": "6f4285f24ba6b6fba3d200b6f77f280ac9e31ca5e50f04d51a40d3e516a7f620",
+      "bytes": 23040,
       "stored_path": "CATALOG.md",
-      "git_blob": "5393009b284ae79c4a6a23c5d5b71c806bc6b1fe"
+      "git_blob": "7df93ff08f595fe785f9f1f55417773090fde5fb"
+    },
+    "DESIGN-TOOLS.md": {
+      "sha256": "4e1b065bc28f1231aa63220073863a46016094daeb9e130d6b6d9bfcacbfad28",
+      "bytes": 1935,
+      "stored_path": "DESIGN-TOOLS.md",
+      "git_blob": "c4eb0277d0dbc65fc1c0f86c9e1440bce964b578"
     },
     "GAME-TOOLS.md": {
       "sha256": "c55b55462551eacbf705e66c17ef066169bb6d3ab0e81d5856ddd92f2ed137ca",
@@ -29,10 +35,10 @@
       "git_blob": "56cdde699804a2aefc4103a812543fc7bf3e8559"
     },
     "README.md": {
-      "sha256": "bed222ca27dc38fb05833a992d60bb4834846bfe3bf0345f40ccca5eb81a75ed",
-      "bytes": 8273,
+      "sha256": "0952e405dec740ae3323d78aabce4a4068681a91d84a762455c73c37c6df49b2",
+      "bytes": 8274,
       "stored_path": "README.md",
-      "git_blob": "317f0aff4c58c8bce3185bb0ad0b170159c10aae"
+      "git_blob": "b0740996a5fccdc6969f85b39babd31b3d74f0d1"
     },
     "REPOSITORIES.md": {
       "sha256": "608b5a61334d9f4290076b2b5ba998a2c1ebe7eb17ecfafb7e2be39ff68359e7",
@@ -41,10 +47,10 @@
       "git_blob": "e665c87226e98d0cc76f9127a2b990b98a511926"
     },
     "SETUP.md": {
-      "sha256": "3166c312f43f7207d2303022a07ec9d964a46f5c34efcd7b91504d9162364d65",
-      "bytes": 20883,
+      "sha256": "d8e7f936a37b5f13794bfc6ba3900067644971688fa705447fccf834022c06da",
+      "bytes": 21082,
       "stored_path": "SETUP.md",
-      "git_blob": "de01cf16438d15a434ea24c088e32b92ba3f4692"
+      "git_blob": "8a6ee6ede9b3c1d8bc04e61208deb99e3504b0dd"
     },
     "collections.json": {
       "sha256": "ba0b5cef292c086ea71a45005219ae7c0b25a1bf1b3f4df90a9da4abafcca436",
@@ -6496,7 +6502,7 @@
       "stored_path": "skills/coding-workflow/code-review-and-quality/SOURCE.md",
       "base_sha256": "9327cd4aabc8f956c7da867d9e0dbaf908f9cc87b1e3fd664811d4704dcb29c4",
       "base_git_blob": "303f3023a9db500cf2118f828d862ddd6558dc24",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/code-review-and-quality/agents/openai.yaml": {
       "sha256": "5fcc70b5c8091b82942e2d4bf071f1dc7b28a023c671a4426959a6a269ceb4ac",
@@ -6540,7 +6546,7 @@
       "stored_path": "skills/coding-workflow/code-review-and-quality/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/code-review-and-quality/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -6824,7 +6830,7 @@
       "stored_path": "skills/coding-workflow/documentation-and-adrs/SKILL.md.txt",
       "base_sha256": "5f0e8eb31d5f3a7a2247e22bd9e403de0132880c7c53c3ccd55f8ab0514f9c69",
       "base_git_blob": "7c7dd384415bb34877dbb85c15c6736626196f28",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/documentation-and-adrs/SOURCE.md": {
       "sha256": "80a2eadffaf92220c161562d38934d646b3894aa8c72475c7cc819b3f2d4dc2e",
@@ -6832,7 +6838,7 @@
       "stored_path": "skills/coding-workflow/documentation-and-adrs/SOURCE.md",
       "base_sha256": "689f0b0addc140b352fb185c2e87bd5c892ed54072f0fd147ca0686fb62e6c7d",
       "base_git_blob": "7d1354f85065444645cd24e6abb2b0c5b2472b99",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/documentation-and-adrs/agents/openai.yaml": {
       "sha256": "18b7e13353726dbff6dbe9b67c7ad3c00465f050102ff3c0a0970da2fc3f2fc1",
@@ -6870,7 +6876,7 @@
       "stored_path": "skills/coding-workflow/doubt-driven-development/SOURCE.md",
       "base_sha256": "d2dea5cea6ad25b9289737f0c738f99053686c3af9f392d079379eec9e55127c",
       "base_git_blob": "9c8bf77bb2c3a37db7df136b8a6fa776e9d177fd",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/doubt-driven-development/agents/openai.yaml": {
       "sha256": "ad301c7050236c932331cc5eb1ca7735408718a50df8b96dffaf36c98b6c1de2",
@@ -6914,7 +6920,7 @@
       "stored_path": "skills/coding-workflow/doubt-driven-development/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/doubt-driven-development/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -6946,7 +6952,7 @@
       "stored_path": "skills/coding-workflow/frontend-ui-engineering/SKILL.md.txt",
       "base_sha256": "d716feea615e119b4d6da048df7cff56333c903088e0e5a85bffb03f485bdef9",
       "base_git_blob": "ed29664f92746d0a7e69d6f5c2c90778068d74da",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/frontend-ui-engineering/SOURCE.md": {
       "sha256": "9ceb21583c203dae02190cd4810787a1a14cfa7c1166e72032864c9028d9f22c",
@@ -6954,7 +6960,7 @@
       "stored_path": "skills/coding-workflow/frontend-ui-engineering/SOURCE.md",
       "base_sha256": "60c0752651afb73e57ab6640d200013a61ada74cc774851941629461beaef75d",
       "base_git_blob": "de0570953d5a5ad0138b4dbd7f962a78bb8b1a30",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/frontend-ui-engineering/agents/openai.yaml": {
       "sha256": "d2e2d06ec28b60baba935e2008f1b20ef24a5b78aa35190759572b81574c29ab",
@@ -6998,7 +7004,7 @@
       "stored_path": "skills/coding-workflow/frontend-ui-engineering/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/frontend-ui-engineering/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7066,7 +7072,7 @@
       "stored_path": "skills/coding-workflow/idea-refine/SKILL.md.txt",
       "base_sha256": "554025e17eca092bb05d0d79b9eabcb0646731a1bd176c0f3da8ee6461d64931",
       "base_git_blob": "226c22d04e4306ab5f910582d5e95f591dd379d4",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/idea-refine/SOURCE.md": {
       "sha256": "87824d221172c6b1ea0ba2cc977f6f160f3ef81a01649f941aee5e6ad8f1445b",
@@ -7074,7 +7080,7 @@
       "stored_path": "skills/coding-workflow/idea-refine/SOURCE.md",
       "base_sha256": "856fea81ebf3e653439d87eb2e8b3ee23b191466183b42d6c93108d6cdbe4c05",
       "base_git_blob": "37f2a2b040584802640d45229347b1a6afd5f36b",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/idea-refine/agents/openai.yaml": {
       "sha256": "cbb8f1f084f538292ddb2cdc2a59979f28958fc3962821e1b53a16fe4ca67b5c",
@@ -7136,7 +7142,7 @@
       "stored_path": "skills/coding-workflow/incremental-implementation/SOURCE.md",
       "base_sha256": "0405eff100d3d168e5ee1ddbfdb6cb0cc4e6d4c12c982283ffa54cf0aedafca6",
       "base_git_blob": "796fd9b451bde4a88d140a71313cfb466c127590",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/incremental-implementation/agents/openai.yaml": {
       "sha256": "8773f7a2285a35e62c24eb179f8fdd89f33c2dc3c6ec8d7e4518e99c73e79af8",
@@ -7180,7 +7186,7 @@
       "stored_path": "skills/coding-workflow/incremental-implementation/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/incremental-implementation/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7254,7 +7260,7 @@
       "stored_path": "skills/coding-workflow/observability-and-instrumentation/SOURCE.md",
       "base_sha256": "0fa5ab5834f8c618cd4ee2e451e5ba58d0227d007d032c48f845fb760f9b5d0f",
       "base_git_blob": "2a635f1d8d0bc3f0e63e2a7beeeb5d3cbdeb0a2b",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/observability-and-instrumentation/agents/openai.yaml": {
       "sha256": "32b6e791db91eda5194ed7dee1d5a01f72bed18a51560418539e0edd29533e5c",
@@ -7298,7 +7304,7 @@
       "stored_path": "skills/coding-workflow/observability-and-instrumentation/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/observability-and-instrumentation/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7330,7 +7336,7 @@
       "stored_path": "skills/coding-workflow/performance-optimization/SKILL.md.txt",
       "base_sha256": "5aa7240dbfba59428356d3b587a8199a9552b22ac409d234f05b9805e59e4015",
       "base_git_blob": "761a912932c622e9c963695e622913bc8b81ada2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/performance-optimization/SOURCE.md": {
       "sha256": "1387e841ac9ef68e01bdba98403ce57dbd072e7b2aaa63162393f2c89c8f1f55",
@@ -7338,7 +7344,7 @@
       "stored_path": "skills/coding-workflow/performance-optimization/SOURCE.md",
       "base_sha256": "513673fadc26e04e43dd62a4538af98889ef0d4eb3676a51c3430238a6d4265b",
       "base_git_blob": "b8b1f30445ce2006d89fff4f0e367cdcc2600f48",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/performance-optimization/agents/openai.yaml": {
       "sha256": "8b615ef2ed76ebbf61f02e57df46720d172b8b1fa7d46de50bb95b3f43d844e2",
@@ -7388,7 +7394,7 @@
       "stored_path": "skills/coding-workflow/performance-optimization/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/performance-optimization/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7426,7 +7432,7 @@
       "stored_path": "skills/coding-workflow/planning-and-task-breakdown/SOURCE.md",
       "base_sha256": "71c44a7b0d1d3c879deebc75632ab28dcdf3d3ce816dafb607133180678356f1",
       "base_git_blob": "0aeab8d664fa16b3666c4ccf90c028b09508e9eb",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/planning-and-task-breakdown/agents/openai.yaml": {
       "sha256": "2bd671b96f2d3469b9ed605597983a6fd3b97d48b7708c061f1c8feed91d35da",
@@ -7470,7 +7476,7 @@
       "stored_path": "skills/coding-workflow/planning-and-task-breakdown/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/planning-and-task-breakdown/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7742,7 +7748,7 @@
       "stored_path": "skills/coding-workflow/security-and-hardening/SOURCE.md",
       "base_sha256": "2cf1f57b31e516df2ef138791fdd1eb1729e7a1645c9a859c84f6feb6fe99f59",
       "base_git_blob": "b789439a4b24b558b72c1fde436e04532b55e2b9",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/security-and-hardening/agents/openai.yaml": {
       "sha256": "dca84d0bbc4bf4e15b0b9094e8170497258153d855fc4bac3b6d8c92b3917cca",
@@ -7792,7 +7798,7 @@
       "stored_path": "skills/coding-workflow/security-and-hardening/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/security-and-hardening/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7830,7 +7836,7 @@
       "stored_path": "skills/coding-workflow/shipping-and-launch/SOURCE.md",
       "base_sha256": "5eef291c302ec52d6293532fdbad2f1eeb0910ada248790f648c1c97cd7fa399",
       "base_git_blob": "b64fc4112228afc11d6fcdda5491b07bfb8819ab",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/shipping-and-launch/agents/openai.yaml": {
       "sha256": "5a005bc3707566294dd929953080f90405e0b6f7fe755d0838b68954fc594460",
@@ -7874,7 +7880,7 @@
       "stored_path": "skills/coding-workflow/shipping-and-launch/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/shipping-and-launch/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -7978,7 +7984,7 @@
       "stored_path": "skills/coding-workflow/test-driven-development/SKILL.md.txt",
       "base_sha256": "1bdd479c0a99e3b5b729cb3d7e92d6b85c8229871f5118c7a80808b4d15a8de5",
       "base_git_blob": "6c3c399884a5b0fd35c5fb2cb4fbfc4fefcdc5f0",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/test-driven-development/SOURCE.md": {
       "sha256": "294de41f8657e26f2bdf97ca205c5b7305a9a59a87590dd00357861b1ca46966",
@@ -7986,7 +7992,7 @@
       "stored_path": "skills/coding-workflow/test-driven-development/SOURCE.md",
       "base_sha256": "18be16b1a4c50cb841b6aa6aa68ba498224c080fc0fddc72490059acccf47bf5",
       "base_git_blob": "1f4b9be537890d79ed814fb86ce81b1bcae7eb1b",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/test-driven-development/agents/openai.yaml": {
       "sha256": "191504abf8678fbe85c065b98abb5aa48187400af2def26ecba516b9fc46d756",
@@ -8030,7 +8036,7 @@
       "stored_path": "skills/coding-workflow/test-driven-development/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/test-driven-development/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -8068,7 +8074,7 @@
       "stored_path": "skills/coding-workflow/using-agent-skills/SOURCE.md",
       "base_sha256": "5bd4b790fd170fd5a471cbaa80f8319a4cb9ea72005fbbaecec7f05114105c3d",
       "base_git_blob": "cc0ccaa8bd300820ea7cca0b4a54557068e26b5d",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/using-agent-skills/agents/openai.yaml": {
       "sha256": "f9616fb09c48a69e7b5fc2f280d3845f713e2126b81cf386fe2384114263e791",
@@ -8112,7 +8118,7 @@
       "stored_path": "skills/coding-workflow/using-agent-skills/references/shared/performance-checklist.md",
       "base_sha256": "40f564d1e62341e277c01ba42c42d95264b9ef3b8e5a23249dc6e121a7e70067",
       "base_git_blob": "ba9744fe60dbe4f04f3f907029638d923158d7a2",
-      "maintenance_overlay": "dsi-0.1.22"
+      "maintenance_overlay": "dsi-0.1.23"
     },
     "skills/coding-workflow/using-agent-skills/references/shared/security-checklist.md": {
       "sha256": "37774056502fe8970dcd2fd27dca5fa31f2a55232649fc3056c89c3af7d62755",
@@ -8167,6 +8173,786 @@
       "bytes": 10886,
       "stored_path": "skills/coding-workflow/writing-for-agents/references/upstream-skill.md",
       "git_blob": "a37608daf6e835e767deecfb498facecaaba82ba"
+    },
+    "skills/design-and-art/better-design/LICENSE": {
+      "sha256": "5546dea80062ab23224f8f2dcc84792f9a584998763b66f487cf3904ee249777",
+      "bytes": 1070,
+      "stored_path": "skills/design-and-art/better-design/LICENSE",
+      "git_blob": "22ce4e3ebaa81fed2e92113e1202ec285eabf237"
+    },
+    "skills/design-and-art/better-design/SKILL.md": {
+      "sha256": "bd13b25fc441e9cef9c0ba7f35b2ffaac82a8236208966f8e06260032745b5db",
+      "bytes": 5197,
+      "stored_path": "skills/design-and-art/better-design/SKILL.md.txt",
+      "git_blob": "f5280285d267bbe41249d0c24856bf5bc91bd12b"
+    },
+    "skills/design-and-art/better-design/SOURCE.md": {
+      "sha256": "b03a304eb3da4b10d28144c001a62deb3a1182e40916c835b1df7a96115b3a1c",
+      "bytes": 328,
+      "stored_path": "skills/design-and-art/better-design/SOURCE.md",
+      "git_blob": "ed83199b47a53ce405c631b2e40b741a6567e4e3"
+    },
+    "skills/design-and-art/better-design/agents/openai.yaml": {
+      "sha256": "758d45eeaff5f2ea2fa3eb3a3e0a392a2fc0f1593672ec4a324bc5db72a22dde",
+      "bytes": 233,
+      "stored_path": "skills/design-and-art/better-design/agents/openai.yaml",
+      "git_blob": "f5f203bea5a947f21c3d4672e68e34d7d41ee168"
+    },
+    "skills/design-and-art/better-design/references/animate-text/SKILL.md.txt": {
+      "sha256": "346d475ec12888d877b68d705679eee29bcb797adae4d85b86a1287524cee9f1",
+      "bytes": 6383,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/SKILL.md.txt",
+      "git_blob": "6fbdc4bbf7d1711a1c926be9e704dfbb4fd6a223"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/catalog.json": {
+      "sha256": "c6781391863d6b534e7dba63c950175e3a42ff6451e964d068d8db64db082d3e",
+      "bytes": 570,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/catalog.json",
+      "git_blob": "c82cfa730f02a2f7ce965bc458ff551fd4a2d57f"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/blur-out-up.json": {
+      "sha256": "9ced82fb146772b28aef297eb62aeca283629276dde1b4812021c5753f0f07c5",
+      "bytes": 19501,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/blur-out-up.json",
+      "git_blob": "7222f453e10cef0b76417d406ada39adfe23160f"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/bottom-up-letters.json": {
+      "sha256": "72d9d07334370d476cbe3119a306b0bdd2b5142958b746b2efde82db5f124b9f",
+      "bytes": 20419,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/bottom-up-letters.json",
+      "git_blob": "c1d18ef4018e990cef3fc4e905683166405c910c"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/depth-parallax-words.json": {
+      "sha256": "a5eab4bc7b842ffde39f23ecae5b260f9d409a2b00e036ca36352f71e1ccd75a",
+      "bytes": 1320,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/depth-parallax-words.json",
+      "git_blob": "8503f98cc3e5e8ea5baaec8adf03958ca80a4185"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/fade-through.json": {
+      "sha256": "e181a5648c98ef70f61cf7da93fd0d8c3ca9c417baff561cbd32f8612dedc3c6",
+      "bytes": 19564,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/fade-through.json",
+      "git_blob": "956830347fb5199d0f0cb9b8dfdfd5320f7d2148"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/focus-blur-resolve.json": {
+      "sha256": "00f5f18a8c563a969f03229984c55aa81230ebddad232593993f261255069d7b",
+      "bytes": 19617,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/focus-blur-resolve.json",
+      "git_blob": "969f8d632d4914b7b5e5acebb7397579b0664644"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/kinetic-center-build.json": {
+      "sha256": "f8cf49d83809e702b457dcbef4e10a462491ad829247bfe2e7bcedde6604c0c5",
+      "bytes": 22168,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/kinetic-center-build.json",
+      "git_blob": "bcef847f1e6c6a984e8590383573e6e37dbd4203"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/line-by-line-slide.json": {
+      "sha256": "6a4267448f2caead96231c83f986871ac50fc405d0eca73a9ead651bbbcf1f07",
+      "bytes": 19647,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/line-by-line-slide.json",
+      "git_blob": "4a1edd4c48b7f483f7812938c81dcead51ee4a8f"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/mask-reveal-up.json": {
+      "sha256": "b8a3dcde73ae9e74b7f1d3f4e0ff4ed927847ce102f2654785941f67d5e55741",
+      "bytes": 19590,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/mask-reveal-up.json",
+      "git_blob": "65b2f9e341ebc39093513a587501de18d924a0cc"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/micro-scale-fade.json": {
+      "sha256": "6c44e1f1a1a4937b51087e877d43a31eeefd55b82168a0e2426a8e4dcfb8bd6f",
+      "bytes": 19552,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/micro-scale-fade.json",
+      "git_blob": "a27d7fa30820899ceb5a790c114ce79c02a148a8"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/per-character-rise.json": {
+      "sha256": "52241d9daf24b44845628a57ef472658d9df371955e112bbe20d1eb2fdd079f8",
+      "bytes": 20329,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/per-character-rise.json",
+      "git_blob": "c5cd35513242ed1200dd6e60eca40b7a7fda6681"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/per-word-crossfade.json": {
+      "sha256": "9bec064a3900e14858e91612e9e7bfe24b277ab6ef9bf0813f63782dd52ef35e",
+      "bytes": 20502,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/per-word-crossfade.json",
+      "git_blob": "5e1341a06c950c5e1ca50c0934314922913caeaf"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/scale-down-fade.json": {
+      "sha256": "72a867001c7224c33b471e2e085690d686227159282778ece1d6c96aa55b9b48",
+      "bytes": 19487,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/scale-down-fade.json",
+      "git_blob": "4b05a234416de640b9dee9901e1a06ea88882b99"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/shared-axis-x.json": {
+      "sha256": "cb8cca5f099fe17214ccb51022d1c6c4afe3f2c05fe57c6b250262f8bd26fcf3",
+      "bytes": 1189,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/shared-axis-x.json",
+      "git_blob": "c96f8c179848ad1666951badf01bf26c39cf9fa6"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/shared-axis-y.json": {
+      "sha256": "295210fa6760bb8f4974236af5bb443b687a1ead20385db66fb6963237a270fa",
+      "bytes": 19416,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/shared-axis-y.json",
+      "git_blob": "e9705d282e60b3222eaeb4371143e5401e5ccbbe"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/shared-axis-z.json": {
+      "sha256": "056799f81f025e918f27d49de272c0e727370c0682f84ee1d74766ca67a80d3d",
+      "bytes": 19473,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/shared-axis-z.json",
+      "git_blob": "2bce463de9f9c1957d0ec1de36a0ac87e82e2529"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/shimmer-sweep.json": {
+      "sha256": "595d4515032a2398d114098e288207bc2b852f43743233784d3dade81218ba2c",
+      "bytes": 19556,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/shimmer-sweep.json",
+      "git_blob": "35dcd60299f3b76e3e2b39fda4761787e17b560d"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/short-slide-down.json": {
+      "sha256": "2db19f775ec8a8e2a04585129fab516a4828686bdf5d0f0be5359891bf4f7e3f",
+      "bytes": 22083,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/short-slide-down.json",
+      "git_blob": "96db9f38e0a566a3b859c73f538a089c9f62435f"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/short-slide-right.json": {
+      "sha256": "d0454e56d08a2d4fa8748dae79cb5156fca816147884850d2c8541e3545ecd25",
+      "bytes": 19075,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/short-slide-right.json",
+      "git_blob": "1755ac24f9c816749095e45b82d60b22848ca7be"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/soft-blur-in.json": {
+      "sha256": "9a5e7cdb9fd086e813f70cd0154e648359ffb08558e6f4d364dfa701e9825607",
+      "bytes": 20539,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/soft-blur-in.json",
+      "git_blob": "03bf7a2fbe8e88aac92028347345fca58725e3a4"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/spring-scale-in.json": {
+      "sha256": "54d1c06b2967353c14cdddbe87b92d9ceda5bebd0644094dcd1c5aa888b5d5bb",
+      "bytes": 19689,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/spring-scale-in.json",
+      "git_blob": "103558e3251a271e42457670940b081bb90e4ccf"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/stagger-from-center.json": {
+      "sha256": "39a83303cca226572674195f58d5f7dfffbb030a77c6b8424eaf62f6a6e5c450",
+      "bytes": 1287,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/stagger-from-center.json",
+      "git_blob": "6c17b86f7c55c1fcdd796ada7fe98ff2085f8cde"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/stagger-from-edges.json": {
+      "sha256": "5da0089fcf8423664b2b98264862f8b0022ed5a1aea5b1b9560a3fdec9412f4e",
+      "bytes": 1265,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/stagger-from-edges.json",
+      "git_blob": "9c5ee8de172e59ccebc10c69861c7d67bc79cd52"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/top-down-letters.json": {
+      "sha256": "e41d8aae78e6568cdb1c2ffb5c8bdb99ba10449244870c212d45cda9589da222",
+      "bytes": 20421,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/top-down-letters.json",
+      "git_blob": "8b4eef36ddea93eb0e4e6346391a107214cec179"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/effects/typewriter.json": {
+      "sha256": "dc35bc4b4eddb31e00d3a09ebf090b68bbb30ccd6832c8b83bb269b59fbdf7d5",
+      "bytes": 19339,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/effects/typewriter.json",
+      "git_blob": "41639bb0413e7bd700e35132f0138495e6232861"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/library-adapters.json": {
+      "sha256": "290b62740cf8b072bd3117fec01345587879a68c6323bbad2be09331d86f8af5",
+      "bytes": 13722,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/library-adapters.json",
+      "git_blob": "02e3066a624f73255912ba16117f5d721a9083fd"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/renderer-recipes.json": {
+      "sha256": "a3d58c3c15bf9cfa17cf74dc66dd8b8962516fe5d6396bfff5ec3ebf26203acd",
+      "bytes": 14161,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/renderer-recipes.json",
+      "git_blob": "c3f1a7ee137ee72906aa7ab7ac8f63a0a7d4ccfd"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/runtime-presets.json": {
+      "sha256": "12b979d14370e318530b95eeab59fdf2acaa8a4b6731d0fe22fdb62e9be61f6b",
+      "bytes": 228,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/runtime-presets.json",
+      "git_blob": "891f25a3b31f9029261b27ee87aba972bd81d2c6"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/samples.json": {
+      "sha256": "00808de020d721bd5b82420db499f119a09e927afb1c4c12f03c83bc760c17ab",
+      "bytes": 3054,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/samples.json",
+      "git_blob": "cfee91fd4d74e282d4df61f91dddf47ff6a6d9a9"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/blur-out-up.json": {
+      "sha256": "870d5623c30fdae9508aea3b40c237801590768feb3eac5bbd0f22a29cd69468",
+      "bytes": 1038,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/blur-out-up.json",
+      "git_blob": "c2cdf79acc13357eacee8ccbe821d8220e0f20e0"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/bottom-up-letters.json": {
+      "sha256": "cd333ad48bfdf37b4ad3379fee83c69a2e117ca002bfbc95e543c0690db55c2d",
+      "bytes": 1970,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/bottom-up-letters.json",
+      "git_blob": "1241f865649eca7fd46397227dff4a1fb35df76a"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/depth-parallax-words.json": {
+      "sha256": "4250e1c0c61098eb6cb4b2380b05b8d9f6bea3a278d4800be0a39604d1d4f553",
+      "bytes": 1125,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/depth-parallax-words.json",
+      "git_blob": "2755d69371e0b120280c0e5de28e1b515c0e97da"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/fade-through.json": {
+      "sha256": "2293e05fbd44d08c07c665bc8ce4b0e8dddc786cbc5b160782f6407e8ca353ec",
+      "bytes": 1106,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/fade-through.json",
+      "git_blob": "f5035f59fcae9db40d013edbc5410e684e301bdd"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/focus-blur-resolve.json": {
+      "sha256": "ef63a6a61d5c5ea48a0b774ef60687354a972469bdd6e2b3095ab9498e0beee3",
+      "bytes": 1135,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/focus-blur-resolve.json",
+      "git_blob": "d92202348f63f0301c18f22f785128eb25012664"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/kinetic-center-build.json": {
+      "sha256": "9b840ddfe0d2bfb3e976bc550262979e0fa40bc6e4d7c86bd3c2a35d453cd046",
+      "bytes": 2950,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/kinetic-center-build.json",
+      "git_blob": "6b2f02df4ff09cccefb3ed81ec9c0c805ca74d81"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/line-by-line-slide.json": {
+      "sha256": "5ac912a40b39673e600fc20885ccde1c2fe1bb00e3156b4a757e1940262a6054",
+      "bytes": 1112,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/line-by-line-slide.json",
+      "git_blob": "500bee8eb5ab0708511ecada1fc73b093c55968b"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/mask-reveal-up.json": {
+      "sha256": "d809a4d2ddc6986496a0d674b574c705a80dec04bce29fbc9488b83f334ab89d",
+      "bytes": 1039,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/mask-reveal-up.json",
+      "git_blob": "da8017a6619a2889b6b0ce1bf89d583e7ddfc72d"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/micro-scale-fade.json": {
+      "sha256": "20febc89dd588567939afb4921dd8017337aa0fc5dec251c3df3a83b5c991e50",
+      "bytes": 1099,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/micro-scale-fade.json",
+      "git_blob": "009a0492a4bc260a2f5533c508a17929383d3540"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/per-character-rise.json": {
+      "sha256": "1655a5d7312510e52a73cd7670ef6c83cdd477af137905004ea35eeb09cc3303",
+      "bytes": 1841,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/per-character-rise.json",
+      "git_blob": "eb4bbf905a5bf059987e4d61aff35ad5fc231349"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/per-word-crossfade.json": {
+      "sha256": "c69c3dd8566a19d26615c6c201bdcd9166519450f23e49ced70d010f2478c8a2",
+      "bytes": 1990,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/per-word-crossfade.json",
+      "git_blob": "020151aa0403eeedd9e969c2f8c2b6238429cffc"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/scale-down-fade.json": {
+      "sha256": "8ff568d27d2c1e18fe9a6d938980a13196108d4f99e2d064963ea00466ff308c",
+      "bytes": 1034,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/scale-down-fade.json",
+      "git_blob": "2eae5ab03b22dc84577618a4c236b87e7bfa213a"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/shared-axis-x.json": {
+      "sha256": "b6661f09594b016659222e8b6af0f52d276788669f91cab783de07048c468e64",
+      "bytes": 1009,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/shared-axis-x.json",
+      "git_blob": "7ed1272362fdd047acc15786c45f36603a95f25c"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/shared-axis-y.json": {
+      "sha256": "e2422876297de9c31ae3c9fa99f714431791701516c6229bd28295c2f1891e00",
+      "bytes": 980,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/shared-axis-y.json",
+      "git_blob": "662b8cc8f20fbe1e7e49f2908ebc28aa4b21ed56"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/shared-axis-z.json": {
+      "sha256": "081d44b2d8b56f73ee55e073a3c546634fa737fed5559775eb079482a70ba779",
+      "bytes": 1014,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/shared-axis-z.json",
+      "git_blob": "fc1a23f3e29143337686d59e1937e7df1ad3bb8f"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/shimmer-sweep.json": {
+      "sha256": "e89343fad2cf8c1c6fb374a67fb8dfdd63629d5f15c58556dfb966ce22e7fa68",
+      "bytes": 1111,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/shimmer-sweep.json",
+      "git_blob": "6dea8f43ec41e11fa9ed7739bfe8958c415ab903"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/short-slide-down.json": {
+      "sha256": "28319f1e8e92e7c0aa363691d7b1e8cfa73040790ac01e22e7b9300e0ed5e68a",
+      "bytes": 2986,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/short-slide-down.json",
+      "git_blob": "ef2900f7f78c50130b4cbf51366c158d4cf16118"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/short-slide-right.json": {
+      "sha256": "0a1912503507a755519a05c5bcb67c1d260a29dfc68433ea49dfd5e2f6f6956e",
+      "bytes": 2432,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/short-slide-right.json",
+      "git_blob": "5b91954c258c7ac6a2b876017d201366db8eebf4"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/soft-blur-in.json": {
+      "sha256": "5071989f1ac69077b75b456863b41543f8c99c93e5a09ff26a53e1a949f05adc",
+      "bytes": 2050,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/soft-blur-in.json",
+      "git_blob": "8e9143191b6302c50e20fc513439484814833109"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/spring-scale-in.json": {
+      "sha256": "30aa4e5c8e5e39a74bf04ecd00ac9667126a6faf3149535fd6cf38b388e3198c",
+      "bytes": 1230,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/spring-scale-in.json",
+      "git_blob": "11ed9d66863c6d3ec0c9f8ff17df50526873de7f"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/stagger-from-center.json": {
+      "sha256": "1ff21b6be02b6e4b9c03a1fa2e2ca819aa57295eaa9975a738ab8cf246a4a276",
+      "bytes": 1099,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/stagger-from-center.json",
+      "git_blob": "6f07e6d9ef0d21fb3864b9350f770f32b6454d62"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/stagger-from-edges.json": {
+      "sha256": "5ed5bf1fea9182dc1009187568baa29b70cf54004e1913af70764819311ea747",
+      "bytes": 1078,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/stagger-from-edges.json",
+      "git_blob": "b67437ac79cc4f6c836bde3941c042ade5e7b64d"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/top-down-letters.json": {
+      "sha256": "3252b4b92998801db2a83cc8a762d5120d3ca0eb74ffc59eaea4cd88ed2fb207",
+      "bytes": 1971,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/top-down-letters.json",
+      "git_blob": "e255459da5aaf76c7cc9c0e7de76b2a4ee0f49d4"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/specs/typewriter.json": {
+      "sha256": "971399158ea14ad7f1751e85b54c8d289cbeea8759d1b67cc83adb97b43a3eda",
+      "bytes": 918,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/specs/typewriter.json",
+      "git_blob": "df5070f80821f533dbf53185c65512438cdabfaa"
+    },
+    "skills/design-and-art/better-design/references/animate-text/assets/stage-presets.json": {
+      "sha256": "8b3b78ceb9850a7c50eb7d0ada2aabaecf61ba4dc00a492e76bbcb70aec6ddb6",
+      "bytes": 2181,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/assets/stage-presets.json",
+      "git_blob": "5c301caf75963e21ab4a89d8d899d1b6fb873a46"
+    },
+    "skills/design-and-art/better-design/references/animate-text/references/catalog.md": {
+      "sha256": "0515e7df079d64bc401aa3bbedf6fb897a0d287f89faf931be707bc042423665",
+      "bytes": 3334,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/references/catalog.md",
+      "git_blob": "22ea6f8302d6ff5e55c0b7b67faac105232e29cb"
+    },
+    "skills/design-and-art/better-design/references/animate-text/references/implementation-notes.md": {
+      "sha256": "375a589770c2d30c345cd18ce938258466250576f669bfa9d7e45d0645623156",
+      "bytes": 5871,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/references/implementation-notes.md",
+      "git_blob": "4d2ef993fcc89fda527524296a5d97384a32e1dd"
+    },
+    "skills/design-and-art/better-design/references/animate-text/references/schema.md": {
+      "sha256": "5424b60f04b994f5b0809527cad8194ee7d9ee68b8f70db7fc8f1f20988aa0ca",
+      "bytes": 12714,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/references/schema.md",
+      "git_blob": "686350f58fa79a3fa5501a88697f82651355c804"
+    },
+    "skills/design-and-art/better-design/references/animate-text/references/selection-guide.md": {
+      "sha256": "6d6ee86392bdaa905abda5ca1687179cb610dface8da623abfbc8a4910aeac93",
+      "bytes": 1255,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/references/selection-guide.md",
+      "git_blob": "a0585b03766b563370293f9f7b8069cf07e26f72"
+    },
+    "skills/design-and-art/better-design/references/animate-text/scripts/find-spec.mjs": {
+      "sha256": "5089fa117ea6d7986b2a8e9e1755c1fa88a70c66e6d200bd70310f1d07b0a70d",
+      "bytes": 3159,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/scripts/find-spec.mjs",
+      "git_blob": "b02092a9dfdcae6ee3fbb9629ee327461b0fa204"
+    },
+    "skills/design-and-art/better-design/references/animate-text/scripts/get-effect.mjs": {
+      "sha256": "ff6c891a51fc9910263629c1d4752e94e4d683c61b62c09e5cc6856530354e77",
+      "bytes": 482,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/scripts/get-effect.mjs",
+      "git_blob": "f0ef80975f0677136d713d82a4247ec1c54d85fa"
+    },
+    "skills/design-and-art/better-design/references/animate-text/scripts/get-spec.mjs": {
+      "sha256": "401d550101449aa841ed15c56fd1a325a9c7d3cf78f68c8b44b6d7a6070d2c23",
+      "bytes": 472,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/scripts/get-spec.mjs",
+      "git_blob": "9dfa617592210f381743e350145068b47009ab75"
+    },
+    "skills/design-and-art/better-design/references/animate-text/scripts/list-specs.mjs": {
+      "sha256": "20587602680ad35ebe6aaf7bd84f7a469f845f03b4ad59870f54bb07da77cd3b",
+      "bytes": 1582,
+      "stored_path": "skills/design-and-art/better-design/references/animate-text/scripts/list-specs.mjs",
+      "git_blob": "52dacaf35c096b07cec298482fb0c26182781f63"
+    },
+    "skills/design-and-art/better-design/references/integration.md": {
+      "sha256": "f4a101719cb6ffd16ded1888ef6787d9208ae9f5245d08dc9b7a18c7a9f4dda8",
+      "bytes": 743,
+      "stored_path": "skills/design-and-art/better-design/references/integration.md",
+      "git_blob": "a40ffcfd9928d903601cca621efc215170bdada2"
+    },
+    "skills/design-and-art/better-design/references/source-map.md": {
+      "sha256": "1a778cbb3ec32cd6b40d86f256ca7f18c81be65d8579c2eac2deae6dd1593ac8",
+      "bytes": 253,
+      "stored_path": "skills/design-and-art/better-design/references/source-map.md",
+      "git_blob": "c6a4a4a4492c261f59bb84957c303b80421f9427"
+    },
+    "skills/design-and-art/better-design/references/upstream-skill.md": {
+      "sha256": "aa8f5fd1146f87c4e6f89ae0218232fae98c409805829023798cefb3a1fc2735",
+      "bytes": 4898,
+      "stored_path": "skills/design-and-art/better-design/references/upstream-skill.md",
+      "git_blob": "4c47505edde43ee0b15b753bf1c2e09b84cd7287"
+    },
+    "skills/design-and-art/better-design/references/upstream/LICENSE.txt": {
+      "sha256": "5546dea80062ab23224f8f2dcc84792f9a584998763b66f487cf3904ee249777",
+      "bytes": 1070,
+      "stored_path": "skills/design-and-art/better-design/references/upstream/LICENSE.txt",
+      "git_blob": "22ce4e3ebaa81fed2e92113e1202ec285eabf237"
+    },
+    "skills/design-and-art/better-design/references/upstream/README.md.txt": {
+      "sha256": "a49c578353cff1b8fa3101f976df6e3379076d62e059714666d77e872c962e61",
+      "bytes": 2723,
+      "stored_path": "skills/design-and-art/better-design/references/upstream/README.md.txt",
+      "git_blob": "6eb45ab0d43da8be3123aafa3cd50332d1d488a7"
+    },
+    "skills/design-and-art/better-design/references/upstream/tests/package.json.txt": {
+      "sha256": "205ccbcc8c040760f01b4d65c7915c2746a2f7940fdc1182ac8389dda3db6e4d",
+      "bytes": 636,
+      "stored_path": "skills/design-and-art/better-design/references/upstream/tests/package.json.txt",
+      "git_blob": "8c7cf6ed0a915a6d05f59e2d9e3b964507298a58"
+    },
+    "skills/design-and-art/better-design/snapshot.json": {
+      "sha256": "7c5db972cd42c4476f4851ef5cdaf220f2c7004ec1091772426470b47c2f0d39",
+      "bytes": 9453,
+      "stored_path": "skills/design-and-art/better-design/snapshot.json",
+      "git_blob": "97fdeb163b3450f80e768a4c6ae0d3a5adcce5a7"
+    },
+    "skills/design-and-art/canvas-ui/LICENSE": {
+      "sha256": "bec2f82dbf3947fb46bbb41cf4a28f32da74fb68dd4c94013f17d43e023024e0",
+      "bytes": 455,
+      "stored_path": "skills/design-and-art/canvas-ui/LICENSE",
+      "git_blob": "a99a545f2cf452a7f70a6b9a79b888b4f05b2502"
+    },
+    "skills/design-and-art/canvas-ui/SKILL.md": {
+      "sha256": "7bc2c95270856702eda8c56028bb733f2e816a4b76804d23348cc3fc40bb3ca5",
+      "bytes": 1723,
+      "stored_path": "skills/design-and-art/canvas-ui/SKILL.md.txt",
+      "git_blob": "282cf2dbdfb81ebb88eb36b89dfa2732d2c24475"
+    },
+    "skills/design-and-art/canvas-ui/SOURCE.md": {
+      "sha256": "561de5b531d1c61f5549b999216c689aa5f88b6f6a61dd4218c2a94f2be915bb",
+      "bytes": 412,
+      "stored_path": "skills/design-and-art/canvas-ui/SOURCE.md",
+      "git_blob": "08a0c287f6fd3271c3c9f7798c2ea1ce4e4c9859"
+    },
+    "skills/design-and-art/canvas-ui/agents/openai.yaml": {
+      "sha256": "db82a62ee86c3a9abff8eb747ac491f5160d5ce6560b60051d8e61e118afaf7d",
+      "bytes": 225,
+      "stored_path": "skills/design-and-art/canvas-ui/agents/openai.yaml",
+      "git_blob": "5c27f48470b608c0d34866de988953a45f960366"
+    },
+    "skills/design-and-art/canvas-ui/references/source-map.md": {
+      "sha256": "253f98e16bddecca2c5d83eaff25204882904f95838a7f9a4c94aa5cebdf2935",
+      "bytes": 256,
+      "stored_path": "skills/design-and-art/canvas-ui/references/source-map.md",
+      "git_blob": "1b17eed835e5be099a44380c31b78b40a2c289fb"
+    },
+    "skills/design-and-art/canvas-ui/snapshot.json": {
+      "sha256": "2d03878d96212002803aad8bc70abbd8297ece63d0a98fe9b7f22049dd30cd5a",
+      "bytes": 543,
+      "stored_path": "skills/design-and-art/canvas-ui/snapshot.json",
+      "git_blob": "eafca62e4bf7a9a2d796c31df362545a47f10218"
+    },
+    "skills/design-and-art/cursify/LICENSE": {
+      "sha256": "bec2f82dbf3947fb46bbb41cf4a28f32da74fb68dd4c94013f17d43e023024e0",
+      "bytes": 455,
+      "stored_path": "skills/design-and-art/cursify/LICENSE",
+      "git_blob": "a99a545f2cf452a7f70a6b9a79b888b4f05b2502"
+    },
+    "skills/design-and-art/cursify/SKILL.md": {
+      "sha256": "5db526fcd26afa4c75f900febf0f04a374554fd72afc1eb2b026e1d316f55ed2",
+      "bytes": 1676,
+      "stored_path": "skills/design-and-art/cursify/SKILL.md.txt",
+      "git_blob": "cc3908edac147ed46f91467783cb3101dd3da49a"
+    },
+    "skills/design-and-art/cursify/SOURCE.md": {
+      "sha256": "b41c7aeea166ab735b8e9395db6df90c7277794ac0bee6b0de9b59ec5fecda1a",
+      "bytes": 416,
+      "stored_path": "skills/design-and-art/cursify/SOURCE.md",
+      "git_blob": "411d258d1ddb1e11dc14337c7bdb4161f5d4acba"
+    },
+    "skills/design-and-art/cursify/agents/openai.yaml": {
+      "sha256": "b4fbf00e635915ce8f485f7f051800572e7ea6f1d2a8ff4fd3b56802b003d425",
+      "bytes": 221,
+      "stored_path": "skills/design-and-art/cursify/agents/openai.yaml",
+      "git_blob": "3a6e8db319f5355c719e1510c68d376c54966548"
+    },
+    "skills/design-and-art/cursify/references/source-map.md": {
+      "sha256": "df3af0296f28bba74d5e9730598dfd2b9057bf9f23d132a7c4d41e399b4f6618",
+      "bytes": 255,
+      "stored_path": "skills/design-and-art/cursify/references/source-map.md",
+      "git_blob": "5e2b5930cc6dfe4c71ccc31127540041623b15f1"
+    },
+    "skills/design-and-art/cursify/snapshot.json": {
+      "sha256": "46428ec896689643d4c2bf59234b77ff0701ec9e230b77ffa7dc847e02a6d176",
+      "bytes": 543,
+      "stored_path": "skills/design-and-art/cursify/snapshot.json",
+      "git_blob": "6c10fb79d74fa9c601c452a1eddffdc6cab95b9b"
+    },
+    "skills/design-and-art/design-taste/LICENSE": {
+      "sha256": "7a0f09be6768f60fd7c01ecab6af369614c224061ffc76792ef06881493bb4a2",
+      "bytes": 1063,
+      "stored_path": "skills/design-and-art/design-taste/LICENSE",
+      "git_blob": "fe704460ea5cf3b259402a25b774349b6dbec11d"
+    },
+    "skills/design-and-art/design-taste/SKILL.md": {
+      "sha256": "30484d13c12c996257aaecc0f165849c4a97ad919df058a0931efb656e3f1463",
+      "bytes": 7144,
+      "stored_path": "skills/design-and-art/design-taste/SKILL.md.txt",
+      "git_blob": "57a6bb7c03e42f7a9dc536f655201f6919bc670e"
+    },
+    "skills/design-and-art/design-taste/SOURCE.md": {
+      "sha256": "e2b3992e597c6410149918b38f5b1f6bbc2d7d6f95cd72c9507a97ef667d8e7c",
+      "bytes": 334,
+      "stored_path": "skills/design-and-art/design-taste/SOURCE.md",
+      "git_blob": "3a260dbaa547c14cb2d842d8736bc085c1be0e85"
+    },
+    "skills/design-and-art/design-taste/agents/openai.yaml": {
+      "sha256": "04f92c33b1e45e5650385f2852b7592edc9d70eb961343fcae674754490c3ed6",
+      "bytes": 231,
+      "stored_path": "skills/design-and-art/design-taste/agents/openai.yaml",
+      "git_blob": "6489da5475d402a302b728d48f9d6e93a8bda659"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/brutalist-industrial.md": {
+      "sha256": "7e16d97e74a303d62d572ad02c155d65dccd478fcf3372416765585b12ed0702",
+      "bytes": 3856,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/brutalist-industrial.md",
+      "git_blob": "faf2e3476e04fcdbfdd11ee9ce8d8d0baa27ddfd"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/cinematic-motion.md": {
+      "sha256": "b5e4b30e362c14e319f3c14eb725ce6b35d1f733c3314a1b5d0b592d39664fed",
+      "bytes": 7766,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/cinematic-motion.md",
+      "git_blob": "16ec00da85980f927391469510fdd1c684e2aa8d"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/corporate-trust.md": {
+      "sha256": "4b692ddc70c655486fdafda1271d9d068f24f9d2f137d19e1e4ea953a8f7f13b",
+      "bytes": 4425,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/corporate-trust.md",
+      "git_blob": "694a1e45ada19be250769c025f9e108d607ae80d"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/dark-tech.md": {
+      "sha256": "6b856e651ba2a90a8bfe901ec206aa9ea262904eecf6454bf6f073e06ebee3e4",
+      "bytes": 4213,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/dark-tech.md",
+      "git_blob": "bb4e5bc10fb786edc25cfd6739c919711a040ed9"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/editorial-minimal.md": {
+      "sha256": "fd6c52053a992de985d5053278994784088f20bf9e76e1224ad9c75cdd8e3676",
+      "bytes": 3540,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/editorial-minimal.md",
+      "git_blob": "880e5cea0f765e84451b5ab3cfc6d61665c7efb5"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/japanese-minimal.md": {
+      "sha256": "7b96ba5a48afd7d4e69f79f589f95e4fa6874384db0762c6d90b5cad0e1a6465",
+      "bytes": 3843,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/japanese-minimal.md",
+      "git_blob": "a26bf25ad807502342a8a5b939d1a7ea549f5ebc"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/neo-brutalism.md": {
+      "sha256": "bc71fa3bba394f4a314b244003eabfad4a705caaee407a277f721267b14deb2e",
+      "bytes": 4132,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/neo-brutalism.md",
+      "git_blob": "b7f82d8064ce588657a6067eacb34f42a713e483"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/playful-color.md": {
+      "sha256": "4e0b86bd1842d2cd300d6b22d3d069b48070c10a704a027453c88f6d5a21cdab",
+      "bytes": 3830,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/playful-color.md",
+      "git_blob": "9ebc6fff534b01ea818b57ba43dbe0a5e01d9d82"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/quiet-luxury.md": {
+      "sha256": "3f439a21dbb284554449563c05cb2da6fab9b156bd08a2ab5168b4c5cc781468",
+      "bytes": 3863,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/quiet-luxury.md",
+      "git_blob": "e968647bc8d6063b1660762e981aa57f415c8c6e"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/retro-print.md": {
+      "sha256": "9036bd4daf53dd27a7e2c05d9c1d158a6a8aa0e67a2ea5d49f6f8b7b34ff1731",
+      "bytes": 3984,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/retro-print.md",
+      "git_blob": "583c6f548d8c6e70c0bc404d68ae0da987675add"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-accessibility.md": {
+      "sha256": "4d293f850d91330f98812ec6a36110ddbd9d2337f58719d32e9731a4ea519558",
+      "bytes": 5522,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-accessibility.md",
+      "git_blob": "fb0a26930d274313598ac666e979385e50f7b8da"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-brand-identity.md": {
+      "sha256": "f21fd39579be578597f4ed73b10837c7a6ddfbabeee003d131a85c9d52171b8a",
+      "bytes": 4414,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-brand-identity.md",
+      "git_blob": "806eada39406fc1ad683823e9bfb779837944292"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-code-craft.md": {
+      "sha256": "e03ebe7c3b60ed43937405106c6632901beecd278f8b1bfa3d84bf17252f38dc",
+      "bytes": 4706,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-code-craft.md",
+      "git_blob": "727a3626713e8de07cbac08f7374fc645f8264fa"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-code-review.md": {
+      "sha256": "7a647e00feb492427300c93f911425dca6f22e5e9a4cf4b023468791154671ad",
+      "bytes": 3858,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-code-review.md",
+      "git_blob": "829a18cf3306122837f020ae5c117d3750e95d2a"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-color.md": {
+      "sha256": "e56ad74bef333f3d328a752f840f4e70240f3519f3a56dc585b26d2395be9482",
+      "bytes": 4280,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-color.md",
+      "git_blob": "124a880192db978c7ba5f60d59015ab3d8206947"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-design-review.md": {
+      "sha256": "9082d8464ad0f5aafd8aace266a4369e9690f95c72a4f8267272a730a5012056",
+      "bytes": 5263,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-design-review.md",
+      "git_blob": "cf894f70b01d223246af09ffe886217fced1d409"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-design-system.md": {
+      "sha256": "e8962e5db14e5714e8d592dda94fbf5dda026abe40b944fea01b5b96b21ab463",
+      "bytes": 5289,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-design-system.md",
+      "git_blob": "47fd3e6dddaeb6d8b950e58a8f8d0f15a9d8fb48"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-gsap.md": {
+      "sha256": "648b1b14375061b643fa1f45a2f65ac12edd0bd6c9a489f24f60cd21f547ef5f",
+      "bytes": 6119,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-gsap.md",
+      "git_blob": "24b426b3160e091602aa84e39a919c304e193697"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-landing-page.md": {
+      "sha256": "1df0cf49cff462ecc9139aa179d01f0e3e62824e1ca1ef13bc40f71e114b5a62",
+      "bytes": 5482,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-landing-page.md",
+      "git_blob": "f36bcfeddcf84d6ed80bee557c4df4e8a0b675de"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-motion.md": {
+      "sha256": "c8b4f6ae093ebee73b2ac401dbbbb8f80dba18a407ee938c1616e812fddd5d18",
+      "bytes": 4949,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-motion.md",
+      "git_blob": "9ae425020a393b64988504dcc17b3e3363083fa7"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-typography.md": {
+      "sha256": "8c9ce32d56237ade84985868db6cc5753082987a9cd1e67d0e2bbb8bc2e3e648",
+      "bytes": 4788,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-typography.md",
+      "git_blob": "e3d57563e671b578c96548b2b7c356027f83f771"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-ux-copy.md": {
+      "sha256": "7a17e03e158ace46461e1ce046f79e2e1c0d63c65f8155f4ff2fa0161be6b40f",
+      "bytes": 4972,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-ux-copy.md",
+      "git_blob": "efa7eecf93b7c08dff3c33f7a2bf7b1f6f8ae554"
+    },
+    "skills/design-and-art/design-taste/references/companion-skills/taste-web-performance.md": {
+      "sha256": "1d2a07263d33ce98cc708a2d056eadb1636e9a78d9ad04a93896630bf6ec5213",
+      "bytes": 4237,
+      "stored_path": "skills/design-and-art/design-taste/references/companion-skills/taste-web-performance.md",
+      "git_blob": "aa7569b856e94c9da80e40bc056ccef5f54f40c3"
+    },
+    "skills/design-and-art/design-taste/references/integration.md": {
+      "sha256": "9708c649f130a073ee3828579ef50516978e8cd3632b534a26300706ac3bdd3b",
+      "bytes": 1839,
+      "stored_path": "skills/design-and-art/design-taste/references/integration.md",
+      "git_blob": "521fe84c84921e1c4c5f12ad5c04aec4fbe8c738"
+    },
+    "skills/design-and-art/design-taste/references/source-map.md": {
+      "sha256": "a025cf156f9a4e28b7c5da49e448ec0c9e351ec296b1c30258275d7a1553bbc8",
+      "bytes": 257,
+      "stored_path": "skills/design-and-art/design-taste/references/source-map.md",
+      "git_blob": "231f37d4679203d238055005f954de74adcb4001"
+    },
+    "skills/design-and-art/design-taste/references/upstream-skill.md": {
+      "sha256": "c848bbddfdea89962da7b90faf53e033e9b2a8c1944f5dc98dbd78aeb758489f",
+      "bytes": 6939,
+      "stored_path": "skills/design-and-art/design-taste/references/upstream-skill.md",
+      "git_blob": "d6bac0ab1e3df4466153a5ba64ce1001a804910b"
+    },
+    "skills/design-and-art/design-taste/references/upstream/LICENSE.txt": {
+      "sha256": "7a0f09be6768f60fd7c01ecab6af369614c224061ffc76792ef06881493bb4a2",
+      "bytes": 1063,
+      "stored_path": "skills/design-and-art/design-taste/references/upstream/LICENSE.txt",
+      "git_blob": "fe704460ea5cf3b259402a25b774349b6dbec11d"
+    },
+    "skills/design-and-art/design-taste/references/upstream/README.md.txt": {
+      "sha256": "434f11a1a53cbc0c0b9e60509d57a16a079759edcd6e29e1c3db6c43e3e7585b",
+      "bytes": 8932,
+      "stored_path": "skills/design-and-art/design-taste/references/upstream/README.md.txt",
+      "git_blob": "d31044c9c93e07d07035515a0053404f548f5c24"
+    },
+    "skills/design-and-art/design-taste/references/upstream/gallery/README.md.txt": {
+      "sha256": "f318164dce3e1ca356da8c65723375049e6a0905af456e9796e791837fc94d9e",
+      "bytes": 3249,
+      "stored_path": "skills/design-and-art/design-taste/references/upstream/gallery/README.md.txt",
+      "git_blob": "f265fc0d847efd813dc71fcff78fc4aae217f6e9"
+    },
+    "skills/design-and-art/design-taste/snapshot.json": {
+      "sha256": "5b2ef3ba5c7c96ad94104ea3c447312fb423c1c716b58febf6d60f4cc6f3ac00",
+      "bytes": 3923,
+      "stored_path": "skills/design-and-art/design-taste/snapshot.json",
+      "git_blob": "d95ab7b30b80901279e2f5ff17c0030088eeaa67"
+    },
+    "skills/design-and-art/hyperiux-components/LICENSE": {
+      "sha256": "bec2f82dbf3947fb46bbb41cf4a28f32da74fb68dd4c94013f17d43e023024e0",
+      "bytes": 455,
+      "stored_path": "skills/design-and-art/hyperiux-components/LICENSE",
+      "git_blob": "a99a545f2cf452a7f70a6b9a79b888b4f05b2502"
+    },
+    "skills/design-and-art/hyperiux-components/SKILL.md": {
+      "sha256": "e3880c7425946da05c9b07844cb29fc3205f1862d2b4ae0b412807e375fc6cc3",
+      "bytes": 1767,
+      "stored_path": "skills/design-and-art/hyperiux-components/SKILL.md.txt",
+      "git_blob": "fd4beeea1ed5162ccc99da3f97b59c0ba87f1a8b"
+    },
+    "skills/design-and-art/hyperiux-components/SOURCE.md": {
+      "sha256": "b3ed78c876ac76822e46b47845a38f0cb96fa3438766a60121b616178460b229",
+      "bytes": 553,
+      "stored_path": "skills/design-and-art/hyperiux-components/SOURCE.md",
+      "git_blob": "269710de940ade011023a1593f916e58fb0cef38"
+    },
+    "skills/design-and-art/hyperiux-components/agents/openai.yaml": {
+      "sha256": "8ef320b35e181169d99094a28fc4e01e4f4e17a23eddd8841b60b782ea024c1d",
+      "bytes": 245,
+      "stored_path": "skills/design-and-art/hyperiux-components/agents/openai.yaml",
+      "git_blob": "b5f9728b05be6411ca3a522f38a07b10686d5a6e"
+    },
+    "skills/design-and-art/hyperiux-components/references/source-map.md": {
+      "sha256": "9f03503452752a98d5e692d996d4678da687d874e8050952362cf746b71c129a",
+      "bytes": 314,
+      "stored_path": "skills/design-and-art/hyperiux-components/references/source-map.md",
+      "git_blob": "93123a41e7ccd6d9c6fb24fb5f21f892eed1e1b8"
+    },
+    "skills/design-and-art/hyperiux-components/references/upstream/LICENSE.txt": {
+      "sha256": "56044ea593d0bbc5e4b802df3c786fe3eaa1b9055e0b0ce0305c289f0218878c",
+      "bytes": 1065,
+      "stored_path": "skills/design-and-art/hyperiux-components/references/upstream/LICENSE.txt",
+      "git_blob": "f3b76e77afa27b727e3394da6ae6f19dd92e8128"
+    },
+    "skills/design-and-art/hyperiux-components/references/upstream/LICENSE_EFFECTS.txt": {
+      "sha256": "a2e69cace9356e6973b0153aac668a2f8d078d540967e937eb1e5f3fe2a16a1b",
+      "bytes": 17482,
+      "stored_path": "skills/design-and-art/hyperiux-components/references/upstream/LICENSE_EFFECTS.txt",
+      "git_blob": "a068b7a413e0f4e11323931c133c17a7b1b98a53"
+    },
+    "skills/design-and-art/hyperiux-components/references/upstream/README.md.txt": {
+      "sha256": "65c3af8c551c83902f88c500029b33efebd1619abaca7fcb663272cd42d16790",
+      "bytes": 10658,
+      "stored_path": "skills/design-and-art/hyperiux-components/references/upstream/README.md.txt",
+      "git_blob": "384e6f56215e82118087aa09100733b056a48615"
+    },
+    "skills/design-and-art/hyperiux-components/references/upstream/package.json.txt": {
+      "sha256": "61911c69fd4a7e7437e14cb373e7ee95b70b1e0e16cf78643b229159c454be06",
+      "bytes": 1453,
+      "stored_path": "skills/design-and-art/hyperiux-components/references/upstream/package.json.txt",
+      "git_blob": "0070e987a8c4e140a27fae999dc6784dbc3cd1b1"
+    },
+    "skills/design-and-art/hyperiux-components/snapshot.json": {
+      "sha256": "a64748bcc080506a88c0f6b720231ac136151e4b0a142483a87ff411febad2ab",
+      "bytes": 990,
+      "stored_path": "skills/design-and-art/hyperiux-components/snapshot.json",
+      "git_blob": "fdfb0a748076e80e7f1d7b394beea43dbb1fd4c5"
     },
     "skills/design-and-art/impeccable/SKILL.md": {
       "sha256": "461377189c9eff36964a040cd6b6952f780c68b1ee539b21c26f2e47afaffca6",
@@ -8749,6 +9535,420 @@
       "bytes": 7970,
       "stored_path": "skills/design-and-art/mobile-app-ui-design/references/upstream-skill.md",
       "git_blob": "0c6108bc47e0e630e3ac5beaddb92e804819a420"
+    },
+    "skills/design-and-art/motion-primitives/LICENSE": {
+      "sha256": "bec2f82dbf3947fb46bbb41cf4a28f32da74fb68dd4c94013f17d43e023024e0",
+      "bytes": 455,
+      "stored_path": "skills/design-and-art/motion-primitives/LICENSE",
+      "git_blob": "a99a545f2cf452a7f70a6b9a79b888b4f05b2502"
+    },
+    "skills/design-and-art/motion-primitives/SKILL.md": {
+      "sha256": "62ae60045945f47932dac8fc7e99665ee305190a7d7cd12b1e5a2922bcf3cada",
+      "bytes": 1508,
+      "stored_path": "skills/design-and-art/motion-primitives/SKILL.md.txt",
+      "git_blob": "954749fbf1a41f7e9f7af4211270869b2d2b87a7"
+    },
+    "skills/design-and-art/motion-primitives/SOURCE.md": {
+      "sha256": "349995c5c4b0e3384b9d141cee3a9ae2f3f52442ab49f95d1e7330169bc396b6",
+      "bytes": 262,
+      "stored_path": "skills/design-and-art/motion-primitives/SOURCE.md",
+      "git_blob": "5dd156c09c881117c2d641de713e990e94ca7b7c"
+    },
+    "skills/design-and-art/motion-primitives/agents/openai.yaml": {
+      "sha256": "eb0d853bf009f7e1db97822944216245fd771642f639d7fd07d8356624176454",
+      "bytes": 241,
+      "stored_path": "skills/design-and-art/motion-primitives/agents/openai.yaml",
+      "git_blob": "dc4a5d888b373bd17808fb51e570100e798894d2"
+    },
+    "skills/design-and-art/motion-primitives/references/source-map.md": {
+      "sha256": "b8d80dc2badb2975fcf61abf65f1c4cef2a28b66c8f31f7f7646e7fec130c873",
+      "bytes": 310,
+      "stored_path": "skills/design-and-art/motion-primitives/references/source-map.md",
+      "git_blob": "5c08618fbd66f4e0d42bf22367ae5b9cafba69ff"
+    },
+    "skills/design-and-art/motion-primitives/references/upstream/README.md.txt": {
+      "sha256": "104fe086b717c6e68274965445d49e7b433b5ec5e0c13bc9056804e74e39d69a",
+      "bytes": 715,
+      "stored_path": "skills/design-and-art/motion-primitives/references/upstream/README.md.txt",
+      "git_blob": "cbbeeee210f70418daf10ae495452b33ae08c044"
+    },
+    "skills/design-and-art/motion-primitives/references/upstream/cli/README.md.txt": {
+      "sha256": "b8f6b35983f54e3151a36682ec08ab5d8ae67438e22c3627fe710f111988cc46",
+      "bytes": 1833,
+      "stored_path": "skills/design-and-art/motion-primitives/references/upstream/cli/README.md.txt",
+      "git_blob": "53d8edef2b04ac2090c868e57fa058d95c8f0829"
+    },
+    "skills/design-and-art/motion-primitives/references/upstream/cli/package.json.txt": {
+      "sha256": "368edafcdf08f6d0c75bdc76ae15f939bbf7a6892e4ae047288e6e26786927e0",
+      "bytes": 817,
+      "stored_path": "skills/design-and-art/motion-primitives/references/upstream/cli/package.json.txt",
+      "git_blob": "46683f3b5a4d6dbd310a1e508893eb800bd766dc"
+    },
+    "skills/design-and-art/motion-primitives/references/upstream/package.json.txt": {
+      "sha256": "9918eafbf773be206b3bf7982b8cac1dc5f7111b9d1b5ee2499865869688f008",
+      "bytes": 1685,
+      "stored_path": "skills/design-and-art/motion-primitives/references/upstream/package.json.txt",
+      "git_blob": "a9c2a42478c36337085a5fabf402559722cb9a4c"
+    },
+    "skills/design-and-art/motion-primitives/snapshot.json": {
+      "sha256": "a0b6b19717fb565c55be3e3562ad09a9653d521dd1775297475f801a1c3e9b73",
+      "bytes": 997,
+      "stored_path": "skills/design-and-art/motion-primitives/snapshot.json",
+      "git_blob": "af6faba9573b90ecd40b8063835718a928c8d922"
+    },
+    "skills/design-and-art/paper-shaders/LICENSE": {
+      "sha256": "bec2f82dbf3947fb46bbb41cf4a28f32da74fb68dd4c94013f17d43e023024e0",
+      "bytes": 455,
+      "stored_path": "skills/design-and-art/paper-shaders/LICENSE",
+      "git_blob": "a99a545f2cf452a7f70a6b9a79b888b4f05b2502"
+    },
+    "skills/design-and-art/paper-shaders/SKILL.md": {
+      "sha256": "f26eafd9cbe038f85fbfb2956cc1529d746e8b4e1c6b982d9bd142f0f7a5d7d9",
+      "bytes": 1507,
+      "stored_path": "skills/design-and-art/paper-shaders/SKILL.md.txt",
+      "git_blob": "dd7300e3fd525f8970f091eb2c79dd176ad5a115"
+    },
+    "skills/design-and-art/paper-shaders/SOURCE.md": {
+      "sha256": "114bfecc0e7980347c78180b01f243420efdd304816888eac938198d2015de27",
+      "bytes": 264,
+      "stored_path": "skills/design-and-art/paper-shaders/SOURCE.md",
+      "git_blob": "94ad5ac5f7999fc0a17c81df28b2e954fd26cc08"
+    },
+    "skills/design-and-art/paper-shaders/agents/openai.yaml": {
+      "sha256": "66be42f436cfed3c613c6c70af7714ebfef08c4d5c581da4ce60da83dc7dfc2b",
+      "bytes": 233,
+      "stored_path": "skills/design-and-art/paper-shaders/agents/openai.yaml",
+      "git_blob": "21f0360f75ad60741f51e03436ef0b353b2ebc81"
+    },
+    "skills/design-and-art/paper-shaders/references/source-map.md": {
+      "sha256": "c4af8488e646d69ea414b77ab9fa1a59a408a65b69cb43730fb75160c1cbe537",
+      "bytes": 619,
+      "stored_path": "skills/design-and-art/paper-shaders/references/source-map.md",
+      "git_blob": "06fb6d12d7ca25ed3eec42df946b9ec0833958c7"
+    },
+    "skills/design-and-art/paper-shaders/references/upstream/LICENSE.txt": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "stored_path": "skills/design-and-art/paper-shaders/references/upstream/LICENSE.txt",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    "skills/design-and-art/paper-shaders/references/upstream/README.md.txt": {
+      "sha256": "173ce4c0ca3a3891e5f6dd9d5891c7c6392c3bffbfe4d0a7bef5bdb9ed26a85f",
+      "bytes": 2690,
+      "stored_path": "skills/design-and-art/paper-shaders/references/upstream/README.md.txt",
+      "git_blob": "db7aaea1d1f434a0608d39fa64688555bd2f8de2"
+    },
+    "skills/design-and-art/paper-shaders/references/upstream/docs/package.json.txt": {
+      "sha256": "6e1f70ead45a231d308bfc47db9beaa39e9e9bdf301e784551b4fac9d69a4454",
+      "bytes": 1066,
+      "stored_path": "skills/design-and-art/paper-shaders/references/upstream/docs/package.json.txt",
+      "git_blob": "2fb0fdf140a5d6adc1fad62ac3832287b61a927b"
+    },
+    "skills/design-and-art/paper-shaders/references/upstream/package.json.txt": {
+      "sha256": "305ff9544b53fdeb363688df0a8d94398a1298ae0d619b52938fe5e554b0646f",
+      "bytes": 1058,
+      "stored_path": "skills/design-and-art/paper-shaders/references/upstream/package.json.txt",
+      "git_blob": "456b083d8a0cc425ef615643edb28624b99398d4"
+    },
+    "skills/design-and-art/paper-shaders/references/upstream/packages/shaders-react/README.md.txt": {
+      "sha256": "01cc1cc4889a12e7d294dab7f614958294f981811505d31f8648f08d3d492ca5",
+      "bytes": 607,
+      "stored_path": "skills/design-and-art/paper-shaders/references/upstream/packages/shaders-react/README.md.txt",
+      "git_blob": "4ffb5bcceaf4c3a433d67468135fcba54485dcc3"
+    },
+    "skills/design-and-art/paper-shaders/references/upstream/packages/shaders-react/package.json.txt": {
+      "sha256": "1a60dad0f29b124088bf581da3a1972af99efcfcd260c55dfe2aed96156407b1",
+      "bytes": 840,
+      "stored_path": "skills/design-and-art/paper-shaders/references/upstream/packages/shaders-react/package.json.txt",
+      "git_blob": "9ca3482448db28acdc82f11992d3aa5602c82778"
+    },
+    "skills/design-and-art/paper-shaders/references/upstream/packages/shaders/README.md.txt": {
+      "sha256": "02934d07bcccfaf20d66598610a7d98ada9ff4863e1a1091daccd1bd712f22e6",
+      "bytes": 216,
+      "stored_path": "skills/design-and-art/paper-shaders/references/upstream/packages/shaders/README.md.txt",
+      "git_blob": "0021bd6f5f7b44cfc809260060811952d57c8182"
+    },
+    "skills/design-and-art/paper-shaders/references/upstream/packages/shaders/package.json.txt": {
+      "sha256": "6acad98febc381282cefd0fa6608a6b04836d78632a737a808b0278ec1203094",
+      "bytes": 564,
+      "stored_path": "skills/design-and-art/paper-shaders/references/upstream/packages/shaders/package.json.txt",
+      "git_blob": "3d960134ba2240ebb3a858e309ae40cb842bee1c"
+    },
+    "skills/design-and-art/paper-shaders/snapshot.json": {
+      "sha256": "4db39415dc516dda56a062a5efed949a265c7c82df628530f35dcd19d625caa7",
+      "bytes": 1518,
+      "stored_path": "skills/design-and-art/paper-shaders/snapshot.json",
+      "git_blob": "8e52dcb8c25f554d9fe840e24a95c50d70904a21"
+    },
+    "skills/design-and-art/superdesign/INIT.md": {
+      "sha256": "fa40e7c282d2520544167084d21a8b277e13a6ea299058c5021dd793f86c99c7",
+      "bytes": 438,
+      "stored_path": "skills/design-and-art/superdesign/INIT.md",
+      "git_blob": "a4380afaa82347d54dd459b8330d0157acb208eb"
+    },
+    "skills/design-and-art/superdesign/LICENSE": {
+      "sha256": "40ef0633533bfca94a5152b8ecc9032beb30533cab3575e4f14f324ecd94afab",
+      "bytes": 1086,
+      "stored_path": "skills/design-and-art/superdesign/LICENSE",
+      "git_blob": "c08a796ba95152c4725fea852f68d592076b2f5f"
+    },
+    "skills/design-and-art/superdesign/SKILL.md": {
+      "sha256": "e60e44221f1f38130b0688ed8f183855294b5085013b99fdbfe7f10855fea0c4",
+      "bytes": 16628,
+      "stored_path": "skills/design-and-art/superdesign/SKILL.md.txt",
+      "git_blob": "084a0f26c6fc4e6996d46521669cffc8bb9cb8a4"
+    },
+    "skills/design-and-art/superdesign/SOURCE.md": {
+      "sha256": "881bf1c7b5ed02e8b399045e52e3f2e0c940dd1838247ac5ba68e3ca2e2d4cb2",
+      "bytes": 340,
+      "stored_path": "skills/design-and-art/superdesign/SOURCE.md",
+      "git_blob": "b8c2a28a347d4da8380efd8ec1ac5b4c12db1f26"
+    },
+    "skills/design-and-art/superdesign/SUPERDESIGN.md": {
+      "sha256": "b243e0dba9889115c8b363ebe6e1b3b286b59c54293b76927e78a3febabea610",
+      "bytes": 459,
+      "stored_path": "skills/design-and-art/superdesign/SUPERDESIGN.md",
+      "git_blob": "b11220ef0e28560085dff1e9feb2eca8c771f546"
+    },
+    "skills/design-and-art/superdesign/agents/openai.yaml": {
+      "sha256": "064880f4077c5238b4d5658e7bc1ccb2081a124e9908d8f101f59297f3a3cf9a",
+      "bytes": 231,
+      "stored_path": "skills/design-and-art/superdesign/agents/openai.yaml",
+      "git_blob": "214c640b767d2f67175bbbe672806ab2806e31fa"
+    },
+    "skills/design-and-art/superdesign/references/ASSET_GENERATION.md": {
+      "sha256": "655fdb83dc3d9603dcf34229f7dc37973275e9484eb4eef75fc8acc6313cb572",
+      "bytes": 6377,
+      "stored_path": "skills/design-and-art/superdesign/references/ASSET_GENERATION.md",
+      "git_blob": "914212035149770ee9865bed81c2065144493c7a"
+    },
+    "skills/design-and-art/superdesign/references/COMPONENTS.md": {
+      "sha256": "03935ff4b869327b31146cf7ee7020aa90044b6921567f96d4180810685bf7fb",
+      "bytes": 4756,
+      "stored_path": "skills/design-and-art/superdesign/references/COMPONENTS.md",
+      "git_blob": "a3ed4bc5786cf96fa79f29438fa9140ec1024a61"
+    },
+    "skills/design-and-art/superdesign/references/GRAPHIC.md": {
+      "sha256": "873c40621ac75627411b5a0734728f085dc7f41cb1f5f5786102cdb5a55b6092",
+      "bytes": 16510,
+      "stored_path": "skills/design-and-art/superdesign/references/GRAPHIC.md",
+      "git_blob": "7e3a169821712c69ce0de3c9c94786ad861134f0"
+    },
+    "skills/design-and-art/superdesign/references/INIT.md": {
+      "sha256": "b262b4dc10705eac6caeaa7f55cae1814a71b186667d27b6a89ed776ef9f48ec",
+      "bytes": 8379,
+      "stored_path": "skills/design-and-art/superdesign/references/INIT.md",
+      "git_blob": "65431db8fe220b5b1134f6559f900b262d38720f"
+    },
+    "skills/design-and-art/superdesign/references/PRESENTATION.md": {
+      "sha256": "1e090e67e94d544aff8d5bb99d1aa36f11cc745b45ad6cfef65c734efa038639",
+      "bytes": 13362,
+      "stored_path": "skills/design-and-art/superdesign/references/PRESENTATION.md",
+      "git_blob": "6c662a85d136d550fba93ee0361194e52624b960"
+    },
+    "skills/design-and-art/superdesign/references/RESUME.md": {
+      "sha256": "84c7b05038bb81f5c8067f385923be09f17ef2fe10c872504bbab3ab6986c3da",
+      "bytes": 21554,
+      "stored_path": "skills/design-and-art/superdesign/references/RESUME.md",
+      "git_blob": "c734dfecf044d2189e2b556f22a8473d6c2086e9"
+    },
+    "skills/design-and-art/superdesign/references/SUPERDESIGN.md": {
+      "sha256": "cecaa6ca1ef8ce39430f7f2c8d786e744e6c2a3eda2fde780d22f8162c04f791",
+      "bytes": 48403,
+      "stored_path": "skills/design-and-art/superdesign/references/SUPERDESIGN.md",
+      "git_blob": "ea127814d5f5d5ee059c66b00a037dfa7b94f457"
+    },
+    "skills/design-and-art/superdesign/references/WEBSITE.md": {
+      "sha256": "5cd4a0fd36249bd18c1f6d2f683b3c9d96c9d136fa7a7ba5832966b09e16b4fe",
+      "bytes": 4648,
+      "stored_path": "skills/design-and-art/superdesign/references/WEBSITE.md",
+      "git_blob": "7d3747b84088a4a4f6c52eba16aea68fc6ef9715"
+    },
+    "skills/design-and-art/superdesign/references/design-with-your-model.md": {
+      "sha256": "986f7dcab61a5d5ad74dfdb6c4c6b43378c4887cd776719b944233aed9c40cf2",
+      "bytes": 3193,
+      "stored_path": "skills/design-and-art/superdesign/references/design-with-your-model.md",
+      "git_blob": "e2984d5bbf38f579f2abb375284c55307b29dc12"
+    },
+    "skills/design-and-art/superdesign/references/integration.md": {
+      "sha256": "6c19d24b27a3232ffc5e980dfc4bf9e07e44c775d4d91fdca30c8738b55f5b69",
+      "bytes": 659,
+      "stored_path": "skills/design-and-art/superdesign/references/integration.md",
+      "git_blob": "a0f2cecadb09b9b48bad3db336d8440dda90d38c"
+    },
+    "skills/design-and-art/superdesign/references/source-map.md": {
+      "sha256": "86a5495aaa900c2c4f3d64516e19d44ba5f5a9329133fc3cf30cf6c8e9f3a6a1",
+      "bytes": 337,
+      "stored_path": "skills/design-and-art/superdesign/references/source-map.md",
+      "git_blob": "8a9b17538314e7c8ba705299fe8585b9e526c64e"
+    },
+    "skills/design-and-art/superdesign/references/upstream-skill.md": {
+      "sha256": "f782f8776dbf7277cea88d77ea6dfc35bc0437b02a094ef79bbcfc716ef8c567",
+      "bytes": 16532,
+      "stored_path": "skills/design-and-art/superdesign/references/upstream-skill.md",
+      "git_blob": "d9d65059140bd526c52f084c7309ff6c4bd367d4"
+    },
+    "skills/design-and-art/superdesign/references/upstream/INSTALL.md.txt": {
+      "sha256": "d6e55314b647a6562eb4dc5dcb5a888bf06b58e706f14b2a9a4dbe98050ee900",
+      "bytes": 5907,
+      "stored_path": "skills/design-and-art/superdesign/references/upstream/INSTALL.md.txt",
+      "git_blob": "ed28ead36263e4b0527f711a6e57b89feb47262a"
+    },
+    "skills/design-and-art/superdesign/references/upstream/LICENSE.txt": {
+      "sha256": "40ef0633533bfca94a5152b8ecc9032beb30533cab3575e4f14f324ecd94afab",
+      "bytes": 1086,
+      "stored_path": "skills/design-and-art/superdesign/references/upstream/LICENSE.txt",
+      "git_blob": "c08a796ba95152c4725fea852f68d592076b2f5f"
+    },
+    "skills/design-and-art/superdesign/references/upstream/README.md.txt": {
+      "sha256": "a0e6bc4a48711da35b865e559a986a1eae9e74081030c94b1a52485a1516c86b",
+      "bytes": 14477,
+      "stored_path": "skills/design-and-art/superdesign/references/upstream/README.md.txt",
+      "git_blob": "5da35f7f1e997de8a59c9c020e4a8f3173621284"
+    },
+    "skills/design-and-art/superdesign/references/upstream/dsh/index.js.txt": {
+      "sha256": "65f0597e89daf521530e90b1b38c91d4f662fde7b2a095e050fb78cc371c4066",
+      "bytes": 3957,
+      "stored_path": "skills/design-and-art/superdesign/references/upstream/dsh/index.js.txt",
+      "git_blob": "6347a669e2b31c508d865cb1ba70b0b214fb723e"
+    },
+    "skills/design-and-art/superdesign/references/upstream/package.json.txt": {
+      "sha256": "315254c6fb6d1bbe25ce725617a5bc6cc3c748f1c919988468ccde0d4f1a4fa1",
+      "bytes": 854,
+      "stored_path": "skills/design-and-art/superdesign/references/upstream/package.json.txt",
+      "git_blob": "51aedda52afc736d1f05ecce58e55360e2c2506e"
+    },
+    "skills/design-and-art/superdesign/snapshot.json": {
+      "sha256": "e2b8c61968158d7f96a16e5ec36632bdc88c315471687e9bacdb0e753f092d65",
+      "bytes": 2394,
+      "stored_path": "skills/design-and-art/superdesign/snapshot.json",
+      "git_blob": "cc634b86532232d35f4799e356988625d57126a4"
+    },
+    "skills/design-and-art/trickle-ui-kit/LICENSE": {
+      "sha256": "bec2f82dbf3947fb46bbb41cf4a28f32da74fb68dd4c94013f17d43e023024e0",
+      "bytes": 455,
+      "stored_path": "skills/design-and-art/trickle-ui-kit/LICENSE",
+      "git_blob": "a99a545f2cf452a7f70a6b9a79b888b4f05b2502"
+    },
+    "skills/design-and-art/trickle-ui-kit/SKILL.md": {
+      "sha256": "a977ea5ec78c15333761a4a260027838f4dd7d410214c057813fd048b5362612",
+      "bytes": 1570,
+      "stored_path": "skills/design-and-art/trickle-ui-kit/SKILL.md.txt",
+      "git_blob": "af2ada5c177f8628fec640c9e3a4a8f006252c51"
+    },
+    "skills/design-and-art/trickle-ui-kit/SOURCE.md": {
+      "sha256": "802fb5781c17b0c8f3e86489b2a9ca9368721e402f5604ee408684c6e3c382ef",
+      "bytes": 340,
+      "stored_path": "skills/design-and-art/trickle-ui-kit/SOURCE.md",
+      "git_blob": "8a657ee43001a7108318c2d0ed6430a715bc1fcd"
+    },
+    "skills/design-and-art/trickle-ui-kit/agents/openai.yaml": {
+      "sha256": "5696646189ad6f6411cfa619b884d87e8ab7ad984245a19ad4550f060455f95b",
+      "bytes": 235,
+      "stored_path": "skills/design-and-art/trickle-ui-kit/agents/openai.yaml",
+      "git_blob": "683f086368f0de0389c6083d3c27774ef9f838fd"
+    },
+    "skills/design-and-art/trickle-ui-kit/references/source-map.md": {
+      "sha256": "fbae897b3904d1ed758aea0041eaea5d894869e5532d3900dc6c1c86d3b438e4",
+      "bytes": 290,
+      "stored_path": "skills/design-and-art/trickle-ui-kit/references/source-map.md",
+      "git_blob": "aaa01c55bb53194a01d291d61f89dcbcfdab2a07"
+    },
+    "skills/design-and-art/trickle-ui-kit/references/upstream/LICENSE-DEMOS.txt": {
+      "sha256": "ee63aecbc0fbc3ba477d5dd3451295dba91bf1c320c182b269e6d315a27b84e4",
+      "bytes": 453,
+      "stored_path": "skills/design-and-art/trickle-ui-kit/references/upstream/LICENSE-DEMOS.txt",
+      "git_blob": "fe4427048b02bf4440d2fc26be2413d3a0999247"
+    },
+    "skills/design-and-art/trickle-ui-kit/references/upstream/LICENSE.txt": {
+      "sha256": "869578f8849f5cc6e318cc55175220afeef930f112d710406f46a1e919233137",
+      "bytes": 1077,
+      "stored_path": "skills/design-and-art/trickle-ui-kit/references/upstream/LICENSE.txt",
+      "git_blob": "3d24ed94f841264525277a9fd4dbb8975abfffca"
+    },
+    "skills/design-and-art/trickle-ui-kit/references/upstream/README.md.txt": {
+      "sha256": "60b76beed49cebbc99677f3eab670149f674b75427118fab59b500bd85ff9425",
+      "bytes": 15697,
+      "stored_path": "skills/design-and-art/trickle-ui-kit/references/upstream/README.md.txt",
+      "git_blob": "aa2b74fdc40969e4924a70d6058d11a6cae7b7de"
+    },
+    "skills/design-and-art/trickle-ui-kit/references/upstream/package.json.txt": {
+      "sha256": "46cf56595ba6cf8d42c04fa01d66d58ab0d4eac1dc214943df937bce930dfe41",
+      "bytes": 1662,
+      "stored_path": "skills/design-and-art/trickle-ui-kit/references/upstream/package.json.txt",
+      "git_blob": "8190d7465a64d4274da3f1a4c2ef69f4c5aad716"
+    },
+    "skills/design-and-art/trickle-ui-kit/snapshot.json": {
+      "sha256": "77de79e3248f3a9de303f30ef4d8e6b2fb40fd100ed5af8bf3b0e2fd797ca1f3",
+      "bytes": 988,
+      "stored_path": "skills/design-and-art/trickle-ui-kit/snapshot.json",
+      "git_blob": "02dd3c016da7c2931a49629b81eeb723fc374bac"
+    },
+    "skills/design-and-art/ui-layouts/LICENSE": {
+      "sha256": "bec2f82dbf3947fb46bbb41cf4a28f32da74fb68dd4c94013f17d43e023024e0",
+      "bytes": 455,
+      "stored_path": "skills/design-and-art/ui-layouts/LICENSE",
+      "git_blob": "a99a545f2cf452a7f70a6b9a79b888b4f05b2502"
+    },
+    "skills/design-and-art/ui-layouts/SKILL.md": {
+      "sha256": "99c0e77752ad64e74f3bdcf136b43a0de843498b23bba013dd6ae75619e37dbe",
+      "bytes": 1522,
+      "stored_path": "skills/design-and-art/ui-layouts/SKILL.md.txt",
+      "git_blob": "5f7539d8c37286d7458f664946d5f44caea19508"
+    },
+    "skills/design-and-art/ui-layouts/SOURCE.md": {
+      "sha256": "bb578281d0ba4c078b2e41e089590ddb9b16cae2c8a2279cee9abd6ee41db9dc",
+      "bytes": 257,
+      "stored_path": "skills/design-and-art/ui-layouts/SOURCE.md",
+      "git_blob": "957f7c06a9c89d562b3e228babe128da2f5e5dca"
+    },
+    "skills/design-and-art/ui-layouts/agents/openai.yaml": {
+      "sha256": "aa22e535caf788b7d18c8c7475084b59eddf6901734d6ba52b527121262aad3f",
+      "bytes": 227,
+      "stored_path": "skills/design-and-art/ui-layouts/agents/openai.yaml",
+      "git_blob": "96cd86381f0101034f7c72cfecfaa06f63dee33f"
+    },
+    "skills/design-and-art/ui-layouts/references/source-map.md": {
+      "sha256": "9843cb47bf281c69b2f19c363cb7620269392cc9e80557110b38d90b445b5ccc",
+      "bytes": 397,
+      "stored_path": "skills/design-and-art/ui-layouts/references/source-map.md",
+      "git_blob": "82e88b54bc002240afbeaf678e050ede82a083c1"
+    },
+    "skills/design-and-art/ui-layouts/references/upstream/LICENSE.txt": {
+      "sha256": "25d698c61ceea4d42107ef85ef37d4449f1169ca24c7ee288db434688071e1e3",
+      "bytes": 1066,
+      "stored_path": "skills/design-and-art/ui-layouts/references/upstream/LICENSE.txt",
+      "git_blob": "945a21fb3b1e3deedfccf2a67a4370796854b4e5"
+    },
+    "skills/design-and-art/ui-layouts/references/upstream/README.md.txt": {
+      "sha256": "84bf1e8711eb17aa9b25f6e3eb26224f6864fb9382eb78e3023c62a938009297",
+      "bytes": 3189,
+      "stored_path": "skills/design-and-art/ui-layouts/references/upstream/README.md.txt",
+      "git_blob": "6eede81663a9447d4f47dfe019d0cfad28a68b1c"
+    },
+    "skills/design-and-art/ui-layouts/references/upstream/apps/ui-layout/cli/README.md.txt": {
+      "sha256": "addb0589c932de63c41bbe51f3819c9af6390d090db3ad8e216aae12d0bd3a00",
+      "bytes": 1284,
+      "stored_path": "skills/design-and-art/ui-layouts/references/upstream/apps/ui-layout/cli/README.md.txt",
+      "git_blob": "6df0914170ea33f6b069bd9d8c0e1ef9ad3cc62f"
+    },
+    "skills/design-and-art/ui-layouts/references/upstream/apps/ui-layout/public/llms.txt.txt": {
+      "sha256": "11e02b1e9f95b17a9d87590357a4c24b23b6886e6866abb2f5800ffdc858a9f9",
+      "bytes": 10470,
+      "stored_path": "skills/design-and-art/ui-layouts/references/upstream/apps/ui-layout/public/llms.txt.txt",
+      "git_blob": "e9f952709ccba2ed589181184727906e86497ca2"
+    },
+    "skills/design-and-art/ui-layouts/references/upstream/package.json.txt": {
+      "sha256": "f2e763cae24c8224ffcd9a4a12b697bfa910c44be4b655d213eff56987db33ac",
+      "bytes": 953,
+      "stored_path": "skills/design-and-art/ui-layouts/references/upstream/package.json.txt",
+      "git_blob": "0d72b551c7bfeb246af1b30b62b40f2ce3ff03aa"
+    },
+    "skills/design-and-art/ui-layouts/snapshot.json": {
+      "sha256": "a55375bf117aa8df418f762bcdcd8917b36e52d43b31aa826d78bab85c6cd724",
+      "bytes": 1134,
+      "stored_path": "skills/design-and-art/ui-layouts/snapshot.json",
+      "git_blob": "fe9453a726e3a9b5408301e2584e4a45d49172e1"
     },
     "skills/design-and-art/unslop/CITATION.cff": {
       "sha256": "05a1d33a8c94660a6240afa2adf2e0331abeccf178bf00827b8ebd7a4796fb11",
@@ -18753,14 +19953,14 @@
       "git_blob": "524f075989aff50a74ca3b3159b6a9200eee82fa"
     },
     "sources.json": {
-      "sha256": "53e2dfb5486d3a2053e1ec0c307b99406fffdfeabe132fb1fdcbc104c5099fcf",
-      "bytes": 141307,
+      "sha256": "4233213278603dca6de1b5cd389ff0485cdf5409fb77333d41f1297d278b2839",
+      "bytes": 146559,
       "stored_path": "sources.json",
-      "git_blob": "96f32bf67cb8195a23a281c3ddf68acc172ef467"
+      "git_blob": "60f5449e0b7d63e3faf5eb2a6c9900ef63e6faac"
     },
     "skill-index.json": {
-      "sha256": "d6c5f710a5592de505d3b5000014276baf9a27e33495ab308690f9e187cbc9ea",
-      "bytes": 113967,
+      "sha256": "ee08bdf59ae23a6ff368ec63381b55e306c3a616282bb7e28298ff2060075997",
+      "bytes": 119030,
       "stored_path": "skill-index.json",
       "derived": true
     }

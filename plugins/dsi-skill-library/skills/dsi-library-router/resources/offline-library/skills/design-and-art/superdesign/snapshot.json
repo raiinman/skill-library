@@ -1,0 +1,28 @@
+{
+  "upstream_revision": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b",
+  "files": {
+    "agents/openai.yaml": "064880f4077c5238b4d5658e7bc1ccb2081a124e9908d8f101f59297f3a3cf9a",
+    "INIT.md": "fa40e7c282d2520544167084d21a8b277e13a6ea299058c5021dd793f86c99c7",
+    "LICENSE": "40ef0633533bfca94a5152b8ecc9032beb30533cab3575e4f14f324ecd94afab",
+    "references/ASSET_GENERATION.md": "655fdb83dc3d9603dcf34229f7dc37973275e9484eb4eef75fc8acc6313cb572",
+    "references/COMPONENTS.md": "03935ff4b869327b31146cf7ee7020aa90044b6921567f96d4180810685bf7fb",
+    "references/design-with-your-model.md": "986f7dcab61a5d5ad74dfdb6c4c6b43378c4887cd776719b944233aed9c40cf2",
+    "references/GRAPHIC.md": "873c40621ac75627411b5a0734728f085dc7f41cb1f5f5786102cdb5a55b6092",
+    "references/INIT.md": "b262b4dc10705eac6caeaa7f55cae1814a71b186667d27b6a89ed776ef9f48ec",
+    "references/integration.md": "6c19d24b27a3232ffc5e980dfc4bf9e07e44c775d4d91fdca30c8738b55f5b69",
+    "references/PRESENTATION.md": "1e090e67e94d544aff8d5bb99d1aa36f11cc745b45ad6cfef65c734efa038639",
+    "references/RESUME.md": "84c7b05038bb81f5c8067f385923be09f17ef2fe10c872504bbab3ab6986c3da",
+    "references/source-map.md": "86a5495aaa900c2c4f3d64516e19d44ba5f5a9329133fc3cf30cf6c8e9f3a6a1",
+    "references/SUPERDESIGN.md": "cecaa6ca1ef8ce39430f7f2c8d786e744e6c2a3eda2fde780d22f8162c04f791",
+    "references/upstream/dsh/index.js.txt": "65f0597e89daf521530e90b1b38c91d4f662fde7b2a095e050fb78cc371c4066",
+    "references/upstream/INSTALL.md.txt": "d6e55314b647a6562eb4dc5dcb5a888bf06b58e706f14b2a9a4dbe98050ee900",
+    "references/upstream/LICENSE.txt": "40ef0633533bfca94a5152b8ecc9032beb30533cab3575e4f14f324ecd94afab",
+    "references/upstream/package.json.txt": "315254c6fb6d1bbe25ce725617a5bc6cc3c748f1c919988468ccde0d4f1a4fa1",
+    "references/upstream/README.md.txt": "a0e6bc4a48711da35b865e559a986a1eae9e74081030c94b1a52485a1516c86b",
+    "references/upstream-skill.md": "f782f8776dbf7277cea88d77ea6dfc35bc0437b02a094ef79bbcfc716ef8c567",
+    "references/WEBSITE.md": "5cd4a0fd36249bd18c1f6d2f683b3c9d96c9d136fa7a7ba5832966b09e16b4fe",
+    "SKILL.md": "e60e44221f1f38130b0688ed8f183855294b5085013b99fdbfe7f10855fea0c4",
+    "SOURCE.md": "881bf1c7b5ed02e8b399045e52e3f2e0c940dd1838247ac5ba68e3ca2e2d4cb2",
+    "SUPERDESIGN.md": "b243e0dba9889115c8b363ebe6e1b3b286b59c54293b76927e78a3febabea610"
+  }
+}
