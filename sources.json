@@ -3127,7 +3127,7 @@
     "source_url": "https://github.com/superdesigndev/superdesign-skill/tree/f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b",
     "license": "MIT",
     "adaptations": [
-      "Shared host integration, pinned provenance and picker metadata; no target project changed."
+      "User-requested personal offline workflow; local HTML/SVG canvas instead of hosted agent; original MIT primary and service manuals preserved as archival provenance."
     ]
   },
   {

@@ -1,5 +1,4 @@
 interface:
-  display_name: Superdesign
-  short_description: 'Explore and iterate UI, graphics and presentations using the '
-  default_prompt: Use $superdesign for this interface task, preserving the existing
-    product and stack.
+  display_name: "Superdesign Personal"
+  short_description: "Create and compare local HTML and SVG designs"
+  default_prompt: "Use $superdesign to create a local design for this project without the Superdesign service."
