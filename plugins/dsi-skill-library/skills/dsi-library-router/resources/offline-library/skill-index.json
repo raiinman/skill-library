@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "discovery": "bundled-from-pinned-catalog",
-  "revision": "73743fc9eb9b51667f4a8698f195841d6915249a",
+  "revision": "5e3d564fe74c8e9a42e00cb7cfaefb4ceab95aa6",
   "maintenance_overlay": {
-    "id": "dsi-0.1.23",
+    "id": "dsi-0.1.24",
     "repository": "raiinman/skill-library",
-    "base_revision": "73743fc9eb9b51667f4a8698f195841d6915249a",
-    "manifest_sha256": "ed772e00df24bab96eed71d20a0dc1ad4d59c4e512ec6af0c008031aeaed1e75"
+    "base_revision": "5e3d564fe74c8e9a42e00cb7cfaefb4ceab95aa6",
+    "manifest_sha256": "3062b75bcaefeee67efa9d6f275d155492d968997c7c852cd87186424f530a7b"
   },
   "count": 165,
   "categories": [
@@ -936,7 +936,7 @@
       "category": "design-and-art",
       "path": "skills/design-and-art/superdesign/SKILL.md",
       "source_path": "skills/design-and-art/superdesign/SOURCE.md",
-      "description": "Explore and iterate UI, graphics and presentations using the Superdesign canvas and CLI. Use when Superdesign or its canvas workflow is requested.",
+      "description": "Design and iterate personal UI mockups, pages and components as local HTML or SVG files. Use for the user's offline Superdesign workflow, local design canvas, visual alternatives or revisions, without Superdesign's hosted agent, account or CLI.",
       "routing_metadata": {},
       "resource_path": "skills/design-and-art/superdesign/SKILL.md.txt"
     },

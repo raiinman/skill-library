@@ -1,7 +1,7 @@
 {
   "upstream_revision": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b",
   "files": {
-    "agents/openai.yaml": "064880f4077c5238b4d5658e7bc1ccb2081a124e9908d8f101f59297f3a3cf9a",
+    "agents/openai.yaml": "c11d4eda9fdc59531017b4023e70138d775446205d7bfb6f9a78422df5ac662b",
     "INIT.md": "fa40e7c282d2520544167084d21a8b277e13a6ea299058c5021dd793f86c99c7",
     "LICENSE": "40ef0633533bfca94a5152b8ecc9032beb30533cab3575e4f14f324ecd94afab",
     "references/ASSET_GENERATION.md": "655fdb83dc3d9603dcf34229f7dc37973275e9484eb4eef75fc8acc6313cb572",
@@ -9,7 +9,7 @@
     "references/design-with-your-model.md": "986f7dcab61a5d5ad74dfdb6c4c6b43378c4887cd776719b944233aed9c40cf2",
     "references/GRAPHIC.md": "873c40621ac75627411b5a0734728f085dc7f41cb1f5f5786102cdb5a55b6092",
     "references/INIT.md": "b262b4dc10705eac6caeaa7f55cae1814a71b186667d27b6a89ed776ef9f48ec",
-    "references/integration.md": "6c19d24b27a3232ffc5e980dfc4bf9e07e44c775d4d91fdca30c8738b55f5b69",
+    "references/integration.md": "578801babf9ae75d21ac6ac63d1c7c97288cecbdd3a9d73f1f46388ff4c45aff",
     "references/PRESENTATION.md": "1e090e67e94d544aff8d5bb99d1aa36f11cc745b45ad6cfef65c734efa038639",
     "references/RESUME.md": "84c7b05038bb81f5c8067f385923be09f17ef2fe10c872504bbab3ab6986c3da",
     "references/source-map.md": "86a5495aaa900c2c4f3d64516e19d44ba5f5a9329133fc3cf30cf6c8e9f3a6a1",
@@ -21,8 +21,8 @@
     "references/upstream/README.md.txt": "a0e6bc4a48711da35b865e559a986a1eae9e74081030c94b1a52485a1516c86b",
     "references/upstream-skill.md": "f782f8776dbf7277cea88d77ea6dfc35bc0437b02a094ef79bbcfc716ef8c567",
     "references/WEBSITE.md": "5cd4a0fd36249bd18c1f6d2f683b3c9d96c9d136fa7a7ba5832966b09e16b4fe",
-    "SKILL.md": "e60e44221f1f38130b0688ed8f183855294b5085013b99fdbfe7f10855fea0c4",
-    "SOURCE.md": "881bf1c7b5ed02e8b399045e52e3f2e0c940dd1838247ac5ba68e3ca2e2d4cb2",
+    "SKILL.md": "c4b3af7be2f001c36a6a2f52c04ff411b3b184c65eb571a89971aee71147f45f",
+    "SOURCE.md": "21c13ed5d089209fbff7af6b73e793adaea6e1bce2cbe5cd403bcbb3942e9357",
     "SUPERDESIGN.md": "b243e0dba9889115c8b363ebe6e1b3b286b59c54293b76927e78a3febabea610"
   }
 }

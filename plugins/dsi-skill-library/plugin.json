@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "dsi-skill-library",
-  "version": "0.1.23",
+  "version": "0.1.24",
   "description": "DSI Skills brings 165 specialist skill guides into ChatGPT, Codex and Claude Code, finds one for your task and checks approved updates before using them.",
   "author": {
     "name": "Dead Signal Interactive"

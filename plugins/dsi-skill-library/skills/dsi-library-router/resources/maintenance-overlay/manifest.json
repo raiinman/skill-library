@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "id": "dsi-0.1.23",
+  "id": "dsi-0.1.24",
   "repository": "raiinman/skill-library",
-  "base_revision": "73743fc9eb9b51667f4a8698f195841d6915249a",
+  "base_revision": "5e3d564fe74c8e9a42e00cb7cfaefb4ceab95aa6",
   "upstream": {
     "repository": "addyosmani/agent-skills",
     "revision": "aeac41d4d005999432bb7312f7ff06383a91d59d",

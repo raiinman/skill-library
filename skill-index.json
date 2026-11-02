@@ -839,7 +839,7 @@
       "category": "design-and-art",
       "path": "skills/design-and-art/superdesign/SKILL.md",
       "source_path": "skills/design-and-art/superdesign/SOURCE.md",
-      "description": "Explore and iterate UI, graphics and presentations using the Superdesign canvas and CLI. Use when Superdesign or its canvas workflow is requested.",
+      "description": "Design and iterate personal UI mockups, pages and components as local HTML or SVG files. Use for the user's offline Superdesign workflow, local design canvas, visual alternatives or revisions, without Superdesign's hosted agent, account or CLI.",
       "routing_metadata": {}
     },
     {
@@ -1509,5 +1509,5 @@
       "routing_metadata": {}
     }
   ],
-  "content_sha256": "beff88075f3ec669317848097b88746fa3abe1195c2f4eb48c4d9798485931c4"
+  "content_sha256": "34d6e724633c5f4f91156199bd8011ab8a6c43a791453aa78a7728679d86bb97"
 }
