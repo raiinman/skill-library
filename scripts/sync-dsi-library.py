@@ -54,7 +54,7 @@ def sync(revision):
         sources=json.loads(blob('sources.json'))
         packages={entry['path']:entry for entry in sources}
         if len(packages)!=len(sources):raise ValueError('Duplicate canonical packages')
-        selected=[p for p in objects if p in ['README.md','CATALOG.md','SETUP.md','REPOSITORIES.md','GAME-TOOLS.md','collections.json','sources.json','readme-banner.png']
+        selected=[p for p in objects if p in ['README.md','CATALOG.md','SETUP.md','REPOSITORIES.md','GAME-TOOLS.md','DESIGN-TOOLS.md','collections.json','sources.json','readme-banner.png']
             or any(p.startswith(package+'/') for package in packages)]
         contents={p:blob(p) for p in selected}
         overlay_path=ROUTER/'resources/maintenance-overlay/manifest.json'

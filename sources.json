@@ -3116,5 +3116,135 @@
     "adaptations": [
       "Host compatibility guidance, optional runtime notes and Codex picker metadata; original primary and all resources preserved."
     ]
+  },
+  {
+    "repo": "superdesigndev/superdesign-skill",
+    "selector": "superdesign",
+    "category": "design-and-art",
+    "name": "superdesign",
+    "path": "skills/design-and-art/superdesign",
+    "commit": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b",
+    "source_url": "https://github.com/superdesigndev/superdesign-skill/tree/f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b",
+    "license": "MIT",
+    "adaptations": [
+      "Shared host integration, pinned provenance and picker metadata; no target project changed."
+    ]
+  },
+  {
+    "repo": "marvkr/better-design",
+    "selector": "better-design",
+    "category": "design-and-art",
+    "name": "better-design",
+    "path": "skills/design-and-art/better-design",
+    "commit": "175e7ba49bcf83857abc32933686b5aa3abb197e",
+    "source_url": "https://github.com/marvkr/better-design/tree/175e7ba49bcf83857abc32933686b5aa3abb197e",
+    "license": "MIT",
+    "adaptations": [
+      "Shared host integration, pinned provenance and picker metadata; no target project changed."
+    ]
+  },
+  {
+    "repo": "madebymustafa/design-taste",
+    "selector": "design-taste",
+    "category": "design-and-art",
+    "name": "design-taste",
+    "path": "skills/design-and-art/design-taste",
+    "commit": "c4a6bff0871eb4b15371b0e7d2751628b0ed4608",
+    "source_url": "https://github.com/madebymustafa/design-taste/tree/c4a6bff0871eb4b15371b0e7d2751628b0ed4608",
+    "license": "MIT",
+    "adaptations": [
+      "Shared host integration, pinned provenance and picker metadata; no target project changed."
+    ]
+  },
+  {
+    "repo": "DavidHDev/canvas-ui",
+    "selector": "canvas-ui",
+    "category": "design-and-art",
+    "name": "canvas-ui",
+    "path": "skills/design-and-art/canvas-ui",
+    "commit": "a04a99b235299ee79a123a16ccb2e6cf9da74b6b",
+    "source_url": "https://github.com/DavidHDev/canvas-ui/tree/a04a99b235299ee79a123a16ccb2e6cf9da74b6b",
+    "license": "MIT plus Commons Clause restriction",
+    "adaptations": [
+      "Shared host integration, pinned provenance and picker metadata; no target project changed."
+    ]
+  },
+  {
+    "repo": "paper-design/shaders",
+    "selector": "paper-shaders",
+    "category": "design-and-art",
+    "name": "paper-shaders",
+    "path": "skills/design-and-art/paper-shaders",
+    "commit": "1923e9f536ea079e2a95d23291cbfacfd69d37f6",
+    "source_url": "https://github.com/paper-design/shaders/tree/1923e9f536ea079e2a95d23291cbfacfd69d37f6",
+    "license": "Apache-2.0",
+    "adaptations": [
+      "Shared host integration, pinned provenance and picker metadata; no target project changed."
+    ]
+  },
+  {
+    "repo": "ui-layouts/uilayouts",
+    "selector": "ui-layouts",
+    "category": "design-and-art",
+    "name": "ui-layouts",
+    "path": "skills/design-and-art/ui-layouts",
+    "commit": "88d827d7ec342917ca06f6894e5add65fabbe5d8",
+    "source_url": "https://github.com/ui-layouts/uilayouts/tree/88d827d7ec342917ca06f6894e5add65fabbe5d8",
+    "license": "MIT",
+    "adaptations": [
+      "Shared host integration, pinned provenance and picker metadata; no target project changed."
+    ]
+  },
+  {
+    "repo": "Hyperiux-Immersion-Labs/hyperiux-components",
+    "selector": "hyperiux-components",
+    "category": "design-and-art",
+    "name": "hyperiux-components",
+    "path": "skills/design-and-art/hyperiux-components",
+    "commit": "88a7b2e04f9fb78bf88918f6b5f529b0ae9ac73a",
+    "source_url": "https://github.com/Hyperiux-Immersion-Labs/hyperiux-components/tree/88a7b2e04f9fb78bf88918f6b5f529b0ae9ac73a",
+    "license": "MIT (CLI); MPL-2.0 (free effects); proprietary (Pro)",
+    "adaptations": [
+      "Shared host integration, pinned provenance and picker metadata; no target project changed."
+    ]
+  },
+  {
+    "repo": "ibelick/motion-primitives",
+    "selector": "motion-primitives",
+    "category": "design-and-art",
+    "name": "motion-primitives",
+    "path": "skills/design-and-art/motion-primitives",
+    "commit": "120f64f6ca60348e251f929e9c81f11ccbe45eda",
+    "source_url": "https://github.com/ibelick/motion-primitives/tree/120f64f6ca60348e251f929e9c81f11ccbe45eda",
+    "license": "MIT",
+    "adaptations": [
+      "Shared host integration, pinned provenance and picker metadata; no target project changed."
+    ]
+  },
+  {
+    "repo": "ui-layouts/cursify",
+    "selector": "cursify",
+    "category": "design-and-art",
+    "name": "cursify",
+    "path": "skills/design-and-art/cursify",
+    "commit": "b3a173c33f12e74550389c9555f9ce85c30c46f6",
+    "source_url": "https://github.com/ui-layouts/cursify/tree/b3a173c33f12e74550389c9555f9ce85c30c46f6",
+    "license": "No license file found at pinned revision",
+    "adaptations": [
+      "Shared host integration, pinned provenance and picker metadata; no target project changed."
+    ]
+  },
+  {
+    "repo": "akaieuan/trickle-UI-kit",
+    "selector": "trickle-ui-kit",
+    "category": "design-and-art",
+    "name": "trickle-ui-kit",
+    "path": "skills/design-and-art/trickle-ui-kit",
+    "commit": "41129071f15271046bdca5d2ca332231b59e8d4d",
+    "source_url": "https://github.com/akaieuan/trickle-UI-kit/tree/41129071f15271046bdca5d2ca332231b59e8d4d",
+    "license": "MIT",
+    "adaptations": [
+      "Shared host integration, pinned provenance and picker metadata; no target project changed."
+    ]
   }
 ]

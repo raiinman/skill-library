@@ -1,0 +1,5 @@
+interface:
+  display_name: Hyperiux Components
+  short_description: Integrate Hyperiux Vault effects through its CLI or source ca
+  default_prompt: Use $hyperiux-components for this interface task, preserving the
+    existing product and stack.

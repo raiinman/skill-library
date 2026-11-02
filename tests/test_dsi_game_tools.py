@@ -21,6 +21,22 @@ def run(*args,success=True):
 
 
 class WiringTests(unittest.TestCase):
+    def test_design_imports_and_pinned_resources(self):
+        names=['superdesign','better-design','design-taste','canvas-ui','paper-shaders','ui-layouts','hyperiux-components','motion-primitives','cursify','trickle-ui-kit']
+        with tempfile.TemporaryDirectory(prefix='dsi-design-') as temp:
+            lock=Path(temp)/'source.json'
+            run('begin','--snapshot',ROUTER/'resources/offline-library','--lock',lock)
+            for name in names:
+                with self.subTest(skill=name):
+                    package=ROOT/'skills/design-and-art'/name
+                    manifest=json.loads((package/'snapshot.json').read_text(encoding='utf-8'))
+                    for relative,digest in manifest['files'].items():
+                        self.assertEqual(hashlib.sha256((package/relative).read_bytes()).hexdigest(),digest)
+                    primary=run('read','--lock',lock,'--path',f'skills/design-and-art/{name}/SKILL.md')
+                    source=run('read','--lock',lock,'--path',f'skills/design-and-art/{name}/SOURCE.md')
+                    self.assertIn('name: '+name,primary['content'])
+                    self.assertIn(manifest['upstream_revision'],source['content'])
+
     def test_complete_snapshot_and_named_retrieval(self):
         snapshot=ROUTER/'resources/offline-library'
         verified=run('verify','--snapshot',snapshot)

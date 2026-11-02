@@ -1,0 +1,5 @@
+interface:
+  display_name: Motion Primitives
+  short_description: Integrate Motion Primitives React animation components with t
+  default_prompt: Use $motion-primitives for this interface task, preserving the existing
+    product and stack.

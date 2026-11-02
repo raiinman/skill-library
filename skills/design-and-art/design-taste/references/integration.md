@@ -1,0 +1,27 @@
+Use the complete upstream workflow below the compatibility note. In a hosted chat without a shell, MCP connection or required service authentication, report that specific capability limit and continue only supported work. Do not claim remote generation or review occurred merely because this package is installed.
+
+The other 23 upstream style and specialist skills are bundled here as references, so they remain available without 23 competing native skill registrations. Read only the guide matching the brief:
+
+- [brutalist-industrial](companion-skills/brutalist-industrial.md)
+- [cinematic-motion](companion-skills/cinematic-motion.md)
+- [corporate-trust](companion-skills/corporate-trust.md)
+- [dark-tech](companion-skills/dark-tech.md)
+- [editorial-minimal](companion-skills/editorial-minimal.md)
+- [japanese-minimal](companion-skills/japanese-minimal.md)
+- [neo-brutalism](companion-skills/neo-brutalism.md)
+- [playful-color](companion-skills/playful-color.md)
+- [quiet-luxury](companion-skills/quiet-luxury.md)
+- [retro-print](companion-skills/retro-print.md)
+- [taste-accessibility](companion-skills/taste-accessibility.md)
+- [taste-brand-identity](companion-skills/taste-brand-identity.md)
+- [taste-code-craft](companion-skills/taste-code-craft.md)
+- [taste-code-review](companion-skills/taste-code-review.md)
+- [taste-color](companion-skills/taste-color.md)
+- [taste-design-review](companion-skills/taste-design-review.md)
+- [taste-design-system](companion-skills/taste-design-system.md)
+- [taste-gsap](companion-skills/taste-gsap.md)
+- [taste-landing-page](companion-skills/taste-landing-page.md)
+- [taste-motion](companion-skills/taste-motion.md)
+- [taste-typography](companion-skills/taste-typography.md)
+- [taste-ux-copy](companion-skills/taste-ux-copy.md)
+- [taste-web-performance](companion-skills/taste-web-performance.md)

@@ -1,0 +1,5 @@
+interface:
+  display_name: Design Taste
+  short_description: Give landing pages, portfolios and marketing sites a delibera
+  default_prompt: Use $design-taste for this interface task, preserving the existing
+    product and stack.

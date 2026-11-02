@@ -6,3 +6,13 @@ skills/game-development/*/LICENSE* -text -whitespace
 skills/game-development/*/License.txt -text -whitespace
 plugins/dsi-skill-library/** -text -whitespace
 skills/design-and-art/unslop/** -text -whitespace
+skills/design-and-art/superdesign/** -text -whitespace
+skills/design-and-art/better-design/** -text -whitespace
+skills/design-and-art/design-taste/** -text -whitespace
+skills/design-and-art/canvas-ui/** -text -whitespace
+skills/design-and-art/paper-shaders/** -text -whitespace
+skills/design-and-art/ui-layouts/** -text -whitespace
+skills/design-and-art/hyperiux-components/** -text -whitespace
+skills/design-and-art/motion-primitives/** -text -whitespace
+skills/design-and-art/cursify/** -text -whitespace
+skills/design-and-art/trickle-ui-kit/** -text -whitespace

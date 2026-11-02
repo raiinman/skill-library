@@ -1,0 +1,5 @@
+interface:
+  display_name: Better Design
+  short_description: Use Better Design MCP design systems, UI and UX guidance, ico
+  default_prompt: Use $better-design for this interface task, preserving the existing
+    product and stack.

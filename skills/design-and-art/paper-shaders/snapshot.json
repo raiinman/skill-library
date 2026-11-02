@@ -1,0 +1,18 @@
+{
+  "upstream_revision": "1923e9f536ea079e2a95d23291cbfacfd69d37f6",
+  "files": {
+    "agents/openai.yaml": "66be42f436cfed3c613c6c70af7714ebfef08c4d5c581da4ce60da83dc7dfc2b",
+    "LICENSE": "bec2f82dbf3947fb46bbb41cf4a28f32da74fb68dd4c94013f17d43e023024e0",
+    "references/source-map.md": "c4af8488e646d69ea414b77ab9fa1a59a408a65b69cb43730fb75160c1cbe537",
+    "references/upstream/docs/package.json.txt": "6e1f70ead45a231d308bfc47db9beaa39e9e9bdf301e784551b4fac9d69a4454",
+    "references/upstream/LICENSE.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "references/upstream/package.json.txt": "305ff9544b53fdeb363688df0a8d94398a1298ae0d619b52938fe5e554b0646f",
+    "references/upstream/packages/shaders/package.json.txt": "6acad98febc381282cefd0fa6608a6b04836d78632a737a808b0278ec1203094",
+    "references/upstream/packages/shaders/README.md.txt": "02934d07bcccfaf20d66598610a7d98ada9ff4863e1a1091daccd1bd712f22e6",
+    "references/upstream/packages/shaders-react/package.json.txt": "1a60dad0f29b124088bf581da3a1972af99efcfcd260c55dfe2aed96156407b1",
+    "references/upstream/packages/shaders-react/README.md.txt": "01cc1cc4889a12e7d294dab7f614958294f981811505d31f8648f08d3d492ca5",
+    "references/upstream/README.md.txt": "173ce4c0ca3a3891e5f6dd9d5891c7c6392c3bffbfe4d0a7bef5bdb9ed26a85f",
+    "SKILL.md": "f26eafd9cbe038f85fbfb2956cc1529d746e8b4e1c6b982d9bd142f0f7a5d7d9",
+    "SOURCE.md": "114bfecc0e7980347c78180b01f243420efdd304816888eac938198d2015de27"
+  }
+}

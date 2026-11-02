@@ -1,0 +1,5 @@
+interface:
+  display_name: Paper Shaders
+  short_description: Add Paper Design canvas shaders to React or vanilla web apps,
+  default_prompt: Use $paper-shaders for this interface task, preserving the existing
+    product and stack.

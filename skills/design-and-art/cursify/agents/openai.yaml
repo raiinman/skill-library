@@ -1,0 +1,5 @@
+interface:
+  display_name: Cursify
+  short_description: Evaluate and integrate a Cursify cursor effect while preservi
+  default_prompt: Use $cursify for this interface task, preserving the existing product
+    and stack.

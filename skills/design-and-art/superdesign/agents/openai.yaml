@@ -1,0 +1,5 @@
+interface:
+  display_name: Superdesign
+  short_description: 'Explore and iterate UI, graphics and presentations using the '
+  default_prompt: Use $superdesign for this interface task, preserving the existing
+    product and stack.
